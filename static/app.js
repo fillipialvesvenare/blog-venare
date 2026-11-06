@@ -80,11 +80,22 @@
       };
       if (destinos[net]) { el.href = destinos[net]; el.target = '_blank'; el.rel = 'noopener'; }
       if (net === 'instagram') {
+        // O Instagram não aceita links de compartilhamento: copia o link e abre o app (ou o site no computador).
         el.addEventListener('click', async () => {
-          if (navigator.share) { try { await navigator.share({ title: titulo, url }); return; } catch (e) { if (e && e.name === 'AbortError') return; } }
-          try { await navigator.clipboard.writeText(url); ok.textContent = 'Link copiado. Cole no Instagram (Stories ou Direct).'; }
-          catch { ok.textContent = url; }
-          setTimeout(() => { ok.textContent = ''; }, 4000);
+          let copiado = false;
+          try { await navigator.clipboard.writeText(url); copiado = true; } catch {}
+          ok.textContent = copiado ? 'Link copiado. Cole nos Stories ou no Direct do Instagram.' : url;
+          const celular = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+          setTimeout(() => {
+            if (celular) {
+              const inicio = Date.now();
+              location.href = 'instagram://story-camera';
+              setTimeout(() => { if (document.visibilityState === 'visible' && Date.now() - inicio < 2500) location.href = 'https://www.instagram.com/'; }, 1500);
+            } else {
+              window.open('https://www.instagram.com/', '_blank', 'noopener');
+            }
+          }, 900);
+          setTimeout(() => { ok.textContent = ''; }, 6000);
         });
       }
       if (net === 'copy') {

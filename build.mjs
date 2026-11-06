@@ -14,6 +14,9 @@ const edicoes = fs.readdirSync(edDir).filter((f) => f.endsWith('.json')).sort().
   .map((f) => read(`content/edicoes/${f}`));
 const hoje = edicoes[0];
 
+import crypto from 'node:crypto';
+const ver = (rel) => crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, 'static', rel))).digest('hex').slice(0, 8);
+const V = { css: ver('style.css'), js: ver('app.js'), logoA: ver('img/venare-news-azul.png'), logoB: ver('img/venare-news-branco.png') };
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
 const DIAS = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'];
@@ -94,14 +97,14 @@ function pagina({ titulo, descricao, canonical, corpo, og = {} }) {
 <link rel="alternate" type="application/rss+xml" title="${site.nome}" href="/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=${V.css}">
 ${og.jsonld ? `<script type="application/ld+json">${JSON.stringify(og.jsonld)}</script>` : ''}
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo">
   <div class="topo-in">
-    <a class="marca" href="/" aria-label="${site.nome}, página inicial"><img class="logo-claro" src="/img/venare-news-azul.png" alt="Venare News" width="1364" height="120"><img class="logo-escuro" src="/img/venare-news-branco.png" alt="" aria-hidden="true" width="1364" height="120"></a>
+    <a class="marca" href="/" aria-label="${site.nome}, página inicial"><img class="logo-claro" src="/img/venare-news-azul.png?v=${V.logoA}" alt="Venare News" width="1357" height="120"><img class="logo-escuro" src="/img/venare-news-branco.png?v=${V.logoB}" alt="" aria-hidden="true" width="1357" height="120"></a>
     <nav class="menu" aria-label="Principal">
       <a href="/#hoje">Hoje</a><a href="/#indices">Índices</a><a href="/arquivo/">Arquivo</a>
     </nav>
@@ -115,7 +118,7 @@ ${corpo}
   <div class="padrao padrao-rodape" aria-hidden="true"></div>
   <div class="rodape-in">
     <div>
-      <img src="/img/venare-news-branco.png" alt="Venare News" width="1364" height="120">
+      <img src="/img/venare-news-branco.png?v=${V.logoB}" alt="Venare News" width="1357" height="120">
       <p class="rodape-desc">${esc(site.descricao)}</p>
       <p class="rodape-desc"><strong>Acompanhe e compartilhe.</strong></p>
     </div>
@@ -129,7 +132,7 @@ ${corpo}
     <p class="aviso-legal">Conteúdo informativo, produzido com base em fontes públicas citadas em cada publicação. Não constitui recomendação de investimento. Rentabilidade passada não garante resultados futuros.</p>
   </div>
 </footer>
-<script src="/app.js" defer></script>
+<script src="/app.js?v=${V.js}" defer></script>
 </body>
 </html>`;
 }
