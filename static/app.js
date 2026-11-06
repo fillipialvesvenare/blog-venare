@@ -1,4 +1,4 @@
-// Blog Venare: comparador e compartilhamento.
+// Venare News: comparador e compartilhamento.
 (function () {
   const fmt = (v) => v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
 
