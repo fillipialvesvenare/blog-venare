@@ -80,22 +80,29 @@
       };
       if (destinos[net]) { el.href = destinos[net]; el.target = '_blank'; el.rel = 'noopener'; }
       if (net === 'instagram') {
-        // O Instagram não aceita links de compartilhamento: copia o link e abre o app (ou o site no computador).
-        el.addEventListener('click', async () => {
-          let copiado = false;
-          try { await navigator.clipboard.writeText(url); copiado = true; } catch {}
-          ok.textContent = copiado ? 'Link copiado. Cole nos Stories ou no Direct do Instagram.' : url;
-          const celular = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-          setTimeout(() => {
-            if (celular) {
-              const inicio = Date.now();
-              location.href = 'instagram://story-camera';
-              setTimeout(() => { if (document.visibilityState === 'visible' && Date.now() - inicio < 2500) location.href = 'https://www.instagram.com/'; }, 1500);
-            } else {
-              window.open('https://www.instagram.com/', '_blank', 'noopener');
-            }
-          }, 900);
-          setTimeout(() => { ok.textContent = ''; }, 6000);
+        // Gera o compartilhamento para os Stories: imagem vertical da notícia (1080x1920) pelo menu nativo do celular.
+        const slug = new URL(url).pathname.split('/').filter(Boolean).pop();
+        const storyUrl = slug && /\d{4}/.test(new URL(url).pathname) ? `/story/${slug}.jpg` : null;
+        let arquivo = null;
+        const preparar = () => {
+          if (!storyUrl || arquivo) return;
+          fetch(storyUrl).then((r) => (r.ok ? r.blob() : null)).then((b) => { if (b) arquivo = new File([b], `venare-news-${slug}.jpg`, { type: 'image/jpeg' }); }).catch(() => {});
+        };
+        (window.requestIdleCallback || setTimeout)(preparar, 800);
+        el.addEventListener('pointerenter', preparar);
+        el.addEventListener('touchstart', preparar, { passive: true });
+        el.addEventListener('click', () => {
+          navigator.clipboard && navigator.clipboard.writeText(url).catch(() => {});
+          if (arquivo && navigator.canShare && navigator.canShare({ files: [arquivo] })) {
+            ok.textContent = 'Escolha Instagram e depois Stories. O link já está copiado: cole no adesivo de link.';
+            navigator.share({ files: [arquivo] }).catch(() => {});
+          } else if (storyUrl) {
+            ok.textContent = 'Imagem aberta em nova aba: salve e publique nos Stories. O link já está copiado.';
+            window.open(storyUrl, '_blank', 'noopener');
+          } else {
+            ok.textContent = 'Link copiado. Cole nos Stories ou no Direct do Instagram.';
+          }
+          setTimeout(() => { ok.textContent = ''; }, 7000);
         });
       }
       if (net === 'copy') {

@@ -43,7 +43,7 @@ Atualizar `content/indices.json` quando houver dado novo:
 ### 5. Gerar e conferir
 ```
 pip install --break-system-packages pillow   # se faltar
-python3 scripts/og.py     # imagens de compartilhamento
+python3 scripts/og.py     # imagens de compartilhamento (links e Stories)
 node build.mjs            # precisa terminar com "OK"
 ```
 Conferir cada número de cada publicação contra a fonte, um por um.
@@ -75,6 +75,9 @@ git fetch origin revisao && git merge --ff-only origin/revisao && git push origi
 5. Se não houver edição nova na branch `revisao` para hoje, não fazer nada.
 
 ---
+
+## Regra fixa: não mexer no visual
+O visual do site está aprovado e congelado. Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações) e `content/indices.json` (números). Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
 
 ## Regras de texto
 - Ao falar do preço do m², nunca usar "caro". Usar "valorizado" (ex.: "m² mais valorizado do país").
