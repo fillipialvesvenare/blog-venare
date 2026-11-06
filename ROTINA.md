@@ -35,7 +35,7 @@ Criar `content/edicoes/AAAA-MM-DD.json` no mesmo formato das edições existente
 - Cada publicação lista suas fontes com link.
 
 ### 4. Atualizar índices
-Atualizar `content/indices.json` (Selic, IPCA, FipeZAP, comparador e agenda) quando houver dado novo. Remover da agenda eventos que já passaram e acrescentar os próximos.
+Atualizar `content/indices.json` quando houver dado novo: a lista `ticker` (esteira do topo) todos os dias com o fechamento mais recente de dólar e Ibovespa (valor, variação do dia em `var` e `dir` = "alta" ou "baixa") e os demais índices (Selic, CDI, IPCA, IGP-M, INCC-M, FipeZAP); também `indices`, `comparador` e `agenda`. Remover da agenda eventos que já passaram e acrescentar os próximos.
 
 ### 5. Gerar e conferir
 ```
