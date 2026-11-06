@@ -73,7 +73,7 @@
       const url = linkDe(box);
       const e = encodeURIComponent;
       const destinos = {
-        whatsapp: `https://wa.me/?text=${e(titulo + ' ' + url)}`,
+        whatsapp: `https://wa.me/?text=${e(url)}`,
         linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${e(url)}`,
         facebook: `https://www.facebook.com/sharer/sharer.php?u=${e(url)}`,
         x: `https://twitter.com/intent/tweet?text=${e(titulo)}&url=${e(url)}`,

@@ -37,7 +37,7 @@ Criar `content/edicoes/AAAA-MM-DD.json` no mesmo formato das edições existente
 ### 4. Atualizar índices
 Atualizar `content/indices.json` quando houver dado novo:
 - `ticker` (esteira do topo), todos os dias: dólar e Ibovespa com o fechamento mais recente, variação do dia em `var` e `dir` ("alta" ou "baixa"). Demais índices (Selic, CDI, IPCA, IGP-M, INCC-M, FipeZAP, m²) sem `var`, só `dir` comparando com a divulgação anterior: "alta", "baixa" ou "estavel".
-- `comparador`: as cidades são fixas (Florianópolis, Itajaí, Joinville, Itapema, Balneário Camboriú, Porto Belo, Penha). Só atualizar os números. As cinco primeiras vêm do FipeZAP. Porto Belo e Penha não são medidas pelo FipeZAP: usar a fonte mais confiável disponível (DWV, Brain, etc.), preencher `fonte`, `nota` e `resumo` explicando a métrica.
+- `comparador`: as cidades são fixas (Florianópolis, Itajaí, Joinville, Itapema, Balneário Camboriú, Porto Belo). Só atualizar os números. As cinco primeiras vêm do FipeZAP. Porto Belo não é medida pelo FipeZAP: usar a fonte mais confiável disponível (DWV, Brain, etc.), preencher `fonte`, `nota` e `resumo` explicando a métrica.
 - `indices` (painel) e `agenda` (próximas divulgações; remover datas passadas). Remover da agenda eventos que já passaram e acrescentar os próximos.
 
 ### 5. Gerar e conferir

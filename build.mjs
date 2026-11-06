@@ -98,11 +98,10 @@ function pagina({ titulo, descricao, canonical, corpo, og = {} }) {
 ${og.jsonld ? `<script type="application/ld+json">${JSON.stringify(og.jsonld)}</script>` : ''}
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="vidro-liquido" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.02" numOctaves="2" seed="9" result="ruido"/><feGaussianBlur in="ruido" stdDeviation="1.5" result="suave"/><feDisplacementMap in="SourceGraphic" in2="suave" scale="28" xChannelSelector="R" yChannelSelector="G"/></filter></svg>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header class="topo">
   <div class="topo-in">
-    <a class="marca" href="/" aria-label="${site.nome}, página inicial"><img class="logo-claro" src="/img/venare-news-azul.png" alt="Venare News" width="1481" height="96"><img class="logo-escuro" src="/img/venare-news-branco.png" alt="" aria-hidden="true" width="1481" height="96"></a>
+    <a class="marca" href="/" aria-label="${site.nome}, página inicial"><img class="logo-claro" src="/img/venare-news-azul.png" alt="Venare News" width="1364" height="120"><img class="logo-escuro" src="/img/venare-news-branco.png" alt="" aria-hidden="true" width="1364" height="120"></a>
     <nav class="menu" aria-label="Principal">
       <a href="/#hoje">Hoje</a><a href="/#indices">Índices</a><a href="/arquivo/">Arquivo</a>
     </nav>
@@ -116,7 +115,7 @@ ${corpo}
   <div class="padrao padrao-rodape" aria-hidden="true"></div>
   <div class="rodape-in">
     <div>
-      <img src="/img/venare-news-branco.png" alt="Venare News" width="1481" height="96">
+      <img src="/img/venare-news-branco.png" alt="Venare News" width="1364" height="120">
       <p class="rodape-desc">${esc(site.descricao)}</p>
       <p class="rodape-desc"><strong>Acompanhe e compartilhe.</strong></p>
     </div>
@@ -181,7 +180,7 @@ function home(ed) {
       <span class="ind-nota">${esc(i.nota)}</span>
       <a class="ind-fonte" href="${esc(i.url)}" rel="noopener">${esc(i.fonte)}, ${esc(i.referencia.split(', ').pop())}</a>
     </div>`).join('');
-  const agenda = indices.agenda.map((a) => { const c = calendario(a); return `<li><time datetime="${a.data}">${dataCurta(a.data)}</time><span>${esc(a.evento)}</span><small>${esc(a.orgao)}</small><span class="cal"><span class="cal-rot">${ICON.cal}Adicionar à agenda:</span><a href="${c.google}" target="_blank" rel="noopener">Google</a><a href="${c.ics}">Apple / Outlook</a></span></li>`; }).join('');
+  const agenda = indices.agenda.map((a) => { const c = calendario(a); return `<li><time datetime="${a.data}">${dataCurta(a.data)}</time><span>${esc(a.evento)}</span><small>${esc(a.orgao)}</small><span class="cal"><span class="cal-rot">${ICON.cal}Adicionar na sua agenda:</span><a href="${c.google}" target="_blank" rel="noopener">Google Agenda</a><a href="${c.ics}" type="text/calendar">Agenda do celular</a></span></li>`; }).join('');
 
   return pagina({
     titulo: '', canonical: '/',

@@ -5,15 +5,28 @@ from PIL import Image, ImageDraw, ImageFont
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 F = lambda n, s: ImageFont.truetype(os.path.join(R, 'scripts/fonts', n), s)
 NAVY, ELET, LAV = '#070F40', '#4C67FF', '#8698FF'
-pattern = Image.open(os.path.join(R, 'scripts/pattern.png')).convert('RGBA')
+tile = Image.open(os.path.join(R, 'scripts/padrao-tile.png')).convert('RGBA')
+tile = tile.resize((150, round(150*tile.height/tile.width)), Image.LANCZOS)
 logo = Image.open(os.path.join(R, 'scripts/venare-news-branco.png')).convert('RGBA')
 logo.thumbnail((560, 60))
 
 def base():
     im = Image.new('RGBA', (1200, 630), NAVY)
-    p = pattern.copy(); p.thumbnail((760, 760))
-    a = p.split()[3].point(lambda v: int(v * .28)); p.putalpha(a)
-    im.alpha_composite(p, (1200 - p.width + 140, -60))
+    layer = Image.new('RGBA', (1200, 630), (0, 0, 0, 0))
+    for y in range(0, 630, tile.height):
+        for x in range(1200 - tile.width, -tile.width, -tile.width):
+            layer.alpha_composite(tile, (x, y))
+    # esmaece da direita para a esquerda, sem chegar ao meio
+    mask = Image.new('L', (1200, 630), 0)
+    px = mask.load()
+    for x in range(1200):
+        t = (x - 650) / 550
+        v = 0 if t <= 0 else int(255 * 0.30 * min(1, t) ** 1.3)
+        for y in range(630): px[x, y] = v
+    a = layer.split()[3]
+    from PIL import ImageChops
+    layer.putalpha(ImageChops.multiply(a, mask))
+    im.alpha_composite(layer)
     im.alpha_composite(logo, (72, 72))
     return im
 

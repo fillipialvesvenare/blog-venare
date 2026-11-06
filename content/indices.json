@@ -107,14 +107,6 @@
         "fonte": "DWV (imóveis novos)",
         "nota": "Porto Belo não é medida pelo FipeZAP. Valorização do m² de imóveis novos em 2025 sobre 2024 e preço médio do 1º semestre de 2026, segundo a DWV.",
         "resumo": "<strong>Porto Belo</strong>: m² de imóveis novos subiu 3,7% em 2025, segundo a DWV. Preço médio de R$ 14.712 no 1º semestre de 2026."
-      },
-      {
-        "nome": "Penha",
-        "var12m": 10.1,
-        "m2": 14568,
-        "fonte": "Brain Inteligência Estratégica",
-        "nota": "Penha não é medida pelo FipeZAP. Média anual de valorização do m² de apartamentos entre 2021 e 2026 (61,7% no período), segundo a Brain.",
-        "resumo": "<strong>Penha</strong>: m² de apartamentos subiu 61,7% de 2021 a 2026, média de 10,1% ao ano, segundo a Brain. Preço médio de R$ 14.568."
       }
     ]
   },

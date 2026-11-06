@@ -24,29 +24,26 @@ a{color:var(--royal)}
 .com-selo::before{content:"";flex:none;width:1.05em;height:1.05em;border-radius:22%;background:url(/img/selo-azul.png) center/cover no-repeat;box-shadow:0 4px 12px -4px rgba(76,103,255,.55)}
 
 /* padrão de fundo, esmaecendo em degradê */
-.padrao{position:absolute;inset:0;pointer-events:none;background-image:var(--padrao);background-size:60px 104px;background-position:center top;opacity:.11;
-  -webkit-mask-image:linear-gradient(100deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.8) 55%,#000 100%);mask-image:linear-gradient(100deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.8) 55%,#000 100%)}
-.padrao-rodape{opacity:.09;-webkit-mask-image:linear-gradient(to top,#000 0%,rgba(0,0,0,.5) 100%);mask-image:linear-gradient(to top,#000 0%,rgba(0,0,0,.5) 100%)}
+.padrao{position:absolute;inset:0;pointer-events:none;background:url(/img/padrao-tile.png) right top/260px 319px repeat;opacity:.2;
+  -webkit-mask-image:linear-gradient(to left,#000 0%,rgba(0,0,0,.55) 22%,rgba(0,0,0,.15) 38%,transparent 46%);mask-image:linear-gradient(to left,#000 0%,rgba(0,0,0,.55) 22%,rgba(0,0,0,.15) 38%,transparent 46%)}
+.padrao-rodape{opacity:.14}
 
 /* topo fixo em "vidro líquido": cápsula flutuante, translúcida e com refração nas bordas */
 .topo{position:sticky;top:0;z-index:30;padding:10px 16px;pointer-events:none}
 .topo-in{pointer-events:auto;position:relative;isolation:isolate;max-width:var(--max);margin:0 auto;padding:0 14px 0 26px;height:var(--topo-h);display:flex;align-items:center;gap:28px;border-radius:24px;
   background:linear-gradient(180deg,rgba(255,255,255,.44),rgba(255,255,255,.26));transition:background .35s,box-shadow .35s;
-  -webkit-backdrop-filter:blur(10px) saturate(1.9) brightness(1.06);backdrop-filter:blur(10px) saturate(1.9) brightness(1.06);
+  -webkit-backdrop-filter:blur(14px) saturate(1.9) brightness(1.08);backdrop-filter:blur(14px) saturate(1.9) brightness(1.08);
   box-shadow:inset 0 1.5px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.45),inset 1px 0 0 rgba(255,255,255,.5),inset -1px 0 0 rgba(255,255,255,.5),0 1px 2px rgba(7,15,64,.06),0 14px 36px -14px rgba(7,15,64,.38)}
-@supports (backdrop-filter:url(#vidro-liquido)){
-  .topo-in{backdrop-filter:url(#vidro-liquido) blur(8px) saturate(1.9) brightness(1.06)}
-}
 .topo-in::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;
   background:radial-gradient(120% 140% at 12% -20%,rgba(255,255,255,.7),transparent 45%),radial-gradient(90% 120% at 100% 120%,rgba(134,152,255,.22),transparent 50%)}
 .topo-in::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;padding:1.2px;
   background:linear-gradient(135deg,rgba(255,255,255,.95),rgba(255,255,255,.15) 35%,rgba(255,255,255,.1) 65%,rgba(255,255,255,.8));
   -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
 .marca{display:flex;align-items:center;text-decoration:none;flex:0 1 auto;min-width:0}
-.marca img{width:clamp(220px,40vw,500px);height:auto}
+.marca img{width:clamp(220px,40vw,520px);height:auto}
 .logo-escuro{display:none}
 /* adapta o vidro quando passa sobre áreas escuras */
-.topo.sobre-escuro .topo-in{background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.06));box-shadow:inset 0 1.5px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.18),inset 1px 0 0 rgba(255,255,255,.22),inset -1px 0 0 rgba(255,255,255,.22),0 14px 36px -14px rgba(0,0,0,.6)}
+.topo.sobre-escuro .topo-in{-webkit-backdrop-filter:blur(16px) saturate(1.6) brightness(1.12);backdrop-filter:blur(16px) saturate(1.6) brightness(1.12);background:linear-gradient(180deg,rgba(255,255,255,.18),rgba(255,255,255,.08));box-shadow:inset 0 1.5px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.18),inset 1px 0 0 rgba(255,255,255,.22),inset -1px 0 0 rgba(255,255,255,.22),0 14px 36px -14px rgba(0,0,0,.6)}
 .topo.sobre-escuro .logo-claro{display:none}
 .topo.sobre-escuro .logo-escuro{display:block}
 .topo.sobre-escuro .menu a{color:#fff}
