@@ -1,6 +1,6 @@
-# Blog Venare
+# Venare News
 
-Blog de notícias, índices e análises do mercado imobiliário de Santa Catarina para investidores.
+Site de notícias, índices e análises do mercado imobiliário de Santa Catarina para investidores.
 
 - Conteúdo: `content/edicoes/*.json` (5 publicações por dia) e `content/indices.json`.
 - Visual: `static/style.css`, `static/app.js`, imagens da marca em `static/img/`.

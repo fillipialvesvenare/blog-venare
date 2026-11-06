@@ -1,11 +1,11 @@
-# Rotina diária do Blog Venare
+# Rotina diária do Venare News
 
 Duas tarefas agendadas, todos os dias (horário de Brasília):
 - **06:47, preparar:** pesquisa, escreve a edição, publica a prévia e envia o e-mail de revisão.
 - **09:47, publicar:** se o Fillipi não pediu para segurar, coloca a edição no ar.
 
-Site: https://blog-venare.pages.dev (futuro: https://blog.venare.com.br)
-Prévia: https://revisao.blog-venare.pages.dev (branch `revisao`, gerada pelo Cloudflare Pages)
+Site: https://venarenews.pages.dev (futuro: https://venarenews.com.br)
+Prévia: https://revisao.venarenews.pages.dev (branch `revisao`, gerada pelo Cloudflare Pages)
 E-mail de revisão: fillipialves@venare.com.br
 
 ---
@@ -35,7 +35,10 @@ Criar `content/edicoes/AAAA-MM-DD.json` no mesmo formato das edições existente
 - Cada publicação lista suas fontes com link.
 
 ### 4. Atualizar índices
-Atualizar `content/indices.json` quando houver dado novo: a lista `ticker` (esteira do topo) todos os dias com o fechamento mais recente de dólar e Ibovespa (valor, variação do dia em `var` e `dir` = "alta" ou "baixa") e os demais índices (Selic, CDI, IPCA, IGP-M, INCC-M, FipeZAP); também `indices`, `comparador` e `agenda`. Remover da agenda eventos que já passaram e acrescentar os próximos.
+Atualizar `content/indices.json` quando houver dado novo:
+- `ticker` (esteira do topo), todos os dias: dólar e Ibovespa com o fechamento mais recente, variação do dia em `var` e `dir` ("alta" ou "baixa"). Demais índices (Selic, CDI, IPCA, IGP-M, INCC-M, FipeZAP, m²) sem `var`, só `dir` comparando com a divulgação anterior: "alta", "baixa" ou "estavel".
+- `comparador`: as cidades são fixas (Florianópolis, Itajaí, Joinville, Itapema, Balneário Camboriú, Porto Belo, Penha). Só atualizar os números. As cinco primeiras vêm do FipeZAP. Porto Belo e Penha não são medidas pelo FipeZAP: usar a fonte mais confiável disponível (DWV, Brain, etc.), preencher `fonte`, `nota` e `resumo` explicando a métrica.
+- `indices` (painel) e `agenda` (próximas divulgações; remover datas passadas). Remover da agenda eventos que já passaram e acrescentar os próximos.
 
 ### 5. Gerar e conferir
 ```
@@ -49,18 +52,18 @@ Conferir cada número de cada publicação contra a fonte, um por um.
 ```
 git add -A && git commit -m "Edição AAAA-MM-DD (revisão)" && git push -f origin revisao
 ```
-Esperar 2 a 3 minutos e abrir https://revisao.blog-venare.pages.dev para confirmar que a edição nova aparece.
+Esperar 2 a 3 minutos e abrir https://revisao.venarenews.pages.dev para confirmar que a edição nova aparece.
 
 ### 7. E-mail de revisão
 Enviar para fillipialves@venare.com.br:
-- Assunto: `Blog Venare: edição de DD/MM pronta para revisão`
+- Assunto: `Venare News: edição de DD/MM pronta para revisão`
 - Corpo curto: link da prévia, os 5 títulos e esta instrução: "Para segurar a publicação, responda este e-mail com a palavra SEGURAR até 9h30. Sem resposta, a edição entra no ar às 9h47."
 
 ---
 
 ## Parte B: publicar (09:47)
 
-1. No Gmail, procurar resposta de hoje ao e-mail `Blog Venare: edição de DD/MM pronta para revisão` contendo "SEGURAR" (ou "segurar").
+1. No Gmail, procurar resposta de hoje ao e-mail `Venare News: edição de DD/MM pronta para revisão` contendo "SEGURAR" (ou "segurar").
 2. Se houver: não publicar. Responder no mesmo fio: "Edição segurada. Ela continua na prévia para ajustes."
 3. Se não houver:
 ```
@@ -68,10 +71,14 @@ git clone https://github.com/fillipialvesvenare/blog-venare && cd blog-venare
 git fetch origin revisao && git merge --ff-only origin/revisao && git push origin main
 ```
    Se o merge não for fast-forward, fazer `git merge origin/revisao` resolvendo conflitos a favor da edição nova.
-4. Conferir em https://blog-venare.pages.dev, após 2 a 3 minutos, que a edição do dia está no ar.
+4. Conferir em https://venarenews.pages.dev, após 2 a 3 minutos, que a edição do dia está no ar.
 5. Se não houver edição nova na branch `revisao` para hoje, não fazer nada.
 
 ---
+
+## Regras de texto
+- Ao falar do preço do m², nunca usar "caro". Usar "valorizado" (ex.: "m² mais valorizado do país").
+- O nome do site é Venare News.
 
 ## Regras da marca
 Cores: #070F40, #2A3BA0, #4C67FF, #8698FF, #F0F0F0, #1A1A1A, branco. Fonte Prompt. Títulos em caixa alta, ExtraBold. Não alterar logos, pattern, símbolo e glow em `static/img/` nem em `scripts/`.

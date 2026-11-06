@@ -48,7 +48,7 @@
       "valor": "R$ 13.690",
       "unidade": "preço médio de venda",
       "referencia": "FipeZAP, outubro/2026",
-      "nota": "4º mais caro do país",
+      "nota": "4º m² mais valorizado do país",
       "fonte": "Índice FipeZAP",
       "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
     },
@@ -65,45 +65,56 @@
   ],
   "comparador": {
     "titulo": "Quanto os imóveis valorizaram em 12 meses",
-    "referencia": "Venda residencial, outubro/2026. IPCA de setembro/2026.",
+    "referencia": "Venda residencial em 12 meses até outubro/2026 (FipeZAP). IPCA de setembro/2026.",
     "fonte": "Índice FipeZAP e IBGE",
     "brasil": 5.44,
     "ipca": 4.58,
     "cidades": [
       {
-        "nome": "Blumenau",
-        "var12m": 8.65,
-        "m2": 8232
-      },
-      {
         "nome": "Florianópolis",
         "var12m": 8.61,
-        "m2": 13690
+        "m2": 13690,
+        "fonte": "Índice FipeZAP, out/2026"
       },
       {
         "nome": "Itajaí",
         "var12m": 5.53,
-        "m2": 13511
+        "m2": 13511,
+        "fonte": "Índice FipeZAP, out/2026"
       },
       {
         "nome": "Joinville",
         "var12m": 5.32,
-        "m2": 8458
-      },
-      {
-        "nome": "São José",
-        "var12m": 4.73,
-        "m2": 9081
+        "m2": 8458,
+        "fonte": "Índice FipeZAP, out/2026"
       },
       {
         "nome": "Itapema",
         "var12m": 3.48,
-        "m2": 15232
+        "m2": 15232,
+        "fonte": "Índice FipeZAP, out/2026"
       },
       {
         "nome": "Balneário Camboriú",
         "var12m": 3.14,
-        "m2": 15325
+        "m2": 15325,
+        "fonte": "Índice FipeZAP, out/2026"
+      },
+      {
+        "nome": "Porto Belo",
+        "var12m": 3.7,
+        "m2": 14712,
+        "fonte": "DWV (imóveis novos)",
+        "nota": "Porto Belo não é medida pelo FipeZAP. Valorização do m² de imóveis novos em 2025 sobre 2024 e preço médio do 1º semestre de 2026, segundo a DWV.",
+        "resumo": "<strong>Porto Belo</strong>: m² de imóveis novos subiu 3,7% em 2025, segundo a DWV. Preço médio de R$ 14.712 no 1º semestre de 2026."
+      },
+      {
+        "nome": "Penha",
+        "var12m": 10.1,
+        "m2": 14568,
+        "fonte": "Brain Inteligência Estratégica",
+        "nota": "Penha não é medida pelo FipeZAP. Média anual de valorização do m² de apartamentos entre 2021 e 2026 (61,7% no período), segundo a Brain.",
+        "resumo": "<strong>Penha</strong>: m² de apartamentos subiu 61,7% de 2021 a 2026, média de 10,1% ao ano, segundo a Brain. Preço médio de R$ 14.568."
       }
     ]
   },
@@ -142,49 +153,58 @@
     {
       "nome": "Selic",
       "valor": "13,75%",
+      "dir": "estavel",
       "ref": "ao ano, Copom 4/11"
     },
     {
       "nome": "CDI",
       "valor": "13,65%",
+      "dir": "estavel",
       "ref": "ao ano"
     },
     {
       "nome": "IPCA 12m",
       "valor": "4,58%",
+      "dir": "alta",
       "ref": "IBGE, set/26"
     },
     {
       "nome": "IGP-M 12m",
       "valor": "5,24%",
+      "dir": "alta",
       "ref": "FGV, out/26"
     },
     {
       "nome": "INCC-M 12m",
       "valor": "6,75%",
+      "dir": "alta",
       "ref": "FGV, out/26"
     },
     {
       "nome": "Imóveis Brasil 12m",
-      "valor": "+5,44%",
+      "valor": "5,44%",
+      "dir": "baixa",
       "ref": "FipeZAP, out/26"
     },
     {
       "nome": "Imóveis Florianópolis 12m",
-      "valor": "+8,61%",
-      "ref": "FipeZAP, out/26",
-      "destaque": true
+      "valor": "8,61%",
+      "dir": "alta",
+      "ref": "FipeZAP, out/26"
     },
     {
       "nome": "m² Florianópolis",
       "valor": "R$ 13.690",
+      "dir": "alta",
       "ref": "FipeZAP, out/26"
     },
     {
       "nome": "m² Brasil",
       "valor": "R$ 10.065",
+      "dir": "alta",
       "ref": "FipeZAP, out/26"
     }
   ],
-  "ticker_fontes": "Dólar e Ibovespa: fechamento de 6/11/2026 (SpaceMoney/Suno). CDI: B3. IGP-M e INCC-M: FGV IBRE. IPCA: IBGE. FipeZAP: Fipe."
+  "ticker_fontes": "Dólar e Ibovespa: fechamento de 6/11/2026 (SpaceMoney/Suno). CDI: B3. IGP-M e INCC-M: FGV IBRE. IPCA: IBGE. FipeZAP: Fipe.",
+  "ticker_nota": "Dólar e Ibovespa: variação do dia. Demais índices: seta indica alta, queda ou estabilidade em relação à divulgação anterior."
 }

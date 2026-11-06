@@ -1,10 +1,16 @@
 {
-  "nome": "Blog Venare",
-  "descricao": "Notícias, índices e análises diárias do mercado imobiliário de Santa Catarina para investidores, com comparações com o Brasil. Acompanhe e compartilhe.",
-  "url": "https://blog-venare.pages.dev",
+  "nome": "Venare News",
+  "descricao": "Notícias, índices e análises diárias do mercado imobiliário de Santa Catarina para investidores.",
+  "url": "https://venarenews.pages.dev",
   "empresa": "Venare Investimentos Imobiliários",
   "creci": "CRECI 10879J",
   "instagram": "https://www.instagram.com/venareinvestimentos/",
   "instagram_handle": "@venareinvestimentos",
-  "email": "fillipialves@venare.com.br"
+  "email": "contato@venare.com.br",
+  "site_venare": "https://www.venare.com.br",
+  "site_venare_rotulo": "www.venare.com.br",
+  "endereco": "Rod. José Carlos Daux, 5500, Sala 328, Lagoa B, Saco Grande, Florianópolis/SC, 88032-005",
+  "endereco_mapa": "https://www.google.com/maps/search/?api=1&query=Venare+Investimentos+Imobili%C3%A1rios&query_place_id=ChIJdzA-tCRHJ5URiBPBjWtc2fU",
+  "whatsapp": "5548988385924",
+  "whatsapp_msg": "Olá, vim do blog VENARE NEWS e quero conversar com um consultor para conhecer mais sobre o serviço de vocês e ficar por dentro das oportunidades de investimento."
 }

@@ -6,15 +6,15 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 F = lambda n, s: ImageFont.truetype(os.path.join(R, 'scripts/fonts', n), s)
 NAVY, ELET, LAV = '#070F40', '#4C67FF', '#8698FF'
 pattern = Image.open(os.path.join(R, 'scripts/pattern.png')).convert('RGBA')
-logo = Image.open(os.path.join(R, 'scripts/logo-branco.png')).convert('RGBA')
-logo.thumbnail((260, 260))
+logo = Image.open(os.path.join(R, 'scripts/venare-news-branco.png')).convert('RGBA')
+logo.thumbnail((560, 60))
 
 def base():
     im = Image.new('RGBA', (1200, 630), NAVY)
     p = pattern.copy(); p.thumbnail((760, 760))
     a = p.split()[3].point(lambda v: int(v * .28)); p.putalpha(a)
     im.alpha_composite(p, (1200 - p.width + 140, -60))
-    im.alpha_composite(logo, (72, 56))
+    im.alpha_composite(logo, (72, 72))
     return im
 
 def wrap(draw, txt, font, maxw):
@@ -44,11 +44,11 @@ def card(titulo, tag, destaque, out):
         fd = F('Prompt-ExtraBold.ttf', 96)
         w = d.textlength(destaque, font=fd)
         d.text((1128 - w, 300), destaque, font=fd, fill=LAV)
-    d.text((72, 572), 'blog.venare.com.br', font=F('Prompt-Medium.ttf', 22), fill=LAV)
+    d.text((72, 572), 'venarenews.com.br', font=F('Prompt-Medium.ttf', 22), fill=LAV)
     im.convert('RGB').save(out, quality=88)
 
 os.makedirs(os.path.join(R, 'static/og'), exist_ok=True)
-card('Mercado imobiliário de Santa Catarina para investidores', 'Blog Venare', None, os.path.join(R, 'static/og/padrao.jpg'))
+card('Mercado imobiliário de Santa Catarina para investidores', 'Venare News', None, os.path.join(R, 'static/og/padrao.jpg'))
 for f in glob.glob(os.path.join(R, 'content/edicoes/*.json')):
     ed = json.load(open(f, encoding='utf-8'))
     for p in ed['publicacoes']:
