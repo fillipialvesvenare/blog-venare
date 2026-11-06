@@ -1,0 +1,32 @@
+{
+  "atualizado_em": "2026-11-06",
+  "indices": [
+    { "id": "selic", "nome": "Selic", "valor": "13,75%", "unidade": "ao ano", "referencia": "Copom, 4/11/2026", "nota": "Mantida após cinco cortes seguidos", "fonte": "Banco Central (Copom)", "url": "https://www.poder360.com.br/poder-economia/copom-mantem-selic-em-1375-e-confirma-aposta-do-mercado/" },
+    { "id": "ipca", "nome": "IPCA 12 meses", "valor": "4,58%", "unidade": "inflação oficial", "referencia": "IBGE, setembro/2026", "nota": "Acima do teto da meta (4,50%)", "fonte": "IBGE", "url": "https://rankia.com.br/ipca-setembro-2026-0-82-12-meses-4-58-acima-teto-meta/" },
+    { "id": "fipezap-br", "nome": "Imóveis no Brasil, 12 meses", "valor": "5,44%", "unidade": "valorização", "referencia": "FipeZAP, outubro/2026", "nota": "Média de 56 cidades", "fonte": "Índice FipeZAP", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" },
+    { "id": "fipezap-floripa", "nome": "Imóveis em Florianópolis, 12 meses", "valor": "8,61%", "unidade": "valorização", "referencia": "FipeZAP, outubro/2026", "nota": "1,6 vez a média do país", "fonte": "Índice FipeZAP", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf", "destaque": true },
+    { "id": "m2-floripa", "nome": "m² em Florianópolis", "valor": "R$ 13.690", "unidade": "preço médio de venda", "referencia": "FipeZAP, outubro/2026", "nota": "4º mais caro do país", "fonte": "Índice FipeZAP", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" },
+    { "id": "m2-br", "nome": "m² no Brasil", "valor": "R$ 10.065", "unidade": "preço médio de venda", "referencia": "FipeZAP, outubro/2026", "nota": "Média de 56 cidades", "fonte": "Índice FipeZAP", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" }
+  ],
+  "comparador": {
+    "titulo": "Quanto os imóveis valorizaram em 12 meses",
+    "referencia": "Venda residencial, outubro/2026. IPCA de setembro/2026.",
+    "fonte": "Índice FipeZAP e IBGE",
+    "brasil": 5.44,
+    "ipca": 4.58,
+    "cidades": [
+      { "nome": "Blumenau", "var12m": 8.65, "m2": 8232 },
+      { "nome": "Florianópolis", "var12m": 8.61, "m2": 13690 },
+      { "nome": "Itajaí", "var12m": 5.53, "m2": 13511 },
+      { "nome": "Joinville", "var12m": 5.32, "m2": 8458 },
+      { "nome": "São José", "var12m": 4.73, "m2": 9081 },
+      { "nome": "Itapema", "var12m": 3.48, "m2": 15232 },
+      { "nome": "Balneário Camboriú", "var12m": 3.14, "m2": 15325 }
+    ]
+  },
+  "agenda": [
+    { "data": "2026-11-12", "evento": "IPCA de outubro", "orgao": "IBGE" },
+    { "data": "2026-11-26", "evento": "IPCA-15 de novembro (prévia da inflação)", "orgao": "IBGE" },
+    { "data": "2026-12-09", "evento": "Decisão da Selic, última reunião do ano", "orgao": "Copom" }
+  ]
+}
