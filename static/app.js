@@ -21,7 +21,7 @@
       let txt;
       if (c.var12m > dados.brasil) txt = `<strong>${c.nome}</strong> valorizou ${vezes.toFixed(1).replace('.', ',')} vez a média do Brasil, com ganho de ${real.toFixed(1).replace('.', ',')} ponto${Math.abs(real) >= 2 ? 's' : ''} acima da inflação.`;
       else if (c.var12m > dados.ipca) txt = `<strong>${c.nome}</strong> ficou abaixo da média do Brasil, mas ainda acima da inflação.`;
-      else txt = `<strong>${c.nome}</strong> valorizou menos que a inflação em 12 meses. Preço do m² alto: R$ ${c.m2.toLocaleString('pt-BR')}.`;
+      else txt = `<strong>${c.nome}</strong> valorizou menos que a inflação em 12 meses. O m² médio está em R$ ${c.m2.toLocaleString('pt-BR')}.`;
       $('[data-veredito]').innerHTML = txt;
     };
     chips.forEach((b, i) => {

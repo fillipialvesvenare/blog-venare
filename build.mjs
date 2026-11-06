@@ -62,7 +62,7 @@ function share(url, titulo, variante = '') {
 
 // ---------- layout ----------
 function pagina({ titulo, descricao, canonical, corpo, og = {} }) {
-  const full = titulo ? `${titulo} | ${site.nome}` : `${site.nome}: mercado imobiliário de SC para investidores`;
+  const full = titulo ? (titulo.length > 48 ? titulo : `${titulo} | ${site.nome}`) : `${site.nome}: mercado imobiliário de SC para investidores`;
   return `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -76,6 +76,8 @@ function pagina({ titulo, descricao, canonical, corpo, og = {} }) {
 <meta property="og:description" content="${esc(descricao || site.descricao)}">
 <meta property="og:url" content="${site.url}${canonical}">
 <meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="${site.url}/og/${og.imagem || 'padrao'}.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#070F40">
 <link rel="icon" href="/img/simbolo.png">
@@ -206,7 +208,7 @@ function post(ed, p) {
   const outros = ed.publicacoes.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="${postUrl(ed, x)}"><span class="formato">${esc(x.formato)}</span>${esc(x.titulo)}</a></li>`).join('');
   return pagina({
     titulo: p.titulo, descricao: p.resumo, canonical: url,
-    og: { tipo: 'article', jsonld: { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: p.titulo, description: p.resumo, datePublished: `${ed.data}T07:00:00-03:00`, inLanguage: 'pt-BR', author: { '@type': 'Organization', name: 'Redação Blog Venare' }, publisher: { '@type': 'Organization', name: site.empresa }, mainEntityOfPage: site.url + url } },
+    og: { tipo: 'article', imagem: fs.existsSync(path.join(ROOT, 'static/og', p.slug + '.jpg')) ? p.slug : 'padrao', jsonld: { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: p.titulo, description: p.resumo, datePublished: `${ed.data}T07:00:00-03:00`, inLanguage: 'pt-BR', author: { '@type': 'Organization', name: 'Redação Blog Venare' }, publisher: { '@type': 'Organization', name: site.empresa }, mainEntityOfPage: site.url + url } },
     corpo: `
 <article class="post">
   <header class="post-cab">
