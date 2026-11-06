@@ -102,7 +102,7 @@ ${og.jsonld ? `<script type="application/ld+json">${JSON.stringify(og.jsonld)}</
 ${corpo}
 </main>
 <footer class="rodape">
-  <img class="rodape-pattern" src="/img/pattern.webp" alt="" aria-hidden="true">
+  <div class="padrao padrao-rodape" aria-hidden="true"></div>
   <div class="rodape-in">
     <div>
       <img src="/img/logo-branco.png" alt="Venare investimentos imobiliários" width="190" height="61">
@@ -132,7 +132,8 @@ function home(ed) {
   const [lead, ...resto] = ed.publicacoes;
   const c = indices.comparador;
   const cidadesJson = esc(JSON.stringify(c));
-  const ticker = indices.indices.map((i) => `<li class="tk${i.destaque ? ' tk-dest' : ''}"><span class="tk-nome">${esc(i.nome)}</span><span class="tk-val">${esc(i.valor)}</span><span class="tk-ref">${esc(i.referencia)}</span></li>`).join('');
+  const tkItem = (i) => `<li class="tk${i.destaque ? ' tk-dest' : ''}"><span class="tk-nome">${esc(i.nome)}</span><span class="tk-val">${esc(i.valor)}</span>${i.var ? `<span class="tk-var tk-${i.dir}">${i.dir === 'alta' ? '▲' : '▼'} ${esc(i.var)}</span>` : ''}<span class="tk-ref">${esc(i.ref)}</span></li>`;
+  const tkLista = (indices.ticker || []).map(tkItem).join('');
   const cards = resto.map((p, k) => `
     <article class="card card-${k}">
       <a class="card-link" href="${postUrl(ed, p)}">
@@ -140,6 +141,7 @@ function home(ed) {
         <h3>${esc(p.titulo)}</h3>
         ${visual(p.visual)}
         <p class="card-resumo">${esc(p.resumo)}</p>
+        <span class="card-abrir">Ler publicação completa<span class="seta" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span>
       </a>
       ${share(site.url + postUrl(ed, p), p.titulo, 'share-mini')}
     </article>`).join('');
@@ -155,9 +157,9 @@ function home(ed) {
   return pagina({
     titulo: '', canonical: '/',
     corpo: `
-<ul class="ticker" aria-label="Índices do dia">${ticker}</ul>
+<div class="ticker" role="region" aria-label="Índices do mercado"><div class="ticker-trilho"><ul class="ticker-lista">${tkLista}</ul><ul class="ticker-lista" aria-hidden="true">${tkLista}</ul></div></div>
 <section class="hero">
-  <img class="hero-pattern" src="/img/pattern.webp" alt="" aria-hidden="true">
+  <div class="padrao" aria-hidden="true"></div>
   <img class="hero-glow" src="/img/glow.webp" alt="" aria-hidden="true">
   <div class="hero-in">
     <div class="hero-txt">
@@ -182,18 +184,18 @@ function home(ed) {
   </div>
 </section>
 
-<section class="secao" id="hoje" aria-labelledby="t-hoje">
+<section class="secao secao-vidro" id="hoje" aria-labelledby="t-hoje">
   <div class="secao-in">
-    <div class="secao-cab"><h2 id="t-hoje">Mais publicações de hoje</h2><p>Dados de mercado com fonte, explicados para quem investe.</p></div>
+    <div class="secao-cab"><h2 id="t-hoje" class="com-selo">Mais publicações de hoje</h2><p>Dados de mercado com fonte, explicados para quem investe.</p></div>
     <div class="grade">${cards}</div>
   </div>
 </section>
 
-<section class="secao secao-cinza" id="indices" aria-labelledby="t-ind">
+<section class="secao secao-escura" id="indices" aria-labelledby="t-ind">
   <div class="secao-in">
-    <div class="secao-cab"><h2 id="t-ind">Índices que movem o mercado</h2><p>Atualizados em ${dataCurta(indices.atualizado_em)}. Cada número leva à fonte original.</p></div>
+    <div class="secao-cab"><h2 id="t-ind" class="com-selo">Índices que movem o mercado</h2><p>Atualizados em ${dataCurta(indices.atualizado_em)}. Cada número leva à fonte original.</p></div>
     <div class="painel">${painel}</div>
-    <div class="agenda"><h3>Próximas divulgações</h3><ul>${agenda}</ul></div>
+    <div class="agenda"><h3 class="com-selo">Próximas divulgações</h3><ul>${agenda}</ul></div>
   </div>
 </section>
 ${cta}`,
@@ -204,15 +206,15 @@ ${cta}`,
 // ---------- post ----------
 function post(ed, p) {
   const url = postUrl(ed, p);
-  const corpo = p.corpo.map((b) => (b.h ? `<h2>${esc(b.h)}</h2>` : `<p>${esc(b.p)}</p>`)).join('\n');
-  const outros = ed.publicacoes.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="${postUrl(ed, x)}"><span class="formato">${esc(x.formato)}</span>${esc(x.titulo)}</a></li>`).join('');
+  const corpo = p.corpo.map((b) => (b.h ? `<h2 class="com-selo">${esc(b.h)}</h2>` : `<p>${esc(b.p)}</p>`)).join('\n');
+  const outros = ed.publicacoes.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="${postUrl(ed, x)}"><span class="formato">${esc(x.formato)}</span><span class="o-tit">${esc(x.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('');
   return pagina({
     titulo: p.titulo, descricao: p.resumo, canonical: url,
     og: { tipo: 'article', imagem: fs.existsSync(path.join(ROOT, 'static/og', p.slug + '.jpg')) ? p.slug : 'padrao', jsonld: { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: p.titulo, description: p.resumo, datePublished: `${ed.data}T07:00:00-03:00`, inLanguage: 'pt-BR', author: { '@type': 'Organization', name: 'Redação Blog Venare' }, publisher: { '@type': 'Organization', name: site.empresa }, mainEntityOfPage: site.url + url } },
     corpo: `
 <article class="post">
   <header class="post-cab">
-    <img class="hero-pattern" src="/img/pattern.webp" alt="" aria-hidden="true">
+    <div class="padrao" aria-hidden="true"></div>
     <div class="post-cab-in">
       <a class="voltar" href="/">Edição de ${dataCurta(ed.data)}</a>
       <span class="formato formato-claro">${esc(p.formato)}</span>
@@ -225,19 +227,19 @@ function post(ed, p) {
   <div class="post-corpo">
     ${visual(p.visual, true)}
     <div class="texto">${corpo}</div>
-    <aside class="fontes"><h2>Fontes</h2><ul>${p.fontes.map((f) => `<li><a href="${esc(f.url)}" rel="noopener">${esc(f.nome)}</a></li>`).join('')}</ul></aside>
+    <aside class="fontes"><h2 class="com-selo">Fontes</h2><ul>${p.fontes.map((f) => `<li><a href="${esc(f.url)}" rel="noopener">${esc(f.nome)}</a></li>`).join('')}</ul></aside>
     ${share(site.url + url, p.titulo)}
   </div>
 </article>
 ${cta}
-<section class="secao"><div class="secao-in"><div class="secao-cab"><h2>Outras publicações desta edição</h2></div><ul class="outros">${outros}</ul></div></section>`,
+<section class="secao secao-vidro"><div class="secao-in"><div class="secao-cab"><h2 class="com-selo">Outras publicações desta edição</h2></div><ul class="outros">${outros}</ul></div></section>`,
   });
 }
 
 // ---------- arquivo ----------
 function arquivo() {
-  const lista = edicoes.map((ed) => `<section class="arq-ed"><h2>${dataLonga(ed.data)}</h2><ul class="outros">${ed.publicacoes.map((p) => `<li><a href="${postUrl(ed, p)}"><span class="formato">${esc(p.formato)}</span>${esc(p.titulo)}</a></li>`).join('')}</ul></section>`).join('');
-  return pagina({ titulo: 'Arquivo de edições', descricao: 'Todas as edições do Blog Venare.', canonical: '/arquivo/', corpo: `<section class="secao"><div class="secao-in"><div class="secao-cab"><h1 class="h1-simples">Arquivo de edições</h1><p>Cinco publicações por dia sobre o mercado imobiliário de Santa Catarina.</p></div>${lista}</div></section>` });
+  const lista = edicoes.map((ed) => `<section class="arq-ed"><h2>${dataLonga(ed.data)}</h2><ul class="outros">${ed.publicacoes.map((p) => `<li><a href="${postUrl(ed, p)}"><span class="formato">${esc(p.formato)}</span><span class="o-tit">${esc(p.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('')}</ul></section>`).join('');
+  return pagina({ titulo: 'Arquivo de edições', descricao: 'Todas as edições do Blog Venare.', canonical: '/arquivo/', corpo: `<section class="secao secao-vidro"><div class="secao-in"><div class="secao-cab"><h1 class="h1-simples com-selo">Arquivo de edições</h1><p>Cinco publicações por dia sobre o mercado imobiliário de Santa Catarina.</p></div>${lista}</div></section>` });
 }
 
 // ---------- escrita ----------
