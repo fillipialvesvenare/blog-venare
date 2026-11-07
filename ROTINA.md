@@ -31,9 +31,9 @@ Criar `content/edicoes/AAAA-MM-DD.json` no mesmo formato das edições existente
 - Formatos variados: Análise, Gráfico, Ranking, Notícia, Em números (visuais: `numero`, `barras`, `ranking`, `comparacao`). Pelo menos 2 publicações com gráfico ou ranking.
 - Sempre que possível, comparar SC com o Brasil, de forma honesta (mostrar também quando SC fica abaixo).
 - Público: investidores. Tom consultivo, claro, sem sensacionalismo e sem recomendação de compra.
-- Texto 100% próprio (parafraseado). Nada de copiar parágrafos ou imagens de terceiros (fotos só do catálogo `content/fotos.json`, que já tem licença livre e crédito). Citação literal só se indispensável, com menos de 15 palavras.
+- Texto 100% próprio (parafraseado). Nada de copiar parágrafos ou imagens de terceiros (fotos só pelo `scripts/fotos.py`, que usa banco de licença livre e registra o crédito). Citação literal só se indispensável, com menos de 15 palavras.
 - Cada publicação lista suas fontes com link.
-- Cada publicação tem uma foto, logo depois do campo `resumo`: `"foto": {"id": "<id do catálogo>", "legenda": "<legenda>"}`. Ver a seção "Fotos das notícias".
+- Cada publicação tem uma foto inédita, buscada com `scripts/fotos.py`. Ver a seção "Fotos das notícias".
 
 ### 4. Atualizar índices
 Atualizar `content/indices.json` quando houver dado novo:
@@ -44,6 +44,7 @@ Atualizar `content/indices.json` quando houver dado novo:
 ### 5. Gerar e conferir
 ```
 pip install --break-system-packages pillow   # se faltar
+PIXABAY_KEY=<chave> python3 scripts/fotos.py content/edicoes/AAAA-MM-DD.json   # fotos inéditas (ver seção Fotos) e conferir cada uma
 python3 scripts/og.py     # imagens de compartilhamento (links e Stories)
 node build.mjs            # precisa terminar com "OK"
 ```
@@ -77,16 +78,25 @@ git fetch origin revisao && git merge --ff-only origin/revisao && git push origi
 
 ---
 
-## Fotos das notícias (aprovado pelo Fillipi em 07/11/2026)
-Toda publicação leva uma foto referente ao assunto. Ela aparece de forma sutil: esmaecida no fundo do destaque da home, em faixa no topo de cada card e como foto principal (com legenda e crédito) ao abrir a notícia. O site faz tudo isso sozinho a partir do campo `foto`.
-- Escolher a foto SOMENTE no catálogo `content/fotos.json` (arquivos em `static/fotos/`). Cada item tem `descricao` e `temas`: escolha o que mais combina com o assunto (cidade da notícia primeiro, depois o tema: juros, crédito, construção, porto, turismo...).
-- Não repetir a mesma foto em duas publicações da mesma edição e, se possível, evitar repetir a foto do destaque do dia anterior.
-- `legenda`: uma frase que descreve a foto e liga ao assunto, usando só números que já estão na publicação. Ex.: "Prédios da Praia Brava, em Itajaí. A cidade vendeu R$ 3,11 bilhões em imóveis de janeiro a agosto."
-- Nunca baixar, copiar ou inventar fotos novas na rotina (o crédito e a licença vêm do catálogo). Se nenhuma foto combinar bem, usar a mais genérica da cidade ou do tema e avisar no e-mail de revisão qual foto faltou, para o Fillipi pedir a inclusão no catálogo.
-- Não alterar `content/fotos.json` nem `static/fotos/` na rotina diária.
+## Fotos das notícias (regra do Fillipi, atualizada em 07/11/2026)
+Toda publicação leva uma foto INÉDITA, coerente com o assunto. Nenhuma foto pode se repetir no site, nem na mesma edição nem em edições diferentes. O site exibe a foto de forma sutil (fundo esmaecido do destaque, faixa no topo dos cards e foto principal com legenda e crédito na matéria) a partir do campo `foto`.
+
+Como fazer, depois de escrever as 5 publicações:
+1. Em cada publicação, logo depois de `resumo`, escreva:
+   `"foto": {"busca": ["termo específico", "termo alternativo", "termo genérico do tema"], "legenda": "..."}`
+   - Termos do mais fiel ao mais genérico: primeiro o lugar/objeto real da notícia ("Balneário Camboriú prédios", "Florianópolis Beira-Mar", "Banco Central Brasília"), depois o tema ("construção civil guindaste", "chaves apartamento novo", "gráfico economia", "porto contêineres"). Pode misturar português e inglês.
+2. Rode: `PIXABAY_KEY=<chave informada no prompt da tarefa> python3 scripts/fotos.py content/edicoes/AAAA-MM-DD.json`
+   O script busca no Pixabay (fotos reais, uso comercial liberado), pula toda foto já usada no site, recorta em 1200x600, salva em `static/fotos/` e registra autor, licença e link em `content/fotos.json`. Tem que terminar com "FOTOS OK".
+3. CONFIRA CADA FOTO com a ferramenta Read (abra `static/fotos/<slug>.jpg`). A foto tem que combinar com a notícia e ser honesta:
+   - Nunca usar foto de outro lugar como se fosse a cidade da notícia (ex.: o Pixabay devolve a Joinville da França para "Joinville"). Se não houver foto fiel da cidade, use uma foto do tema (indústria, apartamento, obra, praia genérica) e escreva a legenda como ilustrativa.
+   - Nada de foto com marca, logotipo, texto em outra língua em destaque, pessoas em trajes de banho em primeiro plano ou temas sem relação.
+   - Se não combinar: no campo foto da publicação coloque `"trocar": true` e termos novos em `"busca"`, e rode o script de novo. Repita até ficar boa (a foto rejeitada é apagada e não volta).
+4. `legenda`: uma frase que descreve o que aparece na foto e liga ao assunto, usando só números que já estão na publicação. Foto genérica: comece com "Imagem ilustrativa." (ex.: "Imagem ilustrativa. O crédito imobiliário com recursos da poupança somou R$ 146,1 bilhões de janeiro a setembro."). Foto do lugar real: descreva o lugar (ex.: "Prédios da Praia Brava, em Itajaí. A cidade vendeu R$ 3,11 bilhões em imóveis de janeiro a agosto.").
+5. Nunca reaproveite fotos antigas trocando o `id` à mão, nunca baixe imagens de sites de notícias ou de terceiros sem licença livre, e nunca grave a chave do Pixabay em arquivo do repositório (o repositório é público).
+6. Se o Pixabay falhar (fora do ar, limite), tente de novo após alguns minutos. Se ainda assim faltar foto, publique a prévia mesmo assim e avise no e-mail de revisão quais publicações ficaram sem foto.
 
 ## Regra fixa: não mexer no visual
-O visual do site está aprovado e congelado (incluindo as fotos das notícias). Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações, com a foto escolhida no catálogo) e `content/indices.json` (números). Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `static/fotos/`, `content/fotos.json`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
+O visual do site está aprovado e congelado (incluindo o jeito de exibir as fotos). Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações), `content/indices.json` (números) e as fotos novas que o `scripts/fotos.py` grava em `static/fotos/` e `content/fotos.json`. Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
 
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
