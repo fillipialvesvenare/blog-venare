@@ -79,6 +79,13 @@ git fetch origin revisao && git merge --ff-only origin/revisao && git push origi
 ## Regra fixa: não mexer no visual
 O visual do site está aprovado e congelado. Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações) e `content/indices.json` (números). Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
 
+## Linha editorial (regra do Fillipi)
+- NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
+- Escolher pautas e ângulos em que SC e Florianópolis aparecem bem: valorização acima da média, crescimento, investimentos, obras, população, emprego, turismo, lançamentos, demanda, qualidade de vida, rankings positivos.
+- Assuntos variados e não sensacionalistas: principais cidades de SC (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José), economia, crédito, Selic, tendências.
+- Comparações com o Brasil só quando SC/Florianópolis ficam à frente.
+- Isso é escolha de pauta, nunca distorção: os números publicados continuam verdadeiros e com fonte. Se um dado é desfavorável, simplesmente não vira notícia.
+
 ## Regras de texto
 - Ao falar do preço do m², nunca usar "caro". Usar "valorizado" (ex.: "m² mais valorizado do país").
 - O nome do site é Venare News.
