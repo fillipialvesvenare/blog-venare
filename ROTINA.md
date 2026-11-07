@@ -31,8 +31,9 @@ Criar `content/edicoes/AAAA-MM-DD.json` no mesmo formato das edições existente
 - Formatos variados: Análise, Gráfico, Ranking, Notícia, Em números (visuais: `numero`, `barras`, `ranking`, `comparacao`). Pelo menos 2 publicações com gráfico ou ranking.
 - Sempre que possível, comparar SC com o Brasil, de forma honesta (mostrar também quando SC fica abaixo).
 - Público: investidores. Tom consultivo, claro, sem sensacionalismo e sem recomendação de compra.
-- Texto 100% próprio (parafraseado). Nada de copiar parágrafos ou imagens de terceiros. Citação literal só se indispensável, com menos de 15 palavras.
+- Texto 100% próprio (parafraseado). Nada de copiar parágrafos ou imagens de terceiros (fotos só do catálogo `content/fotos.json`, que já tem licença livre e crédito). Citação literal só se indispensável, com menos de 15 palavras.
 - Cada publicação lista suas fontes com link.
+- Cada publicação tem uma foto, logo depois do campo `resumo`: `"foto": {"id": "<id do catálogo>", "legenda": "<legenda>"}`. Ver a seção "Fotos das notícias".
 
 ### 4. Atualizar índices
 Atualizar `content/indices.json` quando houver dado novo:
@@ -76,8 +77,16 @@ git fetch origin revisao && git merge --ff-only origin/revisao && git push origi
 
 ---
 
+## Fotos das notícias (aprovado pelo Fillipi em 07/11/2026)
+Toda publicação leva uma foto referente ao assunto. Ela aparece de forma sutil: esmaecida no fundo do destaque da home, em faixa no topo de cada card e como foto principal (com legenda e crédito) ao abrir a notícia. O site faz tudo isso sozinho a partir do campo `foto`.
+- Escolher a foto SOMENTE no catálogo `content/fotos.json` (arquivos em `static/fotos/`). Cada item tem `descricao` e `temas`: escolha o que mais combina com o assunto (cidade da notícia primeiro, depois o tema: juros, crédito, construção, porto, turismo...).
+- Não repetir a mesma foto em duas publicações da mesma edição e, se possível, evitar repetir a foto do destaque do dia anterior.
+- `legenda`: uma frase que descreve a foto e liga ao assunto, usando só números que já estão na publicação. Ex.: "Prédios da Praia Brava, em Itajaí. A cidade vendeu R$ 3,11 bilhões em imóveis de janeiro a agosto."
+- Nunca baixar, copiar ou inventar fotos novas na rotina (o crédito e a licença vêm do catálogo). Se nenhuma foto combinar bem, usar a mais genérica da cidade ou do tema e avisar no e-mail de revisão qual foto faltou, para o Fillipi pedir a inclusão no catálogo.
+- Não alterar `content/fotos.json` nem `static/fotos/` na rotina diária.
+
 ## Regra fixa: não mexer no visual
-O visual do site está aprovado e congelado. Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações) e `content/indices.json` (números). Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
+O visual do site está aprovado e congelado (incluindo as fotos das notícias). Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações, com a foto escolhida no catálogo) e `content/indices.json` (números). Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `static/fotos/`, `content/fotos.json`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
 
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").

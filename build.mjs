@@ -9,6 +9,7 @@ const read = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 
 const site = read('site.json');
 const indices = read('content/indices.json');
+const fotos = fs.existsSync(path.join(ROOT, 'content/fotos.json')) ? read('content/fotos.json') : {};
 const edDir = path.join(ROOT, 'content/edicoes');
 const edicoes = fs.readdirSync(edDir).filter((f) => f.endsWith('.json')).sort().reverse()
   .map((f) => read(`content/edicoes/${f}`));
@@ -33,6 +34,9 @@ const ICON = {
   pin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>',
   cal: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h2v2h6V2h2v2h3a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3V2Zm12 8H5v9h14v-9ZM5 6v2h14V6H5Zm2 6h4v4H7v-4Z"/></svg>',
 };
+// ---------- fotos (catálogo em content/fotos.json, arquivos em static/fotos/) ----------
+const fotoDe = (p) => (p.foto && fotos[p.foto.id] && fs.existsSync(path.join(ROOT, 'static/fotos', p.foto.id + '.jpg'))) ? { ...fotos[p.foto.id], ...p.foto, src: `/fotos/${p.foto.id}.jpg` } : null;
+const credito = (f) => `Foto: ${esc(f.autor)} / ${esc(f.fonte || 'Wikimedia Commons')} (${esc(f.licenca)})`;
 const postUrl = (ed, p) => `/${ed.data.replace(/-/g, '/')}/${p.slug}/`;
 
 // ---------- visuais ----------
@@ -168,7 +172,7 @@ function home(ed) {
   const cards = resto.map((p, k) => `
     <article class="card card-${k}">
       <a class="card-link" href="${postUrl(ed, p)}">
-        <span class="formato">${esc(p.formato)}</span>
+        ${(() => { const f = fotoDe(p); return f ? `<div class="card-foto"><img src="${f.src}" alt="${esc(f.alt || f.descricao)}" loading="lazy" width="1200" height="600"><span class="formato">${esc(p.formato)}</span><small>Foto: ${esc(f.autor)}</small></div>` : `<span class="formato">${esc(p.formato)}</span>`; })()}
         <h3>${esc(p.titulo)}</h3>
         ${visual(p.visual)}
         <p class="card-resumo">${esc(p.resumo)}</p>
@@ -190,6 +194,7 @@ function home(ed) {
     corpo: `
 <div class="ticker" role="region" aria-label="Índices do mercado"><div class="ticker-trilho"><ul class="ticker-lista">${tkLista}</ul><ul class="ticker-lista" aria-hidden="true">${tkLista}</ul></div></div>
 <section class="hero">
+  ${(() => { const f = fotoDe(lead); return f ? `<div class="hero-foto" aria-hidden="true"><img src="${f.src}" alt="" width="1200" height="600"></div>` : ''; })()}
   <div class="padrao" aria-hidden="true"></div>
   <img class="hero-glow" src="/img/glow.webp" alt="" aria-hidden="true">
   <div class="hero-in">
@@ -213,6 +218,7 @@ function home(ed) {
       <p class="comp-fonte" data-fonte>${esc(c.fonte)}. ${esc(c.referencia)}</p>
     </div>
   </div>
+  ${(() => { const f = fotoDe(lead); return f ? `<a class="foto-credito" href="${esc(f.url)}" rel="noopener">${credito(f)}</a>` : ''; })()}
 </section>
 
 <section class="secao secao-vidro" id="hoje" aria-labelledby="t-hoje">
@@ -241,7 +247,7 @@ function post(ed, p) {
   const outros = ed.publicacoes.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="${postUrl(ed, x)}"><span class="formato">${esc(x.formato)}</span><span class="o-tit">${esc(x.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('');
   return pagina({
     titulo: p.titulo, descricao: p.resumo, canonical: url,
-    og: { tipo: 'article', imagem: fs.existsSync(path.join(ROOT, 'static/og', p.slug + '.jpg')) ? p.slug : 'padrao', jsonld: { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: p.titulo, description: p.resumo, datePublished: `${ed.data}T07:00:00-03:00`, inLanguage: 'pt-BR', author: { '@type': 'Organization', name: 'Redação Venare News' }, publisher: { '@type': 'Organization', name: site.empresa }, mainEntityOfPage: site.url + url } },
+    og: { tipo: 'article', imagem: fs.existsSync(path.join(ROOT, 'static/og', p.slug + '.jpg')) ? p.slug : 'padrao', jsonld: { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: p.titulo, description: p.resumo, datePublished: `${ed.data}T07:00:00-03:00`, inLanguage: 'pt-BR', author: { '@type': 'Organization', name: 'Redação Venare News' }, publisher: { '@type': 'Organization', name: site.empresa }, mainEntityOfPage: site.url + url, ...(fotoDe(p) ? { image: site.url + fotoDe(p).src } : {}) } },
     corpo: `
 <article class="post">
   <header class="post-cab">
@@ -256,6 +262,7 @@ function post(ed, p) {
     </div>
   </header>
   <div class="post-corpo">
+    ${(() => { const f = fotoDe(p); return f ? `<figure class="foto-materia"><div class="fm-img"><img src="${f.src}" alt="${esc(f.alt || f.descricao)}" width="1200" height="600"></div><figcaption><span>${esc(f.legenda || f.descricao)}</span><a href="${esc(f.url)}" rel="noopener">${credito(f)}</a></figcaption></figure>` : ''; })()}
     ${visual(p.visual, true)}
     <div class="texto">${corpo}</div>
     <aside class="fontes"><h2 class="com-selo">Fontes</h2><ul>${p.fontes.map((f) => `<li><a href="${esc(f.url)}" rel="noopener">${esc(f.nome)}</a></li>`).join('')}</ul></aside>

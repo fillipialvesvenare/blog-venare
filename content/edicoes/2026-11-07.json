@@ -6,6 +6,10 @@
       "formato": "Notícia",
       "titulo": "Temporada de cruzeiros deve movimentar R$ 350 milhões em Balneário Camboriú e Itajaí",
       "resumo": "Projeções da Clia indicam R$ 190,6 milhões de impacto em Balneário Camboriú e R$ 159,3 milhões em Itajaí. A cidade tem 54 escalas previstas e é o 5º destino do país em cabotagem.",
+      "foto": {
+        "id": "bc-skyline-vista-do-mar",
+        "legenda": "Orla de Balneário Camboriú vista do mar. A cidade terá 54 escalas de navios na temporada 2026/2027."
+      },
       "visual": {
         "tipo": "numero",
         "valor": "R$ 350 mi",
@@ -47,6 +51,10 @@
       "formato": "Ranking",
       "titulo": "Santa Catarina é o estado mais competitivo do Brasil pela primeira vez",
       "resumo": "No Ranking de Competitividade dos Estados 2026, SC passou São Paulo, líder por 14 edições, e ficou em 1º em capital humano, potencial de mercado, segurança e sustentabilidade social.",
+      "foto": {
+        "id": "florianopolis-ponte-hercilio-luz",
+        "legenda": "Ponte Hercílio Luz, em Florianópolis. Santa Catarina passou São Paulo e lidera o ranking de competitividade pela primeira vez."
+      },
       "visual": {
         "tipo": "numero",
         "valor": "1º lugar",
@@ -84,6 +92,10 @@
       "formato": "Em números",
       "titulo": "SC cria 7.086 empregos em setembro, e a Grande Florianópolis lidera as contratações",
       "resumo": "O estado ficou em 7º no país em vagas formais. Florianópolis, São José e Palhoça somaram 3.130 postos, cerca de 44% do saldo catarinense.",
+      "foto": {
+        "id": "florianopolis-beira-mar-skyline",
+        "legenda": "Avenida Beira-Mar Norte, em Florianópolis. A capital teve o maior saldo de vagas formais do estado em setembro."
+      },
       "visual": {
         "tipo": "comparacao",
         "itens": [
@@ -131,6 +143,10 @@
       "formato": "Notícia",
       "titulo": "Financiamento imobiliário pela poupança cresce 30% em 2026 e soma R$ 146 bilhões",
       "resumo": "De janeiro a setembro, o SBPE financiou R$ 146,1 bilhões, alta de 30,3% sobre o mesmo período de 2025, para 419,6 mil imóveis.",
+      "foto": {
+        "id": "obra-guindaste",
+        "legenda": "Prédio em construção. O crédito com recursos da poupança somou R$ 146,1 bilhões de janeiro a setembro."
+      },
       "visual": {
         "tipo": "numero",
         "valor": "+30,3%",
@@ -170,6 +186,10 @@
       "formato": "Análise",
       "titulo": "Mercado projeta Selic em 12,5% no fim de 2027: o que muda no crédito",
       "resumo": "O primeiro Focus após o segundo turno aponta queda gradual dos juros até 2027. Para o investidor com capital próprio, o momento ainda favorece a negociação.",
+      "foto": {
+        "id": "banco-central-sede",
+        "legenda": "Sede do Banco Central, em Brasília. O Boletim Focus reúne as projeções do mercado para juros, inflação e câmbio."
+      },
       "visual": {
         "tipo": "numero",
         "valor": "12,5%",

@@ -6,6 +6,10 @@
       "formato": "Análise",
       "titulo": "Selic parada em 13,75%: o que muda para quem investe em imóvel em SC",
       "resumo": "O Copom interrompeu a sequência de cortes. Para o investidor imobiliário, o crédito segue custoso, e quem compra à vista ou com permuta ganha poder de negociação.",
+      "foto": {
+        "id": "banco-central-sede-2",
+        "legenda": "Sede do Banco Central, em Brasília. O Copom manteve a Selic em 13,75% ao ano em 4 de novembro."
+      },
       "visual": {
         "tipo": "numero",
         "valor": "13,75%",
@@ -57,6 +61,10 @@
       "formato": "Gráfico",
       "titulo": "Florianópolis valoriza 8,61% em 12 meses, 1,6 vez a média do país",
       "resumo": "No FipeZAP de outubro, Blumenau e Florianópolis lideram em SC e ficam bem acima do Brasil e da inflação. O litoral norte, de m² mais valorizado, desacelerou.",
+      "foto": {
+        "id": "florianopolis-beira-mar-aerea",
+        "legenda": "Prédios residenciais da Beira-Mar Norte, em Florianópolis. O m² na capital valorizou 8,61% em 12 meses, segundo o FipeZAP."
+      },
       "visual": {
         "tipo": "barras",
         "titulo": "Valorização em 12 meses até outubro de 2026",
@@ -143,6 +151,10 @@
       "formato": "Ranking",
       "titulo": "Quatro das cinco cidades com o m² mais valorizado do Brasil são catarinenses",
       "resumo": "Vitória lidera, mas Balneário Camboriú, Itapema, Florianópolis e Itajaí completam o topo. Todas ficam pelo menos 34% acima da média nacional.",
+      "foto": {
+        "id": "bc-vista-unipraias",
+        "legenda": "Balneário Camboriú vista do Parque Unipraias. A cidade está entre as quatro catarinenses no topo do ranking do m² do país."
+      },
       "visual": {
         "tipo": "ranking",
         "titulo": "Preço médio do m² de venda, outubro de 2026",
@@ -205,6 +217,10 @@
       "formato": "Notícia",
       "titulo": "Itajaí triplica vendas de imóveis e passa de R$ 3 bilhões em 2026",
       "resumo": "De janeiro a agosto, a cidade vendeu R$ 3,11 bilhões em imóveis, alta de 209% sobre o mesmo período do ano passado. O litoral norte já é o 5º maior mercado do país.",
+      "foto": {
+        "id": "itajai-praia-brava",
+        "legenda": "Prédios da Praia Brava, em Itajaí. A cidade vendeu R$ 3,11 bilhões em imóveis de janeiro a agosto."
+      },
       "visual": {
         "tipo": "numero",
         "valor": "+209%",
@@ -244,6 +260,10 @@
       "formato": "Em números",
       "titulo": "Aluguel no Estreito sobe 9,2% em 12 meses, 2,6 vezes a média de Florianópolis",
       "resumo": "O bairro continental lidera a alta do aluguel na capital, com metro quadrado de R$ 56,60 por mês. Para quem investe em renda, a escolha do bairro faz a diferença.",
+      "foto": {
+        "id": "florianopolis-pontes-estreito",
+        "legenda": "Pontes Colombo Salles e Pedro Ivo Campos, que ligam a Ilha ao Estreito. O bairro continental lidera a alta do aluguel na capital."
+      },
       "visual": {
         "tipo": "comparacao",
         "itens": [
