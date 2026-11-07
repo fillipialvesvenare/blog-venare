@@ -4,7 +4,7 @@ Duas tarefas agendadas, todos os dias (horário de Brasília):
 - **06:47, preparar:** pesquisa, escreve a edição, publica a prévia e envia o e-mail de revisão.
 - **09:47, publicar:** se o Fillipi não pediu para segurar, coloca a edição no ar.
 
-Site: https://venarenews.pages.dev (futuro: https://venarenews.com.br)
+Site: https://venarenews.com.br (também responde em https://venarenews.pages.dev)
 Prévia: https://revisao.venarenews.pages.dev (branch `revisao`, gerada pelo Cloudflare Pages)
 E-mail de revisão: fillipialves@venare.com.br
 
@@ -72,7 +72,7 @@ git clone https://github.com/fillipialvesvenare/blog-venare && cd blog-venare
 git fetch origin revisao && git merge --ff-only origin/revisao && git push origin main
 ```
    Se o merge não for fast-forward, fazer `git merge origin/revisao` resolvendo conflitos a favor da edição nova.
-4. Conferir em https://venarenews.pages.dev, após 2 a 3 minutos, que a edição do dia está no ar.
+4. Conferir em https://venarenews.com.br, após 2 a 3 minutos, que a edição do dia está no ar.
 5. Se não houver edição nova na branch `revisao` para hoje, não fazer nada.
 
 ---
