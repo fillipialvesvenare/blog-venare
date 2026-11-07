@@ -246,6 +246,8 @@ a{color:var(--royal)}
 .o-abrir{margin-top:10px;font-size:14px;color:var(--eletrico);display:flex;align-items:center;gap:6px}
 .o-abrir::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-top:2px solid currentColor;transform:rotate(45deg);transition:transform .2s}
 .outros a:hover .o-abrir::after{transform:translateX(3px) rotate(45deg)}
+.outros a.com-foto{padding-right:142px;min-height:104px}
+.o-foto{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:112px;height:76px;object-fit:cover;border-radius:10px;box-shadow:0 8px 18px -12px rgba(7,15,64,.6);filter:saturate(.9)}
 .arq-ed{margin-bottom:40px}
 .arq-ed h2{font-size:18px;color:var(--navy);margin-bottom:12px;text-transform:capitalize}
 
@@ -294,7 +296,6 @@ a{color:var(--royal)}
   .painel{grid-template-columns:1fr 1fr}
   .agenda ul,.outros{grid-template-columns:1fr}
   .cta-in{grid-template-columns:1fr}
-  .menu{display:none}
   .btn-topo{margin-left:auto}
   .post-corpo{margin:0;border-radius:0;padding:36px 20px 48px}
   .hero-foto img{object-position:center 70%;opacity:.5}
@@ -304,13 +305,25 @@ a{color:var(--royal)}
   .foto-materia figcaption{flex-direction:column;gap:4px}
   .foto-materia figcaption a{max-width:none;text-align:left}
 }
+@media (max-width:720px){
+  html{scroll-padding-top:150px}
+  .topo-in{flex-wrap:wrap;height:auto;row-gap:0;padding-top:8px;padding-bottom:4px}
+  .marca{flex:1 1 0;min-width:0}
+  .marca img{max-width:100%}
+  .marca,.btn-topo{min-height:calc(var(--topo-h) - 14px)}
+  .menu{order:3;width:100%;justify-content:center;gap:30px;margin:0;padding:4px 0 6px;border-top:1px solid rgba(7,15,64,.08)}
+  .topo.sobre-escuro .menu{border-top-color:rgba(255,255,255,.18)}
+  .menu a{font-size:14px;font-weight:600}
+  .outros a.com-foto{padding-right:112px;min-height:92px}
+  .o-foto{width:84px;height:64px;right:12px}
+}
 @media (max-width:560px){
   :root{--topo-h:58px}
   .topo{padding:8px 10px}
   .topo-in{padding:0 8px 0 16px;gap:10px;border-radius:18px}
   .secao-cab p{max-width:48ch}
   body{font-size:16px}
-  .topo-in{padding:0 16px;gap:12px}
+  .topo-in{padding:6px 12px 2px 16px;gap:12px}
   .marca img{width:clamp(150px,46vw,210px)}
   .btn-topo{padding:10px 14px;font-size:13px}
   .painel{grid-template-columns:1fr}

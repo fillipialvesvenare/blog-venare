@@ -37,6 +37,7 @@ const ICON = {
 // ---------- fotos (catálogo em content/fotos.json, arquivos em static/fotos/) ----------
 const fotoDe = (p) => (p.foto && fotos[p.foto.id] && fs.existsSync(path.join(ROOT, 'static/fotos', p.foto.id + '.jpg'))) ? { ...fotos[p.foto.id], ...p.foto, src: `/fotos/${p.foto.id}.jpg` } : null;
 const credito = (f) => `Foto: ${esc(f.autor)} / ${esc(f.fonte || 'Wikimedia Commons')} (${esc(f.licenca)})`;
+const mini = (p) => { const f = fotoDe(p); return f ? `<img class="o-foto" src="${f.src}" alt="" loading="lazy" width="1200" height="600">` : ''; };
 const postUrl = (ed, p) => `/${ed.data.replace(/-/g, '/')}/${p.slug}/`;
 
 // ---------- visuais ----------
@@ -199,7 +200,7 @@ function home(ed) {
   <img class="hero-glow" src="/img/glow.webp" alt="" aria-hidden="true">
   <div class="hero-in">
     <div class="hero-txt">
-      <p class="edicao">Edição de ${dataLonga(ed.data)}. ${ed.publicacoes.length} publicações</p>
+      <p class="edicao">Edição de ${dataLonga(ed.data)}</p>
       <span class="formato formato-claro">${esc(lead.formato)}</span>
       <h1><a href="${postUrl(ed, lead)}">${esc(lead.titulo)}</a></h1>
       <p class="hero-resumo">${esc(lead.resumo)}</p>
@@ -244,7 +245,7 @@ ${cta}`,
 function post(ed, p) {
   const url = postUrl(ed, p);
   const corpo = p.corpo.map((b) => (b.h ? `<h2 class="com-selo">${esc(b.h)}</h2>` : `<p>${esc(b.p)}</p>`)).join('\n');
-  const outros = ed.publicacoes.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="${postUrl(ed, x)}"><span class="formato">${esc(x.formato)}</span><span class="o-tit">${esc(x.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('');
+  const outros = ed.publicacoes.filter((x) => x.slug !== p.slug).map((x) => `<li><a href="${postUrl(ed, x)}"${fotoDe(x) ? ' class="com-foto"' : ''}>${mini(x)}<span class="formato">${esc(x.formato)}</span><span class="o-tit">${esc(x.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('');
   return pagina({
     titulo: p.titulo, descricao: p.resumo, canonical: url,
     og: { tipo: 'article', imagem: fs.existsSync(path.join(ROOT, 'static/og', p.slug + '.jpg')) ? p.slug : 'padrao', jsonld: { '@context': 'https://schema.org', '@type': 'NewsArticle', headline: p.titulo, description: p.resumo, datePublished: `${ed.data}T07:00:00-03:00`, inLanguage: 'pt-BR', author: { '@type': 'Organization', name: 'Redação Venare News' }, publisher: { '@type': 'Organization', name: site.empresa }, mainEntityOfPage: site.url + url, ...(fotoDe(p) ? { image: site.url + fotoDe(p).src } : {}) } },
@@ -276,7 +277,7 @@ ${cta}
 
 // ---------- arquivo ----------
 function arquivo() {
-  const lista = edicoes.map((ed) => `<section class="arq-ed"><h2>${dataLonga(ed.data)}</h2><ul class="outros">${ed.publicacoes.map((p) => `<li><a href="${postUrl(ed, p)}"><span class="formato">${esc(p.formato)}</span><span class="o-tit">${esc(p.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('')}</ul></section>`).join('');
+  const lista = edicoes.map((ed) => `<section class="arq-ed"><h2>${dataLonga(ed.data)}</h2><ul class="outros">${ed.publicacoes.map((p) => `<li><a href="${postUrl(ed, p)}"${fotoDe(p) ? ' class="com-foto"' : ''}>${mini(p)}<span class="formato">${esc(p.formato)}</span><span class="o-tit">${esc(p.titulo)}</span><span class="o-abrir">Ler publicação</span></a></li>`).join('')}</ul></section>`).join('');
   return pagina({ titulo: 'Arquivo de edições', descricao: 'Todas as edições do Venare News.', canonical: '/arquivo/', corpo: `<section class="secao secao-vidro"><div class="secao-in"><div class="secao-cab"><h1 class="h1-simples com-selo">Arquivo de edições</h1><p>Cinco publicações por dia sobre o mercado imobiliário de Santa Catarina.</p></div>${lista}</div></section>` });
 }
 
