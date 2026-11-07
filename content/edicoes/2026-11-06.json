@@ -6,21 +6,50 @@
       "formato": "Análise",
       "titulo": "Selic parada em 13,75%: o que muda para quem investe em imóvel em SC",
       "resumo": "O Copom interrompeu a sequência de cortes. Para o investidor imobiliário, o crédito segue custoso, e quem compra à vista ou com permuta ganha poder de negociação.",
-      "visual": { "tipo": "numero", "valor": "13,75%", "legenda": "Selic ao ano, mantida em 4 de novembro" },
+      "visual": {
+        "tipo": "numero",
+        "valor": "13,75%",
+        "legenda": "Selic ao ano, mantida em 4 de novembro"
+      },
       "corpo": [
-        { "p": "O Comitê de Política Monetária do Banco Central decidiu, na quarta-feira (4), manter a Selic em 13,75% ao ano. A decisão foi unânime e encerrou, ao menos por enquanto, uma sequência de cinco cortes de 0,25 ponto que vinha desde abril, quando os juros saíram dos 15%." },
-        { "p": "A maior parte do mercado já esperava a pausa. Num levantamento com 105 instituições divulgado antes da reunião, 72 apostavam na manutenção. No comunicado, o comitê citou inflação acima do teto da meta e expectativas mais altas como motivos para cautela." },
-        { "h": "O que isso significa para o investidor" },
-        { "p": "Financiamento imobiliário com juros menores fica para depois. A queda gradual das taxas ao consumidor, que acompanhava os cortes, fica suspensa pelo menos até a próxima reunião, marcada para 8 e 9 de dezembro." },
-        { "p": "Com crédito mais custoso, menos compradores conseguem fechar negócio financiado. Para quem compra à vista, com permuta ou com parcelamento direto com a construtora, isso costuma abrir espaço para negociar preço e condições." },
-        { "p": "A renda fixa continua competitiva, e é justamente por isso que a escolha do imóvel precisa ser criteriosa. Em Florianópolis, o preço de venda subiu 8,61% em 12 meses, segundo o FipeZAP, contra uma inflação de 4,58%. Esse ganho real vem antes do aluguel. Mas ele varia muito de bairro para bairro e de produto para produto." },
-        { "h": "O que observar até dezembro" },
-        { "p": "O IPCA de outubro sai no dia 12. Se a inflação perder força, o mercado volta a discutir cortes para o início de 2027, o que tende a reaquecer a demanda financiada e a pressionar os preços de imóveis prontos." }
+        {
+          "p": "O Comitê de Política Monetária do Banco Central decidiu, na quarta-feira (4), manter a Selic em 13,75% ao ano. A decisão foi unânime e encerrou, ao menos por enquanto, uma sequência de cinco cortes de 0,25 ponto que vinha desde abril, quando os juros saíram dos 15%."
+        },
+        {
+          "p": "A maior parte do mercado já esperava a pausa. Num levantamento com 105 instituições divulgado antes da reunião, 72 apostavam na manutenção. No comunicado, o comitê citou inflação acima do teto da meta e expectativas mais altas como motivos para cautela."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Financiamento imobiliário com juros menores fica para depois. A queda gradual das taxas ao consumidor, que acompanhava os cortes, fica suspensa pelo menos até a próxima reunião, marcada para 8 e 9 de dezembro."
+        },
+        {
+          "p": "Com crédito mais custoso, menos compradores conseguem fechar negócio financiado. Para quem compra à vista, com permuta ou com parcelamento direto com a construtora, isso costuma abrir espaço para negociar preço e condições."
+        },
+        {
+          "p": "A renda fixa continua competitiva, e é justamente por isso que a escolha do imóvel precisa ser criteriosa. Em Florianópolis, o preço de venda subiu 8,61% em 12 meses, segundo o FipeZAP, contra uma inflação de 4,58%. Esse ganho real vem antes do aluguel. Mas ele varia muito de bairro para bairro e de produto para produto."
+        },
+        {
+          "h": "O que observar até dezembro"
+        },
+        {
+          "p": "O IPCA de outubro sai no dia 12. Se a inflação perder força, o mercado volta a discutir cortes para o início de 2027, o que tende a reaquecer a demanda financiada e a pressionar os preços de imóveis prontos."
+        }
       ],
       "fontes": [
-        { "nome": "Poder360: Copom mantém Selic em 13,75%", "url": "https://www.poder360.com.br/poder-economia/copom-mantem-selic-em-1375-e-confirma-aposta-do-mercado/" },
-        { "nome": "Rankia: próxima reunião do Copom", "url": "https://rankia.com.br/proxima-reuniao-copom/" },
-        { "nome": "Índice FipeZAP, outubro de 2026", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" }
+        {
+          "nome": "Poder360: Copom mantém Selic em 13,75%",
+          "url": "https://www.poder360.com.br/poder-economia/copom-mantem-selic-em-1375-e-confirma-aposta-do-mercado/"
+        },
+        {
+          "nome": "Rankia: próxima reunião do Copom",
+          "url": "https://rankia.com.br/proxima-reuniao-copom/"
+        },
+        {
+          "nome": "Índice FipeZAP, outubro de 2026",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
       ]
     },
     {
@@ -28,27 +57,85 @@
       "formato": "Gráfico",
       "titulo": "Florianópolis valoriza 8,61% em 12 meses, 1,6 vez a média do país",
       "resumo": "No FipeZAP de outubro, Blumenau e Florianópolis lideram em SC e ficam bem acima do Brasil e da inflação. O litoral norte, de m² mais valorizado, desacelerou.",
-      "visual": { "tipo": "barras", "titulo": "Valorização em 12 meses até outubro de 2026", "unidade": "%", "itens": [
-        { "rotulo": "Blumenau", "valor": 8.65, "tom": "sc" },
-        { "rotulo": "Florianópolis", "valor": 8.61, "tom": "sc" },
-        { "rotulo": "Itajaí", "valor": 5.53, "tom": "sc" },
-        { "rotulo": "Brasil", "valor": 5.44, "tom": "br" },
-        { "rotulo": "Joinville", "valor": 5.32, "tom": "sc" },
-        { "rotulo": "São José", "valor": 4.73, "tom": "sc" },
-        { "rotulo": "IPCA", "valor": 4.58, "tom": "ref" },
-        { "rotulo": "Itapema", "valor": 3.48, "tom": "sc" },
-        { "rotulo": "Balneário Camboriú", "valor": 3.14, "tom": "sc" }
-      ], "nota": "Preços anunciados de venda de apartamentos prontos. IPCA acumulado até setembro de 2026." },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Valorização em 12 meses até outubro de 2026",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Blumenau",
+            "valor": 8.65,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Florianópolis",
+            "valor": 8.61,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Itajaí",
+            "valor": 5.53,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Brasil",
+            "valor": 5.44,
+            "tom": "br"
+          },
+          {
+            "rotulo": "Joinville",
+            "valor": 5.32,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "São José",
+            "valor": 4.73,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "IPCA",
+            "valor": 4.58,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Itapema",
+            "valor": 3.48,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Balneário Camboriú",
+            "valor": 3.14,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Preços anunciados de venda de apartamentos prontos. IPCA acumulado até setembro de 2026."
+      },
       "corpo": [
-        { "p": "O Índice FipeZAP de outubro mostrou alta de 0,48% no preço médio de venda residencial no Brasil, com 5,44% acumulados em 12 meses. Em Santa Catarina, o quadro é desigual, e é justamente aí que está a informação útil para quem investe." },
-        { "p": "Florianópolis subiu 0,61% no mês e 8,61% em 12 meses, quase o dobro da inflação oficial. Blumenau acompanhou, com 8,65%. As duas cidades combinam demanda de moradia, renda alta e oferta limitada de imóveis prontos." },
-        { "p": "Já Balneário Camboriú e Itapema, que têm os metros quadrados mais valorizados do estado, recuaram no mês e acumulam 3,14% e 3,48% em 12 meses, abaixo da inflação. Depois de anos de alta forte, os preços anunciados de imóveis prontos nessas praças andam de lado." },
-        { "h": "Como ler esse dado" },
-        { "p": "O FipeZAP mede preços pedidos em anúncios de apartamentos prontos, não o valor final negociado nem lançamentos na planta. Ele serve bem para comparar ritmo entre cidades. Para decidir uma compra específica, a análise precisa descer ao bairro, ao produto e à construtora." }
+        {
+          "p": "O Índice FipeZAP de outubro mostrou alta de 0,48% no preço médio de venda residencial no Brasil, com 5,44% acumulados em 12 meses. Em Santa Catarina, o quadro é desigual, e é justamente aí que está a informação útil para quem investe."
+        },
+        {
+          "p": "Florianópolis subiu 0,61% no mês e 8,61% em 12 meses, quase o dobro da inflação oficial. Blumenau acompanhou, com 8,65%. As duas cidades combinam demanda de moradia, renda alta e oferta limitada de imóveis prontos."
+        },
+        {
+          "p": "Já Balneário Camboriú e Itapema, que têm os metros quadrados mais valorizados do estado, recuaram no mês e acumulam 3,14% e 3,48% em 12 meses, abaixo da inflação. Depois de anos de alta forte, os preços anunciados de imóveis prontos nessas praças andam de lado."
+        },
+        {
+          "h": "Como ler esse dado"
+        },
+        {
+          "p": "O FipeZAP mede preços pedidos em anúncios de apartamentos prontos, não o valor final negociado nem lançamentos na planta. Ele serve bem para comparar ritmo entre cidades. Para decidir uma compra específica, a análise precisa descer ao bairro, ao produto e à construtora."
+        }
       ],
       "fontes": [
-        { "nome": "Índice FipeZAP, venda residencial, outubro de 2026", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" },
-        { "nome": "IBGE via Rankia: IPCA de setembro de 2026", "url": "https://rankia.com.br/ipca-setembro-2026-0-82-12-meses-4-58-acima-teto-meta/" }
+        {
+          "nome": "Índice FipeZAP, venda residencial, outubro de 2026",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        },
+        {
+          "nome": "IBGE via Rankia: IPCA de setembro de 2026",
+          "url": "https://rankia.com.br/ipca-setembro-2026-0-82-12-meses-4-58-acima-teto-meta/"
+        }
       ]
     },
     {
@@ -56,22 +143,61 @@
       "formato": "Ranking",
       "titulo": "Quatro das cinco cidades com o m² mais valorizado do Brasil são catarinenses",
       "resumo": "Vitória lidera, mas Balneário Camboriú, Itapema, Florianópolis e Itajaí completam o topo. Todas ficam pelo menos 34% acima da média nacional.",
-      "visual": { "tipo": "ranking", "titulo": "Preço médio do m² de venda, outubro de 2026", "itens": [
-        { "rotulo": "Vitória (ES)", "valor": 15938, "tom": "br" },
-        { "rotulo": "Balneário Camboriú (SC)", "valor": 15325, "tom": "sc" },
-        { "rotulo": "Itapema (SC)", "valor": 15232, "tom": "sc" },
-        { "rotulo": "Florianópolis (SC)", "valor": 13690, "tom": "sc" },
-        { "rotulo": "Itajaí (SC)", "valor": 13511, "tom": "sc" },
-        { "rotulo": "Média do Brasil", "valor": 10065, "tom": "ref" }
-      ] },
+      "visual": {
+        "tipo": "ranking",
+        "titulo": "Preço médio do m² de venda, outubro de 2026",
+        "itens": [
+          {
+            "rotulo": "Vitória (ES)",
+            "valor": 15938,
+            "tom": "br"
+          },
+          {
+            "rotulo": "Balneário Camboriú (SC)",
+            "valor": 15325,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Itapema (SC)",
+            "valor": 15232,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Florianópolis (SC)",
+            "valor": 13690,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Itajaí (SC)",
+            "valor": 13511,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Média do Brasil",
+            "valor": 10065,
+            "tom": "ref"
+          }
+        ]
+      },
       "corpo": [
-        { "p": "Entre as 56 cidades acompanhadas pelo FipeZAP, só uma fora de Santa Catarina aparece entre as cinco com o metro quadrado mais valorizado: Vitória, no Espírito Santo, com R$ 15.938. Logo atrás vêm Balneário Camboriú (R$ 15.325), Itapema (R$ 15.232), Florianópolis (R$ 13.690) e Itajaí (R$ 13.511)." },
-        { "p": "A média nacional é de R$ 10.065. Ou seja, mesmo a quinta colocada, Itajaí, tem metro quadrado cerca de 34% mais valorizado do que a média do país." },
-        { "h": "m² mais valorizado não é sinônimo de maior alta recente" },
-        { "p": "O ranking de preço e o de valorização contam histórias diferentes. Balneário Camboriú e Itapema estão no topo em valor do m², mas tiveram as menores altas do estado em 12 meses. Florianópolis está mais abaixo no ranking de valor e entre as que mais valorizaram. Para o investidor, olhar só o valor do m² pode esconder onde ainda há espaço de ganho." }
+        {
+          "p": "Entre as 56 cidades acompanhadas pelo FipeZAP, só uma fora de Santa Catarina aparece entre as cinco com o metro quadrado mais valorizado: Vitória, no Espírito Santo, com R$ 15.938. Logo atrás vêm Balneário Camboriú (R$ 15.325), Itapema (R$ 15.232), Florianópolis (R$ 13.690) e Itajaí (R$ 13.511)."
+        },
+        {
+          "p": "A média nacional é de R$ 10.065. Ou seja, mesmo a quinta colocada, Itajaí, tem metro quadrado cerca de 34% mais valorizado do que a média do país."
+        },
+        {
+          "h": "m² mais valorizado não é sinônimo de maior alta recente"
+        },
+        {
+          "p": "O ranking de preço e o de valorização contam histórias diferentes. Balneário Camboriú e Itapema estão no topo em valor do m², mas tiveram as menores altas do estado em 12 meses. Florianópolis está mais abaixo no ranking de valor e entre as que mais valorizaram. Para o investidor, olhar só o valor do m² pode esconder onde ainda há espaço de ganho."
+        }
       ],
       "fontes": [
-        { "nome": "Índice FipeZAP, venda residencial, outubro de 2026", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" }
+        {
+          "nome": "Índice FipeZAP, venda residencial, outubro de 2026",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
       ]
     },
     {
@@ -79,37 +205,79 @@
       "formato": "Notícia",
       "titulo": "Itajaí triplica vendas de imóveis e passa de R$ 3 bilhões em 2026",
       "resumo": "De janeiro a agosto, a cidade vendeu R$ 3,11 bilhões em imóveis, alta de 209% sobre o mesmo período do ano passado. O litoral norte já é o 5º maior mercado do país.",
-      "visual": { "tipo": "numero", "valor": "+209%", "legenda": "Vendas em Itajaí, jan. a ago. de 2026 contra 2025" },
+      "visual": {
+        "tipo": "numero",
+        "valor": "+209%",
+        "legenda": "Vendas em Itajaí, jan. a ago. de 2026 contra 2025"
+      },
       "corpo": [
-        { "p": "Itajaí movimentou R$ 3,11 bilhões em vendas de imóveis entre janeiro e agosto de 2026, alta de 209,2% em relação ao mesmo período de 2025, segundo levantamento divulgado pelo jornal A Tarde. O resultado coloca a cidade como uma das apostas mais citadas do litoral catarinense." },
-        { "p": "O movimento faz parte de um fenômeno regional. Em 2025, Balneário Camboriú, Itapema, Itajaí e Porto Belo somaram cerca de R$ 13,47 bilhões em valor geral de vendas, segundo a plataforma DWV. Juntas, as quatro cidades formam o quinto maior mercado imobiliário do país em volume financeiro, à frente de capitais como Curitiba." },
-        { "h": "Por que Itajaí" },
-        { "p": "Itajaí tem metro quadrado menos valorizado que os vizinhos Balneário Camboriú e Itapema, mas fica a poucos minutos deles. No FipeZAP de outubro, o preço médio de venda na cidade subiu 5,53% em 12 meses, acima da média nacional, enquanto os dois vizinhos desaceleraram. Volume alto de vendas, porém, também significa muita oferta nova entrando. Histórico da construtora e prazo de entrega pesam ainda mais nesse cenário." }
+        {
+          "p": "Itajaí movimentou R$ 3,11 bilhões em vendas de imóveis entre janeiro e agosto de 2026, alta de 209,2% em relação ao mesmo período de 2025, segundo levantamento divulgado pelo jornal A Tarde. O resultado coloca a cidade como uma das apostas mais citadas do litoral catarinense."
+        },
+        {
+          "p": "O movimento faz parte de um fenômeno regional. Em 2025, Balneário Camboriú, Itapema, Itajaí e Porto Belo somaram cerca de R$ 13,47 bilhões em valor geral de vendas, segundo a plataforma DWV. Juntas, as quatro cidades formam o quinto maior mercado imobiliário do país em volume financeiro, à frente de capitais como Curitiba."
+        },
+        {
+          "h": "Por que Itajaí"
+        },
+        {
+          "p": "Itajaí tem metro quadrado menos valorizado que os vizinhos Balneário Camboriú e Itapema, mas fica a poucos minutos deles. No FipeZAP de outubro, o preço médio de venda na cidade subiu 5,53% em 12 meses, acima da média nacional, enquanto os dois vizinhos desaceleraram. Volume alto de vendas, porém, também significa muita oferta nova entrando. Histórico da construtora e prazo de entrega pesam ainda mais nesse cenário."
+        }
       ],
       "fontes": [
-        { "nome": "A Tarde: Itajaí movimenta R$ 3,11 bilhões em vendas", "url": "https://atarde.com.br/economia/cidade-cresce-209-e-vira-novo-diamante-do-mercado-imobiliario-1407286" },
-        { "nome": "Portas: litoral norte de SC soma R$ 13,4 bi em VGV em 2025", "url": "https://portas.com.br/noticias/litoral-norte-de-sc-soma-r-134-bi-em-vgv-em-2025/" },
-        { "nome": "Índice FipeZAP, outubro de 2026", "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf" }
+        {
+          "nome": "A Tarde: Itajaí movimenta R$ 3,11 bilhões em vendas",
+          "url": "https://atarde.com.br/economia/cidade-cresce-209-e-vira-novo-diamante-do-mercado-imobiliario-1407286"
+        },
+        {
+          "nome": "Portas: litoral norte de SC soma R$ 13,4 bi em VGV em 2025",
+          "url": "https://portas.com.br/noticias/litoral-norte-de-sc-soma-r-134-bi-em-vgv-em-2025/"
+        },
+        {
+          "nome": "Índice FipeZAP, outubro de 2026",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
       ]
     },
     {
       "slug": "aluguel-em-florianopolis-desacelera-mas-estreito-sobe-9-2",
       "formato": "Em números",
-      "titulo": "Aluguel em Florianópolis desacelera, mas o Estreito sobe 9,2% em 12 meses",
-      "resumo": "Na média da capital, o aluguel subiu 3,6%, abaixo da inflação. No Estreito, a alta foi 2,6 vezes maior. Para quem investe em renda, o bairro decide.",
-      "visual": { "tipo": "comparacao", "itens": [
-        { "rotulo": "Estreito", "valor": "+9,2%", "detalhe": "R$ 56,60/m² ao mês" },
-        { "rotulo": "Média de Florianópolis", "valor": "+3,6%", "detalhe": "em 12 meses até setembro" }
-      ] },
+      "titulo": "Aluguel no Estreito sobe 9,2% em 12 meses, 2,6 vezes a média de Florianópolis",
+      "resumo": "O bairro continental lidera a alta do aluguel na capital, com metro quadrado de R$ 56,60 por mês. Para quem investe em renda, a escolha do bairro faz a diferença.",
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Estreito",
+            "valor": "+9,2%",
+            "detalhe": "aluguel em 12 meses até setembro"
+          },
+          {
+            "rotulo": "m² de locação",
+            "valor": "R$ 56,60",
+            "detalhe": "por mês no Estreito"
+          }
+        ]
+      },
       "corpo": [
-        { "p": "O preço do aluguel residencial em Florianópolis subiu 3,6% nos 12 meses até setembro de 2026, segundo o FipeZAP. É menos que a inflação do período e bem abaixo do ritmo do começo do ano, quando a alta em 12 meses passava de 8%." },
-        { "p": "Dentro da cidade, porém, há bairros andando em outra velocidade. No Estreito, na parte continental, o aluguel subiu 9,2% no mesmo período, 2,6 vezes a média da capital. O metro quadrado de locação no bairro chegou a R$ 56,60 por mês, à frente de vizinhos como Coqueiros (R$ 53,80) e Capoeiras (R$ 45,40)." },
-        { "h": "O que isso diz ao investidor" },
-        { "p": "Quem compra para alugar não recebe a média da cidade, recebe a do bairro. Acesso rápido à ilha, comércio e transporte explicam boa parte da procura no continente. Antes de comprar, vale comparar o aluguel pedido na rua do imóvel com o preço de compra, e não só a valorização média." }
+        {
+          "p": "O preço do aluguel residencial no Estreito, na parte continental de Florianópolis, subiu 9,2% nos 12 meses até setembro de 2026, segundo o FipeZAP. A alta foi 2,6 vezes maior que a média da capital no mesmo período."
+        },
+        {
+          "p": "O metro quadrado de locação no bairro chegou a R$ 56,60 por mês, à frente de vizinhos como Coqueiros (R$ 53,80) e Capoeiras (R$ 45,40)."
+        },
+        {
+          "h": "O que isso diz ao investidor"
+        },
+        {
+          "p": "Quem compra para alugar ganha com a escolha do bairro certo. Acesso rápido à ilha, comércio e transporte explicam boa parte da procura no continente. Antes de comprar, vale comparar o aluguel pedido na rua do imóvel com o preço de compra."
+        }
       ],
       "fontes": [
-        { "nome": "BP Money: aluguel no Estreito sobe 9,2% em 12 meses", "url": "https://bpmoney.com.br/?p=428184" },
-        { "nome": "Portas: alta do aluguel em Florianópolis perde força", "url": "https://portas.com.br/dados-inteligencia/preco-por-regiao/alta-do-aluguel-em-florianopolis-perde-forca/" }
+        {
+          "nome": "BP Money: aluguel no Estreito sobe 9,2% em 12 meses",
+          "url": "https://bpmoney.com.br/?p=428184"
+        }
       ]
     }
   ]

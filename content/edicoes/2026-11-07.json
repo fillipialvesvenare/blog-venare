@@ -1,0 +1,213 @@
+{
+  "data": "2026-11-07",
+  "publicacoes": [
+    {
+      "slug": "temporada-de-cruzeiros-deve-movimentar-r-350-milhoes-em-balneario-camboriu-e-itajai",
+      "formato": "Notícia",
+      "titulo": "Temporada de cruzeiros deve movimentar R$ 350 milhões em Balneário Camboriú e Itajaí",
+      "resumo": "Projeções da Clia indicam R$ 190,6 milhões de impacto em Balneário Camboriú e R$ 159,3 milhões em Itajaí. A cidade tem 54 escalas previstas e é o 5º destino do país em cabotagem.",
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 350 mi",
+        "legenda": "Impacto econômico projetado em Balneário Camboriú e Itajaí na temporada 2026/2027"
+      },
+      "corpo": [
+        {
+          "p": "A temporada de cruzeiros 2026/2027 começou oficialmente em 30 de outubro e vai até abril, com mais de 800 mil leitos na costa brasileira, alta de 24% sobre o ciclo anterior, segundo a Clia, associação das companhias de cruzeiro."
+        },
+        {
+          "p": "Santa Catarina tem dois dos portos de embarque e desembarque da temporada. As projeções da Clia apontam 198.071 leitos e impacto econômico de R$ 190,6 milhões em Balneário Camboriú, e 165.474 leitos e R$ 159,3 milhões em Itajaí. Juntas, as duas cidades devem movimentar cerca de R$ 350 milhões."
+        },
+        {
+          "h": "Balneário Camboriú entre os destinos mais procurados"
+        },
+        {
+          "p": "Balneário Camboriú tem 54 escalas previstas para a temporada, contra 47 no ciclo anterior, e ocupa o 5º lugar no ranking nacional de cabotagem da Clia Brasil, atrás apenas de Santos, Búzios, Rio de Janeiro e Ilhabela."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Mais visitantes significam mais movimento no comércio, nos serviços e na locação por temporada. O turismo forte é um dos pilares que sustentam a demanda por imóveis no litoral norte catarinense, uma das regiões mais valorizadas do país."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Movimento Econômico: temporada de cruzeiros 2026/2027 (dados Clia)",
+          "url": "https://movimentoeconomico.com.br/?p=132807"
+        },
+        {
+          "nome": "Gazeta do Povo: Balneário Camboriú será o 5º destino com mais escalas",
+          "url": "https://www.gazetadopovo.com.br/santa-catarina/balneario-camboriu-destino-escalas-cruzeiros/"
+        }
+      ]
+    },
+    {
+      "slug": "santa-catarina-e-o-estado-mais-competitivo-do-brasil",
+      "formato": "Ranking",
+      "titulo": "Santa Catarina é o estado mais competitivo do Brasil pela primeira vez",
+      "resumo": "No Ranking de Competitividade dos Estados 2026, SC passou São Paulo, líder por 14 edições, e ficou em 1º em capital humano, potencial de mercado, segurança e sustentabilidade social.",
+      "visual": {
+        "tipo": "numero",
+        "valor": "1º lugar",
+        "legenda": "SC no Ranking de Competitividade dos Estados 2026, à frente de São Paulo"
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina assumiu pela primeira vez o primeiro lugar no Ranking de Competitividade dos Estados, do Centro de Liderança Pública. O estado passou São Paulo, que liderava havia 14 edições, depois de nove anos seguidos em segundo lugar. O ranking avalia as 27 unidades da federação com 100 indicadores em 10 pilares."
+        },
+        {
+          "p": "SC ficou em primeiro em quatro pilares: capital humano, potencial de mercado, segurança pública e sustentabilidade social. Também subiu de 9º para 2º em educação e de 10º para 3º em eficiência da máquina pública. Completam o top 5 São Paulo, Paraná, Rio Grande do Sul e Espírito Santo."
+        },
+        {
+          "h": "As cidades catarinenses também aparecem"
+        },
+        {
+          "p": "No ranking dos municípios, São José ficou em 5º no país em inserção econômica, Florianópolis em 8º e Brusque em 9º. Em formalidade no mercado de trabalho, Florianópolis aparece em 11º, São José em 16º e Itajaí em 19º."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Competitividade alta atrai empresas, profissionais qualificados e renda, e isso se reflete na demanda por imóveis. É um dos fundamentos que ajudam a explicar a valorização acima da média nacional em cidades como Florianópolis."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "NSC Total: SC lidera o Ranking de Competitividade 2026",
+          "url": "https://www.nsctotal.com.br/?p=8021915"
+        }
+      ]
+    },
+    {
+      "slug": "sc-cria-7-mil-empregos-em-setembro-e-grande-florianopolis-lidera",
+      "formato": "Em números",
+      "titulo": "SC cria 7.086 empregos em setembro, e a Grande Florianópolis lidera as contratações",
+      "resumo": "O estado ficou em 7º no país em vagas formais. Florianópolis, São José e Palhoça somaram 3.130 postos, cerca de 44% do saldo catarinense.",
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Santa Catarina",
+            "valor": "+7.086",
+            "detalhe": "vagas formais em setembro, 7º do país"
+          },
+          {
+            "rotulo": "Florianópolis",
+            "valor": "+1.400",
+            "detalhe": "maior saldo entre as cidades de SC"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina abriu 7.086 vagas com carteira assinada em setembro, segundo o Boletim de Emprego da FIESC, com dados do Caged. O resultado colocou o estado em 7º lugar entre as 27 unidades da federação."
+        },
+        {
+          "p": "Serviços puxaram o saldo, com 5.412 postos, seguidos por comércio (1.339), indústria (599) e agropecuária (108)."
+        },
+        {
+          "h": "A Grande Florianópolis concentra as contratações"
+        },
+        {
+          "p": "Entre os municípios, Florianópolis liderou com 1.400 novas vagas, seguida por São José (1.186) e Palhoça (544). As três cidades vizinhas somaram 3.130 postos, cerca de 44% de todo o saldo do estado."
+        },
+        {
+          "h": "Por que isso interessa ao investidor"
+        },
+        {
+          "p": "Emprego formal crescendo numa região é um dos principais motores da demanda por moradia, tanto para compra quanto para aluguel. A força da Grande Florianópolis nas contratações ajuda a explicar a procura firme por imóveis na capital e no entorno."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Economia SC: SC cria 7 mil empregos em setembro (Boletim FIESC/Caged)",
+          "url": "https://economiasc.com/2026/11/05/sc-cria-7-mil-empregos-em-setembro-mas-ritmo-de-contratacoes-desacelera/"
+        }
+      ]
+    },
+    {
+      "slug": "financiamento-imobiliario-pela-poupanca-cresce-30-em-2026",
+      "formato": "Notícia",
+      "titulo": "Financiamento imobiliário pela poupança cresce 30% em 2026 e soma R$ 146 bilhões",
+      "resumo": "De janeiro a setembro, o SBPE financiou R$ 146,1 bilhões, alta de 30,3% sobre o mesmo período de 2025, para 419,6 mil imóveis.",
+      "visual": {
+        "tipo": "numero",
+        "valor": "+30,3%",
+        "legenda": "Crédito SBPE de janeiro a setembro de 2026 sobre 2025, total de R$ 146,1 bilhões"
+      },
+      "corpo": [
+        {
+          "p": "Os financiamentos imobiliários com recursos da poupança somaram R$ 146,1 bilhões de janeiro a setembro de 2026, segundo dados da Abecip. O volume é 30,3% maior que o do mesmo período do ano passado e atendeu 419,6 mil imóveis."
+        },
+        {
+          "p": "Em 12 meses, o crédito do SBPE chega a R$ 190,3 bilhões, alta de 20%. Só em setembro foram R$ 13,62 bilhões, o sexto melhor resultado para o mês em 25 anos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Crédito imobiliário em expansão sustenta a demanda por imóveis, especialmente em mercados com procura firme como Florianópolis e o litoral catarinense. Com a Selic em 13,75%, vale comparar o custo efetivo total entre bancos e negociar condições de pagamento direto com a construtora antes de fechar."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Prognum: financiamentos do SBPE somam R$ 13,62 bilhões em setembro (dados Abecip)",
+          "url": "https://prognum.com.br/financiamentos-imobiliarios-com-recursos-das-cadernetas-do-sbpe-atingiram-em-setembro-r-1362-bilhoes/"
+        },
+        {
+          "nome": "Registro de Imóveis do Brasil: financiamento via poupança em agosto",
+          "url": "https://www.registrodeimoveis.org.br/financiamento-imobiliario-via-poupanca-avanca-em-2026"
+        },
+        {
+          "nome": "Portas: poupança do SBPE tem saída líquida em setembro",
+          "url": "https://portas.com.br/mercado-imobiliario/poupanca-sbpe-saida-setembro/"
+        }
+      ]
+    },
+    {
+      "slug": "focus-pos-eleicao-mercado-ve-selic-em-12-5-no-fim-de-2027",
+      "formato": "Análise",
+      "titulo": "Mercado projeta Selic em 12,5% no fim de 2027: o que muda no crédito",
+      "resumo": "O primeiro Focus após o segundo turno aponta queda gradual dos juros até 2027. Para o investidor com capital próprio, o momento ainda favorece a negociação.",
+      "visual": {
+        "tipo": "numero",
+        "valor": "12,5%",
+        "legenda": "Selic projetada para o fim de 2027, Boletim Focus de 3 de novembro"
+      },
+      "corpo": [
+        {
+          "p": "O Boletim Focus de 3 de novembro, o primeiro depois do segundo turno das eleições, trouxe expectativas mais altas para a economia. Os analistas consultados pelo Banco Central passaram a projetar a Selic em 13,5% no fim de 2026, ante 13,25% na semana anterior, e em 12,5% no fim de 2027."
+        },
+        {
+          "p": "A inflação esperada para 2026 subiu de 5,19% para 5,22%, e a de 2027 ficou em 4,76%, ainda acima do teto da meta. O dólar projetado para o fim deste ano foi a R$ 5,34. A previsão de crescimento do PIB em 2026 caiu levemente, para 1,76%."
+        },
+        {
+          "h": "Copom confirmou a cautela"
+        },
+        {
+          "p": "Um dia depois, o Copom manteve a Selic em 13,75%. A projeção de 13,5% para dezembro indica que parte do mercado ainda contava com um corte na última reunião do ano. O próximo Focus, na segunda-feira (9), vai mostrar como as apostas reagiram à pausa."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Se as projeções se confirmarem, a Selic sairá dos 13,75% atuais para 12,5% até o fim de 2027, uma queda de 1,25 ponto em pouco mais de um ano. Isso tende a baratear o financiamento imobiliário de forma lenta, sem uma virada brusca de demanda no curto prazo."
+        },
+        {
+          "p": "Para quem tem capital próprio, um período de crédito ainda restrito costuma significar mais espaço para negociar preço e condições. Para quem depende de financiamento, a simulação deve considerar as taxas de hoje, e não um corte de juros que ainda é só expectativa."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Movimento Econômico: primeiro Focus pós-eleição eleva projeções",
+          "url": "https://movimentoeconomico.com.br/economia/2026/11/03/primeiro-focus-pos-eleicao-eleva-projecoes-de-inflacao-selic-e-dolar-para-2026/"
+        },
+        {
+          "nome": "Economia SC: Banco Central mantém Selic em 13,75%",
+          "url": "https://economiasc.com/2026/11/04/banco-central-mantem-selic-em-1375-diante-de-inflacao-elevada-e-desaceleracao-da-economia/"
+        }
+      ]
+    }
+  ]
+}
