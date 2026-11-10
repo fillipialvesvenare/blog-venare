@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-07",
+  "atualizado_em": "2026-11-10",
   "indices": [
     {
       "id": "selic",
@@ -112,14 +112,14 @@
   },
   "agenda": [
     {
-      "data": "2026-11-09",
-      "evento": "Boletim Focus (expectativas do mercado)",
-      "orgao": "Banco Central"
-    },
-    {
       "data": "2026-11-12",
       "evento": "IPCA de outubro",
       "orgao": "IBGE"
+    },
+    {
+      "data": "2026-11-16",
+      "evento": "Boletim Focus (expectativas do mercado)",
+      "orgao": "Banco Central"
     },
     {
       "data": "2026-11-26",
@@ -135,17 +135,17 @@
   "ticker": [
     {
       "nome": "Dólar",
-      "valor": "R$ 5,51",
-      "var": "+0,37%",
-      "dir": "alta",
-      "ref": "fechamento 6/11"
+      "valor": "R$ 5,50",
+      "var": "-0,06%",
+      "dir": "baixa",
+      "ref": "fechamento 9/11"
     },
     {
       "nome": "Ibovespa",
-      "valor": "168.498 pts",
-      "var": "+1,39%",
+      "valor": "172.236 pts",
+      "var": "+2,22%",
       "dir": "alta",
-      "ref": "fechamento 6/11"
+      "ref": "fechamento 9/11"
     },
     {
       "nome": "Selic",
@@ -202,6 +202,6 @@
       "ref": "FipeZAP, out/26"
     }
   ],
-  "ticker_fontes": "Dólar e Ibovespa: fechamento de 6/11/2026 (Diário do Grande ABC/Estadão Conteúdo). CDI: B3. IGP-M e INCC-M: FGV IBRE. IPCA: IBGE. FipeZAP: Fipe.",
+  "ticker_fontes": "Dólar e Ibovespa: fechamento de 9/11/2026 (Metrópoles). CDI: B3. IGP-M e INCC-M: FGV IBRE. IPCA: IBGE. FipeZAP: Fipe.",
   "ticker_nota": "Dólar e Ibovespa: variação do dia. Demais índices: seta indica alta, queda ou estabilidade em relação à divulgação anterior."
 }

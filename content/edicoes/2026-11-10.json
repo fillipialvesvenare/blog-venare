@@ -1,0 +1,313 @@
+{
+  "data": "2026-11-10",
+  "publicacoes": [
+    {
+      "slug": "sc-tem-o-maior-saldo-migratorio-do-pais-e-florianopolis-ganha-moradores",
+      "formato": "Análise",
+      "titulo": "SC tem o maior saldo migratório do país, e a Grande Florianópolis cresce 33,5% em 12 anos",
+      "resumo": "O Censo mostra que Santa Catarina ganhou 354 mil moradores vindos de fora entre 2017 e 2022. A Grande Florianópolis cresceu cinco vezes mais que o Brasil, e a demanda por moradia acompanha.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Grande Florianópolis chegou a 1,32 milhão de habitantes no Censo 2022, alta de 33,5% em 12 anos.",
+        "id": "sc-tem-o-maior-saldo-migratorio-do-pais-e-florianopolis-ganha-moradores",
+        "evitar": [
+          "pixabay:7683839"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Crescimento da população de 2010 a 2022 (Censo)",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Palhoça",
+            "valor": 62.1,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Grande Florianópolis",
+            "valor": 33.5,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "São José",
+            "valor": 28.8,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Florianópolis",
+            "valor": 27.5,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Brasil",
+            "valor": 6.5,
+            "tom": "br"
+          }
+        ],
+        "nota": "Variação da população residente entre os Censos de 2010 e 2022, segundo o IBGE."
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina é o estado que mais atrai gente de fora. Segundo o Censo 2022 do IBGE, cerca de 503,6 mil pessoas se mudaram para o estado entre 2017 e 2022, enquanto 149,2 mil saíram. O saldo de 354,4 mil novos moradores equivale a 4,66% da população catarinense, a maior taxa líquida do Brasil."
+        },
+        {
+          "p": "Os recém-chegados vêm principalmente do Rio Grande do Sul (134,8 mil), do Paraná (96,1 mil) e de São Paulo (62,4 mil). Hoje, quase um em cada quatro moradores de SC nasceu em outro estado ou país."
+        },
+        {
+          "h": "A capital e o entorno puxam o crescimento"
+        },
+        {
+          "p": "Florianópolis passou de 421,2 mil habitantes em 2010 para 537,2 mil em 2022, alta de 27,5%. Foi a terceira capital que mais cresceu em termos relativos. A Grande Florianópolis avançou 33,5% e chegou a 1,32 milhão de pessoas, com destaque para Palhoça (62,1%) e São José (28,8%). No mesmo período, a população do Brasil cresceu 6,5%."
+        },
+        {
+          "p": "O número de domicílios na capital subiu 46,3%, para cerca de 285 mil, mais rápido que a população, porque as famílias ficaram menores: a média caiu de 2,92 para 2,43 moradores por casa. Os apartamentos já são 44% dos domicílios de Florianópolis, contra 21,8% em SC e menos de 15% no país."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Mais moradores, famílias menores e preferência crescente por apartamentos formam a base de uma demanda estrutural por moradia. A Fundação João Pinheiro estimava um déficit de cerca de 41 mil domicílios na Grande Florianópolis em 2023, sinal de que a procura segue à frente da oferta."
+        },
+        {
+          "p": "Para quem investe, o movimento favorece unidades compactas e bem localizadas, perto de emprego e serviços, tanto na Ilha quanto em São José e Palhoça."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Economia SC: Florianópolis atrai novos moradores, o que o Censo diz sobre a demanda por imóveis",
+          "url": "https://economiasc.com/2026/11/09/florianopolis-atrai-novos-moradores-o-que-o-censo-diz-sobre-a-demanda-por-imoveis/"
+        },
+        {
+          "nome": "IBGE Educa: Censo 2022, população do Brasil",
+          "url": "https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/22005-censo-2022-o-retrato-atualizado-do-brasil.html"
+        }
+      ]
+    },
+    {
+      "slug": "santa-catarina-tem-o-menor-desemprego-do-brasil-2-1",
+      "formato": "Gráfico",
+      "titulo": "Santa Catarina tem o menor desemprego do Brasil: 2,1%, contra 5,4% no país",
+      "resumo": "Na PNAD Contínua do IBGE, SC lidera o ranking dos estados com a menor taxa de desocupação. A subutilização da força de trabalho também é três vezes menor que a média nacional.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina tem a menor taxa de desemprego do país, de 2,1%, segundo o IBGE.",
+        "id": "santa-catarina-tem-o-menor-desemprego-do-brasil-2-1",
+        "evitar": [
+          "pixabay:6322029"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Taxa de desemprego no 2º trimestre de 2026",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Santa Catarina",
+            "valor": 2.1,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Brasil",
+            "valor": 5.4,
+            "tom": "br"
+          }
+        ],
+        "nota": "Taxa de desocupação da PNAD Contínua (IBGE), 2º trimestre de 2026."
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina tem a menor taxa de desemprego entre as 27 unidades da federação. No segundo trimestre de 2026, a desocupação no estado ficou em 2,1%, segundo a PNAD Contínua do IBGE, menos da metade da média nacional, de 5,4%."
+        },
+        {
+          "p": "Logo atrás aparecem Mato Grosso (2,2%), Espírito Santo (2,3%), Rondônia (2,6%) e Mato Grosso do Sul (2,7%). Só 11 estados ficaram abaixo da média do país."
+        },
+        {
+          "h": "Mercado de trabalho praticamente sem folga"
+        },
+        {
+          "p": "A taxa de subutilização da força de trabalho, que soma desempregados, quem trabalha menos horas do que gostaria e quem desistiu de procurar, foi de 4,1% em SC, contra 12,9% no Brasil. Na prática, o estado opera perto do pleno emprego, com a indústria, o comércio e os serviços disputando profissionais."
+        },
+        {
+          "h": "Por que isso interessa ao investidor"
+        },
+        {
+          "p": "Emprego farto sustenta renda, consumo e capacidade de pagar aluguel ou financiamento. É também o que atrai trabalhadores de outros estados, alimentando a procura por moradia nas principais cidades catarinenses, como Florianópolis, Joinville, Blumenau e Itajaí."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Bora Investir (B3): em 11 estados, desemprego está abaixo da média do país",
+          "url": "https://borainvestir.b3.com.br/noticias/em-11-estados-desemprego-esta-abaixo-da-media-do-pais-veja-quais/"
+        },
+        {
+          "nome": "Economia SC: indicadores da PNAD Contínua para SC",
+          "url": "https://economiasc.com/2026/11/09/florianopolis-atrai-novos-moradores-o-que-o-censo-diz-sobre-a-demanda-por-imoveis/"
+        }
+      ]
+    },
+    {
+      "slug": "floripa-airport-chega-a-1-milhao-de-passageiros-internacionais-dois-meses-antes",
+      "formato": "Notícia",
+      "titulo": "Aeroporto de Florianópolis bate 1 milhão de passageiros internacionais dois meses antes de 2025",
+      "resumo": "A marca veio em 22 de agosto, contra outubro no ano passado. Para o verão, a Copa amplia os voos ao Panamá e o terminal ganha R$ 19 milhões em melhorias.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O aeroporto de Florianópolis chegou a 1 milhão de passageiros internacionais em 22 de agosto.",
+        "id": "floripa-airport-chega-a-1-milhao-de-passageiros-internacionais-dois-meses-antes",
+        "evitar": [
+          "pixabay:2373727",
+          "pixabay:4885805"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "1 milhão",
+        "legenda": "Passageiros internacionais no Floripa Airport até 22 de agosto de 2026, dois meses antes que em 2025"
+      },
+      "corpo": [
+        {
+          "p": "O Floripa Airport alcançou 1 milhão de passageiros internacionais em 2026 no dia 22 de agosto. Em 2025, essa marca só tinha sido atingida em outubro, segundo a concessionária. O aeroporto é o terceiro do país em movimento internacional, atrás apenas de Guarulhos e do Galeão."
+        },
+        {
+          "p": "A Argentina é o principal mercado, com 485 mil passageiros até agosto, seguida pelo Chile, com 388 mil. As rotas para Lisboa e Cidade do Panamá somaram mais de 95 mil viajantes."
+        },
+        {
+          "h": "Mais voos para a alta temporada"
+        },
+        {
+          "p": "A Copa Airlines passa de cinco para seis voos semanais entre Florianópolis e o Panamá em dezembro e chega a voos diários em janeiro de 2027. A TAP já opera quatro frequências por semana para Lisboa desde julho."
+        },
+        {
+          "p": "Para receber o fluxo, o terminal recebe R$ 19 milhões em melhorias: R$ 13 milhões em infraestrutura, com 824 m² a mais nas áreas internacionais, e R$ 6 milhões em nove portões eletrônicos de imigração. Novos equipamentos de raio X ampliam em 50% a capacidade de atendimento a passageiros internacionais."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Mais conexões internacionais ampliam o alcance de Florianópolis como destino de turismo e de moradia, com reflexo direto na locação por temporada e na procura por imóveis de quem vem de fora, inclusive estrangeiros."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Floripa Airport: 1 milhão de passageiros internacionais dois meses antes que em 2025",
+          "url": "https://floripa-airport.com/noticias/102582-floripa-airport-chega-a-1-milhao-de-passageiros-internacionais-dois-meses-antes-que-em-2025"
+        },
+        {
+          "nome": "Aeroin: Copa Airlines amplia operações em Florianópolis a partir de dezembro",
+          "url": "https://aeroin.net/copa-airlines-amplia-operacoes-no-aeroporto-de-florianopolis-a-partir-de-dezembro/"
+        },
+        {
+          "nome": "Exame: Floripa Airport entre os três maiores em passageiros estrangeiros",
+          "url": "https://exame.com/negocios/floripa-airport-bate-recorde-e-se-consolida-como-top-3-de-estrangeiros/"
+        }
+      ]
+    },
+    {
+      "slug": "florianopolis-elevado-do-cic-e-brt-da-mauro-ramos-obras-de-mobilidade",
+      "formato": "Em números",
+      "titulo": "Elevado do CIC e BRT da Mauro Ramos: as obras que vão mudar a mobilidade de Florianópolis",
+      "resumo": "O novo viaduto de R$ 26,59 milhões vai separar o fluxo para o Itacorubi e a SC-401. O primeiro trecho do BRT, com 2,6 km de corredor exclusivo, tem início previsto para a virada do ano.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O novo Elevado do CIC, em Florianópolis, tem investimento de R$ 26,59 milhões e prazo de 18 meses.",
+        "id": "florianopolis-elevado-do-cic-e-brt-da-mauro-ramos-obras-de-mobilidade"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Elevado do CIC",
+            "valor": "R$ 26,59 mi",
+            "detalhe": "novo viaduto, obra prevista em 18 meses"
+          },
+          {
+            "rotulo": "BRT, 1ª etapa",
+            "valor": "2,6 km",
+            "detalhe": "de corredor exclusivo na Avenida Mauro Ramos"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Florianópolis tem duas obras de mobilidade importantes no horizonte próximo, ambas no caminho entre o Centro e as regiões que mais cresceram na Ilha."
+        },
+        {
+          "h": "Novo Elevado do CIC"
+        },
+        {
+          "p": "A Prefeitura apresentou o projeto do novo elevado na região do Centro Integrado de Cultura, na ligação do Centro com o Norte da Ilha. O investimento é de R$ 26,59 milhões, com prazo de execução de 540 dias, cerca de 18 meses, a partir da ordem de serviço. A obra faz parte de um convênio com o governo do estado."
+        },
+        {
+          "p": "O novo viaduto terá duas faixas para quem segue ao Itacorubi, e a estrutura atual ficará para quem vai à SC-401. A Avenida da Saudade passa de quatro para cinco faixas, e a marginal da Beira-Mar Norte ganha uma faixa adicional."
+        },
+        {
+          "h": "Primeiro trecho do BRT"
+        },
+        {
+          "p": "A primeira etapa do BRT da capital prevê 2,6 km de corredor exclusivo de ônibus no canteiro central da Avenida Mauro Ramos, no Anel Viário Central, com 4,9 km de intervenções no total, 14 abrigos e 15 paradas. O investimento inicial é estimado em R$ 18,9 milhões, dentro de um pacote de R$ 159 milhões do governo federal. Na licitação, o início das obras foi previsto entre dezembro de 2026 e janeiro de 2027, com 360 dias de execução."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Obras que encurtam deslocamentos costumam valorizar os bairros atendidos. Trindade, Itacorubi, Santa Mônica, Agronômica e o entorno da Mauro Ramos estão entre as áreas que podem ganhar com a melhora no acesso."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Gazeta do Povo: obra promete reduzir congestionamentos em Florianópolis",
+          "url": "https://www.gazetadopovo.com.br/santa-catarina/obra-promete-reduzir-congestionamentos-em-florianopolis/"
+        },
+        {
+          "nome": "NSC Total: BRT de Florianópolis avança com investimento de R$ 159 milhões",
+          "url": "https://www.nsctotal.com.br/infraestrutura/brt-de-florianopolis-avanca-com-investimento-de-r-159-milhoes-e-previsao-para-inicio-das-obras-em-2027"
+        }
+      ]
+    },
+    {
+      "slug": "focus-mercado-ve-selic-em-13-75-no-fim-de-2026",
+      "formato": "Análise",
+      "titulo": "Focus: mercado deixa de esperar corte da Selic em 2026",
+      "resumo": "Depois da pausa do Copom, a projeção para os juros no fim do ano subiu de 13,5% para 13,75%. A bolsa reagiu bem na segunda-feira e fechou em alta de 2,22%.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Boletim Focus de 9 de novembro projeta a Selic em 13,75% no fim de 2026.",
+        "id": "focus-mercado-ve-selic-em-13-75-no-fim-de-2026"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "13,75%",
+        "legenda": "Selic projetada para o fim de 2026 no Boletim Focus de 9 de novembro"
+      },
+      "corpo": [
+        {
+          "p": "O Boletim Focus de 9 de novembro mostrou que os analistas consultados pelo Banco Central passaram a projetar a Selic em 13,75% no fim de 2026, ante 13,5% na semana anterior. Na prática, o mercado deixou de contar com um corte na última reunião do Copom do ano, marcada para 9 de dezembro."
+        },
+        {
+          "p": "A inflação esperada para 2026 ficou estável em 5,22%, e a de 2027 subiu de 4,76% para 4,90%. O dólar projetado para o fim do ano foi a R$ 5,35, e a estimativa de crescimento do PIB em 2026 passou para 1,75%."
+        },
+        {
+          "h": "Bolsa em alta"
+        },
+        {
+          "p": "No mesmo dia, o Ibovespa subiu 2,22% e fechou aos 172.236 pontos, e o dólar terminou praticamente estável, a R$ 5,50."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Com os juros parados por mais tempo, o crédito imobiliário tende a seguir com taxas altas no curto prazo. Para quem tem capital próprio, o cenário costuma abrir espaço para negociar preço e condições com construtoras e vendedores."
+        },
+        {
+          "p": "Para quem vai financiar, vale simular com as taxas atuais e comparar o custo efetivo total entre bancos. Em mercados com demanda firme, como Florianópolis e o litoral catarinense, a procura por imóveis tem se mantido mesmo com os juros altos."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil: mercado eleva projeção da Selic para 13,75% em 2026",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-da-selic-para-1375-em-2026"
+        },
+        {
+          "nome": "Metrópoles: Ibovespa sobe 2,22% e dólar termina o dia a R$ 5,50",
+          "url": "https://www.metropoles.com/brasil/ibovespa-sobe-222-dolar-tem-baixa-e-termina-o-dia-cotado-a-r-550"
+        }
+      ]
+    }
+  ]
+}
