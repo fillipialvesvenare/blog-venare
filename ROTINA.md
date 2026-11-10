@@ -22,7 +22,7 @@ git checkout -B revisao origin/main
 - Mercado imobiliário e economia de Santa Catarina (Florianópolis, litoral norte, Joinville, Blumenau, São José, Itajaí, Itapema, Balneário Camboriú, Porto Belo).
 - Panorama nacional que afete o investidor: Selic/Copom, IPCA, crédito imobiliário, FipeZAP, CUB/SC, INCC, regras de financiamento, reforma tributária.
 - Prefira fontes primárias: Banco Central, IBGE, Fipe (downloads.fipe.org.br), Sinduscon, Secovi, prefeituras, Caixa. Imprensa (NSC Total, Valor, Exame, Portas, Poder360) para notícias.
-- Priorize o que é novo nas últimas 24 a 72 horas. Não repita assunto das últimas 7 edições sem fato novo.
+- Janela de pauta: notícias e dados dos últimos 10 dias, não só do dia. Com 5 publicações por dia, a semana gera mais assuntos do que cabe em uma edição, então escolha o que for mais relevante. Não repita assunto das últimas 7 edições sem fato novo.
 - Nunca invente número. Se um dado não for confirmado em fonte, não publique.
 
 ### 3. Escrever 5 publicações
@@ -78,13 +78,19 @@ git fetch origin revisao && git merge --ff-only origin/revisao && git push origi
 
 ---
 
-## Fotos das notícias (regra do Fillipi, atualizada em 07/11/2026)
+## Fotos das notícias (regra do Fillipi, atualizada em 10/11/2026)
 Toda publicação leva uma foto INÉDITA, coerente com o assunto. Nenhuma foto pode se repetir no site, nem na mesma edição nem em edições diferentes. O site exibe a foto de forma sutil (fundo esmaecido do destaque, faixa no topo dos cards e foto principal com legenda e crédito na matéria) a partir do campo `foto`.
+
+Ordem de preferência da foto, sempre coerente com o assunto e nunca ausente:
+1. Foto do dia ou da própria notícia (raro: só se for real e fiel).
+2. Foto da cidade ou do lugar citado na notícia ("Balneário Camboriú prédios", "Florianópolis Beira-Mar").
+3. Foto genérica do tema, mas coerente com o assunto ("construção civil guindaste", "chaves apartamento novo", "gráfico economia", "porto contêineres", "aeroporto avião", "fábrica indústria"). Legenda começa com "Imagem ilustrativa.".
+Nunca publique uma foto totalmente incoerente com a notícia, e nunca deixe uma publicação sem foto.
 
 Como fazer, depois de escrever as 5 publicações:
 1. Em cada publicação, logo depois de `resumo`, escreva:
-   `"foto": {"busca": ["termo específico", "termo alternativo", "termo genérico do tema"], "legenda": "..."}`
-   - Termos do mais fiel ao mais genérico: primeiro o lugar/objeto real da notícia ("Balneário Camboriú prédios", "Florianópolis Beira-Mar", "Banco Central Brasília"), depois o tema ("construção civil guindaste", "chaves apartamento novo", "gráfico economia", "porto contêineres"). Pode misturar português e inglês.
+   `"foto": {"busca": ["termo da cidade ou do lugar", "termo do tema específico", "termo genérico do tema"], "legenda": "..."}`
+   - Termos na ordem da preferência acima. Pode misturar português e inglês.
 2. Rode: `PIXABAY_KEY=<chave informada no prompt da tarefa> python3 scripts/fotos.py content/edicoes/AAAA-MM-DD.json`
    O script busca no Pixabay (fotos reais, uso comercial liberado), pula toda foto já usada no site, recorta em 1200x600, salva em `static/fotos/` e registra autor, licença e link em `content/fotos.json`. Tem que terminar com "FOTOS OK".
 3. CONFIRA CADA FOTO com a ferramenta Read (abra `static/fotos/<slug>.jpg`). A foto tem que combinar com a notícia e ser honesta:
@@ -100,9 +106,11 @@ O visual do site está aprovado e congelado (incluindo o jeito de exibir as foto
 
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
+- As notícias precisam ser sobre Santa Catarina: das principais cidades catarinenses (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José) ou do estado como um todo.
+- Pode haver comparação de SC com outros estados ou com o Brasil, como já vem sendo feito, desde que os números sejam verdadeiros e com fonte.
 - Escolher pautas e ângulos em que SC e Florianópolis aparecem bem: valorização acima da média, crescimento, investimentos, obras, população, emprego, turismo, lançamentos, demanda, qualidade de vida, rankings positivos.
-- Assuntos variados e não sensacionalistas: principais cidades de SC (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José), economia, crédito, Selic, tendências.
-- Comparações com o Brasil só quando SC/Florianópolis ficam à frente.
+- Assuntos variados e não sensacionalistas: economia, crédito, Selic, tendências, obras, mobilidade, lançamentos. Não é preciso que todo dia a pauta seja Florianópolis; alterne as cidades.
+- Comparações com o Brasil ou com outros estados só quando SC/Florianópolis ficam à frente.
 - Isso é escolha de pauta, nunca distorção: os números publicados continuam verdadeiros e com fonte. Se um dado é desfavorável, simplesmente não vira notícia.
 
 ## Regras de texto
