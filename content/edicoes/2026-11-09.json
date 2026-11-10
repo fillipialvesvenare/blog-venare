@@ -1,0 +1,248 @@
+{
+  "data": "2026-11-09",
+  "publicacoes": [
+    {
+      "slug": "santa-catarina-exporta-us-6-13-bi-no-primeiro-semestre",
+      "formato": "Análise",
+      "titulo": "Santa Catarina exporta US$ 6,13 bilhões no 1º semestre, com alta de 4,3% mesmo sob tarifaço",
+      "resumo": "O estado cresceu nas vendas externas mesmo com as tarifas dos Estados Unidos e a guerra no Oriente Médio. O resultado sustenta renda e emprego em várias regiões.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina faturou US$ 6,13 bilhões com exportações no primeiro semestre de 2026, alta de 4,3% sobre 2025.",
+        "id": "santa-catarina-exporta-us-6-13-bi-no-primeiro-semestre"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "US$ 6,13 bi",
+        "legenda": "Exportações de Santa Catarina no 1º semestre de 2026, alta de 4,3% em relação ao mesmo período de 2025"
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina faturou US$ 6,13 bilhões com exportações no primeiro semestre de 2026, crescimento de 4,3% frente ao mesmo período de 2025. O resultado veio mesmo com as dificuldades impostas pelas tarifas dos Estados Unidos e pela guerra no Oriente Médio."
+        },
+        {
+          "p": "Segundo análise publicada pelo NSC Total, o avanço veio da abertura de novos destinos para os produtos catarinenses."
+        },
+        {
+          "h": "Leitura para o investidor"
+        },
+        {
+          "p": "Exportações em alta sustentam renda e emprego na indústria e no agronegócio, e isso alimenta a procura por moradia em cidades do interior, e não só no litoral."
+        },
+        {
+          "p": "Ainda assim, a dependência de mercados externos e de decisões tarifárias é um risco a acompanhar. Um cenário de novas tarifas pode mudar o ritmo da economia local."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "NSC Total: exportações de SC abrem novos destinos e crescem 4,3%",
+          "url": "https://www.nsctotal.com.br/colunistas/estela-benetti/exportacoes-de-sc-abrem-novos-destinos-e-crescem-43-mas-podem-ter-outro-reves-dos-eua"
+        }
+      ]
+    },
+    {
+      "slug": "santa-catarina-responde-por-51-3-da-receita-de-carne-suina-do-brasil",
+      "formato": "Gráfico",
+      "titulo": "Santa Catarina responde por mais da metade da receita brasileira com exportação de carne suína",
+      "resumo": "De janeiro a julho de 2026, o estado embarcou 437,4 mil toneladas de carne suína, recorde para o período. A participação na receita nacional chegou a 51,3%.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina exportou 437,4 mil toneladas de carne suína entre janeiro e julho de 2026, recorde para o período.",
+        "id": "santa-catarina-responde-por-51-3-da-receita-de-carne-suina-do-brasil",
+        "evitar": [
+          "pixabay:10273773",
+          "pixabay:2686504",
+          "pixabay:4852931"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Participação de SC nas exportações brasileiras de carne suína, janeiro a julho de 2026",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Receita",
+            "valor": 51.3,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Volume",
+            "valor": 48.5,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Participação de Santa Catarina nas exportações brasileiras de carne suína, com base em dados da Epagri/Cepa."
+      },
+      "corpo": [
+        {
+          "p": "Entre janeiro e julho de 2026, Santa Catarina exportou 437,4 mil toneladas de carne suína, com receita de US$ 1,09 bilhão. Na comparação com o mesmo período de 2025, o volume subiu 0,9% e a receita, 2,6%."
+        },
+        {
+          "p": "Com 51,3% da receita e 48,5% do volume nacional, o estado responde por mais da metade do que o Brasil vende de carne suína ao exterior."
+        },
+        {
+          "h": "Por que isso importa para o mercado imobiliário"
+        },
+        {
+          "p": "A renda gerada pelo agronegócio e pela agroindústria chega a muitas cidades do interior, onde a procura por imóveis e por aluguel também cresce. O mercado imobiliário catarinense não se resume ao litoral."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "3tres3: Santa Catarina bate recorde na exportação de carne suína em 2026",
+          "url": "https://www.3tres3.com/en/latest_swine_news/santa-catarina-breaks-pork-export-record-in-2026_22862/"
+        }
+      ]
+    },
+    {
+      "slug": "brt-de-florianopolis-tem-r-159-milhoes-e-obras-previstas-para-2027",
+      "formato": "Notícia",
+      "titulo": "BRT de Florianópolis tem pacote de R$ 159 milhões e início das obras previsto para 2027",
+      "resumo": "A prefeitura publicou a licitação da primeira etapa na Avenida Mauro Ramos. O projeto completo terá corredores exclusivos para ônibus entre dois terminais.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O BRT de Florianópolis terá corredores exclusivos para ônibus, com a primeira etapa na Avenida Mauro Ramos.",
+        "id": "brt-de-florianopolis-tem-r-159-milhoes-e-obras-previstas-para-2027"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Investimento",
+            "valor": "R$ 159 mi",
+            "detalhe": "pacote de recursos do governo federal para a infraestrutura da capital"
+          },
+          {
+            "rotulo": "Extensão",
+            "valor": "6,2 km",
+            "detalhe": "de corredores exclusivos no projeto completo"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "A Prefeitura de Florianópolis publicou, em 28 de julho, a licitação para a primeira etapa das obras do BRT, sistema de ônibus que circula em corredores exclusivos. O pacote de R$ 159 milhões vem de recursos do governo federal."
+        },
+        {
+          "p": "O projeto completo terá 6,2 km de corredores exclusivos, ligando o Terminal de Integração da Trindade ao Terminal de Integração do Centro, com passagem pela UFSC. A primeira etapa fica na Avenida Mauro Ramos."
+        },
+        {
+          "p": "A previsão é de início das obras em 2027."
+        },
+        {
+          "h": "O que observar"
+        },
+        {
+          "p": "Melhorias no transporte costumam pesar no preço dos imóveis próximos aos corredores. Mesmo assim, o cronograma ainda depende da execução e das próximas etapas da licitação. Antes de comprar, vale verificar onde ficará cada estação e em que prazo a obra deve sair do papel."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "NSC Total: BRT de Florianópolis avança com investimento de R$ 159 milhões",
+          "url": "https://www.nsctotal.com.br/?p=7990639"
+        },
+        {
+          "nome": "Diário do Transporte: Florianópolis abre licitação para corredor exclusivo na Avenida Mauro Ramos",
+          "url": "https://diariodotransporte.com.br/2026/07/28/florianopolis-sc-abre-licitacao-para-implantar-corredor-exclusivo-de-onibus-na-avenida-mauro-ramos/"
+        },
+        {
+          "nome": "CREA-SC: novo sistema de transporte público da capital é apresentado à comissão de acessibilidade",
+          "url": "https://portal.crea-sc.org.br/novo-sistema-de-transporte-publico-da-capital-e-apresentado-a-comissao-de-acessibilidade/?print=pdf"
+        }
+      ]
+    },
+    {
+      "slug": "itajai-lancou-quase-o-dobro-de-unidades-de-balneario-camboriu",
+      "formato": "Ranking",
+      "titulo": "Itajaí lançou quase o dobro de unidades de Balneário Camboriú e puxa o litoral norte",
+      "resumo": "Em 2025, os quatro municípios do litoral norte movimentaram R$ 13,47 bilhões em VGV. Itajaí liderou os lançamentos, enquanto Balneário Camboriú segue como âncora de preços.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Os quatro municípios do litoral norte movimentaram cerca de R$ 13,47 bilhões em VGV em 2025, segundo a DWV.",
+        "id": "itajai-lancou-quase-o-dobro-de-unidades-de-balneario-camboriu",
+        "evitar": [
+          "pixabay:7315960"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Unidades lançadas em 2025, principais municípios do litoral norte",
+        "unidade": "unidades",
+        "itens": [
+          {
+            "rotulo": "Itajaí",
+            "valor": 5829,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Balneário Camboriú",
+            "valor": 3239,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Dados da plataforma DWV, citados pelo Portas. Não inclui Itapema e Porto Belo."
+      },
+      "corpo": [
+        {
+          "p": "Um território de 490 km² no litoral norte catarinense movimentou cerca de R$ 13,47 bilhões em VGV em 2025, segundo a plataforma DWV. O conjunto reúne Balneário Camboriú, Itapema, Itajaí e Porto Belo."
+        },
+        {
+          "p": "O cluster ficou em quinto lugar no país em volume financeiro, à frente de capitais como Curitiba, e comercializou mais de 9 mil unidades no ano."
+        },
+        {
+          "p": "Itajaí lançou 5.829 unidades, quase o dobro das 3.239 de Balneário Camboriú. A cidade vizinha tem menos terrenos disponíveis, o que limita os novos lançamentos e ajuda a sustentar os preços."
+        },
+        {
+          "h": "Atenção ao número"
+        },
+        {
+          "p": "VGV é o valor geral de vendas dos lançamentos, e não o preço que cada comprador paga. Para o investidor, vale olhar também a velocidade de venda do estoque, que mostra se a oferta encontra demanda."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Portas: litoral norte de SC soma R$ 13,4 bi em VGV em 2025",
+          "url": "https://portas.com.br/noticias/litoral-norte-de-sc-soma-r-134-bi-em-vgv-em-2025/"
+        }
+      ]
+    },
+    {
+      "slug": "porto-belo-lidera-lancamentos-imobiliarios-em-sc-pelo-terceiro-ano",
+      "formato": "Notícia",
+      "titulo": "Porto Belo lidera os lançamentos imobiliários de SC pelo terceiro ano seguido",
+      "resumo": "Segundo a JH Marketing, a cidade do litoral norte se mantém à frente no volume de lançamentos do estado, inclusive de Florianópolis.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Porto Belo lidera os lançamentos imobiliários de Santa Catarina pelo terceiro ano consecutivo.",
+        "id": "porto-belo-lidera-lancamentos-imobiliarios-em-sc-pelo-terceiro-ano",
+        "evitar": [
+          "pixabay:9728792"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "3º ano",
+        "legenda": "Porto Belo lidera os lançamentos imobiliários de SC, segundo a JH Marketing"
+      },
+      "corpo": [
+        {
+          "p": "Porto Belo lidera os lançamentos imobiliários de Santa Catarina pelo terceiro ano consecutivo, segundo análise de Jordan Hang, da JH Marketing, publicada em 21 de julho de 2026."
+        },
+        {
+          "p": "A notícia destaca que a cidade passou Florianópolis no volume de lançamentos. Segundo o Portas, Porto Belo e Itajaí lideraram o crescimento percentual do VGV no litoral norte em 2025."
+        },
+        {
+          "h": "O que o investidor pode considerar"
+        },
+        {
+          "p": "Liderança em lançamentos mostra apetite de incorporadoras, mas não diz nada sobre o preço de revenda. Antes de comprar na planta, vale checar o histórico da construtora e as condições de entrega."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Jornal de Brasília: Porto Belo lidera SC e passa Florianópolis em lançamentos",
+          "url": "https://jornaldebrasilia.com.br/entretenimento/katia-flavia/porto-belo-lidera-sc-com-r-156-bi-e-passa-florianopolis/"
+        },
+        {
+          "nome": "Portas: litoral norte de SC soma R$ 13,4 bi em VGV em 2025",
+          "url": "https://portas.com.br/noticias/litoral-norte-de-sc-soma-r-134-bi-em-vgv-em-2025/"
+        }
+      ]
+    }
+  ]
+}

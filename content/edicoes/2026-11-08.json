@@ -1,0 +1,283 @@
+{
+  "data": "2026-11-08",
+  "publicacoes": [
+    {
+      "slug": "florianopolis-e-a-segunda-capital-com-m2-mais-valorizado-em-outubro",
+      "formato": "Ranking",
+      "titulo": "Florianópolis é a segunda capital com o m² mais valorizado do país, a R$ 13.690 em outubro",
+      "resumo": "No FipeZAP de outubro, só Vitória aparece à frente da capital catarinense entre as 22 capitais monitoradas. O preço médio anunciado em Florianópolis ficou acima de São Paulo.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Florianópolis aparece em segundo lugar entre as capitais no preço anunciado por metro quadrado, segundo o FipeZAP de outubro.",
+        "id": "florianopolis-e-a-segunda-capital-com-m2-mais-valorizado-em-outubro"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Preço médio anunciado de venda por m², outubro de 2026",
+        "unidade": "R$/m²",
+        "itens": [
+          {
+            "rotulo": "Vitória (ES)",
+            "valor": 15938,
+            "tom": "br"
+          },
+          {
+            "rotulo": "Florianópolis",
+            "valor": 13690,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "São Paulo",
+            "valor": 12254,
+            "tom": "br"
+          },
+          {
+            "rotulo": "Média nacional (56 cidades)",
+            "valor": 10065,
+            "tom": "br"
+          }
+        ],
+        "nota": "Índice FipeZAP de venda residencial, outubro de 2026. O índice mede preços anunciados, não preços de transações."
+      },
+      "corpo": [
+        {
+          "p": "O FipeZAP de outubro registrou alta de 0,48% nos preços de venda de imóveis residenciais no país, com 44 das 56 cidades acompanhadas em alta. Entre as capitais, o metro quadrado de Florianópolis chegou a R$ 13.690, atrás apenas de Vitória, com R$ 15.938."
+        },
+        {
+          "p": "São Paulo ficou em R$ 12.254 por metro quadrado. A média das 56 cidades foi de R$ 10.065."
+        },
+        {
+          "h": "O que vale olhar antes de comprar"
+        },
+        {
+          "p": "O índice acompanha o preço pedido nos anúncios, e não o valor efetivamente pago. Por isso, a posição de Florianópolis mostra a força da demanda na oferta, mas não o desconto que cada negociação pode trazer."
+        },
+        {
+          "p": "Para quem compra para investir, o mais útil é comparar o preço de entrada com a renda de aluguel do mesmo bairro. Valorização alta no índice não garante retorno em locação."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "BP Money: preço dos imóveis sobe 0,48% em outubro, cidades mais caras do FipeZAP",
+          "url": "https://bpmoney.com.br/educacao-financeira/preco-imoveis-sobe-048-outubro-cidades-mais-caras-fipezap/"
+        },
+        {
+          "nome": "BP Money: Vitória lidera o m² entre as capitais; Florianópolis aparece em segundo",
+          "url": "https://bpmoney.com.br/?p=434130"
+        }
+      ]
+    },
+    {
+      "slug": "florianopolis-valoriza-8-2-em-12-meses-contra-5-49-do-pais",
+      "formato": "Gráfico",
+      "titulo": "Florianópolis valorizou 8,2% em 12 meses, acima dos 5,49% da média nacional",
+      "resumo": "Até agosto de 2026, os preços anunciados dos imóveis residenciais na capital catarinense subiram mais que a média das 56 cidades do FipeZAP. São Paulo teve alta de 3,63% no mesmo período.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Os preços anunciados em Florianópolis subiram 8,20% em 12 meses até agosto de 2026, segundo o FipeZAP.",
+        "id": "florianopolis-valoriza-8-2-em-12-meses-contra-5-49-do-pais",
+        "evitar": [
+          "pixabay:2364995"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Variação dos preços anunciados em 12 meses, até agosto de 2026",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Florianópolis",
+            "valor": 8.2,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Média nacional (56 cidades)",
+            "valor": 5.49,
+            "tom": "br"
+          },
+          {
+            "rotulo": "São Paulo",
+            "valor": 3.63,
+            "tom": "br"
+          }
+        ],
+        "nota": "Índice FipeZAP de venda residencial, variação acumulada em 12 meses até agosto de 2026."
+      },
+      "corpo": [
+        {
+          "p": "Os preços anunciados de imóveis residenciais subiram nas 56 cidades acompanhadas pelo FipeZAP nos 12 meses encerrados em agosto de 2026, com média de 5,49%, acima da inflação do período."
+        },
+        {
+          "p": "Em Florianópolis, o metro quadrado foi a R$ 13.531 em agosto, com alta de 8,20% em 12 meses. Em São Paulo, a alta foi de 3,63%, para R$ 12.143 por metro quadrado."
+        },
+        {
+          "h": "O ritmo se manteve nos meses seguintes"
+        },
+        {
+          "p": "Em outubro, o preço médio anunciado na capital chegou a R$ 13.690 por metro quadrado, o que indica que a valorização não perdeu o patamar alto do período."
+        },
+        {
+          "h": "Leitura para quem investe"
+        },
+        {
+          "p": "Uma valorização acima da média nacional é um bom sinal, mas o histórico de 12 meses não garante o mesmo desempenho adiante. Antes de decidir, compare a alta do imóvel com o custo do dinheiro, que segue elevado com a Selic em 13,75% ao ano."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Portas: imóveis valorizam até 15,12% no Brasil em 12 meses (FipeZAP de agosto)",
+          "url": "https://portas.com.br/dados-inteligencia/imoveis-valorizam-ate-1512-no-brasil-em-12-meses/"
+        },
+        {
+          "nome": "BP Money: preço dos imóveis sobe 0,48% em outubro, cidades mais caras do FipeZAP",
+          "url": "https://bpmoney.com.br/educacao-financeira/preco-imoveis-sobe-048-outubro-cidades-mais-caras-fipezap/"
+        },
+        {
+          "nome": "Acionista: Selic em 13,75%, o que muda no bolso do consumidor",
+          "url": "https://acionista.com.br/selic-em-1375-o-que-muda-no-bolso-do-consumidor/"
+        }
+      ]
+    },
+    {
+      "slug": "aeroporto-de-florianopolis-e-eleito-o-melhor-da-america-do-sul",
+      "formato": "Notícia",
+      "titulo": "Aeroporto de Florianópolis é eleito o melhor da América do Sul e agora concorre ao título mundial",
+      "resumo": "Em 13 de outubro, o Floripa Airport recebeu o reconhecimento internacional, inédito para o aeroporto. A premiação o coloca na disputa pelo melhor do mundo.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Aeroporto Internacional Hercílio Luz, de Florianópolis, foi eleito o melhor da América do Sul em premiação internacional.",
+        "id": "aeroporto-de-florianopolis-e-eleito-o-melhor-da-america-do-sul",
+        "evitar": [
+          "pixabay:6851672"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "1º na América do Sul",
+        "legenda": "Floripa Airport, premiação internacional de 13 de outubro de 2026; agora concorre ao título de melhor do mundo"
+      },
+      "corpo": [
+        {
+          "p": "O Aeroporto Internacional Hercílio Luz, administrado pela Zurich Airport Brasil, foi eleito o melhor da América do Sul em uma premiação internacional de aeroportos. O reconhecimento é inédito para o Floripa Airport, segundo a publicação especializada Aeroin."
+        },
+        {
+          "p": "Em 2025, o terminal já havia sido apontado como o melhor aeroporto do mundo para conexões, à frente do aeroporto de Tallinn, na Estônia. Os turistas estrangeiros representam 57% dos visitantes da cidade, e os argentinos são o principal público internacional."
+        },
+        {
+          "h": "Mais voos, mais conexão"
+        },
+        {
+          "p": "A operação internacional segue em expansão. A TAP passou a voar quatro vezes por semana entre Florianópolis e Lisboa em 2026, e a rota completou dois anos em setembro, com 151,9 mil passageiros."
+        },
+        {
+          "p": "Para quem investe, a conectividade aérea pesa na atratividade da cidade para turistas, moradores e empresas, e isso se reflete na demanda por imóveis e por locação de temporada."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Aeroin: tag Aeroporto de Florianópolis (premiação de 13 de outubro de 2026)",
+          "url": "https://aeroin.net/tag/aeroporto-de-florianopolis/"
+        },
+        {
+          "nome": "NSC Total: aeroporto de Florianópolis é o melhor do mundo para conexões",
+          "url": "https://www.nsctotal.com.br/?p=7925964"
+        },
+        {
+          "nome": "Brasil Turis: Florianópolis-Lisboa completa dois anos com 151,9 mil passageiros",
+          "url": "https://brasilturis.com.br/2026/09/03/florianopolis-lisboa-tap-dois-anos-passageiros/"
+        }
+      ]
+    },
+    {
+      "slug": "chinesa-united-imaging-investe-r-535-milhoes-em-joinville",
+      "formato": "Em números",
+      "titulo": "Chinesa anuncia fábrica de R$ 535 milhões em Joinville, sua primeira operação na América Latina",
+      "resumo": "A United Imaging Healthcare vai produzir equipamentos de ressonância magnética e radiografia no norte catarinense. É um investimento industrial de grande porte.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A United Imaging Healthcare vai instalar em Joinville sua primeira fábrica na América Latina, com investimento de R$ 535 milhões.",
+        "id": "chinesa-united-imaging-investe-r-535-milhoes-em-joinville"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Investimento",
+            "valor": "R$ 535 mi",
+            "detalhe": "anunciado pela United Imaging Healthcare em Joinville"
+          },
+          {
+            "rotulo": "Região",
+            "valor": "América Latina",
+            "detalhe": "primeira operação da multinacional chinesa na região"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "A multinacional chinesa de tecnologia médica United Imaging Healthcare anunciou, em 28 de outubro, um investimento de R$ 535 milhões para instalar em Joinville sua primeira operação na América Latina. A fábrica vai produzir equipamentos de ressonância magnética e de radiografia."
+        },
+        {
+          "p": "A cidade já abriga uma unidade da Siemens desde 2012, o que reforça o perfil industrial e tecnológico do norte catarinense."
+        },
+        {
+          "h": "Por que interessa ao investidor"
+        },
+        {
+          "p": "Projetos industriais desse porte geram empregos qualificados e atraem profissionais de outras cidades e estados. Essa demanda costuma aparecer no mercado de moradia perto dos centros de trabalho."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Baguete: Chinesa investe R$ 535 milhões em SC",
+          "url": "https://www.baguete.com.br/noticias/chinesa-investe-r-535-milhoes-em-sc"
+        }
+      ]
+    },
+    {
+      "slug": "copom-mantem-selic-em-13-75-e-interrompe-cinco-cortes",
+      "formato": "Análise",
+      "titulo": "Copom mantém a Selic em 13,75% e interrompe cinco cortes seguidos",
+      "resumo": "A decisão de 4 de novembro segura os juros básicos. Para o financiamento imobiliário, o efeito de cada corte chega com defasagem de até seis meses.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Com a Selic mantida em 13,75%, o financiamento imobiliário segue caro para o comprador, mas as condições podem mudar com novos cortes.",
+        "id": "copom-mantem-selic-em-13-75-e-interrompe-cinco-cortes"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "13,75%",
+        "legenda": "Selic mantida pelo Copom em 4 de novembro de 2026, após cinco reduções seguidas"
+      },
+      "corpo": [
+        {
+          "p": "O Comitê de Política Monetária decidiu manter a Selic em 13,75% ao ano em 4 de novembro, interrompendo uma sequência de cinco reduções consecutivas."
+        },
+        {
+          "p": "Com a taxa básica alta, os bancos tendem a manter condições mais restritivas para emprestar, e isso vale para o crédito imobiliário."
+        },
+        {
+          "p": "O efeito dos cortes sobre o financiamento é mais lento do que em outras modalidades. Segundo estudos citados pela ABMI, uma redução de 1 ponto na Selic costuma se traduzir em cerca de 0,43 ponto na taxa final do financiamento, com efeito que pode levar cerca de seis meses para aparecer."
+        },
+        {
+          "h": "O próximo passo"
+        },
+        {
+          "p": "A próxima reunião do Copom está prevista para 8 e 9 de dezembro. Até lá, inflação, expectativas do mercado e atividade econômica vão pesar na decisão."
+        },
+        {
+          "p": "Para quem investe, o juro alto pesa mais na conta do financiamento e na comparação com a renda fixa. Vale calcular o retorno líquido do aluguel, descontados impostos e custos, antes de comparar com outras aplicações."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Acionista: Selic em 13,75%, o que muda no bolso do consumidor",
+          "url": "https://acionista.com.br/selic-em-1375-o-que-muda-no-bolso-do-consumidor/"
+        },
+        {
+          "nome": "Economic News Brasil: manutenção da Selic, economia desacelera",
+          "url": "https://economicnewsbrasil.com.br/2026/11/04/manutencao-da-selic-economia-desacelera/"
+        },
+        {
+          "nome": "Paraíba Business: Selic a 13,75% melhora perspectiva para financiamento da casa própria",
+          "url": "https://paraibabusiness.com.br/selic-a-1375-melhora-perspectiva-para-financiamento-da-casa-propria"
+        }
+      ]
+    }
+  ]
+}
