@@ -1,0 +1,315 @@
+{
+  "data": "2026-11-11",
+  "publicacoes": [
+    {
+      "slug": "balneario-camboriu-procura-por-imoveis-sobe-30-e-fg-projeta-r-130-bilhoes-em-terrenos",
+      "formato": "Análise",
+      "titulo": "Balneário Camboriú vê procura por imóveis subir 30% após as eleições, e FG projeta R$ 130 bilhões em terrenos",
+      "resumo": "Com o segundo m² mais valorizado do país, a cidade registra mais consultas e visitas de compradores. A maior construtora local diz ter 4,5 milhões de m² em terrenos para os próximos lançamentos.",
+      "foto": {
+        "legenda": "Prédios à beira-mar em Balneário Camboriú, cidade com o m² de R$ 15.325 em outubro, segundo o FipeZAP.",
+        "id": "balneario-camboriu-procura-por-imoveis-sobe-30-e-fg-projeta-r-130-bilhoes-em-ter"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Quanto o m² supera a média do Brasil, outubro de 2026",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Balneário Camboriú",
+            "valor": 52.3,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Itapema",
+            "valor": 51.3,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Florianópolis",
+            "valor": 36.0,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Itajaí",
+            "valor": 34.2,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Diferença entre o preço médio anunciado do m² de cada cidade e a média nacional de R$ 10.065, no Índice FipeZAP de venda residencial de outubro de 2026. Cálculo do Venare News."
+      },
+      "corpo": [
+        {
+          "p": "Balneário Camboriú segue entre os mercados imobiliários mais disputados do Brasil. No Índice FipeZAP de outubro, o preço médio anunciado do m² residencial na cidade chegou a R$ 15.325, o segundo mais valorizado entre as 56 cidades pesquisadas, atrás apenas de Vitória (R$ 15.938). O valor fica 52% acima da média nacional, de R$ 10.065."
+        },
+        {
+          "h": "Mais compradores visitando imóveis"
+        },
+        {
+          "p": "Segundo a imobiliária BC Brokers, a procura por imóveis na cidade cresceu cerca de 30% depois das eleições presidenciais, medida pelo número de consultas e visitas de interessados. O movimento se concentra em apartamentos de até R$ 3 milhões e, na leitura da empresa, reflete a busca por proteção de patrimônio. É um levantamento interno da imobiliária, sem metodologia divulgada, mas que indica o apetite dos compradores no fim do ano."
+        },
+        {
+          "h": "Uma carteira de terrenos para muitos anos"
+        },
+        {
+          "p": "Do lado da oferta, a FG Empreendimentos, construtora sediada em Balneário Camboriú e responsável por alguns dos prédios mais altos do país, informou ter um banco de cerca de 4,5 milhões de m² em terrenos, com potencial de vendas estimado em R$ 130 bilhões. A empresa diz ter crescido 20% em 2025 e soma mais de 66 empreendimentos entregues. O FG Sales Summit, evento da construtora com corretores, acontece de 11 a 13 de novembro."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Demanda aquecida de um lado e uma carteira robusta de terrenos do outro mostram que o litoral norte catarinense continua atraindo capital e lançamentos de alto padrão. Para quem investe, vale comparar a localização, o histórico de entrega da construtora e o prazo de obra de cada projeto, já que boa parte dessa oferta ainda vai chegar ao mercado nos próximos anos."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Balneário Camboriú vê procura por imóveis crescer 30% após as eleições",
+          "url": "https://ndmais.com.br/economia/com-segundo-metro-quadrado-mais-caro-do-brasil-balneario-camboriu-ve-procura-por-imoveis-disparar-30-apos-as-eleicoes-movimento-de-protecao-patrimonial/"
+        },
+        {
+          "nome": "ND Mais: construtora de SC projeta expansão com 4,5 milhões de m² em terrenos",
+          "url": "https://ndmais.com.br/economia/gigante-dos-arranha-ceus-de-sc-projeta-expansao-com-carteira-de-45-milhoes-de-metros-quadrados-em-terrenos-avaliados-em-r-130-bilhoes/"
+        }
+      ]
+    },
+    {
+      "slug": "britania-nova-fabrica-em-joinville-750-empregos-2028",
+      "formato": "Notícia",
+      "titulo": "Britânia vai construir nova fábrica em Joinville e prevê cerca de 750 empregos a partir de 2028",
+      "resumo": "A fabricante de eletroportáteis vai ampliar em cerca de 15% o quadro de 5 mil funcionários que já mantém na cidade. É mais um investimento industrial anunciado no Norte catarinense.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A nova fábrica da Britânia em Joinville deve gerar cerca de 750 empregos a partir de 2028.",
+        "id": "britania-nova-fabrica-em-joinville-750-empregos-2028"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "750",
+        "legenda": "Novos empregos previstos com a nova fábrica da Britânia em Joinville, que deve funcionar a partir de 2028"
+      },
+      "corpo": [
+        {
+          "p": "A Britânia anunciou em 6 de novembro a construção de uma nova fábrica em Joinville, no Norte de Santa Catarina. A previsão é que a unidade entre em funcionamento em 2028 e gere cerca de 750 empregos. O valor do investimento não foi divulgado."
+        },
+        {
+          "p": "A empresa já mantém em Joinville uma operação com cerca de 5 mil trabalhadores, e a expansão deve elevar esse quadro em aproximadamente 15%. Além da fábrica, a companhia prevê ampliar em cerca de 20 mil m² a área de armazenagem do seu centro de distribuição na cidade."
+        },
+        {
+          "p": "Fundada em 1956, em Curitiba, a Britânia completa 70 anos em 2026 e tem mais de 10 mil colaboradores no país."
+        },
+        {
+          "h": "Joinville segue atraindo indústrias"
+        },
+        {
+          "p": "O anúncio se soma a outros investimentos recentes na maior cidade catarinense, como a fábrica de R$ 535 milhões de uma empresa chinesa, sua primeira operação na América Latina. A combinação de mão de obra qualificada, logística portuária próxima e um dos menores níveis de desemprego do país mantém a região no radar da indústria."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Novas vagas industriais trazem trabalhadores e renda, e isso costuma se refletir na procura por moradia, principalmente em imóveis compactos e de médio padrão perto dos polos de emprego. Para quem investe em locação, Joinville combina demanda de trabalhadores com um m² ainda abaixo do litoral."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Britânia anuncia fábrica em Joinville e prevê 750 novos empregos",
+          "url": "https://ndmais.com.br/economia/negocios/britania-anuncia-fabrica-joinville-novos-empregos/"
+        },
+        {
+          "nome": "Tribuna PR: nova fábrica da Britânia em Joinville deve funcionar em 2028",
+          "url": "https://www.tribunapr.com.br/noticias/parana/nova-fabrica-britania-joinville-empregos-2028/"
+        },
+        {
+          "nome": "Baguete: chinesa investe R$ 535 milhões em SC",
+          "url": "https://www.baguete.com.br/noticias/chinesa-investe-r-535-milhoes-em-sc"
+        }
+      ]
+    },
+    {
+      "slug": "tijucas-licitacao-r-45-milhoes-molhes-dragagem-bairros-planejados-marina",
+      "formato": "Em números",
+      "titulo": "Tijucas abre licitação de R$ 45,6 milhões para molhes e dragagem, e bairros planejados com marina avançam",
+      "resumo": "A obra vai facilitar a entrada de barcos pelo rio Tijucas, vizinho de Porto Belo e Itapema. Na mesma região, um bairro planejado de 460 mil m² terá marina para 240 embarcações.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Tijucas licita molhes e dragagem de R$ 45,6 milhões para melhorar o acesso de embarcações pelo rio.",
+        "id": "tijucas-licitacao-r-45-milhoes-molhes-dragagem-bairros-planejados-marina",
+        "evitar": [
+          "pixabay:575010"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Molhes e dragagem",
+            "valor": "R$ 45,6 mi",
+            "detalhe": "dois lotes, com 12 meses de obra cada"
+          },
+          {
+            "rotulo": "Molhes",
+            "valor": "823 m",
+            "detalhe": "481 m no molhe Norte e 342 m no molhe Sul"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "A Prefeitura de Tijucas, cidade da Grande Florianópolis vizinha de Porto Belo e Itapema, recebeu até 6 de novembro as propostas da licitação para construir molhes na foz do rio Tijucas e dragar o canal. O custo estimado é de R$ 45,6 milhões, divididos em dois lotes."
+        },
+        {
+          "h": "O que prevê a obra"
+        },
+        {
+          "p": "Os molhes, estruturas de pedra que protegem a entrada do rio, somam 823 metros: 481 metros no lado Norte e 342 metros no Sul. A dragagem deve retirar cerca de 112,5 mil m³ de sedimentos do canal, facilitando a passagem de embarcações. A prefeitura espera emitir a ordem de serviço ainda em 2026 e iniciar as obras em 2027, com 12 meses de execução para cada lote."
+        },
+        {
+          "p": "O setor náutico já é a quarta maior fonte de arrecadação de tributos municipais de Tijucas."
+        },
+        {
+          "h": "Bairros planejados à beira do rio"
+        },
+        {
+          "p": "A obra acompanha a expansão imobiliária da cidade. O Rioparque, bairro planejado de cerca de 460 mil m² em implantação pela Novo Ambiente Urbanismo, terá marina para 240 embarcações (90 barcos e 150 motos aquáticas), áreas residenciais e comerciais e um parque linear de cerca de 2 km às margens dos rios Tijucas e Oliveira. Outros projetos, como Flores de Sal e Altos de Santa Helena, também estão em andamento; a primeira fase do Altos de Santa Helena foi entregue em maio."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Infraestrutura náutica tende a valorizar o entorno e a atrair um público de alto padrão. Com Itapema e Balneário Camboriú entre os m² mais valorizados do país, Tijucas desponta como uma alternativa próxima para quem busca entrar mais cedo em um eixo em crescimento no litoral catarinense."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: obra de R$ 45,6 milhões para molhes vai mudar a navegação em Tijucas",
+          "url": "https://ndmais.com.br/infraestrutura/obra-de-r-456-milhoes-para-a-construcao-de-molhes-vai-mudar-navegacao-de-tijucas-acompanhando-expansao-imobiliaria-com-bairros-planejados-e-marinas/"
+        }
+      ]
+    },
+    {
+      "slug": "ata-do-copom-juros-altos-por-mais-tempo-selic-9-pontos-acima-da-inflacao",
+      "formato": "Gráfico",
+      "titulo": "Ata do Copom indica juros altos por mais tempo, com a Selic 9 pontos acima da inflação",
+      "resumo": "O documento da última reunião reforçou que a inflação projetada exige juros elevados por um período maior. O IPCA de outubro sai nesta quinta-feira, e a próxima decisão é em 9 de dezembro.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Selic está em 13,75% ao ano, 9,17 pontos acima do IPCA de 12 meses até setembro.",
+        "id": "ata-do-copom-juros-altos-por-mais-tempo-selic-9-pontos-acima-da-inflacao",
+        "evitar": [
+          "pixabay:1842205"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Juros e inflação no Brasil",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Selic (ao ano)",
+            "valor": 13.75,
+            "tom": "br"
+          },
+          {
+            "rotulo": "IPCA em 12 meses (set/26)",
+            "valor": 4.58,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Meta de inflação",
+            "valor": 3.0,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Selic definida pelo Copom em 4/11/2026. IPCA acumulado em 12 meses até setembro de 2026 (IBGE). Meta contínua de inflação de 3%."
+      },
+      "corpo": [
+        {
+          "p": "O Banco Central divulgou na terça-feira (10) a ata da reunião em que o Copom manteve a Selic em 13,75% ao ano, depois de cinco cortes seguidos. O documento reforçou a avaliação de que as projeções de inflação em alta pedem a manutenção dos juros em nível elevado por mais tempo."
+        },
+        {
+          "p": "Entre os fatores de pressão citados estão as expectativas de inflação mais altas, a desvalorização do real ligada às incertezas da política doméstica e o possível fim da escala de trabalho 6x1, que pode elevar custos das empresas."
+        },
+        {
+          "h": "Juro real ainda muito alto"
+        },
+        {
+          "p": "Com a Selic em 13,75% e o IPCA de 12 meses em 4,58% até setembro, a taxa básica está 9,17 pontos percentuais acima da inflação. A meta perseguida pelo Banco Central é de 3%. O IPCA de outubro será divulgado pelo IBGE nesta quinta-feira (12), e a última reunião do Copom no ano está marcada para 9 de dezembro."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Juros parados por mais tempo mantêm as taxas do crédito imobiliário altas no curto prazo e deixam a renda fixa competitiva. Para quem compra imóvel com capital próprio, o momento costuma favorecer a negociação de preço e de condições de pagamento com construtoras."
+        },
+        {
+          "p": "Mesmo nesse cenário, mercados com demanda firme seguem ativos: em Balneário Camboriú, por exemplo, imobiliárias relatam aumento da procura nas últimas semanas, e Florianópolis acumula valorização acima da média nacional em 12 meses."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Metrópoles: Ibovespa cai 0,52% com inflação dos EUA e ata do Copom no radar",
+          "url": "https://www.metropoles.com/brasil/ibovespa-cai-052-com-inflacao-dos-eua-e-ata-do-copom-no-radar"
+        },
+        {
+          "nome": "Tribuna do Sertão: dólar sobe 1,46% e fecha no maior valor em 15 meses",
+          "url": "https://www.tribunadosertao.com.br/geral/2026/11/10/1018480-dolar-sobe-146-e-fecha-no-maior-valor-em-15-meses"
+        }
+      ]
+    },
+    {
+      "slug": "dolar-a-r-5-59-maior-valor-em-15-meses-imovel-em-sc-para-estrangeiros",
+      "formato": "Análise",
+      "titulo": "Dólar fecha a R$ 5,59, maior valor em 15 meses, e imóvel em SC fica mais acessível para quem tem renda em moeda forte",
+      "resumo": "A alta de 1,46% na terça-feira veio com a inflação americana acima do esperado. Para estrangeiros e brasileiros com renda no exterior, o mesmo imóvel em reais passa a custar menos em dólar.",
+      "foto": {
+        "legenda": "Ponte Hercílio Luz, em Florianópolis. O aeroporto da capital recebeu 485 mil passageiros argentinos e 388 mil chilenos até agosto.",
+        "id": "dolar-a-r-5-59-maior-valor-em-15-meses-imovel-em-sc-para-estrangeiros",
+        "evitar": [
+          "pixabay:3867550"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 5,59",
+        "legenda": "Fechamento do dólar em 10 de novembro de 2026, o maior desde 31 de julho de 2025"
+      },
+      "corpo": [
+        {
+          "p": "O dólar comercial subiu 1,46% na terça-feira (10) e fechou a R$ 5,586, o maior valor de fechamento desde 31 de julho de 2025. Durante o pregão, a moeda chegou a R$ 5,61. O Ibovespa recuou 0,52%, aos 171.337 pontos."
+        },
+        {
+          "p": "A alta veio depois que a inflação ao consumidor dos Estados Unidos subiu 0,4% em outubro, acima dos 0,3% esperados, o que elevou as apostas de alta de juros pelo Federal Reserve em dezembro. O dólar também ganhou força frente a outras moedas, e a ata do Copom, divulgada no mesmo dia, citou a desvalorização do real entre os riscos para a inflação."
+        },
+        {
+          "h": "A conta para quem compra em moeda forte"
+        },
+        {
+          "p": "Para quem tem renda ou patrimônio em dólar, o imóvel brasileiro fica mais acessível quando o real se desvaloriza. Um apartamento de R$ 1 milhão custava cerca de US$ 181,8 mil com o dólar a R$ 5,50, fechamento da véspera. Com a cotação de terça, sai por cerca de US$ 179 mil, uma diferença de quase US$ 2,8 mil em um único dia."
+        },
+        {
+          "h": "Florianópolis no radar internacional"
+        },
+        {
+          "p": "Santa Catarina já tem uma base grande de visitantes estrangeiros. O aeroporto de Florianópolis é o terceiro do país em movimento internacional e recebeu, até agosto, 485 mil passageiros da Argentina e 388 mil do Chile. As rotas para Lisboa e Cidade do Panamá ampliam o acesso de europeus e norte-americanos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Câmbio favorável costuma reforçar a procura de estrangeiros e de brasileiros que vivem fora por imóveis de praia e por unidades para locação de temporada. Para quem vende ou investe no litoral catarinense, esse público tende a ganhar peso na alta temporada que começa em dezembro."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Tribuna do Sertão: dólar sobe 1,46% e fecha no maior valor em 15 meses",
+          "url": "https://www.tribunadosertao.com.br/geral/2026/11/10/1018480-dolar-sobe-146-e-fecha-no-maior-valor-em-15-meses"
+        },
+        {
+          "nome": "InvestNews: Ibovespa fecha em queda em 10 de novembro",
+          "url": "https://investnews.com.br/investimentos/ibovespa-fecha-queda-10-11-2026/"
+        },
+        {
+          "nome": "Floripa Airport: 1 milhão de passageiros internacionais dois meses antes que em 2025",
+          "url": "https://floripa-airport.com/noticias/102582-floripa-airport-chega-a-1-milhao-de-passageiros-internacionais-dois-meses-antes-que-em-2025"
+        }
+      ]
+    }
+  ]
+}
