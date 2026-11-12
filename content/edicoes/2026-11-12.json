@@ -1,0 +1,306 @@
+{
+  "data": "2026-11-12",
+  "publicacoes": [
+    {
+      "slug": "marina-beira-mar-norte-florianopolis-r-350-milhoes-obras-avancam",
+      "formato": "Em números",
+      "titulo": "Parque e Marina Beira-Mar Norte, de R$ 350 milhões, avança em Florianópolis e abre mais de 130 mil m² de área pública",
+      "resumo": "Em um mês de obra, 27 mil toneladas de rochas já foram lançadas na Baía Norte. O projeto, financiado por capital privado, prevê marina para mais de 600 embarcações e um parque de cerca de 140 mil m².",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A marina da Beira-Mar Norte terá estrutura para mais de 600 embarcações, ao lado de um parque público de cerca de 140 mil m².",
+        "id": "marina-beira-mar-norte-florianopolis-r-350-milhoes-obras-avancam",
+        "evitar": [
+          "pixabay:3867550"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Investimento privado",
+            "valor": "R$ 350 mi",
+            "detalhe": "obra com prazo de 4 anos"
+          },
+          {
+            "rotulo": "Faixa pública aterrada",
+            "valor": "132 mil m²",
+            "detalhe": "mais de 60 campos de futebol"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Parque e Marina Beira-Mar Norte, em Florianópolis, foi apresentado nesta quarta-feira (11) no ADIT Cidades, evento nacional que acontece até sexta (13) na capital. O projeto soma mais de 432 mil m², dos quais cerca de 300,8 mil m² são de espelho d'água, e tem investimento estimado em R$ 350 milhões, todo de capital privado."
+        },
+        {
+          "h": "O que já foi feito"
+        },
+        {
+          "p": "As obras começaram no segundo semestre de 2026, na Avenida Beira-Mar Norte, na Baía Norte. No primeiro mês, foram lançadas mais de 27 mil toneladas de rochas e construídos 405 metros lineares de muralha de pedras, cerca de 20% da fase inicial. A estrutura tem aproximadamente 4,5 metros de altura dentro da água e usa mantas de contenção para reduzir a turbidez. A próxima etapa é a dragagem de areia para formar o aterro."
+        },
+        {
+          "h": "Parque aberto ao público"
+        },
+        {
+          "p": "A faixa aterrada de uso público tem 132 mil m², área equivalente a mais de 60 campos de futebol. Dela sai um parque de cerca de 140 mil m², dividido em três setores. O prazo total é de quatro anos: dois anos e meio para a infraestrutura e o parque e mais um ano e meio para concluir a marina. A obra é conduzida pela Construtora JL, que lidera um consórcio."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Marinas e parques urbanos à beira-mar costumam atrair moradores, turistas e novos negócios para o entorno, e o setor náutico ainda tem pouco espaço no dia a dia da capital. O projeto integra um conjunto de cerca de R$ 3,5 bilhões em obras públicas e privadas previstas para Florianópolis nos próximos três anos, segundo levantamento da Exame Sul. Vale lembrar que esse total reúne projetos em fases diferentes, e acompanhar o cronograma de cada um faz parte da análise de quem investe na região."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Parque e Marina Beira-Mar de Florianópolis é destaque em evento nacional",
+          "url": "https://ndmais.com.br/infraestrutura/com-area-equivalente-a-60-campos-de-futebol-parque-e-marina-beira-mar-de-florianopolis-e-destaque-em-evento-nacional/"
+        },
+        {
+          "nome": "ND Mais: Florianópolis prevê R$ 3,5 bilhões em obras públicas e privadas",
+          "url": "https://ndmais.com.br/economia/florianopolis-preve-r-35-bilhoes-em-obras-publicas-e-privadas-com-nova-marina-e-maior-predio-da-capital-em-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "florianopolis-marina-e-hoteis-somam-r-644-milhoes-aeroporto-5-milhoes-passageiros",
+      "formato": "Ranking",
+      "titulo": "Marina e dois hotéis somam R$ 644 milhões em investimentos anunciados em Florianópolis",
+      "resumo": "Vila Galé e Hilton Garden Inn preveem 597 apartamentos de hotel até 2028. A capital tem aeroporto com mais de 5 milhões de passageiros por ano e aposta em ser destino o ano inteiro.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Vila Galé, no Sapiens Parque, e o Hilton Garden Inn, perto do aeroporto, preveem 597 apartamentos de hotel em Florianópolis.",
+        "id": "florianopolis-marina-e-hoteis-somam-r-644-milhoes-aeroporto-5-milhoes-passageiro"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Investimentos anunciados em Florianópolis",
+        "unidade": "R$ milhões",
+        "itens": [
+          {
+            "rotulo": "Parque e Marina Beira-Mar Norte",
+            "valor": 350,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Hotel Vila Galé (Sapiens Parque)",
+            "valor": 200,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Hilton Garden Inn (aeroporto)",
+            "valor": 94,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Valores estimados divulgados pelos empreendedores e reunidos em levantamento da Exame Sul. Soma: R$ 644 milhões. Cálculo do Venare News."
+      },
+      "corpo": [
+        {
+          "p": "Três projetos anunciados para Florianópolis somam R$ 644 milhões: o Parque e Marina Beira-Mar Norte (R$ 350 milhões), o hotel Vila Galé no Sapiens Parque (R$ 200 milhões) e o Hilton Garden Inn, no entorno do aeroporto (R$ 94 milhões)."
+        },
+        {
+          "h": "Dois hotéis, quase 600 apartamentos"
+        },
+        {
+          "p": "A Vila Galé prevê 309 apartamentos, e o Hilton Garden Inn, 288, ambos com inauguração prevista para 2028. Juntos, os dois hotéis acrescentam 597 unidades à oferta de hospedagem da capital."
+        },
+        {
+          "h": "Um destino para o ano inteiro"
+        },
+        {
+          "p": "Em evento com operadoras de turismo em São Paulo, no dia 4 de novembro, a Prefeitura e o Destino Floripa & Região apresentaram a estratégia de promover a cidade também fora do verão, com ecoturismo, turismo cultural e religioso. O novo posicionamento deve ser lançado no início de 2027, e a prefeitura informou um investimento de R$ 5 milhões na divulgação do destino."
+        },
+        {
+          "p": "A prefeitura destacou ainda que o aeroporto recebe mais de 5 milhões de passageiros por ano, o terceiro mais movimentado do país, com voos diretos para Lisboa e Cidade do Panamá, e que Florianópolis é considerada a capital mais segura do Brasil há quatro anos seguidos. São informações divulgadas pela própria administração municipal."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Hotéis, marina e voos internacionais ampliam a infraestrutura de turismo e de eventos da cidade, o que tende a sustentar a demanda por hospedagem e por imóveis para locação de temporada. Como todo projeto em andamento, os prazos podem mudar, e vale conferir o estágio de cada obra antes de tomar decisões."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Florianópolis prevê R$ 3,5 bilhões em obras públicas e privadas",
+          "url": "https://ndmais.com.br/economia/florianopolis-preve-r-35-bilhoes-em-obras-publicas-e-privadas-com-nova-marina-e-maior-predio-da-capital-em-sc/"
+        },
+        {
+          "nome": "PANROTAS: Florianópolis reúne operadores em São Paulo para promover atrativos além do verão",
+          "url": "https://www.panrotas.com.br/mercado/destinos/2026/11/florianopolis-reune-operadores-em-sao-paulo-para-promover-atrativos-alem-do-verao_233393.html"
+        },
+        {
+          "nome": "ND Mais: Parque e Marina Beira-Mar de Florianópolis é destaque em evento nacional",
+          "url": "https://ndmais.com.br/infraestrutura/com-area-equivalente-a-60-campos-de-futebol-parque-e-marina-beira-mar-de-florianopolis-e-destaque-em-evento-nacional/"
+        }
+      ]
+    },
+    {
+      "slug": "florianopolis-iss-mais-que-dobra-tecnologia-21-pib-municipal",
+      "formato": "Gráfico",
+      "titulo": "Arrecadação de ISS de Florianópolis mais que dobra em quatro anos, e a tecnologia já pesa 21% do PIB da cidade",
+      "resumo": "O imposto sobre serviços passou de R$ 401,9 milhões em 2021 para R$ 856,2 milhões em 2025. O setor de tecnologia movimentou cerca de R$ 14 bilhões no ano passado, alta de 9,4%.",
+      "foto": {
+        "legenda": "Vista de Florianópolis ao entardecer. A tecnologia movimentou cerca de R$ 14 bilhões na cidade em 2025, alta de 9,4%.",
+        "id": "florianopolis-iss-mais-que-dobra-tecnologia-21-pib-municipal"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Arrecadação de ISS em Florianópolis",
+        "unidade": "R$ milhões",
+        "itens": [
+          {
+            "rotulo": "2021",
+            "valor": 401.9,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "2025",
+            "valor": 856.2,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "2026 (estimativa)",
+            "valor": 1000,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Arrecadação do Imposto Sobre Serviços de Florianópolis. O valor de 2026 é uma estimativa de cerca de R$ 1 bilhão citada na reportagem. Variação de 2021 a 2025 calculada pelo Venare News: +113%."
+      },
+      "corpo": [
+        {
+          "p": "A arrecadação de ISS (Imposto Sobre Serviços) de Florianópolis passou de R$ 401,9 milhões em 2021 para R$ 856,2 milhões em 2025, alta de 113%. Para 2026, a estimativa é de cerca de R$ 1 bilhão, o que representa aproximadamente 25% das receitas do município."
+        },
+        {
+          "h": "A força da tecnologia"
+        },
+        {
+          "p": "Segundo o Observatório ACATE 2026, o setor de tecnologia movimentou cerca de R$ 14 bilhões em Florianópolis em 2025, alta de 9,4% sobre o ano anterior. O valor equivale a cerca de 21% do PIB municipal."
+        },
+        {
+          "p": "O Sapiens Parque, polo de inovação da capital, reúne 158 instituições, gera mais de 9 mil empregos diretos e indiretos e movimenta cerca de R$ 2 bilhões por ano."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Uma economia de serviços e tecnologia atrai profissionais com renda e mobilidade, e isso costuma se refletir na demanda por moradia e por locação, principalmente em bairros próximos aos polos de trabalho. Florianópolis também tem o 4º m² mais valorizado do país, em R$ 13.690 em outubro, segundo o FipeZAP."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Florianópolis prevê R$ 3,5 bilhões em obras públicas e privadas",
+          "url": "https://ndmais.com.br/economia/florianopolis-preve-r-35-bilhoes-em-obras-publicas-e-privadas-com-nova-marina-e-maior-predio-da-capital-em-sc/"
+        },
+        {
+          "nome": "Índice FipeZAP de outubro de 2026 (Fipe)",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "ibovespa-172-mil-pontos-dolar-r-5-56-pacote-fiscal-mercado",
+      "formato": "Notícia",
+      "titulo": "Ibovespa fecha a 172 mil pontos e dólar recua a R$ 5,56 com pacote fiscal no radar",
+      "resumo": "A bolsa subiu 0,42% e a moeda americana caiu 0,42% na quarta-feira, um dia depois de o dólar ter marcado o maior valor em 15 meses. Nesta quinta (12), o IBGE divulga o IPCA de outubro.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Ibovespa fechou a quarta-feira (11) em 172.060 pontos, alta de 0,42%.",
+        "id": "ibovespa-172-mil-pontos-dolar-r-5-56-pacote-fiscal-mercado",
+        "evitar": [
+          "pixabay:1726618",
+          "pixabay:1905224"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "172.060",
+        "legenda": "Pontos do Ibovespa no fechamento de 11 de novembro de 2026, alta de 0,42%. O dólar fechou a R$ 5,56, queda de 0,42%"
+      },
+      "corpo": [
+        {
+          "p": "O Ibovespa encerrou a quarta-feira (11) em 172.060 pontos, alta de 0,42%. O dólar comercial recuou 0,42% e fechou a R$ 5,56, depois de ter chegado a R$ 5,586 na terça-feira (10), o maior valor de fechamento em 15 meses."
+        },
+        {
+          "h": "O que movimentou o mercado"
+        },
+        {
+          "p": "O noticiário do dia foi dominado pela expectativa de um pacote de ajuste fiscal do governo, que animou os investidores e aliviou a pressão sobre o câmbio. O mercado também acompanha os juros: a Selic está em 13,75% ao ano, e o IPCA de outubro será divulgado pelo IBGE nesta quinta-feira (12). A próxima decisão do Copom é em 9 de dezembro."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Câmbio mais calmo e sinais de disciplina fiscal ajudam a reduzir a incerteza que pesa sobre os juros longos, que influenciam o custo do crédito imobiliário. Ainda assim, uma queda efetiva das taxas depende de inflação e expectativas mais comportadas nos próximos meses."
+        },
+        {
+          "p": "Enquanto isso, o mercado catarinense segue com fundamentos próprios: Florianópolis acumula valorização de 8,61% em 12 meses, 1,6 vez a média das 56 cidades do FipeZAP, e Santa Catarina tem o menor desemprego do país."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Imirante: dólar cai 0,42% e fecha a R$ 5,56 com foco em pacote fiscal",
+          "url": "https://imirante.com/noticias/brasil/2026/11/11/dolar-cai-042-fecha-r-556-foco-pacote-fiscal"
+        },
+        {
+          "nome": "O Tempo: com pacote fiscal no radar, Ibovespa termina a quarta-feira no azul",
+          "url": "https://www.otempo.com.br/economia/2026/11/11/com-pacote-fiscal-no-radar-ibovespa-termina-a-quarta-feira-no-azul"
+        },
+        {
+          "nome": "Índice FipeZAP de outubro de 2026 (Fipe)",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "centro-de-florianopolis-monumental-156-metros-rua-bocaiuva-centrosul",
+      "formato": "Análise",
+      "titulo": "Centro de Florianópolis terá prédio residencial de 156 metros, rua requalificada e concessão do CentroSul",
+      "resumo": "O Monumental, previsto para lançamento no início de 2027, será o maior prédio residencial da capital. A Rua Bocaiúva ganha obra de cerca de R$ 40 milhões, e o centro de convenções passa a ter operador privado por 35 anos.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Monumental, com cerca de 156 metros, deve ser lançado no início de 2027 no Centro de Florianópolis.",
+        "id": "centro-de-florianopolis-monumental-156-metros-rua-bocaiuva-centrosul",
+        "evitar": [
+          "pixabay:3751863"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "156 m",
+        "legenda": "Altura prevista do Monumental, que será o maior prédio residencial de Florianópolis, com lançamento previsto para o início de 2027"
+      },
+      "corpo": [
+        {
+          "p": "O Centro de Florianópolis concentra um conjunto de projetos que podem mudar a região nos próximos anos, segundo levantamento da Exame Sul divulgado pelo ND Mais. A própria reportagem lembra que as iniciativas estão em fases diferentes, e nem todas já estão em execução."
+        },
+        {
+          "h": "O maior prédio residencial da capital"
+        },
+        {
+          "p": "O Monumental, da RBV Incorporadora, terá cerca de 156 metros e lançamento previsto para o início de 2027. O projeto inclui uma praça aberta ao público e uma passagem para pedestres entre a Avenida Rio Branco e a Rua Dom Jaime Câmara."
+        },
+        {
+          "h": "Rua, convenções e plano para o Centro"
+        },
+        {
+          "p": "A requalificação da Rua Bocaiúva, estimada em cerca de R$ 40 milhões e financiada por outorgas onerosas, tem início previsto para janeiro de 2027. O CentroSul, centro de convenções da cidade, foi concedido à DMDL por R$ 31,5 milhões, em contrato de 35 anos, com R$ 53,4 milhões em investimentos obrigatórios. Há ainda o estudo Floripa Centro, feito pela Gehl Architects, com mais de 70 propostas para a região, custeado por entidades empresariais (ACIF e CDL) com R$ 1,2 milhão, sem recursos públicos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Projetos de requalificação urbana, novos equipamentos de eventos e lançamentos de grande porte costumam revitalizar áreas centrais e atrair moradores e negócios. Para o investidor, vale acompanhar o cronograma de cada obra e a oferta de imóveis no entorno, já que os efeitos sobre os preços dependem da entrega efetiva dos projetos."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Florianópolis prevê R$ 3,5 bilhões em obras públicas e privadas",
+          "url": "https://ndmais.com.br/economia/florianopolis-preve-r-35-bilhoes-em-obras-publicas-e-privadas-com-nova-marina-e-maior-predio-da-capital-em-sc/"
+        },
+        {
+          "nome": "PANROTAS: Florianópolis reúne operadores em São Paulo para promover atrativos além do verão",
+          "url": "https://www.panrotas.com.br/mercado/destinos/2026/11/florianopolis-reune-operadores-em-sao-paulo-para-promover-atrativos-alem-do-verao_233393.html"
+        }
+      ]
+    }
+  ]
+}
