@@ -51,7 +51,8 @@ function visual(v, grande = false) {
   }
   if (v.tipo === 'barras' || v.tipo === 'ranking') {
     const max = Math.max(...v.itens.map((i) => i.valor));
-    const un = v.unidade && v.unidade !== '%' ? v.unidade : '';
+    // Unidades longas viram abreviação para caber na coluna do valor (ex.: "R$ 350 mi")
+    const un = (v.unidade && v.unidade !== '%' ? v.unidade : '').replace(/\bmilhões\b/g, 'mi').replace(/\bbilhões\b/g, 'bi');
     const fmt = (x) => (un ? (un.startsWith('R$ ') ? `R$ ${x.toLocaleString('pt-BR')} ${un.slice(3)}` : `${x.toLocaleString('pt-BR')} ${un}`) : v.tipo === 'ranking' ? `R$ ${x.toLocaleString('pt-BR')}` : `${num(x)}%`);
     const itens = grande ? v.itens : v.itens.slice(0, v.tipo === 'ranking' ? 6 : 9);
     return `<figure class="vis vis-barras${grande ? ' grande' : ''}">
