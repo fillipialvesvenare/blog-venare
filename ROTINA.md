@@ -28,7 +28,7 @@ git checkout -B revisao origin/main
 ### 3. Escrever 5 publicações
 Criar `content/edicoes/AAAA-MM-DD.json` no mesmo formato das edições existentes.
 - A primeira publicação é o destaque do dia (aparece grande no topo).
-- Formatos variados: Análise, Gráfico, Ranking, Notícia, Em números (visuais: `numero`, `barras`, `ranking`, `comparacao`). Pelo menos 2 publicações com gráfico ou ranking.
+- Formatos variados: Análise, Gráfico, Ranking, Notícia, Em números (visuais: `numero`, `barras`, `ranking`, `comparacao`). Pelo menos 2 publicações com gráfico ou ranking. Em `barras`/`ranking` com valores que não são porcentagem, preencha `"unidade"` (ex.: `"R$ milhões"`, `"unidades"`): o site mostra "R$ 350 milhões" e esconde a legenda de cores. Sem `unidade`, `barras` aparece em %.
 - Sempre que possível, comparar SC com o Brasil, de forma honesta (mostrar também quando SC fica abaixo).
 - Público: investidores. Tom consultivo, claro, sem sensacionalismo e sem recomendação de compra.
 - Texto 100% próprio (parafraseado). Nada de copiar parágrafos ou imagens de terceiros (fotos só pelo `scripts/fotos.py`, que usa banco de licença livre e registra o crédito). Citação literal só se indispensável, com menos de 15 palavras.

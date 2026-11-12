@@ -51,14 +51,15 @@ function visual(v, grande = false) {
   }
   if (v.tipo === 'barras' || v.tipo === 'ranking') {
     const max = Math.max(...v.itens.map((i) => i.valor));
-    const fmt = (x) => (v.tipo === 'ranking' ? `R$ ${x.toLocaleString('pt-BR')}` : `${num(x)}%`);
+    const un = v.unidade && v.unidade !== '%' ? v.unidade : '';
+    const fmt = (x) => (un ? (un.startsWith('R$ ') ? `R$ ${x.toLocaleString('pt-BR')} ${un.slice(3)}` : `${x.toLocaleString('pt-BR')} ${un}`) : v.tipo === 'ranking' ? `R$ ${x.toLocaleString('pt-BR')}` : `${num(x)}%`);
     const itens = grande ? v.itens : v.itens.slice(0, v.tipo === 'ranking' ? 6 : 9);
     return `<figure class="vis vis-barras${grande ? ' grande' : ''}">
       ${v.titulo ? `<figcaption class="vis-tit">${esc(v.titulo)}</figcaption>` : ''}
       <ol class="barras" role="list">${itens.map((i) => `
         <li class="barra tom-${i.tom}"><span class="b-rot">${esc(i.rotulo)}</span><span class="b-trilho"><span class="b-preench" style="--w:${((i.valor / max) * 100).toFixed(1)}%"></span></span><span class="b-val">${fmt(i.valor)}</span></li>`).join('')}
       </ol>
-      <p class="legenda-cores"><span class="lc lc-sc">Santa Catarina</span><span class="lc lc-br">${v.tipo === 'ranking' ? 'Outros estados' : 'Brasil'}</span><span class="lc lc-ref">${v.tipo === 'ranking' ? 'Média nacional' : 'Inflação (IPCA)'}</span></p>
+      ${un ? '' : `<p class="legenda-cores"><span class="lc lc-sc">Santa Catarina</span><span class="lc lc-br">${v.tipo === 'ranking' ? 'Outros estados' : 'Brasil'}</span><span class="lc lc-ref">${v.tipo === 'ranking' ? 'Média nacional' : 'Inflação (IPCA)'}</span></p>`}
       ${v.nota && grande ? `<p class="vis-nota">${esc(v.nota)}</p>` : ''}
     </figure>`;
   }
