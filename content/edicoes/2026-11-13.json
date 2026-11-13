@@ -1,0 +1,300 @@
+{
+  "data": "2026-11-13",
+  "publicacoes": [
+    {
+      "slug": "itapoa-lancamentos-de-apartamentos-crescem-265-vendas-r-304-milhoes",
+      "formato": "Gráfico",
+      "titulo": "Itapoá lança 556 apartamentos no semestre, 3,7 vezes mais que um ano antes, e as vendas sobem 76%",
+      "resumo": "O litoral norte catarinense vive um novo ciclo: o valor lançado em Itapoá passou de R$ 109 milhões para R$ 373 milhões, e as vendas somaram R$ 304 milhões no primeiro semestre de 2026.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Itapoá lançou 556 apartamentos no primeiro semestre de 2026, contra 152 no mesmo período de 2025.",
+        "id": "itapoa-lancamentos-de-apartamentos-crescem-265-vendas-r-304-milhoes",
+        "evitar": [
+          "pixabay:2894706",
+          "pixabay:7754986"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Apartamentos lançados em Itapoá no 1º semestre",
+        "unidade": "unidades",
+        "itens": [
+          {
+            "rotulo": "1º semestre de 2025",
+            "valor": 152,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "1º semestre de 2026",
+            "valor": 556,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte dos dados: Sinduscon Joinville, divulgados pelo ND Mais. Variação de 265,8% informada na reportagem."
+      },
+      "corpo": [
+        {
+          "p": "Itapoá, no litoral norte de Santa Catarina, lançou 556 apartamentos no primeiro semestre de 2026, contra 152 no mesmo período de 2025, alta de 265,8%. Os dados são do Sinduscon Joinville."
+        },
+        {
+          "h": "Lançamentos e vendas em alta"
+        },
+        {
+          "p": "O valor geral de lançamentos passou de R$ 109 milhões para R$ 373 milhões (+241,5%). Nas vendas, foram 413 apartamentos comercializados, 72,8% a mais em unidades, e R$ 304 milhões em valor, alta de 76,2%."
+        },
+        {
+          "h": "Preço e perfil da oferta"
+        },
+        {
+          "p": "O ticket médio por imóvel ficou em R$ 700 mil, e o preço médio do metro quadrado privativo foi de R$ 11.249 em junho de 2026. Dos 462 apartamentos novos à venda em junho, 354 estavam na faixa standard, entre R$ 400 mil e R$ 1 milhão, e os de dois dormitórios respondiam por 68,5% da oferta."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Cidades menores do litoral norte, com preço de entrada mais acessível que o das vizinhas Balneário Camboriú e Itapema, têm atraído lançamentos e demanda. Para o investidor, vale acompanhar o ritmo de vendas dos novos empreendimentos e o prazo de entrega, já que a base de comparação do ano passado era pequena."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: cidade com 32 km de praias vive boom imobiliário, e lançamentos de apartamentos crescem 265%",
+          "url": "https://ndmais.com.br/economia/negocios/cidade-de-praias-vive-boom-imobiliario-lancamentos-apartamentos-crescem/"
+        }
+      ]
+    },
+    {
+      "slug": "orcamento-de-sc-para-2027-preve-r-6-2-bilhoes-em-investimentos-recorde",
+      "formato": "Em números",
+      "titulo": "Orçamento de SC para 2027 prevê R$ 6,2 bilhões em investimentos, o maior volume da história do estado",
+      "resumo": "O projeto enviado à Assembleia soma R$ 62,9 bilhões, 8,6% a mais que o orçamento de 2026, sem previsão de aumento da carga tributária. Estradas, sinal de internet e Defesa Civil estão entre as frentes.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O orçamento catarinense de 2027 prevê R$ 6,2 bilhões em investimentos, o maior volume já registrado no estado.",
+        "id": "orcamento-de-sc-para-2027-preve-r-6-2-bilhoes-em-investimentos-recorde",
+        "evitar": [
+          "pixabay:174446"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Investimentos previstos",
+            "valor": "R$ 6,2 bi",
+            "detalhe": "maior volume da história de SC"
+          },
+          {
+            "rotulo": "Receita total em 2027",
+            "valor": "R$ 62,9 bi",
+            "detalhe": "alta de 8,6% sobre 2026"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O projeto de lei orçamentária de Santa Catarina para 2027, enviado à Assembleia Legislativa, prevê receita e despesa de R$ 62,9 bilhões, crescimento de 8,6% sobre a lei orçamentária de 2026. Os investimentos somam R$ 6,2 bilhões, o maior volume registrado na história do estado, segundo a Secretaria da Fazenda. Não há previsão de aumento da carga tributária."
+        },
+        {
+          "h": "Para onde vai o dinheiro"
+        },
+        {
+          "p": "O programa Estrada Boa e Estrada Boa Rural reúne R$ 1,3 bilhão e deve ampliar a malha atendida de cerca de 2 mil km para pouco mais de 4,5 mil km. O VIAMAR, de obras viárias, tem R$ 350 milhões previstos para 2027, de um total de R$ 2,2 bilhões em recursos próprios. O programa Sinal Bom, de conectividade, prevê R$ 150 milhões em 2027. A Defesa Civil terá R$ 365,4 milhões, alta de 9,7%."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Logística, rodovias e conectividade influenciam a atratividade de regiões para moradia e para a instalação de empresas, o que costuma refletir no mercado imobiliário. Vale lembrar que o orçamento ainda será votado pela Assembleia e que a execução das obras depende de cronogramas e licitações."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "SEF/SC: orçamento de SC prevê crescimento de 8,6% nas receitas totais do estado para 2027",
+          "url": "https://www.sef.sc.gov.br/noticias/orcamento-de-sc-preve-crescimento-de-86-nas-receitas-totais-do-estado-para-2027"
+        }
+      ]
+    },
+    {
+      "slug": "litoral-norte-de-sc-quinto-maior-mercado-imobiliario-do-pais-r-13-47-bilhoes",
+      "formato": "Ranking",
+      "titulo": "Litoral norte de SC é o quinto maior mercado imobiliário do país, à frente de Curitiba, com R$ 13,47 bilhões em 2025",
+      "resumo": "Em apenas 490 km², a região vendeu mais de 9 mil unidades. Itajaí, Porto Belo e Balneário Camboriú tiveram altas de 46%, 43% e 30% no VGV.",
+      "foto": {
+        "legenda": "Prédios à beira-mar em Balneário Camboriú. O litoral norte de Santa Catarina somou R$ 13,47 bilhões em VGV em 2025, o quinto maior mercado do país.",
+        "id": "litoral-norte-de-sc-quinto-maior-mercado-imobiliario-do-pais-r-13-47-bilhoes"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Alta do VGV em 2025, por cidade",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Itajaí",
+            "valor": 46,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Porto Belo",
+            "valor": 43,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Balneário Camboriú",
+            "valor": 30,
+            "tom": "sc"
+          }
+        ],
+        "nota": "VGV: valor geral de vendas. Dados da DWV divulgados pelo Portas. Itapema liderou o volume regional, com R$ 4,3 bilhões."
+      },
+      "corpo": [
+        {
+          "p": "O litoral norte de Santa Catarina somou cerca de R$ 13,47 bilhões em VGV em 2025, segundo a plataforma DWV, o que o coloca como quinto maior mercado imobiliário do país em volume financeiro, à frente de Curitiba. Foram mais de 9 mil unidades comercializadas em uma área de 490 km²."
+        },
+        {
+          "h": "Desempenho por cidade"
+        },
+        {
+          "p": "Itajaí teve alta de 46% no VGV, Porto Belo de 43% e Balneário Camboriú de 30%, esta última com os maiores tickets médios do país. Itapema foi a líder regional em volume, com R$ 4,3 bilhões."
+        },
+        {
+          "h": "Oferta de unidades"
+        },
+        {
+          "p": "Em lançamentos, Porto Belo registrou 18.899 unidades, Itapema 12.623, Itajaí 5.829 e Balneário Camboriú 3.239, limitada pela falta de terrenos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "O volume mostra a profundidade de um mercado que atrai compradores de várias regiões. Para o investidor, o desafio é comparar bairros, estágio das obras e liquidez de revenda, já que cada cidade tem dinâmica própria."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Portas: litoral norte de SC soma R$ 13,4 bi em VGV em 2025",
+          "url": "https://portas.com.br/noticias/litoral-norte-de-sc-soma-r-134-bi-em-vgv-em-2025/"
+        }
+      ]
+    },
+    {
+      "slug": "ipca-desacelera-014-outubro-florianopolis-valoriza-1-9-vez-a-inflacao",
+      "formato": "Notícia",
+      "titulo": "IPCA desacelera a 0,14% em outubro, e a valorização de Florianópolis, de 8,61%, é 1,9 vez a inflação em 12 meses",
+      "resumo": "A inflação oficial somou 4,63% em 12 meses, e os imóveis de Florianópolis valorizaram 8,61% no mesmo intervalo, segundo o FipeZAP. Dólar fechou a R$ 5,65, e o Ibovespa, em 170,7 mil pontos.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O IPCA de outubro ficou em 0,14%, e a inflação em 12 meses, em 4,63%.",
+        "id": "ipca-desacelera-014-outubro-florianopolis-valoriza-1-9-vez-a-inflacao"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Valorização em 12 meses e inflação",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Florianópolis (FipeZAP, out/2026)",
+            "valor": 8.61,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Brasil (FipeZAP, out/2026)",
+            "valor": 5.44,
+            "tom": "br"
+          },
+          {
+            "rotulo": "IPCA em 12 meses (out/2026)",
+            "valor": 4.63,
+            "tom": "ref"
+          }
+        ],
+        "nota": "FipeZAP: média de 56 cidades no recorte nacional. IPCA: IBGE. Comparação feita pelo Venare News, sem descontar custos de compra ou de manutenção do imóvel."
+      },
+      "corpo": [
+        {
+          "p": "O IPCA de outubro subiu 0,14%, bem abaixo dos 0,82% de setembro, segundo o IBGE. Em 12 meses, a inflação oficial ficou em 4,63%, acima do teto da meta, de 4,5%."
+        },
+        {
+          "h": "Mercado financeiro"
+        },
+        {
+          "p": "Na quinta-feira (12), o dólar subiu 1,61% e fechou a R$ 5,651, em um dia de dúvidas sobre o pacote fiscal. O Ibovespa recuou 0,80%, aos 170.679 pontos. A Selic está em 13,75% ao ano, e a próxima decisão do Copom é em 9 de dezembro."
+        },
+        {
+          "h": "Imóveis acima da inflação"
+        },
+        {
+          "p": "Pelo FipeZAP, os imóveis de Florianópolis valorizaram 8,61% em 12 meses até outubro, contra 5,44% da média de 56 cidades. Isso é cerca de 1,9 vez a inflação de 4,63%, ou seja, ganho acima da inflação de aproximadamente 3,8 pontos percentuais, conforme cálculo do Venare News."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Valorização acima da inflação preserva o poder de compra do patrimônio, mas juros altos continuam pesando no crédito. Os números de preço são médias de anúncios e não garantem resultado individual."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "O Repórter: dólar sobe a R$ 5,651 com pressão fiscal e inflação; Ibovespa recua",
+          "url": "https://oreporter.com/economia/dolar-sobe-5-651-pacote-fiscal-ipca-ibovespa-fecha-queda-12-novembro"
+        },
+        {
+          "nome": "IBGE: IPCA fica em 0,14% em outubro",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48568-ipca-fica-em-0-14-em-outubro"
+        },
+        {
+          "nome": "Índice FipeZAP de outubro de 2026 (Fipe)",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "penha-e-balneario-picarras-populacao-cresce-64-r-1-78-bilhao-transacoes",
+      "formato": "Análise",
+      "titulo": "Penha e Balneário Piçarras crescem 64% em população e somam R$ 1,78 bilhão em transações imobiliárias no semestre",
+      "resumo": "As duas cidades vizinhas do litoral norte passaram de 42,2 mil para cerca de 69,3 mil habitantes desde 2010, e o interesse em alto padrão avança, segundo reportagem do Estado de Minas.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Penha e Balneário Piçarras somaram R$ 1,78 bilhão em transações imobiliárias no primeiro semestre de 2026.",
+        "id": "penha-e-balneario-picarras-populacao-cresce-64-r-1-78-bilhao-transacoes",
+        "evitar": [
+          "pixabay:518192"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "População em 2010",
+            "valor": "42,2 mil",
+            "detalhe": "Penha e Balneário Piçarras"
+          },
+          {
+            "rotulo": "População estimada em 2026",
+            "valor": "69,3 mil",
+            "detalhe": "alta de 64,3% (IBGE)"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Penha e Balneário Piçarras, separadas pelo Rio Piçarras, no litoral norte, estão entre as cidades catarinenses que mais crescem. A população somada passou de 42,2 mil habitantes em 2010 para uma estimativa de 69,3 mil em 2026, alta de 64,3%, segundo o IBGE."
+        },
+        {
+          "h": "Movimento imobiliário"
+        },
+        {
+          "p": "De acordo com a reportagem, as transações imobiliárias somaram R$ 1,78 bilhão no primeiro semestre de 2026, com base no Portal da Transparência. A mesma matéria cita pesquisa da Datastore segundo a qual 32,7% das famílias do Sul do país pretendem comprar imóvel no curto ou médio prazo."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Crescimento populacional constante tende a sustentar a demanda por moradia, comércio e serviços. A reportagem se apoia em dados e declarações de uma incorporadora atuante na região, o que pede cautela: vale confrontar os números com outras fontes e avaliar bairro, estágio da obra e liquidez antes de investir."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Estado de Minas: litoral de SC atrai R$ 1,7 bi em negócios",
+          "url": "https://www.em.com.br/mundo-corporativo/2026/11/7537677-litoral-de-sc-atrai-rs-17-bi-em-negocios.html"
+        }
+      ]
+    }
+  ]
+}
