@@ -1,0 +1,303 @@
+{
+  "data": "2026-11-16",
+  "publicacoes": [
+    {
+      "slug": "sc-prepara-r-365-milhoes-em-rodovias-de-concreto-com-duplicacoes-no-litoral-norte",
+      "formato": "Gráfico",
+      "titulo": "SC prepara R$ 365 milhões em rodovias de concreto, com duplicação de 24,6 km da SC-416 no acesso ao Porto de Itapoá",
+      "resumo": "O pacote soma mais de 64 km de pavimento de concreto a partir de 2027, com vida útil acima de 20 anos. Só a duplicação da SC-416 tem R$ 220,7 milhões previstos.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina prepara R$ 365 milhões em obras de rodovias de concreto, incluindo a duplicação da SC-416, no acesso ao Porto de Itapoá.",
+        "id": "sc-prepara-r-365-milhoes-em-rodovias-de-concreto-com-duplicacoes-no-litoral-nort",
+        "evitar": [
+          "pixabay:1185254",
+          "pixabay:174446",
+          "pixabay:2278471"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Trechos previstos em pavimento de concreto",
+        "unidade": "km",
+        "itens": [
+          {
+            "rotulo": "SC-350 (restauração, Meio-Oeste)",
+            "valor": 25.6,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "SC-416 (duplicação, acesso a Itapoá)",
+            "valor": 24.6,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "SC-417 (duplicação, acesso ao porto)",
+            "valor": 13.9,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: Governo de SC e ND Mais. A SC-417 terá ainda 5,3 km de duplicação em asfalto na ligação com o litoral do Paraná."
+      },
+      "corpo": [
+        {
+          "p": "O Governo de Santa Catarina prepara um pacote de cerca de R$ 365 milhões em obras de rodovias com pavimento de concreto, com início a partir de 2027. Somados, os trechos passam de 64 quilômetros e incluem restauração, duplicações e viadutos nos principais entroncamentos."
+        },
+        {
+          "h": "Duas obras no litoral norte"
+        },
+        {
+          "p": "A maior obra é a duplicação da SC-416 em pavimento rígido, num trecho de 24,6 quilômetros no acesso ao Porto de Itapoá, com investimento estadual previsto de R$ 220,7 milhões. Na SC-417, também no acesso ao porto, estão previstos 13,9 quilômetros de duplicação em concreto e outros 5,3 quilômetros em asfalto, na ligação com o litoral paranaense. Essa intervenção faz parte de um acordo sobre royalties do petróleo entre Santa Catarina e Paraná."
+        },
+        {
+          "h": "Mais durabilidade para o tráfego pesado"
+        },
+        {
+          "p": "No Meio-Oeste, a SC-350 terá cerca de 25,6 quilômetros restaurados com uma camada de concreto sobre o asfalto existente, entre Santa Cecília e Lebon Régis, com investimento estimado acima de R$ 84,7 milhões. Segundo o governo, o pavimento de concreto tem vida útil superior a 20 anos e exige menos manutenção, o que compensa o custo inicial maior em trechos com muito caminhão."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Itapoá vive um ciclo de crescimento puxado pelo porto, com alta nos lançamentos e nas vendas de apartamentos. A duplicação dos acessos tende a melhorar a logística e a mobilidade da região, um fator que costuma pesar na valorização dos imóveis no médio prazo."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: rodovias de concreto que duram mais de 20 anos terão R$ 365 milhões em investimentos em SC",
+          "url": "https://ndmais.com.br/infraestrutura/rodovias-de-concreto-que-duram-mais-de-20-anos-terao-r-365-milhoes-em-investimentos-em-sc/"
+        },
+        {
+          "nome": "Governo de SC: governo prepara novo pacote de rodovias em concreto",
+          "url": "https://noticias.sc.gov.br/governo-de-santa-catarina-prepara-novo-pacote-de-rodovias-em-concreto/"
+        }
+      ]
+    },
+    {
+      "slug": "itajai-recebe-edificio-comercial-de-r-500-milhoes-com-195-salas",
+      "formato": "Notícia",
+      "titulo": "Itajaí ganha projeto comercial de quase R$ 500 milhões, com 195 salas e lajes corporativas no Centro",
+      "resumo": "O SEAM Business & Health, primeiro empreendimento da nova incorporadora TR-PRO, terá 37,1 mil m² voltados a escritórios e consultórios médicos.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O SEAM Business & Health, em Itajaí, terá 37,1 mil m² e valor geral de vendas próximo de R$ 500 milhões.",
+        "id": "itajai-recebe-edificio-comercial-de-r-500-milhoes-com-195-salas",
+        "evitar": [
+          "pixabay:7314875"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Valor geral de vendas",
+            "valor": "R$ 500 mi",
+            "detalhe": "valor aproximado do SEAM Business & Health"
+          },
+          {
+            "rotulo": "Área construída",
+            "valor": "37,1 mil m²",
+            "detalhe": "195 salas e lajes de até 1.385 m²"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Itajaí vai receber um edifício comercial com valor geral de vendas próximo de R$ 500 milhões. O SEAM Business & Health, na região central da cidade, é o primeiro projeto da TR-PRO, incorporadora criada pela empresária Taysa Pinheiro, filha dos fundadores da Procave, de Balneário Camboriú, e pelo marido, Rodrigo Caldas. A informação foi publicada pela colunista Estela Benetti, da NSC Total."
+        },
+        {
+          "h": "Escritórios e saúde"
+        },
+        {
+          "p": "O prédio terá 37,1 mil metros quadrados e 195 salas comerciais, com lajes corporativas de até 1.385 metros quadrados. O objetivo é atender dois mercados em alta na cidade: o de salas maiores para centros empresariais e o de consultórios médicos, já que o terreno fica perto de hospitais."
+        },
+        {
+          "h": "Itajaí em evidência"
+        },
+        {
+          "p": "A cidade vem chamando a atenção do mercado imobiliário. Itajaí vendeu R$ 3,11 bilhões em imóveis de janeiro a agosto de 2026, alta de 209,2% sobre o mesmo período do ano anterior, segundo a DWV, conforme noticiado pela NSC Total."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A chegada de projetos corporativos de grande porte indica demanda de empresas e profissionais de saúde por espaço na cidade. Para quem avalia salas comerciais, vale observar a taxa de ocupação da região, o perfil dos inquilinos e o prazo de entrega do empreendimento."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "NSC Total (Estela Benetti): herdeira de incorporadora de luxo de Balneário Camboriú estreia empresa com edifício comercial de quase meio bilhão de reais",
+          "url": "https://www.nsctotal.com.br/colunista/estela-benetti/herdeira-de-incorporadora-de-luxo-de-balneario-camboriu-estreia-empresa-com-edificio-comercial-de-quase-meio-bilhao-de-reais/"
+        },
+        {
+          "nome": "NSC Total: com alta de 209% nas vendas, cidade do litoral norte de SC vira novo diamante do mercado imobiliário",
+          "url": "https://www.nsctotal.com.br/economia/com-alta-de-209-nas-vendas-cidade-do-litoral-norte-de-sc-vira-novo-diamante-do-mercado-imobiliario"
+        }
+      ]
+    },
+    {
+      "slug": "13-salario-deve-injetar-r-18-6-bilhoes-na-economia-de-sc",
+      "formato": "Em números",
+      "titulo": "13º salário deve injetar R$ 18,6 bilhões na economia de SC, equivalente a 2,9% do PIB do estado",
+      "resumo": "O benefício será pago a 4,8 milhões de catarinenses, com valor médio de R$ 3.666, segundo o Dieese. SC fica com 4,7% de todo o 13º pago no país.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O 13º salário deve injetar R$ 18,6 bilhões na economia catarinense até o fim do ano.",
+        "id": "13-salario-deve-injetar-r-18-6-bilhoes-na-economia-de-sc",
+        "evitar": [
+          "pixabay:1930761",
+          "pixabay:2301933",
+          "pixabay:4689129",
+          "pixabay:7340181",
+          "pixabay:7458934"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 18,6 bi",
+        "legenda": "Valor do 13º salário que deve circular em Santa Catarina até o fim de 2026, pago a 4,8 milhões de pessoas"
+      },
+      "corpo": [
+        {
+          "p": "O pagamento do 13º salário deve injetar R$ 18,6 bilhões na economia de Santa Catarina até o fim de 2026, segundo estimativa do Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese), divulgada na sexta-feira (13). O benefício será pago a 4,8 milhões de pessoas no estado."
+        },
+        {
+          "h": "4,7% do total do país"
+        },
+        {
+          "p": "O valor catarinense corresponde a 4,7% dos R$ 399 bilhões que devem ser pagos em todo o Brasil e equivale a 2,9% do PIB estadual. O valor médio por beneficiário em Santa Catarina deve ficar em R$ 3.666."
+        },
+        {
+          "h": "Quem recebe"
+        },
+        {
+          "p": "Quase dois terços dos beneficiários são trabalhadores com carteira assinada ou servidores públicos. Aposentados e pensionistas do INSS somam 36,7%, e empregados domésticos, 0,7%. O peso do mercado formal reflete o emprego elevado no estado."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Além de reforçar o comércio de fim de ano, o 13º costuma ser usado para quitar dívidas e compor reservas, inclusive para a entrada de um imóvel. Uma renda extra desse porte circulando no estado ajuda a sustentar o consumo e a atividade econômica local."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "NSC Total: pagamento do 13º salário deve injetar R$ 18,6 bilhões na economia de SC (dados do Dieese)",
+          "url": "https://www.nsctotal.com.br/economia/pagamento-do-13o-salario-deve-injetar-r-186-bilhoes-na-economia-de-sc"
+        }
+      ]
+    },
+    {
+      "slug": "mercado-livre-constroi-centro-de-distribuicao-de-r-80-milhoes-em-criciuma",
+      "formato": "Gráfico",
+      "titulo": "Mercado Livre constrói em Criciúma centro de distribuição de R$ 80 milhões, sete vezes maior que o atual, com 350 empregos",
+      "resumo": "Com 28 mil m², perto da BR-101, será a maior estrutura da empresa entre Florianópolis e Porto Alegre. A unidade de Morro da Fumaça, em operação desde 2021, tem 4 mil m².",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O novo centro de distribuição do Mercado Livre em Criciúma terá 28 mil m² e investimento de R$ 80 milhões.",
+        "id": "mercado-livre-constroi-centro-de-distribuicao-de-r-80-milhoes-em-criciuma"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Área dos centros de distribuição do Mercado Livre no Sul de SC",
+        "unidade": "mil m²",
+        "itens": [
+          {
+            "rotulo": "Novo centro em Criciúma",
+            "valor": 28,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Centro atual em Morro da Fumaça",
+            "valor": 4,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: ND Mais, com informações da Prefeitura de Criciúma. O novo centro fica na Rodovia Governador Jorge Lacerda, perto da BR-101."
+      },
+      "corpo": [
+        {
+          "p": "O Mercado Livre está construindo em Criciúma, no Sul de Santa Catarina, seu maior centro de distribuição entre as capitais catarinense e gaúcha. A estrutura terá 28 mil metros quadrados, investimento de R$ 80 milhões e deve gerar 350 empregos diretos, segundo o prefeito Vagner Espindola."
+        },
+        {
+          "h": "Sete vezes maior"
+        },
+        {
+          "p": "A empresa já opera no Sul catarinense desde 2021, em Morro da Fumaça, a cerca de 19 quilômetros de Criciúma, num centro de 4 mil metros quadrados. A nova unidade é sete vezes maior. O anúncio oficial foi feito em março de 2026, e a obra fica na Rodovia Governador Jorge Lacerda, perto da BR-101."
+        },
+        {
+          "h": "Por que Criciúma"
+        },
+        {
+          "p": "Segundo a prefeitura, pesaram na escolha a localização estratégica, o potencial de crescimento da população e do consumo, a qualificação da mão de obra e a economia diversificada. O Sindilojas local avalia a chegada como positiva, com mais empregos e renda para a região."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Centros logísticos de grande porte atraem empregos e serviços e ajudam a consolidar o corredor da BR-101 como eixo de crescimento em Santa Catarina. Para o investidor, o movimento reforça a demanda por moradia e por imóveis logísticos ao longo da rodovia."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: maior centro de distribuição do Mercado Livre entre as capitais do RS e SC está em obra e deve gerar 350 empregos",
+          "url": "https://ndmais.com.br/economia/maior-centro-de-distribuicao-do-mercado-livre-entre-sc-e-rs-construcao/"
+        }
+      ]
+    },
+    {
+      "slug": "focus-mercado-ve-selic-em-13-75-ate-o-fim-de-2026-e-12-75-em-2027",
+      "formato": "Análise",
+      "titulo": "Focus: mercado mantém Selic em 13,75% até o fim de 2026 e eleva a projeção para 12,75% em 2027",
+      "resumo": "A estimativa de inflação para 2026 caiu de 5,22% para 5,11%. Para 2027, a projeção do IPCA subiu para 5%, e a do crescimento do PIB recuou.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Boletim Focus desta segunda-feira (16) manteve a projeção da Selic em 13,75% para o fim de 2026.",
+        "id": "focus-mercado-ve-selic-em-13-75-ate-o-fim-de-2026-e-12-75-em-2027"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Selic no fim de 2026",
+            "valor": "13,75%",
+            "detalhe": "projeção mantida no Focus"
+          },
+          {
+            "rotulo": "Selic no fim de 2027",
+            "valor": "12,75%",
+            "detalhe": "antes, 12,50%"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Boletim Focus divulgado pelo Banco Central nesta segunda-feira (16) manteve em 13,75% ao ano a projeção para a Selic no fim de 2026, o mesmo nível definido pelo Copom em 4 de novembro. Para o fim de 2027, os analistas elevaram a estimativa de 12,50% para 12,75%. Para 2028, a projeção seguiu em 11%."
+        },
+        {
+          "h": "Inflação e crescimento"
+        },
+        {
+          "p": "A projeção para o IPCA de 2026 caiu de 5,22% para 5,11%. Para 2027, subiu de 4,9% para 5%. A estimativa de crescimento do PIB em 2026 recuou de 1,75% para 1,72%, quinta redução seguida, e a de 2027 passou de 1,15% para 1,02%. Para o dólar, a expectativa no fim de 2026 subiu de R$ 5,35 para R$ 5,40."
+        },
+        {
+          "h": "Próximo passo"
+        },
+        {
+          "p": "O Copom volta a se reunir em 9 de dezembro, na última decisão do ano. Pelas projeções do Focus, o mercado não espera mudança na taxa até o fim do ano. Os cortes ficam para 2027 e, na estimativa desta semana, um pouco menores do que se previa na semana anterior."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Com juros altos por mais tempo, o financiamento imobiliário segue caro, e a renda fixa continua competitiva. Por outro lado, quem compra à vista ou com entrada maior tende a ter mais poder de negociação. Em Santa Catarina, a valorização dos imóveis em cidades como Florianópolis tem ficado acima da inflação, o que ajuda a compor o retorno total do investimento."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Agência Brasil: mercado reduz projeções para inflação e crescimento econômico em 2026",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-reduz-projecoes-para-inflacao-e-crescimento-da-economia-em-202"
+        },
+        {
+          "nome": "Banco Central: Boletim Focus",
+          "url": "https://www.bcb.gov.br/publicacoes/focus"
+        }
+      ]
+    }
+  ]
+}

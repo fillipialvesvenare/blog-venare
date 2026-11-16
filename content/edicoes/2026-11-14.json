@@ -1,0 +1,304 @@
+{
+  "data": "2026-11-14",
+  "publicacoes": [
+    {
+      "slug": "pib-de-sc-cresce-5-3-em-2024-acima-do-brasil-maior-ganho-de-participacao",
+      "formato": "Gráfico",
+      "titulo": "PIB de SC cresce 5,3% em 2024, acima dos 3,4% do Brasil, e tem o maior ganho de participação entre os estados",
+      "resumo": "A economia catarinense chegou a R$ 584,2 bilhões e passou a responder por cerca de 5% do PIB brasileiro. Foi o maior crescimento da Região Sul, segundo dados do IBGE divulgados nesta sexta-feira (13).",
+      "foto": {
+        "legenda": "Ponte Hercílio Luz, em Florianópolis, durante a restauração. O PIB catarinense cresceu 5,3% em 2024 e chegou a R$ 584,2 bilhões.",
+        "id": "pib-de-sc-cresce-5-3-em-2024-acima-do-brasil-maior-ganho-de-participacao",
+        "evitar": [
+          "pixabay:1868716",
+          "pixabay:3867550",
+          "pixabay:4725544"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Crescimento real do PIB em 2024",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Santa Catarina",
+            "valor": 5.3,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Brasil",
+            "valor": 3.4,
+            "tom": "br"
+          }
+        ],
+        "nota": "Fonte: IBGE (Contas Regionais 2024), divulgado em 13/11/2026, com análise da Seplan/SC. O resultado oficial do PIB estadual é consolidado com dois anos de defasagem."
+      },
+      "corpo": [
+        {
+          "p": "O Produto Interno Bruto de Santa Catarina somou R$ 584,2 bilhões em 2024, com crescimento real de 5,3% sobre o ano anterior. A média brasileira foi de 3,4%. Os números fazem parte das Contas Regionais divulgadas pelo IBGE nesta sexta-feira (13), que trazem o resultado consolidado com dois anos de defasagem."
+        },
+        {
+          "h": "Mais peso na economia do país"
+        },
+        {
+          "p": "Em valores correntes, o PIB catarinense passou de R$ 513,4 bilhões em 2023 para R$ 584,2 bilhões em 2024, um acréscimo de cerca de R$ 70,8 bilhões. Com isso, a participação do estado no PIB nacional subiu de 4,7% para cerca de 5,0%. O avanço de 0,3 ponto percentual foi o maior entre todas as unidades da Federação, segundo a Secretaria de Estado do Planejamento (Seplan). Santa Catarina segue como a sexta maior economia do país."
+        },
+        {
+          "h": "Líder no Sul"
+        },
+        {
+          "p": "O crescimento catarinense foi o maior da Região Sul, à frente do Rio Grande do Sul (4,6%) e do Paraná (3,4%). A indústria avançou 6,4%, puxada pela indústria de transformação (7,1%), e os serviços cresceram 4,9%. Dentro dos serviços, as atividades imobiliárias subiram 5,2%, e a construção civil teve alta de 4,5%."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Uma economia que cresce acima da média nacional tende a sustentar emprego, renda e demanda por moradia e por imóveis comerciais. Para quem investe em imóveis no estado, o dado reforça o pano de fundo de longo prazo. Vale lembrar que se trata de um retrato de 2024, e que o cenário atual inclui juros altos."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: economia catarinense cresce 5,3% e apresenta o maior ganho de participação no PIB nacional",
+          "url": "https://noticias.sc.gov.br/economia-catarinense-cresce-53-e-apresenta-o-maior-ganho-de-participacao-no-pib-nacional/"
+        },
+        {
+          "nome": "IBGE: PIB cresceu em 25 das 27 unidades da federação em 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48614-pib-cresceu-em-25-das-27-unidades-da-federacao-em-2024"
+        }
+      ]
+    },
+    {
+      "slug": "sc-ultrapassa-o-rio-e-tem-o-terceiro-maior-pib-per-capita-do-pais",
+      "formato": "Ranking",
+      "titulo": "SC ultrapassa o Rio de Janeiro e passa a ter o terceiro maior PIB per capita do país, de R$ 72.498",
+      "resumo": "O valor por habitante ficou cerca de 31% acima da média brasileira, de R$ 55.410. Só o Distrito Federal e São Paulo aparecem à frente.",
+      "foto": {
+        "legenda": "Prédios à beira-mar em Balneário Camboriú. Santa Catarina teve PIB per capita de R$ 72.498 em 2024, o terceiro maior do país.",
+        "id": "sc-ultrapassa-o-rio-e-tem-o-terceiro-maior-pib-per-capita-do-pais"
+      },
+      "visual": {
+        "tipo": "ranking",
+        "titulo": "PIB per capita em 2024",
+        "itens": [
+          {
+            "rotulo": "Santa Catarina",
+            "valor": 72498,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Rio de Janeiro",
+            "valor": 72154,
+            "tom": "br"
+          },
+          {
+            "rotulo": "Média do Brasil",
+            "valor": 55410,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: IBGE (Contas Regionais 2024), com análise da Seplan/SC. Distrito Federal e São Paulo ocupam as duas primeiras posições."
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina teve PIB per capita de R$ 72.498 em 2024, crescimento nominal de cerca de 7,5% sobre o ano anterior. O valor colocou o estado na terceira posição entre as unidades da Federação, atrás apenas do Distrito Federal e de São Paulo, e à frente do Rio de Janeiro, que registrou R$ 72.154. Os dados são do IBGE e foram divulgados nesta sexta-feira (13)."
+        },
+        {
+          "h": "31% acima da média nacional"
+        },
+        {
+          "p": "A média brasileira ficou em R$ 55.410 por habitante. O resultado catarinense é cerca de 31% maior. O indicador mede a riqueza produzida dividida pela população e não equivale à renda das famílias, mas ajuda a comparar a capacidade de geração de riqueza entre os estados."
+        },
+        {
+          "h": "Crescimento com mais moradores"
+        },
+        {
+          "p": "O avanço do PIB per capita acontece num período em que Santa Catarina também ganha população, com a chegada de moradores de outros estados. Ou seja, a economia cresceu num ritmo suficiente para elevar a riqueza por habitante mesmo com mais gente."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Riqueza por habitante elevada costuma andar junto com poder de compra, demanda por imóveis de padrão mais alto e capacidade de pagar aluguel. É um dos fatores que ajudam a explicar a valorização dos imóveis em cidades como Florianópolis e no litoral norte."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: economia catarinense cresce 5,3% e apresenta o maior ganho de participação no PIB nacional",
+          "url": "https://noticias.sc.gov.br/economia-catarinense-cresce-53-e-apresenta-o-maior-ganho-de-participacao-no-pib-nacional/"
+        }
+      ]
+    },
+    {
+      "slug": "exportacoes-de-sc-somam-us-10-7-bilhoes-ate-outubro-alta-de-5-4",
+      "formato": "Em números",
+      "titulo": "Exportações de SC somam US$ 10,7 bilhões até outubro, alta de 5,4%, e vendas de transformadores crescem 79% no mês",
+      "resumo": "Em outubro, os embarques catarinenses chegaram a US$ 1,13 bilhão, 2,6% acima de um ano antes. A carne de aves seguiu como principal produto, com alta de 15,9%.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. As exportações de Santa Catarina somaram US$ 10,7 bilhões de janeiro a outubro de 2026.",
+        "id": "exportacoes-de-sc-somam-us-10-7-bilhoes-ate-outubro-alta-de-5-4",
+        "evitar": [
+          "pixabay:7418239"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Exportações de janeiro a outubro",
+            "valor": "US$ 10,7 bi",
+            "detalhe": "alta de 5,4% sobre 2025"
+          },
+          {
+            "rotulo": "Exportações em outubro",
+            "valor": "US$ 1,13 bi",
+            "detalhe": "alta de 2,6% sobre outubro de 2025"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "As exportações de Santa Catarina alcançaram US$ 10,7 bilhões entre janeiro e outubro de 2026, crescimento de 5,4% sobre os US$ 10,1 bilhões do mesmo período do ano passado. Os dados são da Federação das Indústrias de Santa Catarina (FIESC). Só em outubro, as vendas externas somaram US$ 1,13 bilhão, 2,6% a mais que em outubro de 2025."
+        },
+        {
+          "h": "Aves na liderança e transformadores em alta"
+        },
+        {
+          "p": "A carne de aves continuou como o principal produto da pauta em outubro, com crescimento de 15,9%. O destaque do mês foram os transformadores elétricos, cujas exportações cresceram 79,1%, puxadas pelas vendas aos Estados Unidos. Segundo a FIESC, o movimento acompanha a expansão de data centers e os investimentos em infraestrutura de energia."
+        },
+        {
+          "h": "Mercados diversificados"
+        },
+        {
+          "p": "Os Estados Unidos seguem como principal destino das exportações catarinenses, seguidos por União Europeia, China, Japão e México. Para a federação, a capacidade de abrir e redirecionar mercados tem ajudado o estado a atravessar um período de barreiras tarifárias e sanitárias no comércio internacional."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Exportação forte sustenta a indústria, os portos e o emprego em regiões como o litoral norte e o Vale do Itajaí, onde se concentram cidades com mercado imobiliário aquecido. Vale acompanhar a evolução das barreiras comerciais, que afetam alguns setores da pauta."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Economia SC: exportações de SC crescem 5,4% e chegam a US$ 10,7 bilhões (dados da FIESC)",
+          "url": "https://economiasc.com/2026/11/12/exportacoes-de-sc-crescem-54-e-chegam-a-us-107-bilhoes/"
+        }
+      ]
+    },
+    {
+      "slug": "joinville-entrega-obras-de-r-95-milhoes-no-bairro-vila-nova",
+      "formato": "Notícia",
+      "titulo": "Joinville entrega pacote de R$ 95,4 milhões no bairro Vila Nova, com duas praças, 12 km de ruas e 40 km de calçadas drenantes",
+      "resumo": "As obras foram concluídas dois meses antes do prazo e são inauguradas oficialmente neste sábado (14). O projeto tem financiamento do BID.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O bairro Vila Nova, em Joinville, recebeu R$ 95,4 milhões em obras, com duas novas praças que somam cerca de 19 mil m².",
+        "id": "joinville-entrega-obras-de-r-95-milhoes-no-bairro-vila-nova",
+        "evitar": [
+          "pixabay:1848559",
+          "pixabay:4352072",
+          "pixabay:7260571"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 95,4 mi",
+        "legenda": "Investimento no bairro Vila Nova, em Joinville, com duas praças, quase 12 km de ruas pavimentadas e mais de 40 km de calçadas drenantes"
+      },
+      "corpo": [
+        {
+          "p": "A Prefeitura de Joinville entregou um pacote de obras de mais de R$ 95 milhões no bairro Vila Nova, na zona oeste da cidade. Estão incluídas duas novas praças, quase 12 quilômetros de ruas pavimentadas e mais de 40 quilômetros de calçadas drenantes. A inauguração oficial acontece neste sábado (14)."
+        },
+        {
+          "h": "Concluída antes do prazo"
+        },
+        {
+          "p": "Iniciadas em dezembro de 2023, as obras terminaram em outubro, dois meses antes do previsto em contrato. Do total, R$ 91,2 milhões foram para a execução e R$ 4,2 milhões para a supervisão dos trabalhos. O investimento foi bancado pela prefeitura, com financiamento do Banco Interamericano de Desenvolvimento (BID), pelo Projeto Viva Cidade 2."
+        },
+        {
+          "h": "Lazer e drenagem"
+        },
+        {
+          "p": "As duas praças somam cerca de 19 mil metros quadrados, com quatro quadras poliesportivas, academia ao ar livre, pistas de skate e de caminhada e playgrounds. O projeto usa um sistema de drenagem sustentável nas calçadas, com valas de retenção e jardins de chuva, para reduzir o risco de alagamentos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Infraestrutura urbana, áreas de lazer e menor risco de alagamento costumam valorizar os imóveis do entorno. Joinville, maior cidade de Santa Catarina, vem combinando investimentos públicos com novos projetos industriais, o que reforça a demanda por moradia."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: obra de R$ 95,4 milhões transforma bairro de Joinville com novas praças e 40 km de calçadas",
+          "url": "https://ndmais.com.br/infraestrutura/obra-de-r-954-milhoes-transforma-bairro-de-joinville-com-novas-pracas-pista-de-skate-e-40-km-de-calcadas-tecnologicas/"
+        }
+      ]
+    },
+    {
+      "slug": "porto-de-sao-francisco-do-sul-investe-r-558-milhoes-e-carga-cresce-40",
+      "formato": "Gráfico",
+      "titulo": "Porto de São Francisco do Sul investe R$ 558 milhões em quatro anos e emenda três recordes seguidos de movimentação",
+      "resumo": "O maior porto de Santa Catarina passou de 16,8 milhões para 17,5 milhões de toneladas entre 2023 e 2025. A dragagem do canal da Baía da Babitonga foi concluída em outubro.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Porto de São Francisco do Sul movimentou 17,5 milhões de toneladas em 2025, terceiro recorde seguido.",
+        "id": "porto-de-sao-francisco-do-sul-investe-r-558-milhoes-e-carga-cresce-40",
+        "evitar": [
+          "pixabay:3578385",
+          "pixabay:5320729"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Carga movimentada no Porto de São Francisco do Sul",
+        "unidade": "milhões de toneladas",
+        "itens": [
+          {
+            "rotulo": "2023",
+            "valor": 16.8,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "2024",
+            "valor": 17,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "2025",
+            "valor": 17.5,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: Porto de São Francisco do Sul, divulgado pelo Governo de SC. Os três anos foram recordes históricos de movimentação."
+      },
+      "corpo": [
+        {
+          "p": "O Porto de São Francisco do Sul, o maior de Santa Catarina em movimentação de carga, aplicou R$ 558 milhões em obras, equipamentos e tecnologia desde 2023. Os números foram apresentados pelo presidente do porto, Cleverton Vieira, no Congresso Internacional de Desempenho Portuário, em Florianópolis."
+        },
+        {
+          "h": "Três recordes seguidos"
+        },
+        {
+          "p": "A movimentação passou de 16,8 milhões de toneladas em 2023 para 17 milhões em 2024 e 17,5 milhões em 2025, três recordes históricos consecutivos. Segundo a administração, a carga movimentada cresceu 40% entre 2023 e 2025. O porto responde por metade de todo o aço importado pelo Brasil e por 80% da soja exportada por Santa Catarina."
+        },
+        {
+          "h": "Canal mais fundo e novos acessos"
+        },
+        {
+          "p": "Entre os projetos está a dragagem de aprofundamento do canal de acesso à Baía da Babitonga, concluída em outubro, com o sedimento usado para alargar a Praia de Itapoá. A obra contou com empréstimo de R$ 300 milhões do Porto Itapoá. Neste ano também avançam as obras de ampliação de 1,4 quilômetro da rodovia de acesso ao porto, com R$ 8,3 milhões."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "O complexo portuário da Baía da Babitonga, com São Francisco do Sul e Itapoá, é um dos motores do norte catarinense. Mais carga significa mais empresas de logística e mais empregos na região, o que ajuda a explicar o aquecimento do mercado imobiliário em cidades como Itapoá e Joinville."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: Porto de São Francisco apresenta investimentos de R$ 558 milhões em congresso internacional",
+          "url": "https://noticias.sc.gov.br/porto-de-sao-francisco-apresenta-investimentos-de-r-558-milhoes-em-congresso-internacional/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "data": "2026-11-15",
+  "publicacoes": [
+    {
+      "slug": "construcao-civil-de-sc-ganha-espaco-no-pais-participacao-sobe-para-6-2",
+      "formato": "Gráfico",
+      "titulo": "Construção civil de SC ganha espaço no país: participação sobe de 5,4% para 6,2% em um ano",
+      "resumo": "O setor cresceu 4,5% no estado em 2024, e as atividades imobiliárias avançaram 5,2%, segundo as Contas Regionais do IBGE. O ganho de fatia nacional da construção foi um dos maiores da economia catarinense.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A construção catarinense passou a responder por 6,2% do valor adicionado do setor no Brasil em 2024.",
+        "id": "construcao-civil-de-sc-ganha-espaco-no-pais-participacao-sobe-para-6-2",
+        "evitar": [
+          "pixabay:1076536",
+          "pixabay:7848348"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Participação de SC na construção civil do Brasil",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "2023",
+            "valor": 5.4,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "2024",
+            "valor": 6.2,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Participação de Santa Catarina no valor adicionado nacional da construção. Fonte: IBGE (Contas Regionais 2024), com análise da Seplan/SC."
+      },
+      "corpo": [
+        {
+          "p": "A construção civil de Santa Catarina ampliou seu peso no setor em todo o país. A participação do estado no valor adicionado nacional da construção passou de 5,4% em 2023 para 6,2% em 2024, segundo as Contas Regionais do IBGE, divulgadas na sexta-feira (13) e analisadas pela Secretaria de Estado do Planejamento (Seplan)."
+        },
+        {
+          "h": "Crescimento real de 4,5%"
+        },
+        {
+          "p": "Em volume, a construção catarinense cresceu 4,5% em 2024. As atividades imobiliárias, que incluem compra, venda e aluguel de imóveis, avançaram 5,2% e responderam por 5,5% do total nacional do segmento. No conjunto, a economia do estado cresceu 5,3%, acima da média brasileira de 3,4%."
+        },
+        {
+          "h": "Avanço em vários setores"
+        },
+        {
+          "p": "O ganho de espaço não ficou restrito à construção. A indústria de transformação catarinense passou a representar 7,1% do total nacional, ante 6,7% em 2023, e os serviços de informação e comunicação, que incluem tecnologia, subiram de 4,4% para 4,8%."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Uma construção civil que cresce mais que a do resto do país reflete demanda por novos imóveis e capacidade de entrega das incorporadoras locais. Para o investidor, é um sinal da força do mercado catarinense, que vale acompanhar junto com o ritmo de vendas e o prazo de entrega de cada empreendimento."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: economia catarinense cresce 5,3% e apresenta o maior ganho de participação no PIB nacional",
+          "url": "https://noticias.sc.gov.br/economia-catarinense-cresce-53-e-apresenta-o-maior-ganho-de-participacao-no-pib-nacional/"
+        }
+      ]
+    },
+    {
+      "slug": "sc-tem-o-melhor-outubro-da-historia-na-exportacao-de-carnes",
+      "formato": "Gráfico",
+      "titulo": "SC tem o melhor outubro da história na exportação de carnes, e vendas de frango à China crescem 140%",
+      "resumo": "O estado embarcou 195 mil toneladas em outubro, com receita de US$ 421,5 milhões. De janeiro a outubro, as exportações de carnes passaram de US$ 4 bilhões, alta de 9,9%.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina exportou 195 mil toneladas de carnes em outubro de 2026, o melhor resultado da série para o mês.",
+        "id": "sc-tem-o-melhor-outubro-da-historia-na-exportacao-de-carnes",
+        "evitar": [
+          "pixabay:1868175",
+          "pixabay:3298379",
+          "pixabay:418132",
+          "pixabay:6858013"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Exportações de carnes de SC em outubro de 2026",
+        "unidade": "mil toneladas",
+        "itens": [
+          {
+            "rotulo": "Carne de frango",
+            "valor": 113.4,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Carne suína",
+            "valor": 72.6,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: Epagri/Cepa, divulgado pelo Governo de SC. O total de carnes em outubro foi de 195 mil toneladas."
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina exportou 195 mil toneladas de carnes em outubro de 2026, com receita de US$ 421,5 milhões. Foram os melhores resultados da série histórica para o mês, segundo a Epagri/Cepa. De janeiro a outubro, os embarques somaram 1,8 milhão de toneladas e passaram de US$ 4 bilhões, com crescimento de 7,2% em volume e de 9,9% em receita sobre o mesmo período de 2025."
+        },
+        {
+          "h": "Frango ganha mercados"
+        },
+        {
+          "p": "As exportações de carne de frango chegaram a 113,4 mil toneladas em outubro, com receita de US$ 228,9 milhões, a maior já registrada para o mês. No acumulado do ano, foram quase 1,1 milhão de toneladas e US$ 2,32 bilhões, altas de 10,7% e 16%. As empresas redirecionaram vendas para Países Baixos, Japão e China, mercado em que o crescimento chegou a 140% em relação ao ano anterior."
+        },
+        {
+          "h": "Suíno com novo destino principal"
+        },
+        {
+          "p": "A carne suína somou 72,6 mil toneladas em outubro, alta de 6,2% sobre outubro de 2025 e o maior volume para o mês na série. As vendas ao Japão cresceram mais de 65%, e o país passou a ser o principal comprador do suíno catarinense, com cerca de um terço dos embarques."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "O agronegócio exportador movimenta portos, rodovias e a economia do Oeste e do litoral catarinense. A capacidade de abrir novos mercados reduz a dependência de um único comprador e dá mais estabilidade à renda gerada no estado."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: exportações de carnes de Santa Catarina crescem 7% em volume de janeiro a outubro de 2026",
+          "url": "https://noticias.sc.gov.br/exportacoes-de-carnes-de-santa-catarina-crescem-7-em-volume-de-janeiro-a-outubro-de-2026/"
+        }
+      ]
+    },
+    {
+      "slug": "rede-top-investe-r-50-milhoes-em-blumenau-e-abre-loja-em-porto-belo",
+      "formato": "Notícia",
+      "titulo": "Rede Top investe R$ 50 milhões na maior loja do grupo, em Blumenau, e abre unidade de R$ 30 milhões em Porto Belo",
+      "resumo": "A rede de supermercados deve fechar 2026 com 30 lojas e faturamento de R$ 1,3 bilhão. O CEO cita o crescimento de Porto Belo e Itapema, puxado pelo mercado imobiliário e por novos moradores.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Rede Top prevê R$ 50 milhões para sua maior loja, em Blumenau, e R$ 30 milhões para a nova unidade de Porto Belo.",
+        "id": "rede-top-investe-r-50-milhoes-em-blumenau-e-abre-loja-em-porto-belo",
+        "evitar": [
+          "pixabay:4566791"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Nova loja em Blumenau",
+            "valor": "R$ 50 mi",
+            "detalhe": "maior da rede, prevista para 2027"
+          },
+          {
+            "rotulo": "Nova loja em Porto Belo",
+            "valor": "R$ 30 mi",
+            "detalhe": "inauguração até o início de dezembro"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O grupo dono da Rede Top, de supermercados, prepara a maior loja de sua história no bairro Garcia, em Blumenau, com investimento estimado em R$ 50 milhões e inauguração prevista para 2027. Os planos foram detalhados pelo CEO Paulo César Lopes ao ND Mais, durante um evento do setor supermercadista em Florianópolis."
+        },
+        {
+          "h": "Porto Belo antes, Blumenau depois"
+        },
+        {
+          "p": "Antes disso, a rede deve abrir até o início de dezembro uma unidade em Porto Belo, com investimento de R$ 30 milhões. Com ela, o grupo fecha 2026 com 30 lojas e projeta faturamento de R$ 1,3 bilhão. Em 2025, foram R$ 1,17 bilhão, alta de 15,6%. Outras duas lojas estão previstas para 2027."
+        },
+        {
+          "h": "Litoral em expansão"
+        },
+        {
+          "p": "Segundo o executivo, a rede aposta no crescimento da região de Porto Belo e Itapema, impulsionado pelo mercado imobiliário e pela chegada de novos moradores de outros estados."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Grandes redes de varejo costumam seguir a população. A abertura de supermercados de porte em Porto Belo indica que a cidade está se consolidando como lugar para morar o ano todo, e não só na temporada, o que favorece a demanda por locação de longo prazo."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Rede Top investe R$ 50 milhões em loja de Blumenau",
+          "url": "https://ndmais.com.br/economia/negocios/grupo-rede-top-blumenau-maior-loja/"
+        }
+      ]
+    },
+    {
+      "slug": "vendas-de-materiais-de-construcao-sobem-19-3-em-sc-em-setembro",
+      "formato": "Em números",
+      "titulo": "Vendas de materiais de construção sobem 19,3% em SC em setembro, e o comércio ampliado acumula alta de 4,1% no ano",
+      "resumo": "Os dados do IBGE mostram o comércio catarinense em crescimento: alta de 2,6% sobre setembro de 2025. Os serviços de informação e comunicação, que incluem tecnologia, avançaram 7,2%.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. As vendas de materiais de construção em Santa Catarina cresceram 19,3% em setembro na comparação com um ano antes.",
+        "id": "vendas-de-materiais-de-construcao-sobem-19-3-em-sc-em-setembro"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Materiais de construção",
+            "valor": "+19,3%",
+            "detalhe": "setembro de 2026 sobre setembro de 2025"
+          },
+          {
+            "rotulo": "Comércio ampliado no ano",
+            "valor": "+4,1%",
+            "detalhe": "janeiro a setembro, sobre 2025"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "As vendas de materiais de construção em Santa Catarina cresceram 19,3% em setembro de 2026 na comparação com o mesmo mês do ano passado, segundo dados do IBGE. Foi uma das maiores altas entre os grupos pesquisados no comércio do estado."
+        },
+        {
+          "h": "Comércio em alta"
+        },
+        {
+          "p": "O comércio ampliado catarinense, que inclui veículos, materiais de construção e atacado de alimentos, cresceu 0,4% em relação a agosto e 2,6% frente a setembro de 2025. No acumulado de janeiro a setembro, a alta chega a 4,1%. Segundo análise publicada pela NSC Total, o setor se apoia no mercado de trabalho catarinense, que registra pleno emprego."
+        },
+        {
+          "h": "Tecnologia puxa os serviços"
+        },
+        {
+          "p": "O setor de serviços cresceu 1,5% em setembro na comparação anual e acumula 1,3% no ano. O destaque foi o grupo de informação e comunicação, que inclui as empresas de tecnologia, com alta de 7,2%."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A venda de materiais de construção é um termômetro de obras e reformas. O crescimento indica atividade no setor imobiliário catarinense, tanto em novos empreendimentos quanto em reformas de imóveis existentes, inclusive para locação."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "NSC Total (Estela Benetti): dados do IBGE sobre indústria, comércio e serviços em SC em setembro",
+          "url": "https://www.nsctotal.com.br/colunista/estela-benetti/industria-de-sc-sente-mais-o-peso-dos-juros-altos-e-recua-enquanto-comercio-e-servicos-crescem-aponta-ibge/"
+        }
+      ]
+    },
+    {
+      "slug": "scgas-chega-a-15-bilhoes-de-m3-e-planeja-80-municipios-ate-2030",
+      "formato": "Análise",
+      "titulo": "SCGÁS chega a 15 bilhões de m³ distribuídos e planeja levar gás natural a 80 municípios até 2030",
+      "resumo": "A companhia atende hoje 70 municípios, com 1.802 km de rede e mais de 42 mil consumidores. O plano prevê mais 575 km de rede, com foco na Serra Catarinense.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A SCGÁS atende 70 municípios catarinenses com 1.802 km de rede de gás natural.",
+        "id": "scgas-chega-a-15-bilhoes-de-m3-e-planeja-80-municipios-ate-2030",
+        "evitar": [
+          "pixabay:972191"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Rede atual",
+            "valor": "1.802 km",
+            "detalhe": "70 municípios e 42.456 consumidores"
+          },
+          {
+            "rotulo": "Meta para 2030",
+            "valor": "+2.200 km",
+            "detalhe": "mais 575 km de rede e 80 municípios"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "A SCGÁS, distribuidora de gás natural de Santa Catarina, atingiu em outubro a marca de 15 bilhões de metros cúbicos distribuídos desde o início da operação, em abril de 2000. A companhia é hoje a segunda maior distribuidora do país em número de municípios atendidos."
+        },
+        {
+          "h": "De 27 clientes a mais de 42 mil"
+        },
+        {
+          "p": "No primeiro ano, eram 27 clientes industriais. Em novembro de 2026, a empresa atende 70 municípios, com 1.802 quilômetros de rede e 42.456 consumidores, entre indústrias, postos de combustível, comércio e residências. O primeiro cliente residencial foi ligado em 2005, em Joinville."
+        },
+        {
+          "h": "Expansão até 2030"
+        },
+        {
+          "p": "O plano da companhia prevê mais 575 quilômetros de rede até 2030, o que levaria a extensão total para mais de 2.200 quilômetros e o atendimento a 80 municípios. A Serra Catarinense aparece como uma das principais frentes de crescimento, depois da conclusão do gasoduto de 221 quilômetros entre Indaial e Lages."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Gás natural canalizado é um diferencial para indústrias e também para empreendimentos residenciais, que podem oferecer o serviço sem botijão. A expansão da rede amplia a infraestrutura disponível para novos projetos e ajuda a atrair empresas para o interior do estado."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: SCGÁS atinge a marca histórica de 15 bilhões de m³ distribuídos",
+          "url": "https://noticias.sc.gov.br/scgas-atinge-a-marca-historica-de-15-bilhoes-de-m%c2%b3-distribuidos/"
+        }
+      ]
+    }
+  ]
+}
