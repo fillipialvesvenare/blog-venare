@@ -107,8 +107,8 @@ function pagina({ titulo, descricao, canonical, corpo, og = {} }) {
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#070F40">
-<link rel="icon" type="image/png" sizes="96x96" href="/img/selo-azul.png">
-<link rel="apple-touch-icon" href="/img/selo-azul.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="${site.nome}" href="/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;800&display=swap" rel="stylesheet">
