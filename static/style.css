@@ -348,8 +348,10 @@ html.liq .topo:not(.sobre-escuro) .menu a{text-shadow:0 0 10px rgba(255,255,255,
   .ticker{overflow-x:auto}
 }
 
-/* cursor com o símbolo da Venare (só em aparelhos com mouse); sobre links e botões ele vira o selo da marca (quadrado azul-marinho de cantos arredondados com o símbolo) */
+/* cursor com o símbolo da Venare (só em aparelhos com mouse); sobre links e botões o mesmo símbolo fica mais forte (azul-marinho, traço mais grosso) */
 @media (hover:hover) and (pointer:fine){
   html{cursor:url(/img/cursor.png) 16 16,auto;cursor:-webkit-image-set(url(/img/cursor.png) 1x,url(/img/cursor@2x.png) 2x) 16 16,auto;cursor:image-set(url(/img/cursor.png) 1x,url(/img/cursor@2x.png) 2x) 16 16,auto}
   a,button,[role="radio"],label,summary,.card,.chip,.sh{cursor:url(/img/cursor-link.png) 16 16,pointer;cursor:-webkit-image-set(url(/img/cursor-link.png) 1x,url(/img/cursor-link@2x.png) 2x) 16 16,pointer;cursor:image-set(url(/img/cursor-link.png) 1x,url(/img/cursor-link@2x.png) 2x) 16 16,pointer}
+  /* nas áreas escuras o destaque é o símbolo branco */
+  .ticker a,.ticker button,.ticker [role="radio"],.ticker .chip,.ticker .sh,.hero a,.hero button,.hero [role="radio"],.hero .chip,.hero .sh,.post-cab a,.post-cab button,.post-cab [role="radio"],.post-cab .chip,.post-cab .sh,.secao-escura a,.secao-escura button,.secao-escura [role="radio"],.secao-escura .chip,.secao-escura .sh,.cta-band a,.cta-band button,.cta-band [role="radio"],.cta-band .chip,.cta-band .sh,.rodape a,.rodape button,.rodape [role="radio"],.rodape .chip,.rodape .sh,.topo.sobre-escuro a,.topo.sobre-escuro button,.topo.sobre-escuro [role="radio"],.topo.sobre-escuro .chip,.topo.sobre-escuro .sh{cursor:url(/img/cursor-link-claro.png) 16 16,pointer;cursor:-webkit-image-set(url(/img/cursor-link-claro.png) 1x,url(/img/cursor-link-claro@2x.png) 2x) 16 16,pointer;cursor:image-set(url(/img/cursor-link-claro.png) 1x,url(/img/cursor-link-claro@2x.png) 2x) 16 16,pointer}
 }
