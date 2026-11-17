@@ -348,8 +348,8 @@ html.liq .topo:not(.sobre-escuro) .menu a{text-shadow:0 0 10px rgba(255,255,255,
   .ticker{overflow-x:auto}
 }
 
-/* cursor com o símbolo da Venare (só em aparelhos com mouse); links e botões continuam com a mãozinha */
+/* cursor com o símbolo da Venare (só em aparelhos com mouse); sobre links e botões ele vira um disco azul com o símbolo branco */
 @media (hover:hover) and (pointer:fine){
   html{cursor:url(/img/cursor.png) 16 16,auto;cursor:-webkit-image-set(url(/img/cursor.png) 1x,url(/img/cursor@2x.png) 2x) 16 16,auto;cursor:image-set(url(/img/cursor.png) 1x,url(/img/cursor@2x.png) 2x) 16 16,auto}
-  a,button,[role="radio"],label,summary{cursor:pointer}
+  a,button,[role="radio"],label,summary,.card,.chip,.sh{cursor:url(/img/cursor-link.png) 16 16,pointer;cursor:-webkit-image-set(url(/img/cursor-link.png) 1x,url(/img/cursor-link@2x.png) 2x) 16 16,pointer;cursor:image-set(url(/img/cursor-link.png) 1x,url(/img/cursor-link@2x.png) 2x) 16 16,pointer}
 }
