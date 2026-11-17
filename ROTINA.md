@@ -104,6 +104,12 @@ Como fazer, depois de escrever as 5 publicações:
 ## Regra fixa: não mexer no visual
 O visual do site está aprovado e congelado (incluindo o jeito de exibir as fotos). Todos os dias, mexer SOMENTE no conteúdo: `content/edicoes/*.json` (as 5 publicações), `content/indices.json` (números) e as fotos novas que o `scripts/fotos.py` grava em `static/fotos/` e `content/fotos.json`. Nunca alterar `build.mjs`, `static/style.css`, `static/app.js`, `static/img/`, `scripts/` (fontes, logo, pattern, og.py), layout, cores, fontes, logo, pattern, cabeçalho, esteira, comparador, rodapé ou botões. Novos textos seguem exatamente os formatos e visuais que já existem.
 
+### Cabeçalho em vidro líquido (aprovado pelo Fillipi em 17/11/2026)
+O cabeçalho fixo usa um efeito de vidro líquido no estilo do iOS, aprovado e congelado como o resto do visual. Não alterar.
+- `static/style.css`: regras `.topo-in` e `html.liq .topo-in` (transparência, desfoque, brilho especular).
+- `static/app.js`: bloco "vidro líquido" monta o filtro SVG `#vn-liq` (lente nas bordas, separação de cores, rastro vertical) e liga a classe `liq` no `<html>`.
+- O efeito completo só existe em navegadores Chromium (Chrome, Edge, Android). Safari e iPhone ficam com o desfoque do CSS, porque não aceitam filtro SVG em `backdrop-filter`.
+
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
 - As notícias precisam ser sobre Santa Catarina: das principais cidades catarinenses (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José) ou do estado como um todo.
