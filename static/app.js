@@ -37,6 +37,40 @@
     });
   }
 
+  // ----- entrada suave ao rolar, barras que crescem e progresso de leitura -----
+  if (!semMov && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('rev');
+    // caixas surgem com leve deslize, uma após a outra
+    let fila = 0, zera = 0;
+    const entra = new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const el = e.target; entra.unobserve(el);
+      el.style.transitionDelay = fila++ * 80 + 'ms';
+      clearTimeout(zera); zera = setTimeout(() => { fila = 0; }, 120);
+      el.classList.add('rv-ok');
+      setTimeout(() => { el.classList.remove('rv', 'rv-ok'); el.style.transitionDelay = ''; }, 1100 + fila * 80);   // devolve as transições normais (hover)
+    }), { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+    document.querySelectorAll('.secao-cab,.card,.ind,.agenda li,.outros a,.post-corpo>.foto-materia,.post-corpo>.vis,.fontes').forEach((el) => { el.classList.add('rv'); entra.observe(el); });
+    // barras dos gráficos enchem quando o gráfico aparece
+    const enche = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { enche.unobserve(e.target); e.target.classList.add('on'); } }), { threshold: 0.5 });
+    document.querySelectorAll('.vis-barras').forEach((el) => enche.observe(el));
+  }
+  // barra de progresso de leitura, só nas matérias
+  const materia = document.querySelector('.post-corpo');
+  if (materia) {
+    const barra = document.createElement('div');
+    barra.className = 'leitura'; barra.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(barra);
+    let pl = false;
+    const mede = () => {
+      pl = false;
+      const r = materia.getBoundingClientRect(), total = r.height - innerHeight * 0.6;
+      barra.style.transform = `scaleX(${Math.max(0, Math.min(1, (innerHeight * 0.4 - r.top) / Math.max(1, total)))})`;
+    };
+    const pede = () => { if (!pl) { pl = true; requestAnimationFrame(mede); } };
+    addEventListener('scroll', pede, { passive: true }); addEventListener('resize', pede); mede();
+  }
+
   // ----- comparador SC × Brasil -----
   const comp = document.querySelector('.comparador');
   if (comp) {
