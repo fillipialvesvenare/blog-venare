@@ -110,6 +110,9 @@ O cabeçalho fixo usa um efeito de vidro líquido no estilo do iOS, aprovado e c
 - `static/app.js`: bloco "vidro líquido" monta o filtro SVG `#vn-liq` (lente nas bordas, separação de cores, rastro vertical) e liga a classe `liq` no `<html>`.
 - O efeito completo só existe em navegadores Chromium (Chrome, Edge, Android). Safari e iPhone ficam com o desfoque do CSS, porque não aceitam filtro SVG em `backdrop-filter`.
 
+### Números que contam até o valor (aprovado pelo Fillipi em 17/11/2026)
+Os números em destaque (número grande dos cards, quadros de comparação, valores das barras, painel de índices e comparador de cidades) contam de zero até o valor quando entram na tela. É o bloco "números que contam" do `static/app.js`. Não alterar. Números em títulos, parágrafos e na esteira do topo não são animados.
+
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
 - As notícias precisam ser sobre Santa Catarina: das principais cidades catarinenses (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José) ou do estado como um todo.

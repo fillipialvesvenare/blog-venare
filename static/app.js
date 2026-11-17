@@ -162,7 +162,7 @@
           if (!storyUrl || arquivo) return;
           fetch(storyUrl).then((r) => (r.ok ? r.blob() : null)).then((b) => { if (b) arquivo = new File([b], `venare-news-${slug}.jpg`, { type: 'image/jpeg' }); }).catch(() => {});
         };
-        (window.requestIdleCallback || setTimeout)(preparar, 800);
+        window.requestIdleCallback ? requestIdleCallback(preparar, { timeout: 2000 }) : setTimeout(preparar, 800);
         el.addEventListener('pointerenter', preparar);
         el.addEventListener('touchstart', preparar, { passive: true });
         el.addEventListener('click', () => {
