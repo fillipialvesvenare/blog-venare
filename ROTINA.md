@@ -116,6 +116,15 @@ Os números em destaque (número grande dos cards, quadros de comparação, valo
 ### Cursor com o símbolo da Venare (aprovado pelo Fillipi em 17/11/2026)
 Em aparelhos com mouse, o cursor é o símbolo da Venare (`static/img/cursor.png`). Sobre itens clicáveis ele só muda de cor e fica mais forte: azul-marinho nas áreas claras (`cursor-link.png`) e branco nas áreas escuras (`cursor-link-claro.png`). Regras no fim do `static/style.css`. Não alterar.
 
+### Efeitos de movimento (aprovados pelo Fillipi em 17/11/2026)
+Cinco efeitos aprovados e congelados, em `static/app.js` e no fim do `static/style.css`. Não alterar.
+- Entrada suave ao rolar: títulos de seção, cards, índices, agenda, "Outras publicações", gráfico e fontes da matéria surgem com leve deslize.
+- Barras dos gráficos crescem quando o gráfico entra na tela.
+- Barra de progresso de leitura no topo das matérias.
+- Transição entre páginas: a foto e o título do card clicado viajam até a matéria (regra `@view-transition`; só em navegadores que suportam).
+- Cards inclinam em 3D e ganham um reflexo de luz que segue o mouse (só com mouse).
+Tudo é desligado para quem usa "reduzir movimento", exceto a barra de leitura.
+
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
 - As notícias precisam ser sobre Santa Catarina: das principais cidades catarinenses (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José) ou do estado como um todo.
