@@ -1,6 +1,6 @@
 # Rotina diária do Venare News
 
-Duas tarefas agendadas, todos os dias (horário de Brasília):
+Duas tarefas agendadas, todos os dias (horário de Brasília), que rodam dentro da sessão do Claude Code que tem o repositório conectado com permissão de push (configurado em 17/11/2026):
 - **06:47, preparar:** pesquisa, escreve a edição, publica a prévia e envia o e-mail de revisão.
 - **09:47, publicar:** se o Fillipi não pediu para segurar, coloca a edição no ar.
 
@@ -52,8 +52,9 @@ Conferir cada número de cada publicação contra a fonte, um por um.
 
 ### 6. Publicar a prévia
 ```
-git add -A && git commit -m "Edição AAAA-MM-DD (revisão)" && git push -f origin revisao
+git add -A && git commit -m "Edição AAAA-MM-DD (revisão)" && git push origin revisao
 ```
+Não usar `push -f`: a branch `revisao` é recriada a partir da `main`, então o push normal basta; o push forçado é bloqueado na sessão que roda a rotina.
 Esperar 2 a 3 minutos e abrir https://revisao.venarenews.pages.dev para confirmar que a edição nova aparece.
 
 ### 7. E-mail de revisão
