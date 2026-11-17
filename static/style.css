@@ -347,3 +347,9 @@ html.liq .topo:not(.sobre-escuro) .menu a{text-shadow:0 0 10px rgba(255,255,255,
   .ticker-trilho{animation:none}
   .ticker{overflow-x:auto}
 }
+
+/* cursor com o símbolo da Venare (só em aparelhos com mouse); links e botões continuam com a mãozinha */
+@media (hover:hover) and (pointer:fine){
+  html{cursor:url(/img/cursor.png) 16 16,auto;cursor:-webkit-image-set(url(/img/cursor.png) 1x,url(/img/cursor@2x.png) 2x) 16 16,auto;cursor:image-set(url(/img/cursor.png) 1x,url(/img/cursor@2x.png) 2x) 16 16,auto}
+  a,button,[role="radio"],label,summary{cursor:pointer}
+}
