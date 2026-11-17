@@ -1,0 +1,278 @@
+{
+  "data": "2026-11-17",
+  "publicacoes": [
+    {
+      "slug": "joinville-abre-consulta-para-arena-de-r-492-milhoes-e-quase-10-mil-lugares",
+      "formato": "Gráfico",
+      "titulo": "Joinville abre consulta pública para arena multiuso de R$ 492 milhões, com capacidade para quase 10 mil pessoas",
+      "resumo": "O novo ginásio será feito por parceria público-privada de 30 anos, perto da Univille. A população pode enviar sugestões até 15 de dezembro.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O novo ginásio de Joinville terá 5.611 lugares sentados em jogos e até 9.844 pessoas em shows.",
+        "id": "joinville-abre-consulta-para-arena-de-r-492-milhoes-e-quase-10-mil-lugares",
+        "evitar": [
+          "pixabay:1544370"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Capacidade prevista do novo ginásio de Joinville",
+        "unidade": "pessoas",
+        "itens": [
+          {
+            "rotulo": "Jogos (lugares sentados)",
+            "valor": 5611,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Shows e eventos",
+            "valor": 9844,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: Prefeitura de Joinville, divulgado pelo ND Mais. O valor de R$ 492 milhões soma as contraprestações públicas e os investimentos previstos nos 30 anos de contrato."
+      },
+      "corpo": [
+        {
+          "p": "A Prefeitura de Joinville abriu consulta pública sobre o projeto do novo ginásio de esportes da cidade. A proposta prevê uma parceria público-privada (PPP) com contrato de 30 anos e valor estimado em R$ 492 milhões, que soma as contraprestações públicas e os investimentos previstos ao longo do período."
+        },
+        {
+          "h": "Arena para esporte, shows e congressos"
+        },
+        {
+          "p": "O complexo será construído na avenida Edgard Nelson Meister, perto da Univille. A ideia é uma arena coberta e multifuncional, para competições oficiais de futsal, vôlei, basquete e handebol, além de shows, feiras e congressos. Serão 5.611 lugares sentados na configuração para jogos e até 9.844 pessoas em eventos com a quadra liberada. O projeto inclui um centro de treinamento anexo, estacionamento para cerca de 340 carros e pontos de recarga para veículos elétricos."
+        },
+        {
+          "h": "Como participar"
+        },
+        {
+          "p": "As sugestões podem ser enviadas pelo site da prefeitura até 15 de dezembro. Uma audiência pública está marcada para 2 de dezembro, às 18h, na Câmara de Vereadores. Pelo modelo de concessão administrativa, a empresa vencedora fica responsável por projetos, obras, operação, manutenção e exploração comercial do espaço."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Equipamentos de grande porte para eventos atraem público, hotelaria e serviços, e costumam valorizar o entorno. O projeto ainda está em fase de consulta, e o cronograma depende da licitação. Para quem acompanha Joinville, a região da Univille é um ponto a observar."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: R$ 492 milhões e 10 mil lugares, ginásio aguardado em Joinville deve sair do papel",
+          "url": "https://ndmais.com.br/infraestrutura/ginasio-aguardado-em-joinville-deve-sair-do-papel/"
+        }
+      ]
+    },
+    {
+      "slug": "weg-de-jaragua-do-sul-anuncia-fabrica-de-us-250-milhoes-no-mexico",
+      "formato": "Gráfico",
+      "titulo": "WEG, de Jaraguá do Sul, anuncia fábrica de US$ 250 milhões no México, com 6 mil empregos diretos e indiretos",
+      "resumo": "O investimento, de cerca de R$ 1,4 bilhão, foi anunciado pela presidente mexicana. A multinacional catarinense já soma 69 fábricas em 18 países.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A WEG, de Jaraguá do Sul, anunciou US$ 250 milhões para uma nova fábrica no México.",
+        "id": "weg-de-jaragua-do-sul-anuncia-fabrica-de-us-250-milhoes-no-mexico",
+        "evitar": [
+          "pixabay:258786",
+          "pixabay:3241229",
+          "pixabay:371412"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Empregos previstos na nova fábrica da WEG no México",
+        "unidade": "empregos",
+        "itens": [
+          {
+            "rotulo": "Diretos",
+            "valor": 2000,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Indiretos",
+            "valor": 4000,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: anúncio do governo do México, divulgado pelo ND Mais. Vagas previstas entre 2027 e 2030."
+      },
+      "corpo": [
+        {
+          "p": "A WEG, multinacional com sede em Jaraguá do Sul, no norte de Santa Catarina, vai investir US$ 250 milhões, cerca de R$ 1,4 bilhão, em uma nova fábrica no México. O projeto foi anunciado pela presidente mexicana Claudia Sheinbaum e prevê 2 mil empregos diretos e 4 mil indiretos entre 2027 e 2030."
+        },
+        {
+          "h": "Energia no centro do projeto"
+        },
+        {
+          "p": "Segundo o governo mexicano, a fábrica vai ampliar a produção local de equipamentos para transmissão e distribuição de energia, como transformadores, reduzindo a dependência de importações. A WEG atua no México há mais de 25 anos, com quatro parques industriais e 15 galpões no país."
+        },
+        {
+          "h": "Uma multinacional catarinense"
+        },
+        {
+          "p": "Fundada em 1961, a companhia tem hoje mais de 50 mil funcionários, 69 fábricas em 18 países e presença comercial em mais de 135 mercados. Em 2025, o lucro líquido foi de R$ 6,38 bilhões, alta de 5,5% sobre o ano anterior."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Empresas globais com sede em Santa Catarina sustentam empregos qualificados e renda alta em cidades como Jaraguá do Sul e Joinville, o que se reflete na demanda por moradia. A expansão internacional também mostra a força da indústria catarinense de equipamentos elétricos: em outubro, as exportações de transformadores do estado cresceram 79,1%, segundo a FIESC."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: gigante de SC vai investir em megafábrica no México que deve gerar 6 mil empregos",
+          "url": "https://ndmais.com.br/economia/negocios/weg-nova-fabrica-no-mexico-sc/"
+        },
+        {
+          "nome": "Economia SC: exportações de SC crescem 5,4% e chegam a US$ 10,7 bilhões (dados da FIESC)",
+          "url": "https://economiasc.com/2026/11/12/exportacoes-de-sc-crescem-54-e-chegam-a-us-107-bilhoes/"
+        }
+      ]
+    },
+    {
+      "slug": "grupo-koch-abre-quarta-loja-em-balneario-picarras-e-chega-a-104-em-sc",
+      "formato": "Notícia",
+      "titulo": "Grupo Koch abre a quarta loja em Balneário Piçarras, chega a 104 unidades em SC e cria 150 empregos",
+      "resumo": "O supermercado inaugura nesta quarta-feira (18), no Centro, com 29 caixas e galeria comercial. A rede cita a chegada de novos moradores e empreendimentos à cidade.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A nova loja do Grupo Koch em Balneário Piçarras cria 150 empregos diretos.",
+        "id": "grupo-koch-abre-quarta-loja-em-balneario-picarras-e-chega-a-104-em-sc"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Lojas da rede em SC",
+            "valor": "104",
+            "detalhe": "quarta unidade em Balneário Piçarras"
+          },
+          {
+            "rotulo": "Empregos diretos",
+            "valor": "150",
+            "detalhe": "na nova loja do Centro"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Grupo Koch inaugura nesta quarta-feira (18) sua quarta loja em Balneário Piçarras, no litoral norte de Santa Catarina. A unidade, da bandeira SuperKoch, fica no Centro e será a 104ª da rede no estado. A abertura cria 150 empregos diretos."
+        },
+        {
+          "h": "Estrutura"
+        },
+        {
+          "p": "O supermercado terá 29 caixas, dez deles de autoatendimento, cerca de 190 vagas de estacionamento e uma galeria comercial com sete lojas."
+        },
+        {
+          "h": "Cidade em crescimento"
+        },
+        {
+          "p": "Balneário Piçarras tem população estimada em 31.604 habitantes em 2026, segundo o IBGE, e recebe grande fluxo de visitantes no verão, com trechos de orla certificados com a Bandeira Azul. Segundo o CEO José Koch, a cidade cresce de forma expressiva, com novos moradores, empreendimentos e oportunidades de negócio."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Uma rede abrir a quarta loja na mesma cidade indica consumo crescente o ano inteiro, e não só na temporada. Para o investidor, é mais um sinal de que o litoral norte catarinense vem se consolidando como região de moradia fixa, o que favorece a locação de longo prazo."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: gigante dos supermercados inaugura quarta loja em praia de SC com 150 empregos",
+          "url": "https://ndmais.com.br/economia/gigante-dos-supermercados-inaugura-quarta-loja-em-praia-de-sc-com-150-empregos-crescendo-de-forma-expressiva/"
+        }
+      ]
+    },
+    {
+      "slug": "natal-de-florianopolis-abre-em-26-de-novembro-com-arvore-de-30-metros",
+      "formato": "Notícia",
+      "titulo": "Natal de Florianópolis abre em 26 de novembro, com árvore de 30 metros na Beira-Mar Norte e desfiles na ilha e no continente",
+      "resumo": "A programação terá decoração inspirada na cultura açoriana, espetáculos no Centro e atividades em 20 comunidades, abrindo a temporada de fim de ano na capital.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Natal de Florianópolis terá uma árvore de 30 metros no Trapiche da Beira-Mar Norte.",
+        "id": "natal-de-florianopolis-abre-em-26-de-novembro-com-arvore-de-30-metros",
+        "evitar": [
+          "pixabay:10225510",
+          "pixabay:4697587",
+          "pixabay:648430"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "30 m",
+        "legenda": "Altura da árvore de Natal que será instalada no Trapiche da Beira-Mar Norte, em Florianópolis"
+      },
+      "corpo": [
+        {
+          "p": "A programação do Natal de Florianópolis de 2026 começa em 26 de novembro, no Largo da Catedral, com espetáculo infantil, a entrega da chave da cidade ao Papai Noel e o acendimento das luzes. O anúncio foi feito pelo prefeito Topázio Neto."
+        },
+        {
+          "h": "Árvore de 30 metros e desfiles nos dois lados"
+        },
+        {
+          "p": "Uma árvore de Natal de 30 metros será instalada no Trapiche da Beira-Mar Norte, e o Largo da Alfândega terá um Papai Noel gigante. Os desfiles com carros alegóricos voltam maiores e acontecem tanto na Beira-Mar Norte quanto na Beira-Mar Continental, com o mesmo porte na ilha e no continente, segundo a prefeitura."
+        },
+        {
+          "h": "Cultura local e bairros"
+        },
+        {
+          "p": "A decoração deste ano usa elementos da identidade da cidade, como janelas açorianas, peixes e redes de pesca. Estão previstos um coral com encenação no Palácio Cruz e Sousa, o Auto de Natal no Largo da Catedral e uma apresentação da Camerata Florianópolis. O projeto Natal nos Bairros leva a programação a 20 comunidades."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Eventos de fim de ano antecipam o movimento da temporada de verão e aquecem a hotelaria, o comércio e o aluguel por temporada. Para quem tem imóvel para locação de curta duração na capital, é um período de procura maior."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: prefeito anuncia programação do Natal de Florianópolis, com árvore de 30 metros e desfiles nas duas Beira-Mares",
+          "url": "https://ndmais.com.br/cultura/com-arvore-de-30-metros-desfiles-nas-duas-beira-mares-e-ate-neve-prefeito-anuncia-programacao-do-natal-de-florianopolis/"
+        }
+      ]
+    },
+    {
+      "slug": "balneario-camboriu-ganha-novo-acesso-pela-br-101-apos-obra-de-r-2-6-milhoes",
+      "formato": "Em números",
+      "titulo": "Balneário Camboriú ganha novo acesso pela BR-101 após obra de R$ 2,6 milhões, às vésperas da temporada de verão",
+      "resumo": "A nova saída no km 132 leva à avenida Marginal Leste e faz parte da inversão das alças da rodovia, planejada para aliviar o trânsito nos horários de pico.",
+      "foto": {
+        "legenda": "Balneário Camboriú, no litoral norte de Santa Catarina. A cidade ganhou um novo acesso pela BR-101, com investimento de R$ 2,6 milhões.",
+        "id": "balneario-camboriu-ganha-novo-acesso-pela-br-101-apos-obra-de-r-2-6-milhoes"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 2,6 mi",
+        "legenda": "Investimento na nova saída da BR-101 para a avenida Marginal Leste, em Balneário Camboriú"
+      },
+      "corpo": [
+        {
+          "p": "Balneário Camboriú tem um novo acesso pela BR-101 para quem trafega no sentido norte. A saída, no km 132, leva à avenida Marginal Leste e teve a liberação marcada para a noite de sexta-feira (13), segundo a concessionária Arteris Litoral Sul. O investimento foi de R$ 2.638.881,80."
+        },
+        {
+          "h": "O que muda"
+        },
+        {
+          "p": "A nova saída fica cerca de 300 metros antes da anterior. Com a mudança, a alça seguinte é fechada para obras do município e será transformada em entrada para a rodovia. A intervenção incluiu infraestrutura viária, drenagem, pavimentação e sinalização."
+        },
+        {
+          "h": "Inversão das alças"
+        },
+        {
+          "p": "A readequação da Marginal Leste começou em julho e faz parte do projeto de inversão das alças de entrada e saída da BR-101 no km 132. O objetivo é desafogar o trânsito em pontos estratégicos da cidade, principalmente nos horários de pico."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A mobilidade é um dos temas mais sensíveis em Balneário Camboriú, que tem um dos metros quadrados mais valorizados do país. Melhorias nos acessos, às vésperas da temporada, ajudam a qualidade de vida de moradores e a experiência de quem visita, fatores que pesam na procura por imóveis."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: acesso que pretende desafogar a chegada a Balneário Camboriú será liberado na BR-101 após investimento de R$ 2,6 milhões",
+          "url": "https://ndmais.com.br/infraestrutura/acesso-que-pretende-desafogar-o-acesso-a-balneario-camboriu-sera-liberado-na-br-101-apos-investimento-de-r-26-milhoes/"
+        }
+      ]
+    }
+  ]
+}
