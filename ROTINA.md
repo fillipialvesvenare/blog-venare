@@ -113,6 +113,9 @@ O cabeçalho fixo usa um efeito de vidro líquido no estilo do iOS, aprovado e c
 ### Números que contam até o valor (aprovado pelo Fillipi em 17/11/2026)
 Os números em destaque (número grande dos cards, quadros de comparação, valores das barras, painel de índices e comparador de cidades) contam de zero até o valor quando entram na tela. É o bloco "números que contam" do `static/app.js`. Não alterar. Números em títulos, parágrafos e na esteira do topo não são animados.
 
+### Cursor com o símbolo da Venare (aprovado pelo Fillipi em 17/11/2026)
+Em aparelhos com mouse, o cursor é o símbolo da Venare (`static/img/cursor.png`). Sobre itens clicáveis ele só muda de cor e fica mais forte: azul-marinho nas áreas claras (`cursor-link.png`) e branco nas áreas escuras (`cursor-link-claro.png`). Regras no fim do `static/style.css`. Não alterar.
+
 ## Linha editorial (regra do Fillipi)
 - NUNCA publicar notícias, números, porcentagens ou comparações que deixem Santa Catarina ou Florianópolis em situação ruim (ex.: "custo de construir em SC sobe mais que a inflação", "aluguel rende menos em SC do que no Brasil", "preço desacelera", "cidade de SC abaixo da média do país").
 - As notícias precisam ser sobre Santa Catarina: das principais cidades catarinenses (Florianópolis, Balneário Camboriú, Itajaí, Itapema, Porto Belo, Joinville, Blumenau, São José) ou do estado como um todo.
