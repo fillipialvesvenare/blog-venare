@@ -2,6 +2,41 @@
 (function () {
   const fmt = (v) => v.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
 
+  // ----- números que contam de zero até o valor quando entram na tela -----
+  const semMov = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const NUM = /\d[\d.]*(?:,\d+)?/;
+  const contar = (el, texto) => {
+    const m = texto.match(NUM);
+    if (!m || semMov) { el.textContent = texto; return; }
+    const antes = texto.slice(0, m.index), depois = texto.slice(m.index + m[0].length);
+    const casas = (m[0].split(',')[1] || '').length, grupo = m[0].includes('.');
+    const alvo = parseFloat(m[0].replace(/\./g, '').replace(',', '.'));
+    const escreve = (v) => { el.textContent = antes + v.toLocaleString('pt-BR', { minimumFractionDigits: casas, maximumFractionDigits: casas, useGrouping: grupo }) + depois; };
+    el.setAttribute('aria-label', texto);
+    el.style.minWidth = ''; el.textContent = texto; el.style.minWidth = el.offsetWidth + 'px';   // largura fixa: o gráfico ao lado não treme
+    const id = (el._cont = (el._cont || 0) + 1), t0 = performance.now(), dur = 1100;
+    const passo = (t) => {
+      if (el._cont !== id) return;
+      const k = Math.min(1, (t - t0) / dur);
+      if (k < 1) { escreve(alvo * (1 - Math.pow(1 - k, 3))); requestAnimationFrame(passo); } else el.textContent = texto;
+    };
+    escreve(0); requestAnimationFrame(passo);
+  };
+  if (!semMov && 'IntersectionObserver' in window) {
+    const obs = new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting) return;
+      obs.unobserve(e.target); contar(e.target, e.target.dataset.final);
+    }), { threshold: 0.6 });
+    document.querySelectorAll('.vis-num,.comp-val,.b-val,.ind-val').forEach((el) => {
+      const texto = el.textContent, m = texto.match(NUM);
+      if (!m) return;
+      el.dataset.final = texto; el.setAttribute('aria-label', texto);
+      el.style.minWidth = el.offsetWidth + 'px';
+      el.textContent = texto.slice(0, m.index) + '0' + texto.slice(m.index + m[0].length);
+      obs.observe(el);
+    });
+  }
+
   // ----- comparador SC × Brasil -----
   const comp = document.querySelector('.comparador');
   if (comp) {
@@ -13,7 +48,7 @@
       const c = dados.cidades[k];
       chips.forEach((b, i) => b.setAttribute('aria-checked', String(i === k)));
       $('[data-rot]').textContent = c.nome;
-      const set = (id, v) => { $(`[data-bar="${id}"]`).style.width = (v / max) * 100 + '%'; $(`[data-val="${id}"]`).textContent = fmt(v); };
+      const set = (id, v) => { $(`[data-bar="${id}"]`).style.width = (v / max) * 100 + '%'; contar($(`[data-val="${id}"]`), fmt(v)); };
       const aplicar = () => { set('sc', c.var12m); set('br', dados.brasil); set('ref', dados.ipca); };
       primeira ? requestAnimationFrame(() => requestAnimationFrame(aplicar)) : aplicar();
       const vezes = c.var12m / dados.brasil;
