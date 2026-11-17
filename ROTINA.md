@@ -109,6 +109,7 @@ O visual do site está aprovado e congelado (incluindo o jeito de exibir as foto
 O cabeçalho fixo usa um efeito de vidro líquido no estilo do iOS, aprovado e congelado como o resto do visual. Não alterar.
 - `static/style.css`: regras `.topo-in` e `html.liq .topo-in` (transparência, desfoque, brilho especular).
 - `static/app.js`: bloco "vidro líquido" monta o filtro SVG `#vn-liq` (lente nas bordas, separação de cores, rastro vertical) e liga a classe `liq` no `<html>`.
+- Nunca dar `view-transition-name`, `filter`, `opacity` menor que 1, `mask` ou `mix-blend-mode` ao `.topo` ou a um elemento que o contenha: isso isola o cabeçalho do conteúdo de trás e o vidro deixa de funcionar (aconteceu em 17/11/2026).
 - O efeito completo só existe em navegadores Chromium (Chrome, Edge, Android). Safari e iPhone ficam com o desfoque do CSS, porque não aceitam filtro SVG em `backdrop-filter`.
 
 ### Números que contam até o valor (aprovado pelo Fillipi em 17/11/2026)
