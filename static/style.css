@@ -44,9 +44,12 @@ a{color:var(--royal)}
 .logo-escuro{display:none}
 /* adapta o vidro quando passa sobre áreas escuras */
 .topo.sobre-escuro .topo-in{-webkit-backdrop-filter:blur(22px) saturate(1.8) brightness(1.14);backdrop-filter:blur(22px) saturate(1.8) brightness(1.14);background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(255,255,255,.05));box-shadow:inset 0 1.5px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.18),inset 1px 0 0 rgba(255,255,255,.22),inset -1px 0 0 rgba(255,255,255,.22),0 14px 36px -14px rgba(0,0,0,.6)}
-/* vidro líquido (navegadores Chromium): o que passa por trás escorre em rastros verticais e ondula, via filtro SVG injetado pelo app.js */
-html.liq .topo-in{backdrop-filter:url(#vn-liq) saturate(2.1) brightness(1.07)}
-html.liq .topo.sobre-escuro .topo-in{backdrop-filter:url(#vn-liq) saturate(1.8) brightness(1.14)}
+/* vidro líquido como no iOS (navegadores Chromium): lente nas bordas via filtro SVG montado pelo app.js; miolo mais transparente e brilho especular */
+html.liq .topo-in{backdrop-filter:url(#vn-liq) saturate(1.9) brightness(1.06);background:linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,.07));
+  box-shadow:inset 0 2px 1px -.5px rgba(255,255,255,.95),inset 0 -2px 1px -.5px rgba(255,255,255,.6),inset 2px 0 2px -1px rgba(255,255,255,.55),inset -2px 0 2px -1px rgba(255,255,255,.55),inset 0 0 22px rgba(255,255,255,.22),inset 0 -10px 18px -12px rgba(7,15,64,.22),0 1px 2px rgba(7,15,64,.08),0 18px 40px -14px rgba(7,15,64,.42)}
+html.liq .topo.sobre-escuro .topo-in{backdrop-filter:url(#vn-liq) saturate(1.7) brightness(1.16);background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.02));
+  box-shadow:inset 0 2px 1px -.5px rgba(255,255,255,.7),inset 0 -2px 1px -.5px rgba(255,255,255,.35),inset 2px 0 2px -1px rgba(255,255,255,.3),inset -2px 0 2px -1px rgba(255,255,255,.3),inset 0 0 22px rgba(255,255,255,.1),0 18px 40px -14px rgba(0,0,0,.65)}
+html.liq .topo:not(.sobre-escuro) .menu a{text-shadow:0 0 10px rgba(255,255,255,.9),0 0 3px rgba(255,255,255,.8)}
 .topo.sobre-escuro .logo-claro{display:none}
 .topo.sobre-escuro .logo-escuro{display:block}
 .topo.sobre-escuro .menu a{color:#fff}
