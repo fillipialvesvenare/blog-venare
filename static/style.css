@@ -31,8 +31,8 @@ a{color:var(--royal)}
 /* topo fixo em "vidro líquido": cápsula flutuante, translúcida e com refração nas bordas */
 .topo{position:sticky;top:0;z-index:30;padding:10px 16px;pointer-events:none}
 .topo-in{pointer-events:auto;position:relative;isolation:isolate;max-width:var(--max);margin:0 auto;padding:0 14px 0 26px;height:var(--topo-h);display:flex;align-items:center;gap:28px;border-radius:24px;
-  background:linear-gradient(180deg,rgba(255,255,255,.44),rgba(255,255,255,.26));transition:background .35s,box-shadow .35s;
-  -webkit-backdrop-filter:blur(14px) saturate(1.9) brightness(1.08);backdrop-filter:blur(14px) saturate(1.9) brightness(1.08);
+  background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,.16));transition:background .35s,box-shadow .35s;
+  -webkit-backdrop-filter:blur(22px) saturate(2.1) brightness(1.07);backdrop-filter:blur(22px) saturate(2.1) brightness(1.07);
   box-shadow:inset 0 1.5px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.45),inset 1px 0 0 rgba(255,255,255,.5),inset -1px 0 0 rgba(255,255,255,.5),0 1px 2px rgba(7,15,64,.06),0 14px 36px -14px rgba(7,15,64,.38)}
 .topo-in::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;
   background:radial-gradient(120% 140% at 12% -20%,rgba(255,255,255,.7),transparent 45%),radial-gradient(90% 120% at 100% 120%,rgba(134,152,255,.22),transparent 50%)}
@@ -43,7 +43,10 @@ a{color:var(--royal)}
 .marca img{width:clamp(220px,40vw,520px);height:auto}
 .logo-escuro{display:none}
 /* adapta o vidro quando passa sobre áreas escuras */
-.topo.sobre-escuro .topo-in{-webkit-backdrop-filter:blur(16px) saturate(1.6) brightness(1.12);backdrop-filter:blur(16px) saturate(1.6) brightness(1.12);background:linear-gradient(180deg,rgba(255,255,255,.18),rgba(255,255,255,.08));box-shadow:inset 0 1.5px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.18),inset 1px 0 0 rgba(255,255,255,.22),inset -1px 0 0 rgba(255,255,255,.22),0 14px 36px -14px rgba(0,0,0,.6)}
+.topo.sobre-escuro .topo-in{-webkit-backdrop-filter:blur(22px) saturate(1.8) brightness(1.14);backdrop-filter:blur(22px) saturate(1.8) brightness(1.14);background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(255,255,255,.05));box-shadow:inset 0 1.5px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.18),inset 1px 0 0 rgba(255,255,255,.22),inset -1px 0 0 rgba(255,255,255,.22),0 14px 36px -14px rgba(0,0,0,.6)}
+/* vidro líquido (navegadores Chromium): o que passa por trás escorre em rastros verticais e ondula, via filtro SVG injetado pelo app.js */
+html.liq .topo-in{backdrop-filter:url(#vn-liq) saturate(2.1) brightness(1.07)}
+html.liq .topo.sobre-escuro .topo-in{backdrop-filter:url(#vn-liq) saturate(1.8) brightness(1.14)}
 .topo.sobre-escuro .logo-claro{display:none}
 .topo.sobre-escuro .logo-escuro{display:block}
 .topo.sobre-escuro .menu a{color:#fff}

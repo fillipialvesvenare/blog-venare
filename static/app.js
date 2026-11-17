@@ -44,6 +44,12 @@
   // ----- topo: vidro adapta ao fundo -----
   const topo = document.querySelector('.topo');
   if (topo) {
+    // vidro líquido: só em Chromium, que aceita filtro SVG no backdrop-filter; os demais ficam com o desfoque do CSS
+    const ua = navigator.userAgentData;
+    if (ua && ua.brands && ua.brands.some((x) => x.brand === 'Chromium') && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.body.insertAdjacentHTML('beforeend', '<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="vn-liq" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.02" numOctaves="2" seed="7" result="n"/><feGaussianBlur in="SourceGraphic" stdDeviation="2 16" result="b"/><feDisplacementMap in="b" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="5 8"/></filter></svg>');
+      document.documentElement.classList.add('liq');
+    }
     const escuros = '.ticker,.hero,.post-cab,.secao-escura,.cta-band,.rodape';
     let pend = false;
     const checar = () => {
