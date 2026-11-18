@@ -1,0 +1,281 @@
+{
+  "data": "2026-11-18",
+  "publicacoes": [
+    {
+      "slug": "tunel-itajai-navegantes-e-brt-regional-avancam-com-financiamento-de-us-120-milhoes",
+      "formato": "Gráfico",
+      "titulo": "Túnel sob o rio entre Itajaí e Navegantes e BRT regional avançam com financiamento de US$ 120 milhões do Banco Mundial",
+      "resumo": "O contrato do programa de mobilidade do litoral norte, de cerca de R$ 641 milhões, será assinado nesta quinta-feira (19). O túnel de 548 metros tem conclusão estimada entre 2034 e 2035.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O programa de mobilidade do litoral norte prevê um túnel de 548 metros sob o rio entre Itajaí e Navegantes.",
+        "id": "tunel-itajai-navegantes-e-brt-regional-avancam-com-financiamento-de-us-120-milho",
+        "evitar": [
+          "pixabay:9562428"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Composição do financiamento do Promobis",
+        "unidade": "US$ milhões",
+        "itens": [
+          {
+            "rotulo": "Empréstimo do Banco Mundial",
+            "valor": 90,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Contrapartida dos municípios",
+            "valor": 30,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: CIM-Amfri, divulgado pelo ND Mais. Total de US$ 120 milhões, cerca de R$ 641 milhões pela cotação de R$ 5,34 usada no levantamento do programa."
+      },
+      "corpo": [
+        {
+          "p": "O Programa de Mobilidade Integrada Sustentável da Amfri (Promobis), que reúne municípios do litoral norte de Santa Catarina, terá o contrato de financiamento com o Banco Mundial assinado nesta quinta-feira (19), em Florianópolis. São US$ 90 milhões de empréstimo e US$ 30 milhões de contrapartida dos municípios, total de US$ 120 milhões, cerca de R$ 641 milhões."
+        },
+        {
+          "h": "Túnel, BRT e obras em Balneário Camboriú"
+        },
+        {
+          "p": "O programa tem quatro componentes. Os principais são o túnel subaquático entre Itajaí e Navegantes, um sistema de BRT regional e obras de integração entre Balneário Camboriú e Camboriú. O componente Vias da Integração, com orçamento de US$ 38 milhões, prevê pontes, requalificação de vias, drenagem e melhorias para veículos, ciclistas e pedestres nas duas cidades. A intenção do consórcio é publicar ainda em 2026 os editais desse componente e dos estudos do túnel."
+        },
+        {
+          "h": "Túnel de 548 metros a 30 metros de profundidade"
+        },
+        {
+          "p": "O túnel será uma estrutura imersa de 548 metros, formada por módulos pré-moldados instalados no leito do rio, a cerca de 30 metros de profundidade. O modelo previsto é de parceria público-privada, com leilão da concessão no segundo semestre de 2028 e conclusão estimada entre 2034 e 2035."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A ligação direta entre Itajaí e Navegantes e um transporte coletivo regional tendem a integrar o mercado imobiliário do litoral norte, hoje um dos mais dinâmicos do país. São obras de longo prazo: vale acompanhar os editais e o leilão, que definem o cronograma real."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: megaprojeto de mais de R$ 600 milhões com túnel de 548 metros sob a água e BRT regional em SC avança com assinatura de financiamento",
+          "url": "https://ndmais.com.br/infraestrutura/megaprojeto-de-mais-de-r-600-milhoes-com-tunel-de-548-metros-sob-a-agua-e-brt-regional-em-sc-avanca-com-assinatura-de-financiamento/"
+        }
+      ]
+    },
+    {
+      "slug": "aluguel-por-m2-em-florianopolis-valoriza-22-2-em-2026",
+      "formato": "Em números",
+      "titulo": "Aluguel por m² em Florianópolis valoriza 22,2% em 2026, e 20 de 24 bairros têm alta de pelo menos 10%",
+      "resumo": "O metro quadrado anunciado passou de R$ 45,00 para R$ 54,97 de janeiro a outubro, segundo a Loft. O aluguel médio por imóvel chegou a R$ 5.967.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O aluguel por metro quadrado em Florianópolis subiu 22,2% de janeiro a outubro de 2026, segundo a Loft.",
+        "id": "aluguel-por-m2-em-florianopolis-valoriza-22-2-em-2026",
+        "evitar": [
+          "pixabay:5974876"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Aluguel por m² em 2026",
+            "valor": "R$ 54,97",
+            "detalhe": "alta de 22,2% (jan. a out.)"
+          },
+          {
+            "rotulo": "Aluguel por m² em 2025",
+            "valor": "R$ 45,00",
+            "detalhe": "mesmo período do ano anterior"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O preço médio do metro quadrado anunciado para aluguel em Florianópolis subiu 22,2% entre janeiro e outubro de 2026, na comparação com o mesmo período de 2025, de R$ 45,00 para R$ 54,97. O levantamento é da Loft, que analisou 24 bairros responsáveis por 89% dos anúncios de locação da capital."
+        },
+        {
+          "h": "Alta espalhada pela cidade"
+        },
+        {
+          "p": "Em 20 dos 24 bairros, o metro quadrado subiu 10% ou mais, e em 11 deles a valorização passou de 20%. A maior alta foi na Cachoeira do Bom Jesus, no norte da ilha, com 67,6%. Jurerê tem o metro quadrado de aluguel mais valorizado da cidade. A alta atingiu todas as faixas de preço: nos bairros de padrão mais alto, o metro quadrado chegou a R$ 62,15, com avanço de 23,2%."
+        },
+        {
+          "h": "Imóveis menores"
+        },
+        {
+          "p": "O aluguel médio por imóvel subiu 12,6%, para R$ 5.967. A diferença em relação ao metro quadrado se explica pela área: os imóveis anunciados ficaram menores, com média de 105 metros quadrados, contra 120 um ano antes."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A alta do aluguel acima da inflação melhora o retorno de quem compra para alugar na capital, sobretudo em unidades compactas, que concentram a oferta. Os números são de preço anunciado, e não de contratos fechados; vale comparar com o valor efetivo da região antes de decidir."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: preço do metro quadrado de aluguel sobe 22,2% em Florianópolis (dados da Loft)",
+          "url": "https://ndmais.com.br/economia/preco-do-metro-quadrado-de-aluguel-sobe-222-e-morador-paga-quase-r-6-mil-por-imoveis-cada-vez-menores-na-capital-de-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "itapema-ergue-high-tower-de-165-metros-com-vgv-de-quase-r-300-milhoes",
+      "formato": "Notícia",
+      "titulo": "Itapema ergue arranha-céu de 165 metros na quadra do mar, com VGV de quase R$ 300 milhões e apartamentos de R$ 4 milhões",
+      "resumo": "O High Tower terá 52 pavimentos e 94 apartamentos de quatro suítes, com entrega prevista para dezembro de 2030. O ex-jogador Diego Ribas é comprador e embaixador do projeto.",
+      "foto": {
+        "legenda": "Itapema, no litoral norte de Santa Catarina. O High Tower, com 165 metros, será um dos quatro prédios mais altos da cidade.",
+        "id": "itapema-ergue-high-tower-de-165-metros-com-vgv-de-quase-r-300-milhoes"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "165 m",
+        "legenda": "Altura do High Tower, em Itapema, com 52 pavimentos e 94 apartamentos de frente para o mar"
+      },
+      "corpo": [
+        {
+          "p": "Itapema, no litoral norte de Santa Catarina, terá mais um arranha-céu na quadra do mar. O High Tower, da Aliança Empreendimentos, do Grupo J.A. Russi, terá 165 metros de altura, 52 pavimentos e valor geral de vendas de quase R$ 300 milhões. As obras estão em andamento, e a entrega está prevista para dezembro de 2030."
+        },
+        {
+          "h": "Apartamentos de R$ 4 milhões"
+        },
+        {
+          "p": "Serão 94 apartamentos, todos com quatro suítes e vista para o mar, com apenas duas unidades por andar e plantas de 175 a 375 metros quadrados, incluindo duas coberturas duplex. O valor médio das unidades é de R$ 4 milhões. O projeto prevê 2.575 metros quadrados de áreas de lazer."
+        },
+        {
+          "h": "Investidores de outros estados"
+        },
+        {
+          "p": "O ex-jogador da Seleção Brasileira e do Flamengo Diego Ribas, dono de imóvel na cidade desde 2008, comprou uma das unidades e é embaixador do empreendimento. Segundo a incorporadora, o caso mostra o interesse crescente de investidores de diferentes regiões do país pelo litoral catarinense."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Itapema tem um dos metros quadrados mais valorizados do Brasil, R$ 15.232 em outubro pelo FipeZAP, e segue atraindo lançamentos de alto padrão. Em projetos com entrega distante, vale avaliar o histórico da incorporadora e as condições de pagamento durante a obra."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: ídolo do Flamengo acompanha obras de arranha-céu onde comprou apartamento de R$ 4 milhões em Itapema",
+          "url": "https://ndmais.com.br/economia/idolo-do-flamengo-acompanha-obras-de-arranha-ceu-de-165-metros-onde-comprou-apartamento-de-r-4-milhoes-em-praia-supervalorizada-de-sc/"
+        },
+        {
+          "nome": "Índice FipeZAP de venda residencial, outubro de 2026",
+          "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202610-residencial-venda.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "navio-de-luxo-explora-i-escolhe-balneario-camboriu-para-o-reveillon-de-2028",
+      "formato": "Notícia",
+      "titulo": "Navio de luxo com 456 suítes escolhe Balneário Camboriú para a virada de 2027 para 2028",
+      "resumo": "O Explora I chega em dezembro de 2027 e passa o Ano-Novo na cidade. Segundo a prefeita, a segurança e a estrutura náutica pesaram na escolha.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O navio Explora I, com 456 suítes, vai passar a virada de 2027 para 2028 em Balneário Camboriú.",
+        "id": "navio-de-luxo-explora-i-escolhe-balneario-camboriu-para-o-reveillon-de-2028"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Suítes de frente para o mar",
+            "valor": "456",
+            "detalhe": "de 35 m² a 315 m²"
+          },
+          {
+            "rotulo": "Comprimento do navio",
+            "valor": "248 m",
+            "detalhe": "cinco piscinas e seis restaurantes"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Balneário Camboriú foi escolhida como destino do Explora I, navio de luxo da Explora Journeys, para a virada de 2027 para 2028. A embarcação chega à cidade em dezembro de 2027 e fica durante a celebração. O anúncio foi feito pela prefeita Juliana Pavan no lançamento da programação de verão da cidade."
+        },
+        {
+          "h": "Por que Balneário Camboriú"
+        },
+        {
+          "p": "Segundo a prefeita, a segurança e as condições oferecidas pela cidade pesaram na decisão, comunicada em uma reunião com representantes da estrutura náutica e do navio."
+        },
+        {
+          "h": "O navio"
+        },
+        {
+          "p": "O Explora I tem 248 metros de comprimento e 456 suítes, todas voltadas para o mar, com áreas de 35 a 315 metros quadrados incluindo os terraços. A estrutura tem seis restaurantes, 12 bares e lounges, cinco piscinas e spa."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A chegada de um cruzeiro de alto padrão reforça a imagem de Balneário Camboriú como destino de luxo e amplia a visibilidade internacional da cidade. Para quem tem imóvel para temporada, eventos de Réveillon costumam concentrar a procura e as diárias mais altas do ano."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: navio resort de alto luxo com 456 suítes escolhe Balneário Camboriú como destino de Ano-Novo para 2028",
+          "url": "https://ndmais.com.br/turismo/navio-resort-de-alto-luxo-com-456-suites-de-frente-para-o-mar-escolhe-balneario-camboriu-como-destino-de-ano-novo-para-2028/"
+        }
+      ]
+    },
+    {
+      "slug": "bombinhas-arrecadou-r-33-7-milhoes-com-taxa-de-turistas-em-2025-recorde",
+      "formato": "Gráfico",
+      "titulo": "Bombinhas arrecadou R$ 33,7 milhões com a taxa paga por turistas em 2025, 7,6 vezes o valor do primeiro ano",
+      "resumo": "A Taxa de Preservação Ambiental somou R$ 191,1 milhões desde 2015 e voltou a ser cobrada em 15 de novembro. O valor acompanha o fluxo de visitantes no litoral norte.",
+      "foto": {
+        "legenda": "Bombinhas, no litoral norte de Santa Catarina. A taxa paga por turistas rendeu R$ 33,7 milhões em 2025, recorde desde 2015.",
+        "id": "bombinhas-arrecadou-r-33-7-milhoes-com-taxa-de-turistas-em-2025-recorde"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Arrecadação da Taxa de Preservação Ambiental de Bombinhas",
+        "unidade": "R$ milhões",
+        "itens": [
+          {
+            "rotulo": "2015 (primeiro ano)",
+            "valor": 4.4,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "2025",
+            "valor": 33.7,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: levantamento do Núcleo de Dados do Grupo ND, publicado pelo ND Mais. Total arrecadado desde 2015: R$ 191,1 milhões."
+      },
+      "corpo": [
+        {
+          "p": "Bombinhas, no litoral norte de Santa Catarina, arrecadou R$ 33,7 milhões em 2025 com a Taxa de Preservação Ambiental (TPA), cobrada dos turistas que visitam a cidade na temporada. Foi o maior valor desde o início da cobrança, em 2015, e 7,6 vezes os R$ 4,4 milhões do primeiro ano. No total, a taxa já somou R$ 191,1 milhões."
+        },
+        {
+          "h": "Cobrança já começou"
+        },
+        {
+          "p": "A taxa voltou a ser cobrada em 15 de novembro e segue até 15 de abril. Na última temporada, os recursos foram usados principalmente em limpeza urbana e das praias, banheiros e na operação da própria cobrança, segundo o levantamento do Grupo ND, que também apontou que só 1% dos pagamentos analisados foi para ações diretamente ligadas à preservação."
+        },
+        {
+          "h": "Um termômetro do turismo"
+        },
+        {
+          "p": "Como a taxa é paga pelos turistas durante a temporada, a arrecadação acompanha o fluxo de visitantes. O crescimento ao longo de dez anos mostra a força de Bombinhas como destino de verão, com praias de águas cristalinas e trechos certificados com a Bandeira Azul."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Destinos com demanda turística crescente sustentam a procura por imóveis de temporada. Em cidades pequenas e muito procuradas no verão, vale considerar também a sazonalidade, já que a procura se concentra na temporada."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: TPA de Bombinhas já arrecadou R$ 191 milhões de turistas com cobrança de pedágio ambiental",
+          "url": "https://ndmais.com.br/turismo/praia-paradisiaca-de-sc-ja-arrecadou-r-191-milhoes-de-turistas-com-cobranca-de-pedagio-ambiental/"
+        }
+      ]
+    }
+  ]
+}
