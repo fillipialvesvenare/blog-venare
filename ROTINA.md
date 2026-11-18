@@ -120,11 +120,11 @@ Em aparelhos com mouse, o cursor é o símbolo da Venare (`static/img/cursor.png
 
 ### Efeitos de movimento (aprovados pelo Fillipi em 17/11/2026)
 Cinco efeitos aprovados e congelados, em `static/app.js` e no fim do `static/style.css`. Não alterar.
-- Entrada suave ao rolar: títulos de seção, cards, índices, agenda, "Outras publicações", gráfico e fontes da matéria surgem com leve deslize.
+- Entrada suave ao rolar, só na página inicial e no arquivo: títulos de seção, cards, índices e agenda surgem com leve deslize. Nas matérias, nada entra em cascata.
 - Barras dos gráficos crescem quando o gráfico entra na tela.
 - Barra de progresso de leitura no topo das matérias.
-- Transição entre páginas: a foto e o título do card clicado viajam até a matéria (regra `@view-transition`; só em navegadores que suportam).
-- Cards inclinam em 3D e ganham um reflexo de luz que segue o mouse (só com mouse).
+- Cards inclinam em 3D com o mouse (só com mouse).
+- Removidos a pedido do Fillipi em 18/11/2026: o brilho que seguia o cursor nos cards e a transição/cascata ao abrir uma matéria. Não recolocar.
 Tudo é desligado para quem usa "reduzir movimento", exceto a barra de leitura.
 
 ## Linha editorial (regra do Fillipi)

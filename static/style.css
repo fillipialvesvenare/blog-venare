@@ -368,20 +368,7 @@ html.rev .vis-barras .barra:nth-child(n+4) .b-preench{transition-delay:.24s}
 /* progresso de leitura nas matérias */
 .leitura{position:fixed;top:0;left:0;right:0;height:3px;z-index:40;pointer-events:none;transform:scaleX(0);transform-origin:0 50%;background:linear-gradient(90deg,var(--eletrico),var(--lavanda));box-shadow:0 0 10px rgba(76,103,255,.6)}
 
-/* transição entre páginas (Chrome e Safari atuais): a foto e o título do card clicado viajam até a matéria; o cabeçalho não recebe nome de transição: isso o isolaria do conteúdo de trás e desligaria o vidro líquido */
-@media (prefers-reduced-motion:no-preference){
-  @view-transition{navigation:auto}
-  .foto-materia img{view-transition-name:vt-foto}
-  .post-cab h1{view-transition-name:vt-titulo}
-  ::view-transition-group(*){animation-duration:.5s;animation-timing-function:cubic-bezier(.2,.7,.2,1)}
-  ::view-transition-old(root),::view-transition-new(root){animation-duration:.35s}
-  ::view-transition-old(vt-titulo),::view-transition-new(vt-titulo){height:100%;object-fit:contain;object-position:left top}
-  ::view-transition-old(vt-foto),::view-transition-new(vt-foto){height:100%;object-fit:cover}
-}
-/* cards inclinam em 3D com o mouse (transform vem do app.js) e ganham um reflexo de luz que segue o cursor */
+/* cards inclinam em 3D com o mouse (transform vem do app.js) */
 @media (hover:hover) and (pointer:fine){
   .card{transform-style:preserve-3d;will-change:transform}
-  .card::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:3;opacity:0;transition:opacity .3s;
-    background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.5),rgba(255,255,255,.12) 38%,transparent 62%);mix-blend-mode:soft-light}
-  .card:hover::before{opacity:1}
 }

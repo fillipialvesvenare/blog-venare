@@ -50,7 +50,8 @@
       el.classList.add('rv-ok');
       setTimeout(() => { el.classList.remove('rv', 'rv-ok'); el.style.transitionDelay = ''; }, 1100 + fila * 80);   // devolve as transições normais (hover)
     }), { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
-    document.querySelectorAll('.secao-cab,.card,.ind,.agenda li,.outros a,.post-corpo>.vis,.fontes').forEach((el) => { el.classList.add('rv'); entra.observe(el); });
+    // nas matérias nada entra em cascata: só na página inicial e no arquivo
+    if (!document.querySelector('.post-corpo')) document.querySelectorAll('.secao-cab,.card,.ind,.agenda li').forEach((el) => { el.classList.add('rv'); entra.observe(el); });
     // barras dos gráficos enchem quando o gráfico aparece
     const enche = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { enche.unobserve(e.target); e.target.classList.add('on'); } }), { threshold: 0.5 });
     document.querySelectorAll('.vis-barras').forEach((el) => enche.observe(el));
@@ -71,19 +72,7 @@
     addEventListener('scroll', pede, { passive: true }); addEventListener('resize', pede); mede();
   }
 
-  // ----- transição entre páginas: a foto e o título do card clicado viajam até a matéria -----
-  // (o navegador faz a transição pela regra @view-transition do CSS; aqui só marcamos qual card foi clicado)
-  if (!semMov && 'startViewTransition' in document) {
-    const marca = (raiz, foto, titulo) => {
-      document.querySelectorAll('[data-vt]').forEach((x) => { x.style.viewTransitionName = ''; x.removeAttribute('data-vt'); });
-      [[foto, 'vt-foto'], [titulo, 'vt-titulo']].forEach(([sel, nome]) => { const x = raiz.querySelector(sel); if (x) { x.style.viewTransitionName = nome; x.setAttribute('data-vt', ''); } });
-    };
-    document.querySelectorAll('.card').forEach((c) => { const l = c.querySelector('.card-link'); if (l) l.addEventListener('click', () => marca(c, '.card-foto img', 'h3')); });
-    const hero = document.querySelector('.hero');
-    if (hero) hero.querySelectorAll('h1 a,.hero-acoes .btn').forEach((l) => l.addEventListener('click', () => marca(hero, '.hero-foto img', 'h1')));
-  }
-
-  // ----- cards inclinam em 3D e um reflexo de luz segue o mouse (só com mouse) -----
+  // ----- cards inclinam em 3D com o mouse (só com mouse) -----
   if (!semMov && matchMedia('(hover:hover) and (pointer:fine)').matches) {
     document.querySelectorAll('.card').forEach((c) => {
       let q = false, ev = null;
@@ -93,7 +82,6 @@
         const r = c.getBoundingClientRect(), x = (ev.clientX - r.left) / r.width, y = (ev.clientY - r.top) / r.height;
         const forca = Math.min(1, 520 / r.width) * 8;    // cards largos inclinam menos
         c.style.transform = `perspective(1100px) rotateX(${((0.5 - y) * forca).toFixed(2)}deg) rotateY(${((x - 0.5) * forca).toFixed(2)}deg) translateY(-4px)`;
-        c.style.setProperty('--mx', (x * 100).toFixed(1) + '%'); c.style.setProperty('--my', (y * 100).toFixed(1) + '%');
       };
       c.addEventListener('pointermove', (e) => { ev = e; if (!q) { q = true; requestAnimationFrame(aplica); } });
       c.addEventListener('pointerleave', () => { ev = null; requestAnimationFrame(() => { c.style.transform = ''; }); });
