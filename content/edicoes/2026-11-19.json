@@ -1,0 +1,283 @@
+{
+  "data": "2026-11-19",
+  "publicacoes": [
+    {
+      "slug": "sc-tem-o-menor-desemprego-do-pais-pelo-setimo-trimestre-seguido-2-2",
+      "formato": "Gráfico",
+      "titulo": "SC tem o menor desemprego do país pelo sétimo trimestre seguido, com 2,2%, e emprego na construção cresce 9,1%",
+      "resumo": "No terceiro trimestre, o estado somou 4,6 milhões de pessoas ocupadas, 143 mil a mais que um ano antes. A renda média, de R$ 4.498, é a terceira maior do Brasil.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina teve desemprego de 2,2% no terceiro trimestre de 2026, o menor do país.",
+        "id": "sc-tem-o-menor-desemprego-do-pais-pelo-setimo-trimestre-seguido-2-2",
+        "evitar": [
+          "pixabay:174446",
+          "pixabay:4689129",
+          "pixabay:67551"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Taxa de desemprego no 3º trimestre de 2026",
+        "unidade": "%",
+        "itens": [
+          {
+            "rotulo": "Santa Catarina",
+            "valor": 2.2,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Brasil",
+            "valor": 5.2,
+            "tom": "br"
+          }
+        ],
+        "nota": "Fonte: IBGE (PNAD Contínua), divulgado em 18/11/2026, com análise da Seplan/SC."
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina teve taxa de desemprego de 2,2% no terceiro trimestre de 2026, a menor do país, contra média nacional de 5,2%. É o sétimo trimestre seguido em que o estado lidera o ranking, segundo a PNAD Contínua do IBGE, divulgada nesta quarta-feira (18). Mato Grosso do Sul (2,3%) e Mato Grosso (2,6%) vêm em seguida."
+        },
+        {
+          "h": "Mais gente trabalhando"
+        },
+        {
+          "p": "O estado chegou a 4,602 milhões de pessoas ocupadas, alta de 3,2% sobre o mesmo trimestre de 2025, o equivalente a 143 mil pessoas a mais. No Brasil, o crescimento foi de 1,2%. A construção foi o setor com maior avanço na ocupação, de 9,1%, seguida pela indústria, com 6,1%."
+        },
+        {
+          "h": "Menor informalidade e renda acima da média"
+        },
+        {
+          "p": "Santa Catarina também tem a menor informalidade do país, de 25,7%, contra 37,5% no Brasil, e lidera esse indicador há 34 trimestres seguidos. O rendimento médio mensal ficou em R$ 4.498, 18,6% acima da média nacional, de R$ 3.790, o terceiro maior entre os estados. A participação das mulheres no mercado de trabalho, de 60,9%, é a maior do país."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Pleno emprego, renda alta e trabalho formal sustentam a demanda por moradia, tanto para compra quanto para aluguel, e reduzem o risco de inadimplência. O avanço da ocupação na construção também indica um setor imobiliário ativo no estado."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: com índice de 2,2%, Santa Catarina registra menor taxa de desemprego do país no terceiro trimestre de 2026",
+          "url": "https://noticias.sc.gov.br/com-indice-de-22-santa-catarina-registra-menor-taxa-de-desemprego-do-pais-no-terceiro-trimestre-de-2026/"
+        }
+      ]
+    },
+    {
+      "slug": "balneario-picarras-m2-valoriza-61-em-cinco-anos-e-vetter-entrega-ocean-park",
+      "formato": "Gráfico",
+      "titulo": "Metro quadrado em Balneário Piçarras valoriza 61% em cinco anos, e Vetter entrega residencial de 231 apartamentos",
+      "resumo": "O preço médio passou de R$ 9.449 em 2021 para R$ 15.232 em 2026, segundo a Brain. No Ocean Park, a incorporadora relata valorização média de 20% ao ano desde o lançamento.",
+      "foto": {
+        "legenda": "Prédios à beira-mar em Balneário Camboriú, também no litoral norte catarinense. Em Balneário Piçarras, o metro quadrado residencial passou de R$ 9.449 em 2021 para R$ 15.232 em 2026, segundo a Brain.",
+        "id": "balneario-picarras-m2-valoriza-61-em-cinco-anos-e-vetter-entrega-ocean-park",
+        "evitar": [
+          "pixabay:174446",
+          "pixabay:3223369",
+          "pixabay:3703012",
+          "pixabay:4689129"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Preço médio do m² residencial em Balneário Piçarras",
+        "unidade": "reais por m²",
+        "itens": [
+          {
+            "rotulo": "2021",
+            "valor": 9449,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "2026",
+            "valor": 15232,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: Brain Inteligência Estratégica, citada pelo ND Mais. Alta de 61,2% em cinco anos."
+      },
+      "corpo": [
+        {
+          "p": "O preço médio do metro quadrado residencial em Balneário Piçarras, no litoral norte de Santa Catarina, passou de R$ 9.449 em 2021 para R$ 15.232 em 2026, valorização de 61,2% em cinco anos, segundo a Brain Inteligência Estratégica."
+        },
+        {
+          "h": "Ocean Park entregue"
+        },
+        {
+          "p": "A Vetter Empreendimentos, quarta maior incorporadora do estado, entregou no fim de outubro o Ocean Park, o maior residencial que já concluiu na cidade. São 231 apartamentos de duas e três suítes, em duas torres, no bairro Itacolomi, a cerca de 130 metros do mar, com mais de 3 mil metros quadrados de lazer. Segundo a empresa, os imóveis valorizaram em média 20% ao ano desde o lançamento, em 2022."
+        },
+        {
+          "h": "De veraneio a endereço fixo"
+        },
+        {
+          "p": "Piçarras tem atraído novos moradores e empreendimentos, e o comércio acompanha: nesta semana, uma rede de supermercados anunciou a abertura de sua quarta loja na cidade. Para o colunista Guilherme Pilger, do ND Mais, cidades antes vistas só como destino de veraneio passaram a entrar no radar de quem investe em imóveis."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Cidades menores do litoral norte vêm registrando valorização forte nos últimos anos. A valorização de cada empreendimento é informada pela própria incorporadora; vale comparar com os índices da cidade e com o histórico de entregas antes de decidir."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais (Guilherme Pilger): Balneário Piçarras, Ocean Park da Vetter tem valorização de 20% ao ano",
+          "url": "https://ndmais.com.br/economia/negocios/balneario-picarras-ocean-park-vetter-valorizacao/"
+        }
+      ]
+    },
+    {
+      "slug": "stone-instala-nucleo-de-inteligencia-artificial-em-florianopolis",
+      "formato": "Notícia",
+      "titulo": "Stone instala em Florianópolis seu núcleo de inteligência artificial, com 110 profissionais e escritório de 1.500 m²",
+      "resumo": "A dona da maquininha escolheu a capital catarinense, longe do eixo Rio–São Paulo, pelo ecossistema de tecnologia e pela qualidade de vida. A equipe deve crescer em 2027.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Stone montou em Florianópolis um escritório de 1.500 m² para seu núcleo de inteligência artificial.",
+        "id": "stone-instala-nucleo-de-inteligencia-artificial-em-florianopolis"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "110",
+        "legenda": "Profissionais da área de inteligência artificial generativa da Stone, agora com sede em Florianópolis"
+      },
+      "corpo": [
+        {
+          "p": "A Stone, empresa conhecida pela maquininha de cartão, instalou em Florianópolis o seu núcleo de inovação em inteligência artificial. A companhia concluiu há poucas semanas um escritório de cerca de 1.500 metros quadrados na capital, com mais de cem posições de trabalho e uma sala de treinamento em IA aberta também à comunidade local. A informação foi antecipada ao ND Mais pelo diretor de IA generativa da empresa, Lucas Prim."
+        },
+        {
+          "h": "Por que Florianópolis"
+        },
+        {
+          "p": "Segundo o executivo, a decisão de ficar longe do eixo Rio–São Paulo foi intencional. Ele cita o peso da tecnologia na economia da cidade, que responde por 21% do PIB de Florianópolis, o ecossistema de startups e universidades, a segurança e a qualidade de vida. Para formar mais profissionais, a empresa retoma parcerias com a UFSC e a Udesc."
+        },
+        {
+          "h": "5 mil robôs no atendimento"
+        },
+        {
+          "p": "A área de IA generativa da Stone começou há cerca de três anos e meio e hoje reúne 110 profissionais, com previsão de crescer em 2027. Todo o atendimento por texto da empresa já é feito por inteligência artificial, com cerca de 5 mil agentes virtuais conversando com clientes ao mesmo tempo."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Centros de tecnologia de grandes empresas trazem profissionais de renda alta, que buscam imóveis bem localizados para morar e alugar. O movimento reforça a demanda em regiões próximas aos polos de inovação da capital."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Stone começa núcleo de Inteligência Artificial em Florianópolis e já opera 5 mil robôs",
+          "url": "https://ndmais.com.br/economia/negocios/exclusivo-stone-comeca-nucleo-de-inteligencia-artificial-em-florianopolis-e-ja-opera-5-mil-robos/"
+        }
+      ]
+    },
+    {
+      "slug": "roda-gigante-de-r-60-milhoes-em-itapema-deve-abrir-em-dezembro",
+      "formato": "Em números",
+      "titulo": "Roda-gigante de 60 metros e R$ 60 milhões em Itapema deve abrir em dezembro, com 30 cabines climatizadas",
+      "resumo": "A atração ganhou nome de patrocinador por cinco anos e terá 21.360 lâmpadas de LED no aro. O passeio, de cerca de 18 minutos, terá vista para as orlas de Itapema e Porto Belo.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A roda-gigante de Itapema terá 60 metros de altura e investimento de R$ 60 milhões.",
+        "id": "roda-gigante-de-r-60-milhoes-em-itapema-deve-abrir-em-dezembro",
+        "evitar": [
+          "pixabay:174446",
+          "pixabay:2069584",
+          "pixabay:3651187",
+          "pixabay:4689129"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Investimento",
+            "valor": "R$ 60 mi",
+            "detalhe": "inauguração prevista para dezembro"
+          },
+          {
+            "rotulo": "Altura",
+            "valor": "60 m",
+            "detalhe": "30 cabines climatizadas"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "A roda-gigante de Itapema, no litoral norte de Santa Catarina, deve ser inaugurada em dezembro de 2026. A atração tem 60 metros de altura e investimento de R$ 60 milhões, e passou a se chamar Sicredi It! Wheel após um acordo de patrocínio de cinco anos oficializado nesta quarta-feira (18)."
+        },
+        {
+          "h": "Cabines e luzes"
+        },
+        {
+          "p": "Serão 30 cabines panorâmicas climatizadas, com tela multimídia, câmeras e conexão Bluetooth. O aro terá 21.360 lâmpadas de LED, que poderão formar desenhos e animações à noite, com programações especiais para datas como Natal e Réveillon. O passeio deve durar cerca de 18 minutos, com vista para as orlas de Itapema e Porto Belo."
+        },
+        {
+          "h": "Mais uma atração no litoral norte"
+        },
+        {
+          "p": "A atração chega às vésperas da temporada de verão, quando o litoral catarinense recebe o maior fluxo de visitantes do ano."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Novas atrações ampliam o tempo de permanência dos turistas e reforçam a procura por hospedagem. Itapema, que tem um dos metros quadrados mais valorizados do país (R$ 15.232 em outubro, pelo FipeZAP), ganha mais um motivo para atrair visitantes ao longo do ano, o que favorece o aluguel por temporada."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: com 60 metros de altura e R$ 60 milhões, roda-gigante ganha novo nome em Itapema",
+          "url": "https://ndmais.com.br/turismo/com-60-metros-de-altura-e-r-60-milhoes-roda-gigante-ganha-novo-nome-em-praia-supervalorizada-de-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "vivapark-porto-belo-passa-de-r-3-bilhoes-em-vendas-e-vokkan-planeja-novos-bairros",
+      "formato": "Análise",
+      "titulo": "Vivapark, em Porto Belo, passa de R$ 3 bilhões em vendas, e Vokkan planeja novos bairros planejados",
+      "resumo": "A incorporadora tem banco de terrenos de 7 milhões de m² e estima VGV potencial de R$ 50 bilhões para o empreendimento. A nova CEO assume com foco em expansão e governança.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Vivapark, em Porto Belo, já ultrapassou R$ 3 bilhões em vendas acumuladas.",
+        "id": "vivapark-porto-belo-passa-de-r-3-bilhoes-em-vendas-e-vokkan-planeja-novos-bairro",
+        "evitar": [
+          "pixabay:174446",
+          "pixabay:3632286",
+          "pixabay:4689129"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 3 bi",
+        "legenda": "Vendas acumuladas do Vivapark Porto Belo, bairro planejado da Vokkan no litoral norte catarinense"
+      },
+      "corpo": [
+        {
+          "p": "O Vivapark Porto Belo, bairro planejado da incorporadora Vokkan no litoral norte de Santa Catarina, já ultrapassou R$ 3 bilhões em vendas acumuladas. A empresa estima um valor geral de vendas potencial de R$ 50 bilhões para o empreendimento, considerando seu desenvolvimento futuro."
+        },
+        {
+          "h": "Nova CEO e expansão"
+        },
+        {
+          "p": "A Vokkan anunciou nesta semana uma nova CEO: a sócia fundadora que ocupava a vice-presidência da companhia desde 2022. Entre as prioridades estão ampliar o banco de terrenos, hoje de cerca de 7 milhões de metros quadrados, desenvolver novos bairros planejados e entrar no segmento de condomínios multissetoriais a partir de 2027. A empresa também prevê a entrada de conselheiros independentes no conselho de administração."
+        },
+        {
+          "h": "Porto Belo em alta"
+        },
+        {
+          "p": "Bairros planejados reúnem moradia, serviços e lazer na mesma área. Segundo a empresa, o modelo da Vokkan integra urbanismo, incorporação imobiliária e gestão de ativos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Bairros planejados de grande porte tendem a valorizar por etapas, à medida que a infraestrutura e os serviços ficam prontos. Para o investidor, vale observar o cronograma de cada fase e a evolução de preços dentro do próprio empreendimento. O VGV potencial é uma estimativa da empresa para o longo prazo."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Economia SC: Vokkan anuncia nova CEO e prepara expansão de negócios com VGV potencial de R$ 50 bilhões",
+          "url": "https://economiasc.com/2026/11/17/vokkan-anuncia-nova-ceo-e-prepara-expansao-de-negocios-com-vgv-potencial-de-r-50-bilhoes/"
+        }
+      ]
+    }
+  ]
+}
