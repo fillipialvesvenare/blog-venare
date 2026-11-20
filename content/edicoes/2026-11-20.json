@@ -1,0 +1,289 @@
+{
+  "data": "2026-11-20",
+  "publicacoes": [
+    {
+      "slug": "sc-quer-dobrar-exportacoes-ate-2035-e-ampliar-portos-em-40",
+      "formato": "Gráfico",
+      "titulo": "SC quer dobrar as exportações até 2035 e prevê ampliar em 40% a capacidade dos portos em dois anos",
+      "resumo": "O plano de internacionalização do governo estadual parte dos cerca de US$ 12 bilhões exportados por ano e inclui dois novos terminais portuários e escritórios em Nova York e Xangai.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina prevê ampliar em 40% a capacidade dos portos nos próximos dois anos.",
+        "id": "sc-quer-dobrar-exportacoes-ate-2035-e-ampliar-portos-em-40"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Exportações anuais de SC: hoje e meta para 2035",
+        "unidade": "US$ bilhões",
+        "itens": [
+          {
+            "rotulo": "Hoje (cerca de)",
+            "valor": 12,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Meta para 2035 (dobro)",
+            "valor": 24,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: secretário executivo de Articulação Internacional de SC, Paulo Bornhausen, em entrevista à NDTV RECORD publicada pelo ND Mais. A meta é dobrar o volume atual."
+      },
+      "corpo": [
+        {
+          "p": "Santa Catarina traçou como meta dobrar o volume de exportações até 2035. Hoje o estado exporta cerca de US$ 12 bilhões por ano. Os detalhes do plano de internacionalização foram apresentados pelo secretário executivo de Articulação Internacional e Projetos Estratégicos, Paulo Bornhausen, em entrevista à NDTV RECORD."
+        },
+        {
+          "h": "Portos 40% maiores"
+        },
+        {
+          "p": "Para sustentar o crescimento do comércio exterior, que inclui cerca de US$ 33 bilhões em importações, segundo o secretário, o estado tem contratação em andamento para ampliar em 40% a capacidade dos portos catarinenses nos próximos dois anos, além de dois novos terminais portuários e do avanço de corredores rodoviários como a Via Mar. A projeção citada é de que a movimentação de contêineres na foz do rio Itajaí passe de 1,3 milhão para 3 milhões nos próximos anos."
+        },
+        {
+          "h": "Empregos com salários maiores"
+        },
+        {
+          "p": "Segundo o secretário, empresas que atuam no comércio exterior pagam em média o dobro do salário das voltadas só ao mercado interno, e cada US$ 1 bilhão a mais em exportação gera cerca de 22 mil empregos. O governo mantém escritórios de representação em Nova York e Xangai. O plano também busca preparar o estado para a mudança na cobrança de impostos prevista pela reforma tributária a partir de 2033."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Portos maiores e mais exportação significam mais empresas de logística, mais empregos e renda nas cidades portuárias, como Itajaí, Navegantes, Itapoá e São Francisco do Sul. É uma meta de longo prazo: vale acompanhar o andamento das obras portuárias, que definem o ritmo real desse crescimento."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: plano de internacionalização de SC com bases nos EUA e China",
+          "url": "https://ndmais.com.br/infraestrutura/plano-de-internacionalizacao-de-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "fortaleza-de-aracatuba-em-florianopolis-sera-aberta-a-visitacao-apos-r-18-milhoes",
+      "formato": "Notícia",
+      "titulo": "Fortaleza de Araçatuba, no Sul da Ilha, será aberta à visitação pela primeira vez em quase 100 anos, com obra de R$ 18 milhões",
+      "resumo": "A licitação foi autorizada nesta quarta-feira (18). O projeto inclui trapiche de 36 metros e restauro das 13 estruturas do forte de 1742, com obras a partir de 2027.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Fortaleza de Araçatuba, construída em 1742 no Sul da Ilha, será restaurada e aberta à visitação.",
+        "id": "fortaleza-de-aracatuba-em-florianopolis-sera-aberta-a-visitacao-apos-r-18-milhoe",
+        "evitar": [
+          "pixabay:7705682"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "R$ 18 mi",
+        "legenda": "Investimento previsto para restaurar e abrir à visitação a Fortaleza de Araçatuba, em Florianópolis"
+      },
+      "corpo": [
+        {
+          "p": "Florianópolis deve abrir à visitação, pela primeira vez em cerca de 90 anos, a Fortaleza de Araçatuba, numa ilhota no Sul da Ilha. Na quarta-feira (18), foi assinada a autorização para a licitação que vai escolher a empresa responsável pelas obras. O investimento estimado é de R$ 18 milhões, do Iphan, pelo Novo PAC."
+        },
+        {
+          "h": "Trapiche e restauro"
+        },
+        {
+          "p": "O projeto prevê um trapiche de cerca de 36 metros para que embarcações atraquem com segurança, sanitários, estrutura de apoio, sinalização e paisagismo. O conjunto histórico tem 13 estruturas, em 1.281,51 metros quadrados de área construída, e será restaurado no modelo já usado em outros monumentos da capital, como a Fortaleza de São José da Ponta Grossa."
+        },
+        {
+          "h": "Cronograma"
+        },
+        {
+          "p": "Os projetos de restauro já foram aprovados pelo Iphan. A expectativa é começar as obras no primeiro semestre de 2027, com prazo de cerca de 14 meses após a ordem de serviço. Construída em 1742, a fortaleza foi a última grande fortificação erguida no século XVIII para proteger a Ilha de Santa Catarina."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Atrações históricas ampliam o turismo fora da praia e ajudam a distribuir visitantes pelo ano. Para o Sul da Ilha, a nova atração reforça o interesse turístico da região, a exemplo do que já acontece com outras fortalezas restauradas da capital."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Fortaleza de Araçatuba será aberta para visitação pela primeira vez em quase 100 anos em Florianópolis após investimento de R$ 18 milhões",
+          "url": "https://ndmais.com.br/turismo/fortaleza-de-aracatuba-sera-aberta-para-visitacao-pela-primeira-vez-em-quase-100-anos-em-florianopolis-apos-investimento-de-r-18-milhoes/"
+        }
+      ]
+    },
+    {
+      "slug": "parque-casacampo-de-r-30-milhoes-abre-em-itajai-com-16-jardins",
+      "formato": "Gráfico",
+      "titulo": "Parque de R$ 30 milhões com 16 jardins e 1.500 roseiras abre em Itajaí e prevê 100 hospedagens até 2028",
+      "resumo": "O CasaCampo ocupa 60 mil m² no bairro Brilhante e abre neste domingo (22). O paisagismo foi feito por um dos organizadores da Festa das Flores de Joinville.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Parque CasaCampo, em Itajaí, terá um jardim com cerca de 1.500 roseiras.",
+        "id": "parque-casacampo-de-r-30-milhoes-abre-em-itajai-com-16-jardins"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Unidades de hospedagem no Parque CasaCampo",
+        "unidade": "unidades",
+        "itens": [
+          {
+            "rotulo": "Prontas hoje",
+            "valor": 10,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Previsão para o fim de 2027",
+            "valor": 50,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Previsão para 2028",
+            "valor": 100,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: ND Mais, com informações do Parque CasaCampo."
+      },
+      "corpo": [
+        {
+          "p": "Itajaí ganha neste domingo (22) um novo parque turístico. O Parque CasaCampo, no bairro Brilhante, recebeu investimento de mais de R$ 30 milhões e ocupa 60 mil metros quadrados, com cerca de 11 mil metros quadrados de jardins."
+        },
+        {
+          "h": "16 jardins temáticos"
+        },
+        {
+          "p": "São 16 jardins, entre eles um Jardim Japonês com pontes e cachoeira, um Jardim das Rosas com cerca de 1.500 roseiras e um espaço de cactos. O parque tem ainda lago com carpas, trilhas, cafeteria, floricultura e quatro espaços para eventos. O paisagismo contou com Beto Amaral, que trabalhou por mais de 15 anos na organização da Festa das Flores de Joinville."
+        },
+        {
+          "h": "Hospedagem em expansão"
+        },
+        {
+          "p": "Dez unidades de hospedagem já estão prontas. A previsão é chegar a 50 até o fim de 2027 e a 100 em 2028. O empreendimento é da família do empresário Zouhair Haidar, que comprou a antiga propriedade rural há cerca de dois anos e meio."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Itajaí, que lidera as vendas de imóveis no litoral catarinense neste ano, ganha uma atração turística fora da orla. Novos atrativos ajudam a manter visitantes por mais tempo na cidade e ampliam a demanda por serviços e hospedagem."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: investimento de R$ 30 milhões transforma antiga propriedade rural em parque turístico com 16 jardins em Itajaí",
+          "url": "https://ndmais.com.br/turismo/investimento-de-r-30-milhoes-transforma-antiga-propriedade-rural-em-parque-turistico-com-16-jardins-1-500-roseiras-e-area-de-60-mil-m%c2%b2-em-sc/"
+        },
+        {
+          "nome": "NSC Total: com alta de 209% nas vendas, cidade do litoral norte de SC vira novo diamante do mercado imobiliário",
+          "url": "https://www.nsctotal.com.br/economia/com-alta-de-209-nas-vendas-cidade-do-litoral-norte-de-sc-vira-novo-diamante-do-mercado-imobiliario"
+        }
+      ]
+    },
+    {
+      "slug": "reveillon-de-balneario-camboriu-tera-10-toneladas-de-fogos-e-15-minutos-de-queima",
+      "formato": "Em números",
+      "titulo": "Réveillon de Balneário Camboriú terá 10 toneladas de fogos, 15 minutos de queima e nove balsas na Praia Central",
+      "resumo": "O teste dos fogos acontece neste sábado (21), no Molhe do Pontal Norte, depois do desfile de Natal. A virada terá uma balsa a mais que no ano passado.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Réveillon de Balneário Camboriú terá dez toneladas de fogos disparados de nove balsas.",
+        "id": "reveillon-de-balneario-camboriu-tera-10-toneladas-de-fogos-e-15-minutos-de-queim",
+        "evitar": [
+          "pixabay:7319904"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Fogos de artifício",
+            "valor": "10 t",
+            "detalhe": "16 tipos, de cores e formatos diferentes"
+          },
+          {
+            "rotulo": "Duração da queima",
+            "valor": "15 min",
+            "detalhe": "disparos de nove balsas"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Balneário Camboriú prepara para a virada de 2026 para 2027 um espetáculo de 15 minutos com dez toneladas de fogos de artifício, de 16 tipos, coreografados e disparados ao mesmo tempo. O número de balsas na Praia Central passa de oito para nove, a cerca de 400 metros da faixa de areia."
+        },
+        {
+          "h": "Teste neste sábado"
+        },
+        {
+          "p": "A demonstração técnica dos fogos acontece neste sábado (21), entre 21h30 e 22h30, no Molhe do Pontal Norte, logo depois do desfile de Natal. Terá cerca de quatro minutos e poderá ser vista por moradores e turistas. O teste serve para verificar se a empresa vencedora da licitação atende ao edital. O acesso ao molhe será fechado a partir das 14h."
+        },
+        {
+          "h": "Temporada de eventos"
+        },
+        {
+          "p": "O Réveillon é um dos pontos altos da temporada em Balneário Camboriú. Nesta semana, a cidade também foi escolhida como destino de um navio de luxo para a virada de 2027 para 2028."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Grandes eventos de fim de ano aumentam a procura por hospedagem. Para quem tem imóvel para temporada em Balneário Camboriú, a virada costuma ser um dos períodos mais disputados do verão."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Balneário Camboriú prepara espetáculo de dez toneladas de fogos com 15 minutos de queima para o Ano-Novo",
+          "url": "https://ndmais.com.br/turismo/balneario-camboriu-prepara-espetaculo-de-dez-toneladas-de-fogos-com-15-minutos-de-queima-para-o-ano-novo-e-anuncia-data-de-testes-veja-quando/"
+        }
+      ]
+    },
+    {
+      "slug": "florianopolis-ganha-21-pontos-de-recarga-para-carros-eletricos",
+      "formato": "Notícia",
+      "titulo": "Florianópolis ganha 21 pontos de recarga para carros elétricos, do Centro a Jurerê, sem custo para a prefeitura",
+      "resumo": "Três empresas vão instalar e operar os carregadores em espaços públicos e pagar outorga anual ao município. As primeiras estações devem funcionar ainda nesta temporada.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Florianópolis terá 21 pontos públicos de recarga para veículos elétricos.",
+        "id": "florianopolis-ganha-21-pontos-de-recarga-para-carros-eletricos",
+        "evitar": [
+          "pixabay:210832"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Novos pontos de recarga",
+            "valor": "21",
+            "detalhe": "Beira-Mar, Jurerê, Ingleses, Trindade e continente"
+          },
+          {
+            "rotulo": "Outorga anual ao município",
+            "valor": "R$ 132,7 mil",
+            "detalhe": "paga pelas três operadoras"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "A Prefeitura de Florianópolis assinou contratos com três empresas para instalar, manter e operar 21 novos pontos de recarga para veículos elétricos em espaços públicos. A previsão é que as primeiras estações funcionem ainda em 2026, durante a temporada de verão."
+        },
+        {
+          "h": "Onde ficam"
+        },
+        {
+          "p": "Os pontos estão distribuídos entre o Centro e a Beira-Mar Norte, bairros residenciais como Agronômica, Coqueiros e Itacorubi, a região universitária da Trindade, praias de grande movimento como Jurerê e Ingleses e o Estreito, no continente. A Urban Charge vai operar dez estações, a Esquina do Futuro seis e a Hadron Soluções em Energia cinco."
+        },
+        {
+          "h": "Sem custo para a prefeitura"
+        },
+        {
+          "p": "A instalação e a gestão dos equipamentos não exigem investimento público. Em troca do uso das áreas, as três empresas pagarão ao município uma outorga anual conjunta de R$ 132.710,40. O motorista faz a recarga nos totens e paga pelo aplicativo de cada operadora."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A infraestrutura para carros elétricos começa a pesar na escolha de moradia e de hospedagem. Empreendimentos com vagas preparadas para recarga tendem a ganhar atratividade à medida que a frota elétrica cresce na Grande Florianópolis."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: do Centro a Jurerê, Florianópolis ganha 21 pontos de recarga para carros elétricos",
+          "url": "https://ndmais.com.br/infraestrutura/do-centro-a-jurere-florianopolis-ganha-21-pontos-de-recarga-para-carros-eletricos/"
+        }
+      ]
+    }
+  ]
+}
