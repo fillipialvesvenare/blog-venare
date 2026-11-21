@@ -63,7 +63,7 @@
     },
     {
       "slug": "casan-amplia-esgoto-de-ingleses-e-santinho-com-r-28-milhoes",
-      "formato": "Gráfico",
+      "formato": "Em números",
       "titulo": "Casan amplia o esgoto de Ingleses e Santinho, no norte da Ilha, com R$ 28 milhões e sete estações elevatórias",
       "resumo": "A obra inclui 8,4 km de rede coletora e 2,9 km de emissários. A estação em construção na Estrada Dom João Becker atende o Santinho e o sul dos Ingleses.",
       "foto": {
@@ -71,22 +71,29 @@
         "id": "casan-amplia-esgoto-de-ingleses-e-santinho-com-r-28-milhoes"
       },
       "visual": {
-        "tipo": "barras",
-        "titulo": "Ampliação do sistema de esgoto Ingleses-Santinho",
-        "unidade": "km",
+        "tipo": "comparacao",
         "itens": [
           {
-            "rotulo": "Rede coletora",
-            "valor": 8.4,
-            "tom": "sc"
+            "rotulo": "Investimento total",
+            "valor": "R$ 28 mi",
+            "detalhe": "inclui a reforma da estação de tratamento"
           },
           {
-            "rotulo": "Emissários",
-            "valor": 2.9,
-            "tom": "ref"
+            "rotulo": "Estações elevatórias",
+            "valor": "7",
+            "detalhe": "a estação 10, na Estrada Dom João Becker, atende o Santinho e o sul dos Ingleses"
+          },
+          {
+            "rotulo": "Bacias atendidas",
+            "valor": "5",
+            "detalhe": "distribuídas pelos dois bairros do norte da Ilha"
+          },
+          {
+            "rotulo": "Vazão por conjunto de bombas",
+            "valor": "170 m³/h",
+            "detalhe": "na estação 10, que terá dois conjuntos"
           }
-        ],
-        "nota": "Fonte: Casan, divulgado pelo Governo de SC. O projeto também inclui sete estações elevatórias e a reforma da estação de tratamento."
+        ]
       },
       "corpo": [
         {
