@@ -1,0 +1,271 @@
+{
+  "data": "2026-11-21",
+  "publicacoes": [
+    {
+      "slug": "serra-do-corvo-branco-passa-de-90-de-obras-e-reabre-com-inauguracao-em-19-de-dezembro",
+      "formato": "Gráfico",
+      "titulo": "Serra do Corvo Branco passa de 90% das obras, com R$ 56 milhões, e tem inauguração marcada para 19 de dezembro",
+      "resumo": "A pavimentação de 9,4 km da SC-370, entre Urubici e Grão-Pará, tem 2,6 km em concreto no trecho da serra. Faltam 150 metros de pista.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A pavimentação da Serra do Corvo Branco, entre Urubici e Grão-Pará, ultrapassou 90% de execução.",
+        "id": "serra-do-corvo-branco-passa-de-90-de-obras-e-reabre-com-inauguracao-em-19-de-dez",
+        "evitar": [
+          "pixabay:4863393"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Pavimentação da SC-370 na Serra do Corvo Branco",
+        "unidade": "km",
+        "itens": [
+          {
+            "rotulo": "Trecho total pavimentado",
+            "valor": 9.4,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Parte em concreto, na serra",
+            "valor": 2.6,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: Secretaria de Estado da Infraestrutura e Mobilidade, divulgado pelo Governo de SC. Investimento de mais de R$ 56 milhões pelo programa Estrada Boa."
+      },
+      "corpo": [
+        {
+          "p": "A pavimentação da Serra do Corvo Branco, na SC-370, entre Urubici e Grão-Pará, ultrapassou 90% de execução, segundo a Secretaria de Estado da Infraestrutura e Mobilidade. A previsão é reabrir o tráfego nas próximas semanas, e a inauguração está marcada para 19 de dezembro. O investimento estadual passa de R$ 56 milhões, pelo programa Estrada Boa."
+        },
+        {
+          "h": "Reta final"
+        },
+        {
+          "p": "A obra cobre 9,4 quilômetros, dos quais 2,6 quilômetros no trecho da serra são em concreto. Os acessos em asfalto, por Urubici e por Grão-Pará, já estão prontos e sinalizados. Restam cerca de 150 metros de pista para concretar, além de muros, contenções de encostas, barreiras de proteção e sinalização. O relevo acidentado exigiu soluções especiais de engenharia contra deslizamentos."
+        },
+        {
+          "h": "Cartão-postal da Serra Catarinense"
+        },
+        {
+          "p": "A serra liga a região Serrana ao litoral e é conhecida pela fenda na rocha, pelos cânions e pelos passeios de natureza e aventura. A rodovia terá estacionamento, mirante e passagens de fauna. Segundo o governo, milhares de turistas visitam o local todos os anos, movimentando hotéis, pousadas e restaurantes da região."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Uma ligação pavimentada e segura entre o litoral e a Serra Catarinense tende a ampliar o turismo de inverno e de natureza em cidades como Urubici, o que favorece pousadas e imóveis para temporada na região. A rodovia também é uma rota de transporte e logística entre a Serra e o litoral, segundo o governo."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: pavimentação da Serra do Corvo Branco ultrapassa 90% de conclusão e já tem data para inauguração",
+          "url": "https://noticias.sc.gov.br/pavimentacao-da-serra-do-corvo-branco-ultrapassa-90-de-conclusao-e-ja-tem-data-para-inauguracao/"
+        }
+      ]
+    },
+    {
+      "slug": "casan-amplia-esgoto-de-ingleses-e-santinho-com-r-28-milhoes",
+      "formato": "Gráfico",
+      "titulo": "Casan amplia o esgoto de Ingleses e Santinho, no norte da Ilha, com R$ 28 milhões e sete estações elevatórias",
+      "resumo": "A obra inclui 8,4 km de rede coletora e 2,9 km de emissários. A estação em construção na Estrada Dom João Becker atende o Santinho e o sul dos Ingleses.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A ampliação do esgoto de Ingleses e Santinho, em Florianópolis, tem investimento de R$ 28 milhões.",
+        "id": "casan-amplia-esgoto-de-ingleses-e-santinho-com-r-28-milhoes"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Ampliação do sistema de esgoto Ingleses-Santinho",
+        "unidade": "km",
+        "itens": [
+          {
+            "rotulo": "Rede coletora",
+            "valor": 8.4,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Emissários",
+            "valor": 2.9,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: Casan, divulgado pelo Governo de SC. O projeto também inclui sete estações elevatórias e a reforma da estação de tratamento."
+      },
+      "corpo": [
+        {
+          "p": "A Casan avança na ampliação do sistema de esgotamento sanitário de Ingleses e Santinho, no norte da Ilha, em Florianópolis. O investimento é de R$ 28 milhões e inclui 8,4 quilômetros de rede coletora, 2,9 quilômetros de emissários, sete estações elevatórias e a reforma da estação de tratamento. A obra abrange cinco bacias dos dois bairros."
+        },
+        {
+          "h": "Estação em construção"
+        },
+        {
+          "p": "A estação elevatória 10, na Estrada Dom João Becker, teve a escavação iniciada em outubro e está na fase de preparação da base. Ela vai receber o esgoto do Santinho e da região sul dos Ingleses e bombeá-lo até a estação seguinte, com dois conjuntos de bombas de 170 metros cúbicos por hora cada. As estações elevatórias são usadas onde o terreno não permite que o esgoto siga só pela gravidade."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Saneamento é uma das melhorias de infraestrutura que mais pesam na valorização de um bairro e na qualidade da balneabilidade das praias. Para quem tem ou avalia imóveis em Ingleses e no Santinho, a obra é um ponto positivo a acompanhar até a conclusão."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: Casan avança na construção de Estação Elevatória de Esgoto nos Ingleses em Florianópolis",
+          "url": "https://noticias.sc.gov.br/casan-avanca-na-construcao-de-estacao-elevatoria-de-esgoto-nos-ingleses-em-florianopolis/"
+        }
+      ]
+    },
+    {
+      "slug": "itau-entra-no-minha-casa-minha-vida-para-faixa-3-e-renda-de-ate-r-12-mil",
+      "formato": "Análise",
+      "titulo": "Itaú entra no Minha Casa, Minha Vida para a Faixa 3 e renda de até R$ 12 mil, ampliando a oferta de crédito imobiliário",
+      "resumo": "Até agora, só Caixa e Banco do Brasil operavam o programa. Na Caixa, os juros vão de 4% a 10% ao ano, conforme a renda, e o teto de financiamento chega a R$ 600 mil.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Itaú passa a oferecer financiamento pelo Minha Casa, Minha Vida para famílias com renda de até R$ 12 mil.",
+        "id": "itau-entra-no-minha-casa-minha-vida-para-faixa-3-e-renda-de-ate-r-12-mil"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Faixa 3 no Itaú",
+            "valor": "R$ 5 mil a R$ 9,6 mil",
+            "detalhe": "renda mensal dos clientes elegíveis"
+          },
+          {
+            "rotulo": "Pró-Cotista no Itaú",
+            "valor": "até R$ 12 mil",
+            "detalhe": "renda mensal"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Itaú Unibanco confirmou ao ND Mais, nesta sexta-feira (20), a entrada no Minha Casa, Minha Vida. A oferta será liberada de forma gradual para clientes da Faixa 3, com renda mensal entre R$ 5 mil e R$ 9,6 mil, e do Pró-Cotista, voltado a quem ganha até R$ 12 mil. Até agora, o programa era operado pela Caixa e pelo Banco do Brasil."
+        },
+        {
+          "h": "Como funciona na Caixa"
+        },
+        {
+          "p": "Na Caixa, o programa atende famílias com renda bruta de até R$ 9.600 na habitação popular e de até R$ 13 mil na modalidade Classe Média. As taxas nominais variam de 4% a 10% ao ano, conforme a renda e o ano da contratação. Em 2026, o valor máximo de financiamento vai de R$ 210 mil na Faixa 1 a R$ 600 mil na Faixa 4."
+        },
+        {
+          "h": "Mais concorrência num cenário de juros altos"
+        },
+        {
+          "p": "Com a Selic em 13,75% ao ano, o crédito imobiliário fora dos programas habitacionais segue caro. A entrada de mais um grande banco no Minha Casa, Minha Vida amplia a concorrência e as opções para a faixa de renda média, que concentra boa parte dos compradores do primeiro imóvel."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Mais crédito com juros subsidiados sustenta a demanda por imóveis de entrada, o que favorece lançamentos econômicos e a liquidez de unidades compactas. Para quem investe em imóveis voltados a esse público, vale acompanhar quando a oferta do Itaú estará disponível de fato e em quais condições."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Itaú passa a oferecer financiamento imobiliário pelo Minha Casa, Minha Vida para Faixa 3 e renda de até R$ 12 mil",
+          "url": "https://ndmais.com.br/economia/itau-passa-a-oferecer-financiamento-imobiliario-pelo-minha-casa-minha-vida/"
+        }
+      ]
+    },
+    {
+      "slug": "bistek-rede-catarinense-de-r-3-bilhoes-compra-tres-lojas-no-rs",
+      "formato": "Notícia",
+      "titulo": "Bistek, rede catarinense que fatura R$ 3 bilhões por ano, compra três lojas no Rio Grande do Sul",
+      "resumo": "Duas unidades ficam em Porto Alegre e uma em Novo Hamburgo. A rede, fundada em Nova Veneza, passa a ter nove supermercados no estado vizinho.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Bistek, rede de supermercados catarinense, comprou três lojas no Rio Grande do Sul.",
+        "id": "bistek-rede-catarinense-de-r-3-bilhoes-compra-tres-lojas-no-rs"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Faturamento anual",
+            "valor": "R$ 3 bi",
+            "detalhe": "aproximado, segundo a rede"
+          },
+          {
+            "rotulo": "Lojas no RS",
+            "valor": "9",
+            "detalhe": "com as três novas compras"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Bistek Supermercados, rede catarinense com faturamento de cerca de R$ 3 bilhões por ano, assinou na quarta-feira (18) a compra de três lojas no Rio Grande do Sul. Duas ficam em Porto Alegre e uma em Novo Hamburgo. O valor da operação não foi revelado."
+        },
+        {
+          "h": "Expansão a partir de SC"
+        },
+        {
+          "p": "Fundada em 1970 em Nova Veneza, no Sul de Santa Catarina, a rede tem 28 lojas, a maioria no estado. Com as aquisições, chega a nove unidades no Rio Grande do Sul. A empresa tem 4,5 mil funcionários, centro de distribuição de 23 mil metros quadrados e frigorífico próprio."
+        },
+        {
+          "h": "Varejo catarinense em crescimento"
+        },
+        {
+          "p": "Com a compra, o Rio Grande do Sul passa a reunir cerca de um terço das lojas da rede."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Empresas catarinenses que crescem para outros estados fortalecem a geração de empregos e renda na sede e na cadeia de fornecedores. É mais um sinal da força do varejo regional, que acompanha o aumento da população e do consumo em Santa Catarina."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: supermercado que fatura R$ 3 bilhões por ano, fundado em SC, compra três novas unidades no RS",
+          "url": "https://ndmais.com.br/economia/supermercado-bistek-compra-novas-unidades-no-rs/"
+        }
+      ]
+    },
+    {
+      "slug": "trilhas-sc-lanca-mapa-interativo-de-trilhas-em-porto-belo-bombinhas-e-itapema",
+      "formato": "Notícia",
+      "titulo": "Governo lança portal com mapa interativo de trilhas em Porto Belo, Bombinhas e Itapema, na Costa Esmeralda",
+      "resumo": "O Trilhas SC mostra a localização do visitante em tempo real, previsão do tempo e rotas até os acessos. A primeira etapa reúne três percursos.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O portal Trilhas SC reúne mapas interativos de trilhas na Costa Esmeralda.",
+        "id": "trilhas-sc-lanca-mapa-interativo-de-trilhas-em-porto-belo-bombinhas-e-itapema",
+        "evitar": [
+          "pixabay:5048247"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "3",
+        "legenda": "Cidades da Costa Esmeralda na primeira etapa do portal Trilhas SC: Porto Belo, Bombinhas e Itapema"
+      },
+      "corpo": [
+        {
+          "p": "O Governo de Santa Catarina lançou nesta quinta-feira (19) o projeto Trilhas Santa Catarina – Costa Esmeralda, com um portal de trilhas desenvolvido pela Secretaria do Meio Ambiente e da Economia Verde em parceria com a Udesc e as prefeituras de Porto Belo, Bombinhas e Itapema."
+        },
+        {
+          "h": "Como funciona"
+        },
+        {
+          "p": "O portal Trilhas SC tem mapas interativos com informações georreferenciadas. O visitante pode ver a própria localização em tempo real, consultar a previsão do tempo, compartilhar a posição e traçar rotas até os pontos de acesso. Também é possível registrar no mapa pontos de interesse e trechos que precisam de atenção, formando um mapa de calor colaborativo."
+        },
+        {
+          "h": "Três percursos na primeira etapa"
+        },
+        {
+          "p": "A primeira fase reúne três percursos da região, entre eles os Caminhos da Península, que ligam Porto Belo e Bombinhas passando por bairros, orla e trechos de natureza. Um site complementar apresenta as dimensões ambientais, culturais e históricas de cada trilha."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "O ecoturismo amplia os motivos para visitar a Costa Esmeralda além da praia e ao longo do ano. Para quem investe em imóveis de temporada em Porto Belo, Bombinhas e Itapema, atrações fora do verão ajudam a reduzir a sazonalidade da ocupação."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de SC: portal integra trilhas, turismo sustentável e educação ambiental na Costa Esmeralda",
+          "url": "https://noticias.sc.gov.br/governo-de-santa-catarina-lanca-portal-que-integra-trilhas-turismo-sustentavel-e-educacao-ambiental-na-costa-esmeralda/"
+        }
+      ]
+    }
+  ]
+}
