@@ -1,0 +1,279 @@
+{
+  "data": "2026-11-22",
+  "publicacoes": [
+    {
+      "slug": "estudo-propoe-obra-de-r-380-milhoes-no-trevo-da-br-101-com-a-sc-412-em-itajai",
+      "formato": "Gráfico",
+      "titulo": "Empresários de Itajaí pagam estudo que propõe obra de R$ 380 milhões no trevo da BR-101, por onde passam 180 mil veículos por dia",
+      "resumo": "A alternativa de destaque tira 65 mil veículos por dia dos cruzamentos da rótula. O estudo, de R$ 230 mil, foi doado à prefeitura e considera o tráfego projetado até 2050.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Cerca de 180 mil veículos passam por dia pelo trevo da BR-101 com a SC-412, em Itajaí.",
+        "id": "estudo-propoe-obra-de-r-380-milhoes-no-trevo-da-br-101-com-a-sc-412-em-itajai",
+        "evitar": [
+          "pixabay:2278471",
+          "pixabay:3392100"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Tráfego no trevo da BR-101 com a SC-412, em Itajaí",
+        "unidade": "mil veículos por dia",
+        "itens": [
+          {
+            "rotulo": "Total que passa pelo trevo",
+            "valor": 180,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Pela rótula atual",
+            "valor": 95,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Sem cruzamentos na proposta de destaque",
+            "valor": 65,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: estudo da Prosul custeado pelo Instituto Mais Itajaí, divulgado pelo ND Mais. A proposta de destaque tem custo estimado em R$ 380 milhões."
+      },
+      "corpo": [
+        {
+          "p": "Empresários de Itajaí investiram R$ 230 mil em um estudo para resolver um dos principais gargalos de trânsito da cidade: o trevo que liga a BR-101 à SC-412, a rodovia Jorge Lacerda, por onde passam cerca de 180 mil veículos por dia. O estudo foi custeado pelo Instituto Mais Itajaí, que reúne mais de 60 empresas locais, elaborado pela Prosul e doado à prefeitura."
+        },
+        {
+          "h": "Seis alternativas analisadas"
+        },
+        {
+          "p": "Cerca de 95 mil veículos passam diariamente pela rótula atual, com congestionamentos causados por conversões e retornos sob o viaduto. Das seis alternativas avaliadas, quatro atendem à demanda projetada até 2050. A de maior destaque permite que mais de 65 mil veículos por dia, 68% do tráfego atual da rótula, circulem sem cruzamentos, com menor necessidade de desapropriação e custo estimado de R$ 380 milhões."
+        },
+        {
+          "h": "Próximos passos"
+        },
+        {
+          "p": "O estudo já considera a futura Via Mar, corredor em andamento pelo governo estadual, e nenhuma das alternativas interfere em unidades de conservação ou patrimônio histórico. Agora cabe à prefeitura escolher a solução, buscar recursos e avançar com os projetos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Itajaí vive um forte ciclo imobiliário, e a mobilidade é um dos fatores que mais pesam na valorização dos bairros. O estudo é um primeiro passo: a obra ainda depende de definição, recursos e licenças, por isso vale acompanhar as próximas decisões da prefeitura."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: empresários colocam R$ 230 mil para financiar projetos e destravar R$ 380 milhões para desafogar gargalo na BR-101 em Itajaí",
+          "url": "https://ndmais.com.br/economia/empresarios-colocam-na-mesa-r-230-mil-para-financiar-projetos-e-destravar-r-380-milhoes-para-desafogar-gargalo-na-br-101-em-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "iates-de-ate-r-100-milhoes-fabricados-em-itajai-movimentam-o-litoral-de-sc",
+      "formato": "Gráfico",
+      "titulo": "Iates de até R$ 100 milhões, muitos fabricados em Itajaí, transformam o litoral de SC em vitrine náutica antes do verão",
+      "resumo": "O polo náutico de Itajaí produz modelos de 80 a 100 pés. A movimentação se concentra entre Porto Belo, Balneário Camboriú e Jurerê Internacional.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Os maiores iates que circulam pelo litoral catarinense valem entre R$ 40 milhões e R$ 100 milhões.",
+        "id": "iates-de-ate-r-100-milhoes-fabricados-em-itajai-movimentam-o-litoral-de-sc",
+        "evitar": [
+          "pixabay:4839356"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Valor dos maiores iates que circulam pelo litoral de SC",
+        "unidade": "R$ milhões",
+        "itens": [
+          {
+            "rotulo": "Faixa inferior",
+            "valor": 40,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Faixa superior",
+            "valor": 100,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: ND Mais. Modelos fabricados em Itajaí chegam a R$ 50 milhões a R$ 85 milhões e podem passar de R$ 100 milhões conforme a personalização."
+      },
+      "corpo": [
+        {
+          "p": "Com a chegada do calor, iates de grande porte avaliados entre R$ 40 milhões e R$ 100 milhões já movimentam o litoral catarinense, antes mesmo da abertura oficial da temporada. A circulação se concentra no eixo entre Itajaí, Balneário Camboriú e Porto Belo, em pontos como o Caixa d’Aço, a Barra Sul e Jurerê Internacional, em Florianópolis."
+        },
+        {
+          "h": "Feitos em Santa Catarina"
+        },
+        {
+          "p": "Boa parte dessas embarcações sai de estaleiros do próprio litoral. O polo náutico de Itajaí concentra as maiores fábricas de barcos de luxo do país, com modelos de 80 a 100 pés. Iates de alto padrão produzidos na região, como os da linha Azimut Grande e os maiores da catarinense Schaefer Yachts, chegam a R$ 50 milhões a R$ 85 milhões e podem ultrapassar R$ 100 milhões, conforme a personalização."
+        },
+        {
+          "h": "Uma indústria que gera empregos"
+        },
+        {
+          "p": "A cadeia náutica envolve estaleiros, marinas, manutenção e serviços especializados, e ajuda a consolidar o litoral norte catarinense como destino de alto padrão."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A presença de público de alta renda no litoral reforça a demanda por imóveis de luxo de frente para o mar em cidades como Balneário Camboriú, Itapema e Porto Belo. Marinas e estrutura náutica são diferenciais que costumam valorizar empreendimentos próximos."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: avaliados em até R$ 100 milhões, iates de luxo transformam litoral de SC em vitrine para o verão",
+          "url": "https://ndmais.com.br/economia/negocios/iates-de-luxo-transformam-litoral-de-sc-em-vitrine-para-o-verao/"
+        }
+      ]
+    },
+    {
+      "slug": "centro-de-florianopolis-tera-requalificacao-inspirada-em-copenhague",
+      "formato": "Notícia",
+      "titulo": "Centro de Florianópolis terá requalificação inspirada em Copenhague, pensada para crianças de 8 e idosos de 80 anos",
+      "resumo": "O projeto, feito com um escritório dinamarquês e arquitetos locais, quer tornar a região mais agradável para morar, passear e fazer compras.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O projeto de requalificação do Centro de Florianópolis se inspira em Copenhague, na Dinamarca.",
+        "id": "centro-de-florianopolis-tera-requalificacao-inspirada-em-copenhague",
+        "evitar": [
+          "pixabay:3751863"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "8 e 80",
+        "legenda": "Idades de referência do projeto: uma cidade boa para crianças de 8 e idosos de 80 anos serve a todos"
+      },
+      "corpo": [
+        {
+          "p": "A Prefeitura de Florianópolis prepara a requalificação do Centro da cidade com inspiração em Copenhague, capital da Dinamarca. O projeto, desenvolvido com um escritório de arquitetura da cidade dinamarquesa e profissionais locais, foi detalhado pelo prefeito Topázio Neto ao programa Olhar Urbano, do Grupo ND, durante o fórum ADIT Cidades."
+        },
+        {
+          "h": "Uma cidade para todas as idades"
+        },
+        {
+          "p": "A proposta parte do conceito de planejar a cidade para crianças de 8 anos e idosos a partir de 80. Segundo o prefeito, se a cidade for boa para esses dois públicos, quem tem entre 20 e 60 anos também vai aproveitá-la. A ideia é estimular a circulação de pedestres e a convivência nos espaços públicos."
+        },
+        {
+          "h": "Mais gente morando no Centro"
+        },
+        {
+          "p": "O objetivo é que o Centro seja melhor não só para quem trabalha ou faz compras ali, mas também para quem quer morar e passear na região. A requalificação faz parte de um conjunto de projetos estruturantes da capital, que inclui o Parque e Marina Beira-Mar e a discussão sobre mobilidade e ocupação urbana."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Projetos de requalificação costumam atrair moradores e comércio de volta aos centros históricos, o que valoriza imóveis residenciais e salas comerciais da região. O projeto ainda está em discussão; vale acompanhar o cronograma e as áreas que serão requalificadas primeiro."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais (Olhar Urbano): inspirado na capital da Dinamarca, projeto pretende transformar o Centro de Florianópolis",
+          "url": "https://ndmais.com.br/infraestrutura/olhar-urbano-inspirado-na-capital-da-dinamarca-projeto-pretende-transformar-o-centro-de-florianopolis-em-espaco-mais-acessivel-e-agradavel-para-diferentes-geracoes/"
+        }
+      ]
+    },
+    {
+      "slug": "parque-aventura-jurassica-em-balneario-camboriu-passa-de-1-5-milhao-de-visitas",
+      "formato": "Em números",
+      "titulo": "Parque de dinossauros em Balneário Camboriú passa de 1,5 milhão de visitas e lança passaporte anual de R$ 199,90",
+      "resumo": "O Aventura Jurássica tem 30 mil m², mais de 100 dinossauros em tamanho real e um museu com o maior crânio de mosassauro em exposição na América Latina.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O Parque Aventura Jurássica, em Balneário Camboriú, ultrapassou 1,5 milhão de visitas.",
+        "id": "parque-aventura-jurassica-em-balneario-camboriu-passa-de-1-5-milhao-de-visitas"
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Visitas acumuladas",
+            "valor": "1,5 mi",
+            "detalhe": "desde a abertura do parque"
+          },
+          {
+            "rotulo": "Área do parque",
+            "valor": "30 mil m²",
+            "detalhe": "mais de 100 dinossauros em tamanho real"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Parque Aventura Jurássica, em Balneário Camboriú, ultrapassou a marca de 1,5 milhão de visitas e lançou um passaporte anual, o Sócio Anual, que custa R$ 199,90 e permite uma entrada por dia durante 12 meses, inclusive em fins de semana e feriados."
+        },
+        {
+          "h": "O parque"
+        },
+        {
+          "p": "Com 30 mil metros quadrados e mais de 100 dinossauros em tamanho real, o parque, do Grupo Oceanic, reúne trilhas temáticas, tirolesa, arvorismo, passeio de barco e playgrounds. O Museu de Paleontologia tem mais de 100 peças, entre elas um crânio de mosassauro de 1,20 metro, o maior exemplar em exposição na América Latina, segundo o parque."
+        },
+        {
+          "h": "Lazer para moradores"
+        },
+        {
+          "p": "O passaporte é individual e voltado a quem visita o parque com frequência, como moradores da região e famílias que passam temporadas no litoral. A ideia é ampliar o uso do parque ao longo do ano, e não só no verão."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Atrações para famílias ajudam a manter o fluxo de visitantes fora da alta temporada e tornam a cidade mais atrativa para quem mora ou passa longas temporadas. Para imóveis de temporada em Balneário Camboriú, é mais um motivo de visita além da praia."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: parque temático de dinossauros em SC cria passaporte de R$ 199,90 que libera uma entrada por dia durante um ano",
+          "url": "https://ndmais.com.br/turismo/parque-tematico-dinossauros-passaporte-anual/"
+        }
+      ]
+    },
+    {
+      "slug": "fragatas-construidas-em-itajai-navegam-juntas-pela-primeira-vez",
+      "formato": "Notícia",
+      "titulo": "Fragatas construídas em Itajaí navegam juntas pela primeira vez no litoral catarinense, em teste da Marinha",
+      "resumo": "A Tamandaré e a Jerônimo de Albuquerque são as duas primeiras de quatro fragatas feitas no estaleiro da TKMS em Itajaí, um dos maiores projetos da indústria naval do país.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. As fragatas Tamandaré e Jerônimo de Albuquerque, construídas em Itajaí, navegaram juntas pela primeira vez.",
+        "id": "fragatas-construidas-em-itajai-navegam-juntas-pela-primeira-vez",
+        "evitar": [
+          "pixabay:800662"
+        ]
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "4",
+        "legenda": "Fragatas da Classe Tamandaré que o estaleiro da TKMS em Itajaí foi contratado para construir para a Marinha"
+      },
+      "corpo": [
+        {
+          "p": "As fragatas Tamandaré (F200) e Jerônimo de Albuquerque (F201), as duas primeiras da Classe Tamandaré, navegaram juntas pela primeira vez nos dias 18 e 19 de novembro, no litoral catarinense. Os dois navios foram construídos em Itajaí, no estaleiro TKMS Estaleiro Brasil Sul, responsável pelas quatro primeiras fragatas do programa de modernização da Marinha."
+        },
+        {
+          "h": "Testes no mar"
+        },
+        {
+          "p": "Durante a navegação, as tripulações testaram sistemas de comunicação com submarinos, transmissão automática de dados táticos e equipamentos de guerra eletrônica. A F200 foi incorporada à Marinha em abril, e a F201 está na fase de testes no mar antes de entrar em operação."
+        },
+        {
+          "h": "Itajaí no centro da indústria naval"
+        },
+        {
+          "p": "O programa é considerado um dos principais projetos de modernização da Esquadra brasileira e coloca Itajaí em destaque na indústria naval de defesa, ao lado do polo de construção de barcos de luxo da cidade."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A indústria naval gera empregos qualificados e movimenta uma cadeia de fornecedores na região de Itajaí. Somada ao porto e ao ciclo imobiliário da cidade, ela reforça a base econômica que sustenta a demanda por moradia no litoral norte."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: construídas em Itajaí, fragatas da Marinha navegam juntas pela primeira vez no litoral catarinense",
+          "url": "https://ndmais.com.br/seguranca/construidas-em-itajai-fragatas-da-marinha-navegam-juntas-pela-primeira-vez-no-litoral-catarinense/"
+        }
+      ]
+    }
+  ]
+}
