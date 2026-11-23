@@ -1,0 +1,266 @@
+{
+  "data": "2026-11-23",
+  "publicacoes": [
+    {
+      "slug": "shakira-fara-show-no-reveillon-de-balneario-camboriu-em-area-de-50-mil-m2",
+      "formato": "Notícia",
+      "titulo": "Shakira fará show no Réveillon de Balneário Camboriú, em área de 50 mil m² na Praia Central",
+      "resumo": "A apresentação, no dia 31 de dezembro na Barra Norte, faz parte da turnê mundial da cantora. Os ingressos começam a ser vendidos nesta quinta-feira (26).",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Shakira se apresenta no Réveillon de Balneário Camboriú, em uma área de cerca de 50 mil m² na orla.",
+        "id": "shakira-fara-show-no-reveillon-de-balneario-camboriu-em-area-de-50-mil-m2"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "50 mil m²",
+        "legenda": "Área prevista para o show de Shakira na Barra Norte da Praia Central, em Balneário Camboriú, na noite de 31 de dezembro"
+      },
+      "corpo": [
+        {
+          "p": "A cantora Shakira foi confirmada como atração do Réveillon de Balneário Camboriú. O show acontece no dia 31 de dezembro, na Barra Norte da Praia Central, e faz parte da turnê mundial Las Mujeres Ya No Lloran. A apresentação integra a programação do Verão Atmosphere SC."
+        },
+        {
+          "h": "Evento com ingressos"
+        },
+        {
+          "p": "O show será um evento privado, com venda de ingressos, e deve ocupar uma área de cerca de 50 mil metros quadrados na orla. As vendas começam na quinta-feira (26), primeiro para pessoas cadastradas, das 10h às 12h, e depois para o público geral, pela internet e em pontos físicos."
+        },
+        {
+          "h": "Réveillon reforçado"
+        },
+        {
+          "p": "A virada em Balneário Camboriú já tem previsto um espetáculo de fogos de 15 minutos, com dez toneladas de fogos disparados de nove balsas. Com uma atração internacional desse porte, a cidade amplia o apelo da temporada para turistas de todo o país."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Eventos de grande porte na virada do ano concentram a procura por hospedagem e valorizam as diárias de imóveis de temporada na cidade. Para quem tem apartamento para locação de curta duração em Balneário Camboriú, a semana do Réveillon tende a ser a mais disputada do verão."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Shakira fará megashow à beira-mar de 50 mil m² no Réveillon de Balneário Camboriú",
+          "url": "https://ndmais.com.br/turismo/shakira-reveillon-balneario-camboriu-megashow-beira-mar/"
+        },
+        {
+          "nome": "ND Mais: Balneário Camboriú prepara espetáculo de dez toneladas de fogos com 15 minutos de queima para o Ano-Novo",
+          "url": "https://ndmais.com.br/turismo/balneario-camboriu-prepara-espetaculo-de-dez-toneladas-de-fogos-com-15-minutos-de-queima-para-o-ano-novo-e-anuncia-data-de-testes-veja-quando/"
+        }
+      ]
+    },
+    {
+      "slug": "seara-completa-70-anos-e-vende-para-140-paises-a-partir-de-santa-catarina",
+      "formato": "Gráfico",
+      "titulo": "Seara completa 70 anos: empresa nascida no Oeste de SC vende para 140 países e tem mais de 1.500 produtos",
+      "resumo": "A unidade original, na cidade de Seara, segue em operação e emprega mais de 3.800 profissionais de 34 municípios. A marca integra a JBS desde 2013.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. A Seara, fundada em 1956 no Oeste catarinense, completa 70 anos com produtos vendidos em 140 países.",
+        "id": "seara-completa-70-anos-e-vende-para-140-paises-a-partir-de-santa-catarina",
+        "evitar": [
+          "pixabay:4993185"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Portfólio de produtos da Seara",
+        "unidade": "produtos",
+        "itens": [
+          {
+            "rotulo": "Total no mundo",
+            "valor": 1500,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Disponíveis no Brasil",
+            "valor": 700,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: Economia SC, com informações da empresa. Números aproximados."
+      },
+      "corpo": [
+        {
+          "p": "A Seara completou 70 anos. A empresa começou em 1956 no Oeste de Santa Catarina, na cidade que dá nome à marca, e hoje vende para 140 países, com um portfólio de mais de 1.500 produtos, cerca de 700 deles disponíveis no Brasil."
+        },
+        {
+          "h": "A unidade de origem segue ativa"
+        },
+        {
+          "p": "A fábrica original continua em operação, com aves, suínos e alimentos preparados, e emprega mais de 3.800 profissionais de 34 municípios de dois estados, além de uma rede de produtores integrados. Desde 2013, a Seara faz parte da JBS."
+        },
+        {
+          "h": "Homenagem ao fundador"
+        },
+        {
+          "p": "A celebração reuniu colaboradores, autoridades e familiares em homenagem ao fundador, Artêmio Paludo, de 94 anos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A agroindústria é uma das bases da economia catarinense e sustenta empregos e renda no Oeste do estado. Neste ano, as exportações de carnes de Santa Catarina já passaram de US$ 4 bilhões, com o melhor outubro da história."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Economia SC: de Santa Catarina para 140 países, Seara celebra 70 anos de história",
+          "url": "https://economiasc.com/2026/11/18/de-santa-catarina-para-140-paises-seara-celebra-70-anos-de-historia/"
+        },
+        {
+          "nome": "Governo de SC: exportações de carnes de Santa Catarina crescem 7% em volume de janeiro a outubro de 2026",
+          "url": "https://noticias.sc.gov.br/exportacoes-de-carnes-de-santa-catarina-crescem-7-em-volume-de-janeiro-a-outubro-de-2026/"
+        }
+      ]
+    },
+    {
+      "slug": "pedras-grandes-constroi-unica-replica-da-torre-de-pisa-do-brasil-com-27-metros",
+      "formato": "Gráfico",
+      "titulo": "Pedras Grandes constrói a única réplica da Torre de Pisa do Brasil, com 27 metros, que será inclinada na inauguração",
+      "resumo": "A torre fica em Azambuja, primeira colônia italiana do Sul de SC, e vai abrigar um museu digital da imigração. A entrega está prevista para agosto de 2027.",
+      "foto": {
+        "legenda": "A Torre de Pisa original, na Itália, inspira a réplica de 27 metros que Pedras Grandes constrói no Sul de Santa Catarina.",
+        "id": "pedras-grandes-constroi-unica-replica-da-torre-de-pisa-do-brasil-com-27-metros"
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Andamento das lajes da réplica da Torre de Pisa",
+        "unidade": "lajes",
+        "itens": [
+          {
+            "rotulo": "Total previsto",
+            "valor": 7,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Concluídas",
+            "valor": 5,
+            "tom": "sc"
+          }
+        ],
+        "nota": "Fonte: Prefeitura de Pedras Grandes, ao ND Mais. A previsão é concluir as duas lajes restantes até o fim de dezembro."
+      },
+      "corpo": [
+        {
+          "p": "Pedras Grandes, cidade de cerca de 4 mil habitantes no Sul de Santa Catarina, está construindo a primeira réplica da Torre de Pisa do Brasil. A estrutura terá 27 metros de altura e deve ser inaugurada em agosto de 2027."
+        },
+        {
+          "h": "Inclinada depois de pronta"
+        },
+        {
+          "p": "Segundo o prefeito Agnaldo Filippi, o projeto prevê inclinar o prédio, de mais de mil toneladas de aço e concreto, depois de construído, algo inédito. A obra está na fase final: cinco das sete lajes estão prontas, e a intenção é concluir as duas restantes até o fim de dezembro."
+        },
+        {
+          "h": "Museu da imigração italiana"
+        },
+        {
+          "p": "A torre fica no distrito de Azambuja, a primeira colônia de imigrantes italianos do Sul do estado, e fará parte do Centro Educacional de Pedras Grandes. O espaço vai abrigar um museu digital interativo sobre a colonização italiana."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Atrações únicas podem colocar cidades pequenas no roteiro turístico e movimentar comércio e hospedagem na região. O turismo de imigração é uma das marcas do Sul catarinense e pode ganhar um novo cartão-postal."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: única réplica da Torre de Pisa no Brasil é construída com 27 metros e será inclinada durante inauguração em SC",
+          "url": "https://ndmais.com.br/infraestrutura/replica-da-torre-de-pisa-em-sc-sera-inclinada-depois-de-pronta/"
+        }
+      ]
+    },
+    {
+      "slug": "14-pequenas-empresas-de-sc-buscam-clientes-em-portugal",
+      "formato": "Notícia",
+      "titulo": "14 pequenas empresas de SC, de Blumenau a Florianópolis, buscam clientes em Portugal em missão do Sebrae e do governo",
+      "resumo": "A missão vai até sexta-feira (27), em Lisboa e Carcavelos, com rodadas de negócios. Participam empresas de tecnologia, cosméticos, moda e mobiliário de 10 cidades.",
+      "foto": {
+        "legenda": "Lisboa, em Portugal, onde 14 pequenas empresas catarinenses participam de uma missão de negócios até 27 de novembro.",
+        "id": "14-pequenas-empresas-de-sc-buscam-clientes-em-portugal"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "14",
+        "legenda": "Pequenas empresas de 10 cidades catarinenses na missão empresarial Global Link Portugal 2026"
+      },
+      "corpo": [
+        {
+          "p": "Catorze pequenas empresas de Santa Catarina começam nesta segunda-feira (23) uma missão empresarial em Portugal. A viagem faz parte do Global Link Portugal 2026, que vai até 27 de novembro, com programação em Lisboa e Carcavelos."
+        },
+        {
+          "h": "Quem participa"
+        },
+        {
+          "p": "A delegação reúne negócios de 10 municípios catarinenses, como Blumenau, Florianópolis, Itapema e Tubarão, em setores como tecnologia, cosméticos, moda, mobiliário e soluções industriais. A missão é organizada pelo Sebrae e pelo Governo de Santa Catarina, pelo programa Empresa Boa – Acelera, em parceria com a Nova School of Business & Economics."
+        },
+        {
+          "h": "Agenda de vendas"
+        },
+        {
+          "p": "A programação foi desenhada para gerar negócios concretos, com rodadas de negócios e reuniões diretas com potenciais compradores europeus. O objetivo é mostrar que empresas de menor porte também podem disputar contratos na Europa."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A internacionalização de pequenas empresas faz parte da estratégia do estado de ampliar exportações e renda. Empresas que vendem para fora tendem a pagar salários maiores, o que reforça o poder de compra nas cidades onde estão instaladas."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: de Blumenau a Florianópolis, veja as 14 pequenas empresas de SC que embarcam para conquistar clientes em Portugal",
+          "url": "https://ndmais.com.br/economia/negocios/empresas-de-sc-embarcam-portugal-negocios-europa-veja-lista/"
+        },
+        {
+          "nome": "ND Mais: plano de internacionalização de SC com bases nos EUA e China",
+          "url": "https://ndmais.com.br/infraestrutura/plano-de-internacionalizacao-de-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "kombis-viram-hospedagem-entre-canions-de-anchieta-no-extremo-oeste",
+      "formato": "Em números",
+      "titulo": "Kombis viram hospedagem com ar-condicionado e banheiro entre cânions de Anchieta, no Extremo-Oeste de SC",
+      "resumo": "As acomodações temáticas apostam no ecoturismo do interior catarinense, com vista para montanhas e céu estrelado.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Em Anchieta, no Extremo-Oeste catarinense, kombis adaptadas viraram hospedagem em meio aos cânions.",
+        "id": "kombis-viram-hospedagem-entre-canions-de-anchieta-no-extremo-oeste"
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "1977",
+        "legenda": "Ano de lançamento da Kombi Safari, considerada o primeiro motorhome nacional e inspiração para uma das hospedagens"
+      },
+      "corpo": [
+        {
+          "p": "Em Anchieta, no Extremo-Oeste de Santa Catarina, kombis foram adaptadas para receber turistas em meio a cânions e montanhas. As opções, chamadas Kombi Safari e Kombi Mágica, combinam o estilo do veículo com a paisagem natural da região."
+        },
+        {
+          "h": "Conforto de motorhome"
+        },
+        {
+          "p": "A Kombi Safari se inspira no modelo lançado em 1977, considerado o primeiro motorhome nacional derivado da Kombi. A hospedagem tem cama de casal, televisão, ar-condicionado, banheiro, armário e área para refeições, além de espaço externo."
+        },
+        {
+          "h": "Ecoturismo no interior"
+        },
+        {
+          "p": "A proposta é oferecer uma experiência diferente para quem quer passar alguns dias em contato com a natureza, com céu estrelado e o som dos pássaros pela manhã."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Hospedagens criativas e o ecoturismo vêm ganhando espaço também no interior de Santa Catarina, longe do litoral. É um sinal de diversificação do turismo no estado, que atrai visitantes ao longo de todo o ano."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: kombis viram quartos em meio aos cânions de SC e surpreendem com cama, ar-condicionado e banheiro",
+          "url": "https://ndmais.com.br/turismo/kombis-viram-quartos-em-meio-aos-canions-de-sc-e-surpreendem-com-cama-ar-condicionado-e-banheiro/"
+        }
+      ]
+    }
+  ]
+}
