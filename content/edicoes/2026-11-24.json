@@ -1,0 +1,157 @@
+{
+  "data": "2026-11-24",
+  "publicacoes": [
+    {
+      "slug": "itajai-lidera-vendas-de-imoveis-lancados-no-litoral-com-r-3-95-bilhoes-em-12-meses",
+      "formato": "Gráfico",
+      "titulo": "Itajaí lidera vendas de imóveis lançados no litoral catarinense, com R$ 3,95 bilhões em 12 meses, à frente de Itapema e Balneário Camboriú",
+      "resumo": "Foram 2.277 unidades vendidas no período, segundo a DWV. Itapema somou R$ 3,61 bilhões, e Balneário Camboriú, R$ 2,71 bilhões.",
+      "foto": {
+        "busca": ["Itajaí Santa Catarina", "modern residential towers", "prédios residenciais modernos"],
+        "legenda": "Imagem ilustrativa. Itajaí vendeu cerca de R$ 3,95 bilhões em imóveis lançados em 12 meses, segundo a DWV."
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Vendas de imóveis lançados em 12 meses",
+        "unidade": "R$ bilhões",
+        "itens": [
+          {"rotulo": "Itajaí", "valor": 3.95, "tom": "sc"},
+          {"rotulo": "Itapema", "valor": 3.61, "tom": "ref"},
+          {"rotulo": "Balneário Camboriú", "valor": 2.71, "tom": "ref"}
+        ],
+        "nota": "Fonte: Inteligência de Mercado DWV, citada pelo ND Mais. Considera só os empreendimentos em lançamento acompanhados pela plataforma, não todas as transações das cidades."
+      },
+      "corpo": [
+        {"p": "Itajaí registrou cerca de R$ 3,95 bilhões em vendas de imóveis lançados nos últimos 12 meses, com 2.277 unidades comercializadas, segundo a plataforma Inteligência de Mercado DWV. O resultado coloca a cidade à frente de Itapema, com R$ 3,61 bilhões, e de Balneário Camboriú, com R$ 2,71 bilhões, no mesmo período."},
+        {"h": "O que os números medem"},
+        {"p": "O levantamento considera apenas os empreendimentos em lançamento acompanhados pela DWV, e não todas as transações imobiliárias das cidades. Ainda assim, ajuda a dimensionar o ritmo do mercado de imóveis novos no litoral norte catarinense."},
+        {"h": "Novos projetos de alto padrão"},
+        {"p": "O desempenho tem atraído projetos de maior padrão para a cidade, combinando lazer, serviços e moradia, com plantas de duas a quatro suítes. A cidade também se destaca pelo porto e pelo polo náutico."},
+        {"h": "O que isso significa para o investidor"},
+        {"p": "Itajaí se consolidou como um dos mercados mais ativos do litoral, com ritmo de vendas que supera o de vizinhas mais conhecidas. Em mercados aquecidos, vale comparar preço por metro quadrado, prazo de entrega e histórico das incorporadoras antes de decidir."}
+      ],
+      "fontes": [
+        {"nome": "ND Mais: lazer, serviços e moradia, a integração que inspira novos projetos de alto padrão em Itajaí (dados da DWV)", "url": "https://ndmais.com.br/economia/negocios/lazer-servicos-e-moradia-a-integracao-que-inspira-novos-projetos-de-alto-padrao-em-itajai/"}
+      ]
+    },
+    {
+      "slug": "rede-que-nasceu-da-drogaria-catarinense-em-joinville-passa-de-600-farmacias",
+      "formato": "Gráfico",
+      "titulo": "Rede que nasceu da Drogaria Catarinense, em Joinville, passa de 600 farmácias no país",
+      "resumo": "O grupo Clamed tinha 61 lojas em 1992 e chegou a 100 em 2009. A trajetória começou em 1927, quando o fundador assumiu a farmácia da família em Joinville.",
+      "foto": {
+        "busca": ["pharmacy shelves medicine", "farmácia prateleiras", "drugstore interior"],
+        "legenda": "Imagem ilustrativa. A Clamed, que reúne a Drogaria Catarinense, informa ter mais de 600 filiais no país."
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Número de lojas do grupo ao longo do tempo",
+        "unidade": "lojas",
+        "itens": [
+          {"rotulo": "1992", "valor": 61, "tom": "ref"},
+          {"rotulo": "2009", "valor": 100, "tom": "ref"},
+          {"rotulo": "Hoje (mais de)", "valor": 600, "tom": "sc"}
+        ],
+        "nota": "Fonte: ND Mais, com informações do grupo Clamed."
+      },
+      "corpo": [
+        {"p": "A Clamed, grupo que reúne a Drogaria Catarinense e outras marcas, informa ter mais de 600 filiais no país. A história começou em Joinville, onde Alberto Bornschein, que havia sido aprendiz de farmácia aos 12 anos, assumiu em 1927 a unidade que passou a se chamar Drogaria Catarinense."},
+        {"h": "Expansão em quatro gerações"},
+        {"p": "A primeira filial fora de Joinville foi aberta em Blumenau, em 1942. Em 1967, uma unidade em Florianópolis se tornou a primeira da rede a funcionar 24 horas. Em 1992, já eram 61 lojas. Em 2006, o grupo lançou a Farmácia Preço Popular, em Brusque, e três anos depois chegou a 100 lojas."},
+        {"h": "Empresa familiar catarinense"},
+        {"p": "A rede passou por quatro gerações da família Bornschein e hoje reúne várias marcas sob o grupo Clamed."},
+        {"h": "O que isso significa para o investidor"},
+        {"p": "Grandes redes de varejo com sede no estado geram empregos e movimentam a economia de cidades como Joinville. A expansão também mostra a capacidade de empresas catarinenses de crescer para além do estado."}
+      ],
+      "fontes": [
+        {"nome": "ND Mais: menino começou como aprendiz de farmácia aos 12 anos em Joinville e construiu um império de 600 lojas", "url": "https://ndmais.com.br/economia/negocios/menino-aprendiz-farmacia-joinville/"}
+      ]
+    },
+    {
+      "slug": "focus-eleva-projecao-do-dolar-para-r-5-55-e-da-selic-de-2027-para-13",
+      "formato": "Análise",
+      "titulo": "Focus eleva a projeção do dólar no fim de 2026 para R$ 5,55 e a da Selic em 2027 para 13%",
+      "resumo": "O mercado manteve a Selic em 13,75% até o fim do ano. A estimativa de inflação para 2026 subiu para 5,15%, e a de crescimento do PIB recuou para 1,70%.",
+      "foto": {
+        "busca": ["dollar bills", "notas de dólar", "currency exchange money"],
+        "legenda": "Imagem ilustrativa. O Boletim Focus elevou a projeção do dólar no fim de 2026 de R$ 5,40 para R$ 5,55."
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {"rotulo": "Dólar no fim de 2026", "valor": "R$ 5,55", "detalhe": "antes, R$ 5,40"},
+          {"rotulo": "Selic no fim de 2027", "valor": "13%", "detalhe": "antes, 12,75%"}
+        ]
+      },
+      "corpo": [
+        {"p": "O Boletim Focus divulgado pelo Banco Central nesta segunda-feira (23) elevou a projeção do dólar no fim de 2026 de R$ 5,40 para R$ 5,55. Para 2027, a estimativa passou de R$ 5,45 para R$ 5,50."},
+        {"h": "Juros e inflação"},
+        {"p": "A projeção para a Selic no fim de 2026 foi mantida em 13,75% ao ano. Para 2027, subiu de 12,75% para 13%. A estimativa de inflação para 2026 passou de 5,11% para 5,15%, e a de 2027, de 5% para 5,12%. A previsão de crescimento do PIB em 2026 recuou de 1,72% para 1,70%."},
+        {"h": "Próxima decisão"},
+        {"p": "O Copom volta a se reunir em 9 de dezembro. Pelas projeções do mercado, a taxa deve ficar estável até o fim do ano, e os cortes em 2027 devem ser menores do que se esperava algumas semanas atrás."},
+        {"h": "O que isso significa para o investidor"},
+        {"p": "Juros altos por mais tempo mantêm o financiamento caro e favorecem quem compra com mais entrada ou à vista. O dólar mais alto, por outro lado, torna os imóveis catarinenses mais acessíveis para quem tem renda ou patrimônio em moeda estrangeira."}
+      ],
+      "fontes": [
+        {"nome": "Agência Brasil: mercado eleva projeção do dólar para R$ 5,55 em 2026", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"},
+        {"nome": "Banco Central: Boletim Focus", "url": "https://www.bcb.gov.br/publicacoes/focus"}
+      ]
+    },
+    {
+      "slug": "grupo-la-moda-de-nova-veneza-completa-40-anos-com-grifes-em-18-paises",
+      "formato": "Notícia",
+      "titulo": "Grupo La Moda, de Nova Veneza, completa 40 anos com grifes como Lança Perfume presentes em 18 países",
+      "resumo": "A empresa começou em 1986 como uma confecção de roupas infantis no Sul de SC. A primeira loja da Lança Perfume abriu em 2009, em Balneário Camboriú.",
+      "foto": {
+        "busca": ["fashion store clothing rack", "loja de roupas moda", "boutique clothes"],
+        "legenda": "Imagem ilustrativa. O Grupo La Moda, fundado em Nova Veneza, tem grifes presentes em 18 países."
+      },
+      "visual": {
+        "tipo": "numero",
+        "valor": "18",
+        "legenda": "Países onde estão presentes as grifes do Grupo La Moda, fundado em 1986 em Nova Veneza"
+      },
+      "corpo": [
+        {"p": "O Grupo La Moda, fundado em 1986 em Nova Veneza, no Sul de Santa Catarina, completa 40 anos com grifes presentes em 18 países. A empresa nasceu como La Moda Bambini, uma pequena confecção de roupas infantis criada por Arcílio e Vera Olivo."},
+        {"h": "A virada com a Lança Perfume"},
+        {"p": "Em 2006, o grupo lançou a Lança Perfume, marca de moda feminina que se tornou seu principal nome, e no ano seguinte encerrou a produção infantil. A primeira loja da marca foi aberta em 2009, em Balneário Camboriú. Depois vieram a My Favorite, em 2016, a Lança Perfume Easy, em 2021, e a BO, marca super premium."},
+        {"h": "Segunda geração no comando"},
+        {"p": "Hoje o grupo é comandado pela segunda geração da família: Hugo Olivo é o CEO, e as irmãs Bruna e Bianca Olivo atuam na direção criativa das marcas."},
+        {"h": "O que isso significa para o investidor"},
+        {"p": "Marcas catarinenses com presença internacional reforçam a imagem do estado como polo de moda e de empreendedorismo e geram empregos qualificados no Sul de Santa Catarina."}
+      ],
+      "fontes": [
+        {"nome": "ND Mais: Grupo La Moda, quem é a família catarinense por trás de grifes presentes em 18 países", "url": "https://ndmais.com.br/economia/negocios/quem-e-a-familia-por-tras-de-grupo-la-moda-bilionario-de-grifes-catarinenses-presente-em-18-paises/"}
+      ]
+    },
+    {
+      "slug": "ilha-do-campeche-tera-ingresso-de-r-35-na-alta-temporada-e-limite-de-800-visitantes",
+      "formato": "Notícia",
+      "titulo": "Ilha do Campeche terá ingresso de R$ 35 na alta temporada e segue limitada a 800 visitantes por dia",
+      "resumo": "O reajuste da tarifa municipal, que era de R$ 15, busca equilibrar a gestão da visitação e a conservação do monumento natural em Florianópolis.",
+      "foto": {
+        "busca": ["Ilha do Campeche", "Florianópolis praia água cristalina", "tropical island beach turquoise"],
+        "legenda": "Imagem ilustrativa. O acesso à Ilha do Campeche, em Florianópolis, é limitado a 800 visitantes por dia."
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {"rotulo": "Ingresso na alta temporada", "valor": "R$ 35", "detalhe": "antes, R$ 15"},
+          {"rotulo": "Limite diário de visitantes", "valor": "800", "detalhe": "com bilhete virtual pelo site da prefeitura"}
+        ]
+      },
+      "corpo": [
+        {"p": "A tarifa para visitar a Ilha do Campeche, em Florianópolis, passará de R$ 15 para R$ 35 na alta temporada, segundo portaria da Fundação Municipal do Meio Ambiente (Floram). Na baixa temporada, entre 30 de abril e 30 de outubro, o valor será de R$ 20."},
+        {"h": "Acesso controlado"},
+        {"p": "A visitação continua limitada a 800 pessoas por dia, com bilhete virtual emitido pelo site da prefeitura. Crianças menores de seis anos e participantes de projetos escolares seguem isentos, e idosos, pessoas com deficiência e crianças de seis a 12 anos pagam meia-entrada. Quem vai por meios próprios, como barco ou caiaque, paga ainda R$ 6,70 ao Instituto Ilha do Campeche."},
+        {"h": "Conservação"},
+        {"p": "Segundo a Floram, o reajuste busca garantir o equilíbrio financeiro da gestão da visitação e a sustentabilidade ambiental do Monumento Natural Municipal Ilha do Campeche, conhecido como o Caribe de Santa Catarina."},
+        {"h": "O que isso significa para o investidor"},
+        {"p": "Atrações com acesso controlado ajudam a preservar o que torna Florianópolis valorizada para quem mora e para quem visita. Para imóveis de temporada no Sul da Ilha, especialmente no Campeche, a ilha segue como um dos principais atrativos da região."}
+      ],
+      "fontes": [
+        {"nome": "ND Mais: ingresso para entrar na Ilha do Campeche irá custar R$ 35 na alta temporada após reajuste", "url": "https://ndmais.com.br/turismo/ingresso-para-entrar-na-ilha-do-campeche-o-caribe-catarinense-ira-custar-r-35-na-alta-temporada-apos-reajuste/"}
+      ]
+    }
+  ]
+}

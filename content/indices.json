@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-23",
+  "atualizado_em": "2026-11-24",
   "indices": [
     {
       "id": "selic",
@@ -112,14 +112,14 @@
   },
   "agenda": [
     {
-      "data": "2026-11-23",
-      "evento": "Boletim Focus (expectativas do mercado)",
-      "orgao": "Banco Central"
-    },
-    {
       "data": "2026-11-26",
       "evento": "IPCA-15 de novembro (prévia da inflação)",
       "orgao": "IBGE"
+    },
+    {
+      "data": "2026-11-30",
+      "evento": "Boletim Focus (expectativas do mercado)",
+      "orgao": "Banco Central"
     },
     {
       "data": "2026-12-09",
