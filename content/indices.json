@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-26",
+  "atualizado_em": "2026-11-27",
   "indices": [
     {
       "id": "selic",
@@ -112,11 +112,6 @@
   },
   "agenda": [
     {
-      "data": "2026-11-26",
-      "evento": "IPCA-15 de novembro (prévia da inflação)",
-      "orgao": "IBGE"
-    },
-    {
       "data": "2026-11-30",
       "evento": "Boletim Focus (expectativas do mercado)",
       "orgao": "Banco Central"
@@ -130,17 +125,17 @@
   "ticker": [
     {
       "nome": "Dólar",
-      "valor": "R$ 5,82",
-      "var": "-1,53%",
+      "valor": "R$ 5,74",
+      "var": "-1,25%",
       "dir": "baixa",
-      "ref": "fechamento 25/11"
+      "ref": "fechamento 26/11"
     },
     {
       "nome": "Ibovespa",
-      "valor": "166.675 pts",
-      "var": "+1,58%",
+      "valor": "176.800 pts",
+      "var": "+6,07%",
       "dir": "alta",
-      "ref": "fechamento 25/11"
+      "ref": "fechamento 26/11"
     },
     {
       "nome": "Selic",
@@ -197,6 +192,6 @@
       "ref": "FipeZAP, out/26"
     }
   ],
-  "ticker_fontes": "Dólar e Ibovespa: fechamento de 25/11/2026 (Agência Brasil). CDI: B3. IGP-M e INCC-M: FGV IBRE. IPCA: IBGE. FipeZAP: Fipe.",
+  "ticker_fontes": "Dólar e Ibovespa: fechamento de 26/11/2026 (Agência Brasil). CDI: B3. IGP-M e INCC-M: FGV IBRE. IPCA: IBGE. FipeZAP: Fipe.",
   "ticker_nota": "Dólar e Ibovespa: variação do dia. Demais índices: seta indica alta, queda ou estabilidade em relação à divulgação anterior."
 }
