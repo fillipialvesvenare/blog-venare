@@ -1,0 +1,330 @@
+{
+  "data": "2026-11-28",
+  "publicacoes": [
+    {
+      "slug": "economia-de-sc-cresce-1-6-em-2026-acima-da-media-do-pais",
+      "formato": "Gráfico",
+      "titulo": "Economia catarinense cresce 1,6% em 2026, acima da média do país, puxada pelo comércio",
+      "resumo": "Segundo a Fiesc, o comércio do estado acumula alta de 4,1% no ano, mais que o dobro da média brasileira. Migração e renda mais alta das famílias ajudam a explicar o desempenho.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. O comércio é o principal motor da economia catarinense em 2026, segundo a Fiesc.",
+        "id": "economia-de-sc-cresce-1-6-em-2026-acima-da-media-do-pais",
+        "evitar": [
+          "pixabay:2893846"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Crescimento acumulado em 2026",
+        "itens": [
+          {
+            "rotulo": "Economia de SC",
+            "valor": 1.6,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Economia do Brasil",
+            "valor": 1.4,
+            "tom": "br"
+          },
+          {
+            "rotulo": "Comércio de SC",
+            "valor": 4.1,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Comércio do Brasil",
+            "valor": 1.7,
+            "tom": "br"
+          }
+        ],
+        "nota": "Fonte: Fiesc, citada pelo Economia SC."
+      },
+      "corpo": [
+        {
+          "p": "A economia de Santa Catarina acumula crescimento de 1,6% em 2026, acima da média nacional de 1,4%, segundo análise da Federação das Indústrias do Estado (Fiesc). O destaque é o comércio, com alta de 4,1% no ano, mais que o dobro dos 1,7% registrados no país."
+        },
+        {
+          "h": "O que sustenta o comércio"
+        },
+        {
+          "p": "A Fiesc aponta três fatores: o crescimento da população impulsionado pela migração, a renda relativamente mais alta das famílias catarinenses e as importações que passam pelos centros de distribuição instalados no estado."
+        },
+        {
+          "h": "Serviços em destaque"
+        },
+        {
+          "p": "No setor de serviços, que cresce 1,3% no estado, os segmentos de serviços profissionais e administrativos avançam 6,4%, e informação e comunicação, 6,2%. Para a federação, a retomada mais forte da atividade depende da melhora nas condições de crédito e da volta dos investimentos produtivos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Migração e renda mais alta são os mesmos motores que sustentam a demanda por imóveis no estado. Um consumo que cresce acima da média nacional indica mercado interno aquecido, o que favorece tanto imóveis residenciais quanto pontos comerciais."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Economia SC: economia de SC cresce 1,6% em 2026 (análise da Fiesc)",
+          "url": "https://economiasc.com/2026/11/27/economia-de-sc-cresce-16-em-2026-apesar-da-desaceleracao-industrial/"
+        }
+      ]
+    },
+    {
+      "slug": "pescaria-brava-tera-a-maior-concessionaria-da-scania-no-mundo",
+      "formato": "Notícia",
+      "titulo": "Pescaria Brava, município mais novo de SC, terá a maior concessionária da Scania no mundo",
+      "resumo": "A unidade, com 5,4 mil m² construídos e previsão de faturar R$ 1 bilhão por ano, está com 60% das obras concluídas e deve ser inaugurada em 2027.",
+      "foto": {
+        "legenda": "Imagem ilustrativa de caminhões. A nova concessionária em Pescaria Brava vai atender caminhões e ônibus.",
+        "id": "pescaria-brava-tera-a-maior-concessionaria-da-scania-no-mundo",
+        "evitar": [
+          "pixabay:1185254"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Faturamento previsto",
+            "valor": "R$ 1 bilhão",
+            "detalhe": "por ano"
+          },
+          {
+            "rotulo": "Área construída",
+            "valor": "5,4 mil m²",
+            "detalhe": "em lote de 25 mil m²"
+          },
+          {
+            "rotulo": "Andamento da obra",
+            "valor": "60%",
+            "detalhe": "inauguração prevista para 2027"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Pescaria Brava, no Litoral Sul catarinense, considerado o município mais novo do estado, vai abrigar a maior concessionária da Scania no mundo, com previsão de faturamento de R$ 1 bilhão por ano. A obra, executada pelo Grupo Pedra, já passou de 60% e a inauguração está prevista para 2027."
+        },
+        {
+          "h": "O projeto"
+        },
+        {
+          "p": "A concessionária terá 5,4 mil m² de área construída num lote de 25 mil m². Segundo o prefeito, Luiz Henrique Castro de Souza, diretores e engenheiros da Scania no Brasil acompanharam a obra, e a expectativa é de geração de emprego e renda no município."
+        },
+        {
+          "h": "A fabricante"
+        },
+        {
+          "p": "Fundada há 130 anos na Suécia, a Scania fabrica caminhões pesados, ônibus e motores, está presente em mais de 100 países e tem cerca de 59 mil funcionários."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A escolha do Litoral Sul para uma operação dessa escala reforça a vocação logística da região, cortada pela BR-101. Grandes empreendimentos costumam atrair serviços e moradores, o que tende a movimentar o mercado de terrenos e imóveis em Pescaria Brava e nas cidades vizinhas."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: gigante sueca dos caminhões escolhe município mais novo de SC para sediar sua maior concessionária no mundo",
+          "url": "https://ndmais.com.br/economia/negocios/maior-concessionaria-no-mundo-da-scania-fica-em-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "thermas-piratuba-park-hotel-e-vendido-por-r-30-milhoes-e-vai-dobrar-capacidade",
+      "formato": "Notícia",
+      "titulo": "Hotel tradicional de Piratuba é vendido por R$ 30 milhões e vai dobrar a capacidade de hospedagem",
+      "resumo": "O Thermas Piratuba Park Hotel, com 25 anos de história, passará por retrofit. O mesmo grupo comprador desenvolve na cidade um resort de R$ 100 milhões com a rede Wyndham.",
+      "foto": {
+        "legenda": "Imagem ilustrativa de piscina de hotel. Piratuba, no Meio-Oeste catarinense, é conhecida pelo turismo termal.",
+        "id": "thermas-piratuba-park-hotel-e-vendido-por-r-30-milhoes-e-vai-dobrar-capacidade",
+        "evitar": [
+          "pixabay:2358628"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Valor da venda",
+            "valor": "R$ 30 milhões",
+            "detalhe": "aproximadamente"
+          },
+          {
+            "rotulo": "Capacidade de hospedagem",
+            "valor": "2x",
+            "detalhe": "após o retrofit"
+          },
+          {
+            "rotulo": "Resort Wyndham na cidade",
+            "valor": "R$ 100 milhões",
+            "detalhe": "mais de, com 237 apartamentos"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "O Thermas Piratuba Park Hotel, que há 25 anos faz parte do turismo termal de Piratuba, no Meio-Oeste catarinense, foi vendido por cerca de R$ 30 milhões ao Grupo Magia e à Casa Nova Participações. Os novos donos planejam um amplo retrofit e devem dobrar a capacidade de hospedagem."
+        },
+        {
+          "h": "Modernização com identidade"
+        },
+        {
+          "p": "O hotel tem arquitetura de inspiração germânica, ligada à colonização da cidade, e estrutura voltada ao público familiar. A proposta é renovar ambientes e instalações e ampliar a estrutura física, preservando as características que marcaram o empreendimento."
+        },
+        {
+          "h": "Mais investimentos na cidade"
+        },
+        {
+          "p": "A compra faz parte de uma movimentação maior do Grupo Magia em Piratuba. Entre os projetos está o Wyndham Piratuba Magia Grand Resort, em parceria com a rede internacional Wyndham, com 237 apartamentos, investimento de mais de R$ 100 milhões e expectativa de mais de 200 empregos diretos."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "A chegada de bandeiras internacionais e a expansão da rede hoteleira mostram que o turismo do interior catarinense atrai capital de peso. Destinos termais têm demanda ao longo do ano inteiro, inclusive no inverno, o que dá estabilidade à ocupação."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: Thermas Piratuba Park Hotel é vendido por R$ 30 milhões e vai dobrar capacidade em SC",
+          "url": "https://ndmais.com.br/economia/negocios/thermas-piratuba-park-hotel-e-vendido-por-r-30-milhoes-e-vai-dobrar-capacidade-em-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "tecnica-da-epagri-gera-r-200-milhoes-aos-pomares-de-maca-de-sc",
+      "formato": "Em números",
+      "titulo": "Técnica da Epagri corta 65% do insumo nos pomares de maçã e gera R$ 200 milhões a Santa Catarina",
+      "resumo": "Criado em Caçador, o método aumenta a produtividade em 10% a 25% em regiões com pouco frio. O estado colheu 680 mil toneladas de maçã na última safra.",
+      "foto": {
+        "legenda": "Imagem ilustrativa. Santa Catarina reveza com o Rio Grande do Sul a liderança nacional na produção de maçã.",
+        "id": "tecnica-da-epagri-gera-r-200-milhoes-aos-pomares-de-maca-de-sc",
+        "evitar": [
+          "pixabay:321823"
+        ]
+      },
+      "visual": {
+        "tipo": "comparacao",
+        "itens": [
+          {
+            "rotulo": "Benefício em 2025",
+            "valor": "R$ 200 milhões",
+            "detalhe": "em 14 mil hectares"
+          },
+          {
+            "rotulo": "Redução do insumo",
+            "valor": "65%",
+            "detalhe": "menos regulador de crescimento"
+          },
+          {
+            "rotulo": "Safra 2025/26",
+            "valor": "680 mil t",
+            "detalhe": "em 17 mil hectares"
+          }
+        ]
+      },
+      "corpo": [
+        {
+          "p": "Uma técnica desenvolvida pela Epagri para induzir a brotação das macieiras gerou R$ 200 milhões em benefícios a Santa Catarina em 2025. O método, criado na Estação Experimental de Caçador e usado desde 1989, permite produzir maçã com qualidade mesmo em regiões com menos frio no inverno."
+        },
+        {
+          "h": "Como funciona"
+        },
+        {
+          "p": "A técnica mistura óleo mineral ao regulador de crescimento usado para quebrar a dormência das gemas, o que reduziu em 65% a dose desse produto, com menor custo e menor impacto ambiental. Os técnicos monitoram as horas de frio entre maio e setembro para indicar ao produtor a dose e o momento ideais, e a orientação é gratuita."
+        },
+        {
+          "h": "Resultados no campo"
+        },
+        {
+          "p": "Em 2025, o ganho de produtividade ficou entre 10% e 25% em 14 mil hectares, com economia de R$ 1.351 por hectare no tratamento. Na safra 2025/26, o estado produziu 680 mil toneladas de maçã em 17 mil hectares, revezando com o Rio Grande do Sul a liderança nacional."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Pesquisa pública aplicada ao campo mantém competitiva uma das principais cadeias do Meio-Oeste e da Serra catarinense. Agricultura mais produtiva sustenta a renda das cidades do interior, como Caçador, Fraiburgo e São Joaquim, e o mercado imobiliário dessas regiões."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais: técnica corta insumo da maçã em 65%, dribla falta de frio e gera R$ 200 milhões em SC",
+          "url": "https://ndmais.com.br/economia/agronegocios/tecnica-corta-insumo-da-maca-em-65-dribla-falta-de-frio-e-gera-r-200-milhoes-em-sc/"
+        }
+      ]
+    },
+    {
+      "slug": "casan-investe-r-31-milhoes-em-redes-de-agua-e-esgoto-perto-do-centro-de-florianopolis",
+      "formato": "Gráfico",
+      "titulo": "Casan investe R$ 31 milhões em 8,9 km de redes de água e esgoto perto do Centro de Florianópolis",
+      "resumo": "As obras no bairro José Mendes vão interligar sistemas de abastecimento e levar o esgoto da bacia do Itacorubi até a estação de tratamento na entrada da Ilha.",
+      "foto": {
+        "legenda": "Imagem ilustrativa de tubulações. As novas redes da Casan começam no bairro José Mendes, perto do Centro de Florianópolis.",
+        "id": "casan-investe-r-31-milhoes-em-redes-de-agua-e-esgoto-perto-do-centro-de-floriano",
+        "evitar": [
+          "pixabay:2887483"
+        ]
+      },
+      "visual": {
+        "tipo": "barras",
+        "titulo": "Extensão das novas tubulações",
+        "unidade": "km",
+        "itens": [
+          {
+            "rotulo": "Emissário de esgoto",
+            "valor": 3.3,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Adutora de água tratada",
+            "valor": 2.4,
+            "tom": "sc"
+          },
+          {
+            "rotulo": "Redes de distribuição de água",
+            "valor": 2.2,
+            "tom": "ref"
+          },
+          {
+            "rotulo": "Redes coletoras de esgoto",
+            "valor": 1,
+            "tom": "ref"
+          }
+        ],
+        "nota": "Fonte: Casan, via Governo de Santa Catarina."
+      },
+      "corpo": [
+        {
+          "p": "A Casan começou nesta semana obras de R$ 31 milhões para instalar 8,9 km de redes de água e esgoto no bairro José Mendes, perto do Centro de Florianópolis. Os trabalhos partem da Rua Jerônimo José Dias, abaixo da entrada Sul do Túnel Antonieta de Barros, e seguem em direção ao Centro até o fim de 2026."
+        },
+        {
+          "h": "Água e esgoto em paralelo"
+        },
+        {
+          "p": "No abastecimento, serão 2,2 km de redes de distribuição e 2,4 km de adutora de água tratada, que vai interligar o sistema integrado da Capital, abastecido pela estação de tratamento de Palhoça. No esgoto, a obra prevê 3,3 km de emissário, que vai levar os efluentes da bacia do Itacorubi até a ETE Insular, na entrada da Ilha, e 1 km de redes coletoras."
+        },
+        {
+          "h": "Bairros beneficiados"
+        },
+        {
+          "p": "O emissário permitirá que as redes coletoras já instaladas em bairros como Itacorubi, Parque São Jorge, Jardim Anchieta e Córrego Grande sejam ligadas ao tratamento. A obra usa uma técnica de desmonte de rocha mais segura e de menor impacto."
+        },
+        {
+          "h": "O que isso significa para o investidor"
+        },
+        {
+          "p": "Ampliação da rede de esgoto é uma das obras que mais valorizam bairros residenciais. Para quem tem ou procura imóveis na região do Itacorubi e do Córrego Grande, a ligação ao tratamento melhora a infraestrutura e a qualidade ambiental do entorno."
+        }
+      ],
+      "fontes": [
+        {
+          "nome": "Governo de Santa Catarina: Casan investe R$ 31 milhões em novas redes de água e esgoto na região Central de Florianópolis",
+          "url": "https://noticias.sc.gov.br/casan-investe-r-31-milhoes-em-novas-redes-de-agua-e-esgoto-na-regiao-central-de-florianopolis/"
+        }
+      ]
+    }
+  ]
+}
